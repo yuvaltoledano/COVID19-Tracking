@@ -26,6 +26,7 @@ clean_data <- raw_data %>%
   filter(country %in% relevant_countries) %>%
   arrange(country, date)
 
+# Calculate 7-day rolling averages and cumulatives:
 clean_data <- clean_data %>%
   group_by(country) %>%
   mutate(cumulative_cases = cumsum(cases),
