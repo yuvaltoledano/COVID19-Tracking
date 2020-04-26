@@ -55,7 +55,7 @@ plot_daily_cases <- ggplot(clean_data, aes(x = date, y = cases)) +
 
 file_name <- paste(current_date, " Daily cases",  ".png", sep = "")
 chart_file_path <- "E:/Programming projects/COVID19-Tracking/Charts/"
-ggsave(filename =  file_name, plot = plot_daily_cases, path = file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cumulative_cases)) +
   geom_line(color = "forest green", size = 1.2) +
