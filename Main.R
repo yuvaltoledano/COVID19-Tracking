@@ -20,7 +20,7 @@ output_file_path <- paste(output_file_directory, output_file_name, sep = "")
 write_csv(raw_data, output_file_path)
 
 # Filter for relevant countries:
-relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Irelant", "United_States_of_America", "Russia", "France")
+relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France")
 
 clean_data <- raw_data %>%
   filter(country %in% relevant_countries) %>%
