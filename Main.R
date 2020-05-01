@@ -13,7 +13,7 @@ raw_data <- raw_data %>%
 
 # Write results back to csv:
 current_date <- today()
-output_file_directory <- "E:/Programming projects/COVID19-Tracking/Data/"
+output_file_directory <- "E:/Programming projects/COVID19-Tracking/Data Files/"
 output_file_name <- paste(current_date, " Raw data", sep = "")
 output_file_name <- paste(output_file_name, "csv", sep = ".")
 output_file_path <- paste(output_file_directory, output_file_name, sep = "")
@@ -35,7 +35,7 @@ clean_data <- clean_data %>%
          deaths_7day_rollmean = rollmean(deaths, 7, fill = NA, align = "right"))
 
 # Write results back to csv:
-output_file_directory <- "E:/Programming projects/COVID19-Tracking/Data/"
+output_file_directory <- "E:/Programming projects/COVID19-Tracking/Data Files/"
 output_file_name <- paste(current_date, " Clean data", sep = "")
 output_file_name <- paste(output_file_name, "csv", sep = ".")
 output_file_path <- paste(output_file_directory, output_file_name, sep = "")
