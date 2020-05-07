@@ -11,13 +11,12 @@ raw_data <- raw_data %>%
   rename(date = date_rep, country = countries_and_territories, population = pop_data2018) %>%
   mutate(date = dmy(date))
 
-# Write results back to csv:
-current_date <- today()
-output_file_directory <- "E:/Programming projects/COVID19-Tracking/Data Files/"
-output_file_name <- paste(current_date, " Raw data", sep = "")
-output_file_name <- paste(output_file_name, "csv", sep = ".")
-output_file_path <- paste(output_file_directory, output_file_name, sep = "")
-write_csv(raw_data, output_file_path)
+# Add new cases to master raw data frame and write back to csv:
+raw_data_master <- read_csv("E:/Programming projects/COVID19-Tracking/Data Files/Raw data.csv")
+new_entries <- anti_join(raw_data, raw_data_master)
+raw_data_master <- bind_rows(raw_data_master, new_entries)
+write_csv(raw_data_master, "E:/Programming projects/COVID19-Tracking/Data Files/Raw data.csv")
+rm(list = c("new_entries", "raw_data_master"))
 
 # Filter for relevant countries:
 relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France")
@@ -35,6 +34,7 @@ clean_data <- clean_data %>%
          deaths_7day_rollmean = rollmean(deaths, 7, fill = NA, align = "right"))
 
 # Write results back to csv:
+current_date <- today()
 output_file_directory <- "E:/Programming projects/COVID19-Tracking/Data Files/"
 output_file_name <- paste(current_date, " Clean data", sep = "")
 output_file_name <- paste(output_file_name, "csv", sep = ".")
