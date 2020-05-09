@@ -29,8 +29,10 @@ clean_data <- raw_data %>%
 clean_data <- clean_data %>%
   group_by(country) %>%
   mutate(cumulative_cases = cumsum(cases),
+         cases_per100000 = cumulative_cases / (population / 100000),
          cases_7day_rollmean = rollmean(cases, 7, fill = NA, align = "right"),
          cumulative_deaths = cumsum(deaths),
+         deaths_per100000 = cumulative_deaths / (population / 100000),
          deaths_7day_rollmean = rollmean(deaths, 7, fill = NA, align = "right"))
 
 # Write results back to csv:
@@ -70,6 +72,20 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cumulative_cases))
 
 file_name <- paste(current_date, " Cumulative cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
+
+plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cases_per100000)) +
+  geom_line(color = "forest green", size = 1.2) +
+  facet_wrap(~country, scales = "free_y") + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "Reported cases per 100,000",
+       title = "Cumulative reported COVID-19 cases per 100,000 inhabitants",
+       caption = "Source: ECDC")
+
+file_name <- paste(current_date, " Cumulative cases per 100000",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
 
 plot_daily_cases_rolling_average <- ggplot(clean_data, aes(x = date, y = cases_7day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -112,6 +128,20 @@ plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cumulative_deaths
 
 file_name <- paste(current_date, " Cumulative deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths, path = chart_file_path, scale = 1, width = 15, height = 10)
+
+plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_per100000)) +
+  geom_line(color = "forest green", size = 1.2) +
+  facet_wrap(~country, scales = "free_y") + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "Reported deaths per 100,000",
+       title = "Cumulative reported COVID-19 deaths per 100,000 inhabitants",
+       caption = "Source: ECDC")
+
+file_name <- paste(current_date, " Cumulative deaths per 100000",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cumulative_deaths_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_rolling_average <- ggplot(clean_data, aes(x = date, y = deaths_7day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
