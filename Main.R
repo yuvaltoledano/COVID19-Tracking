@@ -80,6 +80,20 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cumulative_cases))
 file_name <- paste(current_date, " Cumulative cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
 
+plot_cumulative_cases_log10 <- ggplot(clean_data, aes(x = date, y = cumulative_cases)) +
+  geom_line(color = "forest green", size = 1.2) +
+  facet_wrap(~country, scales = "free_y") + 
+  scale_y_continuous(trans = 'log10', labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "Reported cases",
+       title = "Cumulative reported COVID-19 cases log10 scale",
+       caption = "Source: ECDC")
+
+file_name <- paste(current_date, " Cumulative cases log10",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cumulative_cases_log10, path = chart_file_path, scale = 1, width = 15, height = 10)
+
 plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cases_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
@@ -135,6 +149,20 @@ plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cumulative_deaths
 
 file_name <- paste(current_date, " Cumulative deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths, path = chart_file_path, scale = 1, width = 15, height = 10)
+
+plot_cumulative_deaths_log10 <- ggplot(clean_data, aes(x = date, y = cumulative_deaths)) +
+  geom_line(color = "forest green", size = 1.2) +
+  facet_wrap(~country, scales = "free_y") + 
+  scale_y_continuous(trans = 'log10', labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "Reported deaths",
+       title = "Cumulative reported COVID-19 deaths log10 scale",
+       caption = "Source: ECDC")
+
+file_name <- paste(current_date, " Cumulative deaths log10",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cumulative_deaths_log10, path = chart_file_path, scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
