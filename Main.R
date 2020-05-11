@@ -26,7 +26,7 @@ write_csv(raw_data_master, "E:/Programming projects/COVID19-Tracking/Data Files/
 rm(list = c("new_entries", "raw_data_master", "obsolte_entries"))
 
 # Filter for relevant countries:
-relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France")
+relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France", "Belgium")
 
 clean_data <- raw_data %>%
   filter(country %in% relevant_countries) %>%
