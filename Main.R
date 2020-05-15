@@ -19,6 +19,9 @@ raw_data_master <- bind_rows(raw_data_master, new_entries)
 # Remove old entries from master raw dataframe:
 obsolte_entries <- anti_join(raw_data_master, raw_data)
 raw_data_master <- anti_join(raw_data_master, obsolte_entries)
+raw_data_master <- raw_data_master %>%
+  arrange(country, date)
+
 all_equal(raw_data, raw_data_master)
 
 # Write results back to csv:
