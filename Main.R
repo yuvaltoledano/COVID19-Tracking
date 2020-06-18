@@ -7,8 +7,8 @@ raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/c
 
 raw_data <- raw_data %>%
   clean_names() %>%
-  select(date_rep, cases, deaths, countries_and_territories, pop_data2018) %>%
-  rename(date = date_rep, country = countries_and_territories, population = pop_data2018) %>%
+  select(date_rep, cases, deaths, countries_and_territories, pop_data2019) %>%
+  rename(date = date_rep, country = countries_and_territories, population = pop_data2019) %>%
   mutate(date = dmy(date))
 
 # Add new cases to master raw data frame:
