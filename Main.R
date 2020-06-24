@@ -100,7 +100,7 @@ ggsave(filename =  file_name, plot = plot_cumulative_cases_log10, path = chart_f
 
 plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cases_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
-  facet_wrap(~country, scales = "free_y") + 
+  facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
   background_grid() +
@@ -170,7 +170,7 @@ ggsave(filename =  file_name, plot = plot_cumulative_deaths_log10, path = chart_
 
 plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
-  facet_wrap(~country, scales = "free_y") + 
+  facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
   background_grid() +
