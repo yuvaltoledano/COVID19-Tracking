@@ -23,14 +23,7 @@ raw_data_master <- anti_join(raw_data_master, obsolte_entries)
 all_equal(raw_data, raw_data_master)
 
 raw_data_master <- raw_data_master %>%
-  arrange(country, date) %>%
-  group_by(country) %>%
-  mutate(cumulative_cases = cumsum(cases),
-         cases_per100000 = cumulative_cases / (population / 100000),
-         cases_7day_rollmean = rollmean(cases, 7, fill = NA, align = "right"),
-         cumulative_deaths = cumsum(deaths),
-         deaths_per100000 = cumulative_deaths / (population / 100000),
-         deaths_7day_rollmean = rollmean(deaths, 7, fill = NA, align = "right"))
+  arrange(country, date)
 
 # Write results back to csv:
 write_csv(raw_data_master, "E:/Programming projects/COVID19-Tracking/Data Files/Raw data.csv")
