@@ -17,17 +17,17 @@ new_entries <- anti_join(raw_data, raw_data_master)
 raw_data_master <- bind_rows(raw_data_master, new_entries)
 
 # Remove old entries from master raw dataframe:
-obsolte_entries <- anti_join(raw_data_master, raw_data)
-raw_data_master <- anti_join(raw_data_master, obsolte_entries)
-
-all_equal(raw_data, raw_data_master)
+if(all_equal(raw_data, raw_data_master) == FALSE) {
+  obsolte_entries <- anti_join(raw_data_master, raw_data)
+  raw_data_master <- anti_join(raw_data_master, obsolte_entries)
+}
 
 raw_data_master <- raw_data_master %>%
   arrange(country, date)
 
 # Write results back to csv:
 write_csv(raw_data_master, "E:/Programming projects/COVID19-Tracking/Data Files/Raw data.csv")
-rm(list = c("new_entries", "raw_data_master", "obsolte_entries"))
+rm(raw_data_master)
 
 # Filter for relevant countries:
 relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France", "Belgium")
