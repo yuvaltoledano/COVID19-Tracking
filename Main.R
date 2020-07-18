@@ -17,7 +17,7 @@ new_entries <- anti_join(raw_data, raw_data_master)
 raw_data_master <- bind_rows(raw_data_master, new_entries)
 
 # Remove old entries from master raw dataframe:
-if(all_equal(raw_data, raw_data_master) != TRUE) {
+if(all_equal(raw_data, raw_data_master) != TRUE) { 
   obsolte_entries <- anti_join(raw_data_master, raw_data)
   raw_data_master <- anti_join(raw_data_master, obsolte_entries)
 }
