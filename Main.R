@@ -200,7 +200,6 @@ ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_sum_per10000
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Plot deaths:
-
 plot_daily_deaths <- ggplot(clean_data, aes(x = date, y = deaths)) +
   geom_line(color = "forest green", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
