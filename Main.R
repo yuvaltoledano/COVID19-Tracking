@@ -85,7 +85,7 @@ file_name <- paste(as_of_date, " Daily cases",  ".png", sep = "")
 chart_file_path <- "E:/Programming projects/COVID19-Tracking/Charts/"
 ggsave(filename =  file_name, plot = plot_daily_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
 
-plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cumulative_cases)) +
+plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
   geom_line(color = "forest green", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -99,7 +99,7 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cumulative_cases))
 file_name <- paste(as_of_date, " Cumulative cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
 
-plot_cumulative_cases_log10 <- ggplot(clean_data, aes(x = date, y = cumulative_cases)) +
+plot_cumulative_cases_log10 <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
   geom_line(color = "forest green", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(trans = 'log10', labels = scales::comma) +
@@ -113,7 +113,7 @@ plot_cumulative_cases_log10 <- ggplot(clean_data, aes(x = date, y = cumulative_c
 file_name <- paste(as_of_date, " Cumulative cases log10",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases_log10, path = chart_file_path, scale = 1, width = 15, height = 10)
 
-plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cases_per100000)) +
+plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_cases_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
