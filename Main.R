@@ -69,6 +69,9 @@ write_csv(clean_data, output_file_path)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Set caption:
+chart_caption <- paste("Source: ECDC data as of", as_of_date, sep = " ")
+
 # Plot cases:
 plot_daily_cases <- ggplot(clean_data, aes(x = date, y = cases)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -79,7 +82,7 @@ plot_daily_cases <- ggplot(clean_data, aes(x = date, y = cases)) +
   labs(x = "Date",
        y = "Reported cases",
        title = "Daily new COVID-19 cases",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases",  ".png", sep = "")
 chart_file_path <- "E:/Programming projects/COVID19-Tracking/Charts/"
@@ -94,7 +97,7 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
   labs(x = "Date",
        y = "Reported cases",
        title = "Cumulative reported COVID-19 cases",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -108,7 +111,7 @@ plot_cumulative_cases_log10 <- ggplot(clean_data, aes(x = date, y = cum_cases)) 
   labs(x = "Date",
        y = "Reported cases",
        title = "Cumulative reported COVID-19 cases log10 scale",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases log10",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases_log10, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -122,7 +125,7 @@ plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_case
   labs(x = "Date",
        y = "Reported cases per 100,000",
        title = "Cumulative reported COVID-19 cases per 100,000 inhabitants",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -136,7 +139,7 @@ plot_daily_cases_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = ca
   labs(x = "Date",
        y = "Reported cases",
        title = "Daily new COVID-19 cases (7-day rolling average)",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases 7-day rolling average",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -150,7 +153,7 @@ plot_daily_cases_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = cases_
   labs(x = "Date",
        y = "Reported cases",
        title = "COVID-19 cases 7-day rolling sum",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cases 7-day rolling sum",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -164,7 +167,7 @@ plot_daily_cases_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = c
   labs(x = "Date",
        y = "Reported cases",
        title = "Daily new COVID-19 cases (14-day rolling average)",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases 14-day rolling average",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -178,7 +181,7 @@ plot_daily_cases_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = d
   labs(x = "Date",
        y = "Reported cases",
        title = "Daily new COVID-19 cases (14-day rolling average) per 100,000 inhabitants",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases 14-day rolling average per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -192,7 +195,7 @@ plot_daily_cases_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date,
   labs(x = "Date",
        y = "Reported cases",
        title = "COVID-19 cases 14-day rolling sum per 100,000 inhabitants",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cases 14-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_sum_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -209,7 +212,7 @@ plot_daily_deaths <- ggplot(clean_data, aes(x = date, y = deaths)) +
   labs(x = "Date",
        y = "Reported deaths",
        title = "Daily new COVID-19 deaths",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -223,7 +226,7 @@ plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cumulative_deaths
   labs(x = "Date",
        y = "Reported deaths",
        title = "Cumulative reported COVID-19 deaths",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -237,7 +240,7 @@ plot_cumulative_deaths_log10 <- ggplot(clean_data, aes(x = date, y = cumulative_
   labs(x = "Date",
        y = "Reported deaths",
        title = "Cumulative reported COVID-19 deaths log10 scale",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths log10",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths_log10, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -251,7 +254,7 @@ plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_
   labs(x = "Date",
        y = "Reported deaths per 100,000",
        title = "Cumulative reported COVID-19 deaths per 100,000 inhabitants",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -265,7 +268,7 @@ plot_daily_deaths_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = d
   labs(x = "Date",
        y = "Reported deaths",
        title = "Daily new COVID-19 deaths (7-day rolling average)",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths 7-day rolling average",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -279,7 +282,7 @@ plot_daily_deaths_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = death
   labs(x = "Date",
        y = "Reported deaths",
        title = "COVID-19 deaths (7-day rolling sum)",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Deaths 7-day rolling sum",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -293,7 +296,7 @@ plot_daily_deaths_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = 
   labs(x = "Date",
        y = "Reported deaths",
        title = "Daily new COVID-19 deaths (14-day rolling average)",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths 14-day rolling average",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -307,7 +310,7 @@ plot_daily_deaths_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = 
   labs(x = "Date",
        y = "Reported deaths",
        title = "Daily new COVID-19 deaths (14-day rolling average) per 100,000 inhabitants",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths 14-day rolling average per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
@@ -321,7 +324,7 @@ plot_daily_deaths_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date
   labs(x = "Date",
        y = "Reported deaths",
        title = "COVID-19 deaths 14-day rolling sum per 100,000 inhabitants",
-       caption = "Source: ECDC")
+       caption = chart_caption)
 
 file_name <- paste(as_of_date, " Deaths 14-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_sum_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
