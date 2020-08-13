@@ -1,6 +1,6 @@
 # Load required libraries:
 library(pacman)
-p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, RcppRoll)
+p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, RcppRoll, here)
 
 # Read in and process data:
 raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv")
@@ -25,8 +25,10 @@ if(all_equal(raw_data, raw_data_master) != TRUE) {
 raw_data_master <- raw_data_master %>%
   arrange(country, date)
 
+temp <- raw_data
+
 # Write results back to csv:
-write_csv(raw_data_master, "E:/Programming projects/COVID19-Tracking/Data Files/Raw data.csv")
+write_csv(raw_data_master, here("Data Files", "Raw data.csv"))
 rm(raw_data_master)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -61,11 +63,9 @@ clean_data <- clean_data %>%
 
 # Write results back to csv:
 as_of_date <- max(clean_data$date)
-output_file_directory <- "E:/Programming projects/COVID19-Tracking/Data Files/"
 output_file_name <- paste(as_of_date, " Clean data", sep = "")
 output_file_name <- paste(output_file_name, "csv", sep = ".")
-output_file_path <- paste(output_file_directory, output_file_name, sep = "")
-write_csv(clean_data, output_file_path)
+write_csv(clean_data, here("Data Files", output_file_name))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -85,8 +85,7 @@ plot_daily_cases <- ggplot(clean_data, aes(x = date, y = cases)) +
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases",  ".png", sep = "")
-chart_file_path <- "E:/Programming projects/COVID19-Tracking/Charts/"
-ggsave(filename =  file_name, plot = plot_daily_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -100,7 +99,7 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cumulative_cases, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cumulative_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_log10 <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -114,7 +113,7 @@ plot_cumulative_cases_log10 <- ggplot(clean_data, aes(x = date, y = cum_cases)) 
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases log10",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cumulative_cases_log10, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cumulative_cases_log10, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_cases_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -128,7 +127,7 @@ plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_case
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = cases_7day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -142,7 +141,7 @@ plot_daily_cases_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = ca
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases 7-day rolling average",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = cases_7day_rollsum)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -156,7 +155,7 @@ plot_daily_cases_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = cases_
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cases 7-day rolling sum",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = cases_14day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -170,7 +169,7 @@ plot_daily_cases_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = c
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases 14-day rolling average",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = date, y = cases_14day_rollmean_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -184,7 +183,7 @@ plot_daily_cases_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = d
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily cases 14-day rolling average per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = cases_14day_rollsum_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -198,7 +197,7 @@ plot_daily_cases_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date,
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cases 14-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_sum_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_sum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -215,7 +214,7 @@ plot_daily_deaths <- ggplot(clean_data, aes(x = date, y = deaths)) +
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_deaths, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cumulative_deaths)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -229,7 +228,7 @@ plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cumulative_deaths
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cumulative_deaths, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cumulative_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_log10 <- ggplot(clean_data, aes(x = date, y = cumulative_deaths)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -243,7 +242,7 @@ plot_cumulative_deaths_log10 <- ggplot(clean_data, aes(x = date, y = cumulative_
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths log10",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cumulative_deaths_log10, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cumulative_deaths_log10, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -257,7 +256,7 @@ plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cumulative_deaths_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cumulative_deaths_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = deaths_7day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -271,7 +270,7 @@ plot_daily_deaths_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = d
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths 7-day rolling average",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = deaths_7day_rollsum)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -285,7 +284,7 @@ plot_daily_deaths_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = death
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Deaths 7-day rolling sum",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = deaths_14day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -299,7 +298,7 @@ plot_daily_deaths_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = 
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths 14-day rolling average",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_14day_rollmean_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -313,7 +312,7 @@ plot_daily_deaths_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = 
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Daily deaths 14-day rolling average per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_14day_rollsum_per100000)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -327,4 +326,4 @@ plot_daily_deaths_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Deaths 14-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_sum_per100000, path = chart_file_path, scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_sum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
