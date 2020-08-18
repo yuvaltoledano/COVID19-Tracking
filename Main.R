@@ -12,7 +12,7 @@ raw_data <- raw_data %>%
   mutate(date = dmy(date))
 
 # Add new cases to master raw data frame:
-raw_data_master <- read_csv("E:/Programming projects/COVID19-Tracking/Data Files/Raw data.csv")
+raw_data_master <- read_csv(here("Data Files", "Raw data.csv"))
 new_entries <- anti_join(raw_data, raw_data_master)
 raw_data_master <- bind_rows(raw_data_master, new_entries)
 
