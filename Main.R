@@ -46,6 +46,7 @@ clean_data <- clean_data %>%
          cases_per100000 = cases / (population / 100000),
          cases_7day_rollmean = rollmean(cases, 7, fill = NA, align = "right"),
          cases_7day_rollsum = rollsum(cases, 7, fill = NA, align = "right"),
+         cases_7day_rollsum_per100000 = cases_7day_rollsum / (population / 100000),
          cases_14day_rollmean = rollmean(cases, 14, fill = NA, align = "right"),
          cases_14day_rollsum = rollsum(cases, 14, fill = NA, align = "right"),
          cases_14day_rollmean_per100000 = cases_14day_rollmean / (population / 100000),
@@ -54,6 +55,7 @@ clean_data <- clean_data %>%
          deaths_per100000 = cumulative_deaths / (population / 100000),
          deaths_7day_rollmean = rollmean(deaths, 7, fill = NA, align = "right"),
          deaths_7day_rollsum = rollsum(deaths, 7, fill = NA, align = "right"),
+         deaths_7day_rollsum_per100000 = deaths_7day_rollsum / (population / 100000),
          deaths_14day_rollmean = rollmean(deaths, 14, fill = NA, align = "right"),
          deaths_14day_rollsum = rollsum(deaths, 14, fill = NA, align = "right"),
          deaths_14day_rollmean_per100000 = deaths_14day_rollmean / (population / 100000),
@@ -154,6 +156,20 @@ plot_daily_cases_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = cases_
 
 file_name <- paste(as_of_date, " Cases 7-day rolling sum",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_daily_cases_7day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = cases_7day_rollsum_per100000)) +
+  geom_line(color = "forest green", size = 1.2) +
+  facet_wrap(~country) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "Reported cases",
+       title = "COVID-19 cases 7-day rolling sum per 100,000 inhabitants",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " Cases 7-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = cases_14day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
@@ -283,6 +299,20 @@ plot_daily_deaths_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = death
 
 file_name <- paste(as_of_date, " Deaths 7-day rolling sum",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_daily_deaths_7day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_7day_rollsum_per100000)) +
+  geom_line(color = "forest green", size = 1.2) +
+  facet_wrap(~country) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "Reported deaths",
+       title = "COVID-19 deaths 7-day rolling sum per 100,000 inhabitants",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " Deaths 7-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = deaths_14day_rollmean)) +
   geom_line(color = "forest green", size = 1.2) +
