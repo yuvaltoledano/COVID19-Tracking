@@ -32,7 +32,7 @@ rm(raw_data_master)
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Filter for relevant countries:
-relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France", "Belgium")
+relevant_countries <- c("Germany", "Netherlands", "Israel", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France", "Belgium", "Greece")
 
 clean_data <- raw_data %>%
   filter(country %in% relevant_countries) %>%
