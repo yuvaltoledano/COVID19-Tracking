@@ -11,6 +11,9 @@ raw_data <- raw_data %>%
   rename(date = date_rep, country = countries_and_territories, population = pop_data2019, continent = continent_exp) %>%
   mutate(date = dmy(date))
 
+raw_data$continent[raw_data$continent == "America" & raw_data$country == "United_States_of_America"] <- "America - USA"
+raw_data$continent[raw_data$continent == "America" & raw_data$country != "United_States_of_America"] <- "America - ex USA"
+
 # Add new cases to master raw data frame:
 raw_data_master <- read_csv(here("Data Files", "Raw data.csv"))
 new_entries <- anti_join(raw_data, raw_data_master)
@@ -365,6 +368,7 @@ population_continent <- raw_data %>%
   distinct() %>%
   group_by(continent) %>%
   summarize(population_continent_total = sum(population)) %>%
+  ungroup() %>%
   drop_na()
 
 clean_data_continent <- raw_data %>%
@@ -395,3 +399,17 @@ plot_cumulative_cases_per100000_continent <- ggplot(clean_data_continent, aes(x 
   
 file_name <- paste(as_of_date, " Cumulative cases per 100,000 inhabitants by continent",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y = cum_cases)) +
+  geom_line(color = "forest green", size = 1.2) +
+  facet_wrap(~continent) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "Reported cases",
+       title = "Cumulative reported COVID-19 cases",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " Cumulative cases by continent",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cumulative_cases_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
