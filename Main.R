@@ -361,7 +361,7 @@ ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_sum_per1000
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Experimental - cumulative cases chart by continent
+# Experimental - cumulative cases charts by continent
 
 population_continent <- raw_data %>%
   select(country, continent, population) %>%
