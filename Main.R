@@ -13,6 +13,8 @@ raw_data <- raw_data %>%
 
 raw_data$continent[raw_data$continent == "America" & raw_data$country == "United_States_of_America"] <- "America - USA"
 raw_data$continent[raw_data$continent == "America" & raw_data$country != "United_States_of_America"] <- "America - ex USA"
+raw_data$continent[raw_data$continent == "Asia" & raw_data$country == "China"] <- "Asia - China"
+raw_data$continent[raw_data$continent == "Asia" & raw_data$country != "China"] <- "Asia - ex China"
 
 # Add new cases to master raw data frame:
 raw_data_master <- read_csv(here("Data Files", "Raw data.csv"))
@@ -402,7 +404,7 @@ ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000_continent, 
 
 plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y = cum_cases)) +
   geom_line(color = "forest green", size = 1.2) +
-  facet_wrap(~continent) + 
+  facet_wrap(~continent, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
   background_grid() +
