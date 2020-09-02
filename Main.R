@@ -11,6 +11,7 @@ raw_data <- raw_data %>%
   rename(date = date_rep, country = countries_and_territories, population = pop_data2019, continent = continent_exp) %>%
   mutate(date = dmy(date))
 
+# Clean continent column:
 raw_data$continent[raw_data$continent == "America" & raw_data$country == "United_States_of_America"] <- "America - USA"
 raw_data$continent[raw_data$continent == "America" & raw_data$country != "United_States_of_America"] <- "America - ex USA"
 raw_data$continent[raw_data$continent == "Asia" & raw_data$country == "China"] <- "Asia - China"
@@ -68,8 +69,7 @@ clean_data <- clean_data %>%
 
 # Write results back to csv:
 as_of_date <- max(clean_data$date)
-output_file_name <- paste(as_of_date, " Clean data", sep = "")
-output_file_name <- paste(output_file_name, "csv", sep = ".")
+output_file_name <- paste(as_of_date, " Clean data.csv", sep = "")
 write_csv(clean_data, here("Data Files", output_file_name))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
