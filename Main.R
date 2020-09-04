@@ -57,8 +57,8 @@ clean_data <- clean_data %>%
          cases_14day_rollsum = rollsum(cases, 14, fill = NA, align = "right"),
          cases_14day_rollmean_per100000 = cases_14day_rollmean / (population / 100000),
          cases_14day_rollsum_per100000 = cases_14day_rollsum / (population / 100000),
-         cumulative_deaths = cumsum(deaths),
-         deaths_per100000 = cumulative_deaths / (population / 100000),
+         cum_deaths = cumsum(deaths),
+         deaths_per100000 = cum_deaths / (population / 100000),
          deaths_7day_rollmean = rollmean(deaths, 7, fill = NA, align = "right"),
          deaths_7day_rollsum = rollsum(deaths, 7, fill = NA, align = "right"),
          deaths_7day_rollsum_per100000 = deaths_7day_rollsum / (population / 100000),
@@ -221,7 +221,7 @@ plot_daily_deaths <- ggplot(clean_data, aes(x = date, y = deaths)) +
 file_name <- paste(as_of_date, " Daily deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cumulative_deaths)) +
+plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cum_deaths)) +
   geom_line(color = "forest green", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
