@@ -21,7 +21,7 @@ western_europe <- c("United_Kingdom", "Ireland", "Netherlands", "Belgium", "Luxe
 raw_data$continent[raw_data$continent == "Europe" & raw_data$country %in% western_europe] <- "Western Europe"
 raw_data$continent[raw_data$continent == "Europe"] <- "Rest of Europe"
 
-# Add new cases to master raw data frame:
+# Add new cases to master raw dataframe:
 raw_data_master <- read_csv(here("Data Files", "Raw data.csv"))
 new_entries <- anti_join(raw_data, raw_data_master)
 raw_data_master <- bind_rows(raw_data_master, new_entries)
