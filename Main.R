@@ -1,6 +1,6 @@
 # Load required libraries:
 library(pacman)
-p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, RcppRoll, here)
+p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, RcppRoll, here, ggthemes)
 
 # Read in and process data:
 raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv")
