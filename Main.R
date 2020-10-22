@@ -83,7 +83,7 @@ chart_caption <- paste("Source: ECDC data as of", as_of_date, sep = " ")
 
 # Plot cases:
 plot_daily_cases <- ggplot(clean_data, aes(x = date, y = cases)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -97,7 +97,7 @@ file_name <- paste(as_of_date, " Daily cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -111,7 +111,7 @@ file_name <- paste(as_of_date, " Cumulative cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_cases_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -125,7 +125,7 @@ file_name <- paste(as_of_date, " Cumulative cases per 100,000 inhabitants",  ".p
 ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = cases_7day_rollmean)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -139,7 +139,7 @@ file_name <- paste(as_of_date, " Daily cases 7-day rolling average",  ".png", se
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = cases_7day_rollsum)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -153,7 +153,7 @@ file_name <- paste(as_of_date, " Cases 7-day rolling sum",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_7day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = cases_7day_rollsum_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   geom_hline(yintercept = 50, linetype = "dashed", color = "red", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
@@ -168,7 +168,7 @@ file_name <- paste(as_of_date, " Cases 7-day rolling sum per 100,000 inhabitants
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = cases_14day_rollmean)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -182,7 +182,7 @@ file_name <- paste(as_of_date, " Daily cases 14-day rolling average",  ".png", s
 ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = date, y = cases_14day_rollmean_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -196,7 +196,7 @@ file_name <- paste(as_of_date, " Daily cases 14-day rolling average per 100,000 
 ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_average_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = cases_14day_rollsum_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -213,7 +213,7 @@ ggsave(filename =  file_name, plot = plot_daily_cases_14day_rolling_sum_per10000
 
 # Plot deaths:
 plot_daily_deaths <- ggplot(clean_data, aes(x = date, y = deaths)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -227,7 +227,7 @@ file_name <- paste(as_of_date, " Daily deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cum_deaths)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -241,7 +241,7 @@ file_name <- paste(as_of_date, " Cumulative deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -255,7 +255,7 @@ file_name <- paste(as_of_date, " Cumulative deaths per 100,000 inhabitants",  ".
 ggsave(filename =  file_name, plot = plot_cumulative_deaths_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = deaths_7day_rollmean)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -269,7 +269,7 @@ file_name <- paste(as_of_date, " Daily deaths 7-day rolling average",  ".png", s
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = deaths_7day_rollsum)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -283,7 +283,7 @@ file_name <- paste(as_of_date, " Deaths 7-day rolling sum",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_7day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_7day_rollsum_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -297,7 +297,7 @@ file_name <- paste(as_of_date, " Deaths 7-day rolling sum per 100,000 inhabitant
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = deaths_14day_rollmean)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -311,7 +311,7 @@ file_name <- paste(as_of_date, " Daily deaths 14-day rolling average",  ".png", 
 ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_14day_rollmean_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -325,7 +325,7 @@ file_name <- paste(as_of_date, " Daily deaths 14-day rolling average per 100,000
 ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_average_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_14day_rollsum_per100000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -385,7 +385,7 @@ clean_data_continent <- clean_data_continent %>%
 
 # Plot cases:
 plot_daily_cases_7day_rolling_sum_continent <- ggplot(clean_data_continent, aes(x = date, y = cases_7day_rollsum)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -399,7 +399,7 @@ file_name <- paste(as_of_date, " Cases 7-day rolling sum by continent",  ".png",
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_cases_7day_rolling_sum_per1000000_continent <- ggplot(clean_data_continent, aes(x = date, y = cases_7day_rollsum_per1000000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -413,7 +413,7 @@ file_name <- paste(as_of_date, " Cases 7-day rolling sum per 1,000,000 inhabitan
 ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum_per1000000_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_per1000000_continent <- ggplot(clean_data_continent, aes(x = date, y = cum_cases_per1000000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -427,7 +427,7 @@ file_name <- paste(as_of_date, " Cumulative cases per 1,000,000 inhabitants by c
 ggsave(filename =  file_name, plot = plot_cumulative_cases_per1000000_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y = cum_cases)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -442,7 +442,7 @@ ggsave(filename =  file_name, plot = plot_cumulative_cases_continent, path = her
 
 # Plot deaths:
 plot_daily_deaths_7day_rolling_sum_continent <- ggplot(clean_data_continent, aes(x = date, y = deaths_7day_rollsum)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -456,7 +456,7 @@ file_name <- paste(as_of_date, " Deaths 7-day rolling sum by continent",  ".png"
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_daily_deaths_7day_rolling_sum_per1000000_continent <- ggplot(clean_data_continent, aes(x = date, y = deaths_7day_rollsum_per1000000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -470,7 +470,7 @@ file_name <- paste(as_of_date, " Deaths 7-day rolling sum per 1,000,000 inhabita
 ggsave(filename =  file_name, plot = plot_daily_deaths_7day_rolling_sum_per1000000_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_per1000000_continent <- ggplot(clean_data_continent, aes(x = date, y = cum_deaths_per1000000)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -484,7 +484,7 @@ file_name <- paste(as_of_date, " Cumulative deaths per 1,000,000 inhabitants by 
 ggsave(filename =  file_name, plot = plot_cumulative_deaths_per1000000_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y = cum_deaths)) +
-  geom_line(color = "forest green", size = 1.2) +
+  geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~continent, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
