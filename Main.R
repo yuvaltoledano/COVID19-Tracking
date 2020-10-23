@@ -154,7 +154,6 @@ ggsave(filename =  file_name, plot = plot_daily_cases_7day_rolling_sum, path = h
 
 plot_daily_cases_7day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, y = cases_7day_rollsum_per100000)) +
   geom_line(color = "cadetblue", size = 1.2) +
-  geom_hline(yintercept = 50, linetype = "dashed", color = "red", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
