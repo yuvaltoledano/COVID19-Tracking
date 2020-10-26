@@ -289,6 +289,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,116,4,Afghanistan,38041757,Asia - ex China
 2020-10-24,61,2,Afghanistan,38041757,Asia - ex China
 2020-10-25,81,4,Afghanistan,38041757,Asia - ex China
+2020-10-26,65,3,Afghanistan,38041757,Asia - ex China
 2020-03-09,2,0,Albania,2862427,Rest of Europe
 2020-03-10,4,0,Albania,2862427,Rest of Europe
 2020-03-11,4,0,Albania,2862427,Rest of Europe
@@ -520,6 +521,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,302,3,Albania,2862427,Rest of Europe
 2020-10-24,306,4,Albania,2862427,Rest of Europe
 2020-10-25,302,4,Albania,2862427,Rest of Europe
+2020-10-26,299,4,Albania,2862427,Rest of Europe
 2019-12-31,0,0,Algeria,43053054,Africa
 2020-01-01,0,0,Algeria,43053054,Africa
 2020-01-02,0,0,Algeria,43053054,Africa
@@ -815,6 +817,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,266,8,Algeria,43053054,Africa
 2020-10-24,273,9,Algeria,43053054,Africa
 2020-10-25,250,10,Algeria,43053054,Africa
+2020-10-26,263,7,Algeria,43053054,Africa
 2020-03-03,1,0,Andorra,76177,Rest of Europe
 2020-03-14,1,0,Andorra,76177,Rest of Europe
 2020-03-16,3,0,Andorra,76177,Rest of Europe
@@ -1041,6 +1044,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Andorra,76177,Rest of Europe
 2020-10-24,227,6,Andorra,76177,Rest of Europe
 2020-10-25,0,0,Andorra,76177,Rest of Europe
+2020-10-26,0,0,Andorra,76177,Rest of Europe
 2020-03-22,2,0,Angola,31825299,Africa
 2020-03-23,0,0,Angola,31825299,Africa
 2020-03-24,0,0,Angola,31825299,Africa
@@ -1259,6 +1263,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,289,4,Angola,31825299,Africa
 2020-10-24,244,5,Angola,31825299,Africa
 2020-10-25,247,5,Angola,31825299,Africa
+2020-10-26,197,2,Angola,31825299,Africa
 2020-03-27,2,0,Anguilla,14872,America - ex USA
 2020-03-28,0,0,Anguilla,14872,America - ex USA
 2020-03-29,0,0,Anguilla,14872,America - ex USA
@@ -1472,6 +1477,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Anguilla,14872,America - ex USA
 2020-10-24,0,0,Anguilla,14872,America - ex USA
 2020-10-25,0,0,Anguilla,14872,America - ex USA
+2020-10-26,0,0,Anguilla,14872,America - ex USA
 2020-03-15,1,0,Antigua_and_Barbuda,97115,America - ex USA
 2020-03-21,0,0,Antigua_and_Barbuda,97115,America - ex USA
 2020-03-22,0,0,Antigua_and_Barbuda,97115,America - ex USA
@@ -1692,6 +1698,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Antigua_and_Barbuda,97115,America - ex USA
 2020-10-24,0,0,Antigua_and_Barbuda,97115,America - ex USA
 2020-10-25,2,0,Antigua_and_Barbuda,97115,America - ex USA
+2020-10-26,0,0,Antigua_and_Barbuda,97115,America - ex USA
 2020-03-04,1,0,Argentina,44780675,America - ex USA
 2020-03-06,1,0,Argentina,44780675,America - ex USA
 2020-03-07,6,0,Argentina,44780675,America - ex USA
@@ -1925,6 +1932,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,16325,438,Argentina,44780675,America - ex USA
 2020-10-24,15718,381,Argentina,44780675,America - ex USA
 2020-10-25,11968,275,Argentina,44780675,America - ex USA
+2020-10-26,9253,283,Argentina,44780675,America - ex USA
 2019-12-31,0,0,Armenia,2957728,Rest of Europe
 2020-01-01,0,0,Armenia,2957728,Rest of Europe
 2020-01-02,0,0,Armenia,2957728,Rest of Europe
@@ -2216,6 +2224,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2306,10,Armenia,2957728,Rest of Europe
 2020-10-24,2474,14,Armenia,2957728,Rest of Europe
 2020-10-25,4527,35,Armenia,2957728,Rest of Europe
+2020-10-26,973,16,Armenia,2957728,Rest of Europe
 2020-03-13,2,0,Aruba,106310,America - ex USA
 2020-03-20,2,0,Aruba,106310,America - ex USA
 2020-03-24,8,0,Aruba,106310,America - ex USA
@@ -2433,6 +2442,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,20,1,Aruba,106310,America - ex USA
 2020-10-24,12,0,Aruba,106310,America - ex USA
 2020-10-25,9,0,Aruba,106310,America - ex USA
+2020-10-26,10,0,Aruba,106310,America - ex USA
 2019-12-31,0,0,Australia,25203200,Oceania
 2020-01-01,0,0,Australia,25203200,Oceania
 2020-01-02,0,0,Australia,25203200,Oceania
@@ -2733,6 +2743,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,22,0,Australia,25203200,Oceania
 2020-10-24,18,0,Australia,25203200,Oceania
 2020-10-25,15,0,Australia,25203200,Oceania
+2020-10-26,21,0,Australia,25203200,Oceania
 2019-12-31,0,0,Austria,8858775,Western Europe
 2020-01-01,0,0,Austria,8858775,Western Europe
 2020-01-02,0,0,Austria,8858775,Western Europe
@@ -3033,6 +3044,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2570,17,Austria,8858775,Western Europe
 2020-10-24,3442,15,Austria,8858775,Western Europe
 2020-10-25,2989,6,Austria,8858775,Western Europe
+2020-10-26,2766,6,Austria,8858775,Western Europe
 2019-12-31,0,0,Azerbaijan,10047719,Rest of Europe
 2020-01-01,0,0,Azerbaijan,10047719,Rest of Europe
 2020-01-02,0,0,Azerbaijan,10047719,Rest of Europe
@@ -3326,6 +3338,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,825,6,Azerbaijan,10047719,Rest of Europe
 2020-10-24,803,8,Azerbaijan,10047719,Rest of Europe
 2020-10-25,792,8,Azerbaijan,10047719,Rest of Europe
+2020-10-26,946,7,Azerbaijan,10047719,Rest of Europe
 2020-03-16,1,0,Bahamas,389486,America - ex USA
 2020-03-17,0,0,Bahamas,389486,America - ex USA
 2020-03-20,2,0,Bahamas,389486,America - ex USA
@@ -3547,7 +3560,8 @@ date,cases,deaths,country,population,continent
 2020-10-22,128,3,Bahamas,389486,America - ex USA
 2020-10-23,84,3,Bahamas,389486,America - ex USA
 2020-10-24,133,0,Bahamas,389486,America - ex USA
-2020-10-25,0,0,Bahamas,389486,America - ex USA
+2020-10-25,84,2,Bahamas,389486,America - ex USA
+2020-10-26,58,0,Bahamas,389486,America - ex USA
 2019-12-31,0,0,Bahrain,1641164,Asia - ex China
 2020-01-01,0,0,Bahrain,1641164,Asia - ex China
 2020-01-02,0,0,Bahrain,1641164,Asia - ex China
@@ -3847,6 +3861,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,304,0,Bahrain,1641164,Asia - ex China
 2020-10-24,363,4,Bahrain,1641164,Asia - ex China
 2020-10-25,401,0,Bahrain,1641164,Asia - ex China
+2020-10-26,280,0,Bahrain,1641164,Asia - ex China
 2020-03-09,3,0,Bangladesh,163046173,Asia - ex China
 2020-03-15,0,0,Bangladesh,163046173,Asia - ex China
 2020-03-17,2,0,Bangladesh,163046173,Asia - ex China
@@ -4072,6 +4087,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1696,24,Bangladesh,163046173,Asia - ex China
 2020-10-24,1586,14,Bangladesh,163046173,Asia - ex China
 2020-10-25,1094,19,Bangladesh,163046173,Asia - ex China
+2020-10-26,1308,23,Bangladesh,163046173,Asia - ex China
 2020-03-18,1,0,Barbados,287021,America - ex USA
 2020-03-19,0,0,Barbados,287021,America - ex USA
 2020-03-20,1,0,Barbados,287021,America - ex USA
@@ -4294,6 +4310,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2,0,Barbados,287021,America - ex USA
 2020-10-24,3,0,Barbados,287021,America - ex USA
 2020-10-25,0,0,Barbados,287021,America - ex USA
+2020-10-26,0,0,Barbados,287021,America - ex USA
 2019-12-31,0,0,Belarus,9452409,Rest of Europe
 2020-01-01,0,0,Belarus,9452409,Rest of Europe
 2020-01-02,0,0,Belarus,9452409,Rest of Europe
@@ -4586,6 +4603,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,738,4,Belarus,9452409,Rest of Europe
 2020-10-24,787,0,Belarus,9452409,Rest of Europe
 2020-10-25,811,8,Belarus,9452409,Rest of Europe
+2020-10-26,845,4,Belarus,9452409,Rest of Europe
 2019-12-31,0,0,Belgium,11455519,Western Europe
 2020-01-01,0,0,Belgium,11455519,Western Europe
 2020-01-02,0,0,Belgium,11455519,Western Europe
@@ -4874,18 +4892,19 @@ date,cases,deaths,country,population,continent
 2020-10-11,4306,22,Belgium,11455519,Western Europe
 2020-10-12,2408,25,Belgium,11455519,Western Europe
 2020-10-13,9718,36,Belgium,11455519,Western Europe
-2020-10-14,12552,34,Belgium,11455519,Western Europe
-2020-10-15,12235,41,Belgium,11455519,Western Europe
-2020-10-16,11594,35,Belgium,11455519,Western Europe
-2020-10-17,13019,35,Belgium,11455519,Western Europe
-2020-10-18,7661,23,Belgium,11455519,Western Europe
-2020-10-19,4277,31,Belgium,11455519,Western Europe
-2020-10-20,14888,49,Belgium,11455519,Western Europe
-2020-10-21,17508,46,Belgium,11455519,Western Europe
-2020-10-22,14288,55,Belgium,11455519,Western Europe
-2020-10-23,10168,51,Belgium,11455519,Western Europe
-2020-10-24,3117,74,Belgium,11455519,Western Europe
-2020-10-25,6,13,Belgium,11455519,Western Europe
+2020-10-14,12553,34,Belgium,11455519,Western Europe
+2020-10-15,12238,41,Belgium,11455519,Western Europe
+2020-10-16,11664,35,Belgium,11455519,Western Europe
+2020-10-17,13094,35,Belgium,11455519,Western Europe
+2020-10-18,7730,23,Belgium,11455519,Western Europe
+2020-10-19,4276,31,Belgium,11455519,Western Europe
+2020-10-20,15031,49,Belgium,11455519,Western Europe
+2020-10-21,18217,47,Belgium,11455519,Western Europe
+2020-10-22,15321,55,Belgium,11455519,Western Europe
+2020-10-23,13770,53,Belgium,11455519,Western Europe
+2020-10-24,11049,80,Belgium,11455519,Western Europe
+2020-10-25,1986,63,Belgium,11455519,Western Europe
+2020-10-26,6,14,Belgium,11455519,Western Europe
 2020-03-24,1,0,Belize,390351,America - ex USA
 2020-03-25,0,0,Belize,390351,America - ex USA
 2020-03-26,1,0,Belize,390351,America - ex USA
@@ -5101,7 +5120,8 @@ date,cases,deaths,country,population,continent
 2020-10-22,51,1,Belize,390351,America - ex USA
 2020-10-23,58,0,Belize,390351,America - ex USA
 2020-10-24,55,0,Belize,390351,America - ex USA
-2020-10-25,146,2,Belize,390351,America - ex USA
+2020-10-25,56,2,Belize,390351,America - ex USA
+2020-10-26,39,2,Belize,390351,America - ex USA
 2020-03-17,1,0,Benin,11801151,Africa
 2020-03-18,0,0,Benin,11801151,Africa
 2020-03-19,0,0,Benin,11801151,Africa
@@ -5325,6 +5345,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Benin,11801151,Africa
 2020-10-24,0,0,Benin,11801151,Africa
 2020-10-25,0,0,Benin,11801151,Africa
+2020-10-26,0,0,Benin,11801151,Africa
 2020-03-20,2,0,Bermuda,62508,America - ex USA
 2020-03-21,0,0,Bermuda,62508,America - ex USA
 2020-03-22,0,0,Bermuda,62508,America - ex USA
@@ -5545,6 +5566,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Bermuda,62508,America - ex USA
 2020-10-24,2,0,Bermuda,62508,America - ex USA
 2020-10-25,1,0,Bermuda,62508,America - ex USA
+2020-10-26,0,0,Bermuda,62508,America - ex USA
 2020-03-06,1,0,Bhutan,763094,Asia - ex China
 2020-03-13,0,0,Bhutan,763094,Asia - ex China
 2020-03-15,0,0,Bhutan,763094,Asia - ex China
@@ -5771,6 +5793,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4,0,Bhutan,763094,Asia - ex China
 2020-10-24,0,0,Bhutan,763094,Asia - ex China
 2020-10-25,4,0,Bhutan,763094,Asia - ex China
+2020-10-26,2,0,Bhutan,763094,Asia - ex China
 2020-03-12,2,0,Bolivia,11513102,America - ex USA
 2020-03-13,1,0,Bolivia,11513102,America - ex USA
 2020-03-14,7,0,Bolivia,11513102,America - ex USA
@@ -5998,6 +6021,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,217,26,Bolivia,11513102,America - ex USA
 2020-10-24,167,24,Bolivia,11513102,America - ex USA
 2020-10-25,167,19,Bolivia,11513102,America - ex USA
+2020-10-26,74,18,Bolivia,11513102,America - ex USA
 2020-04-02,2,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA
 2020-04-03,0,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA
 2020-04-04,0,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA
@@ -6205,6 +6229,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA
 2020-10-24,0,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA
 2020-10-25,0,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA
+2020-10-26,0,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA
 2020-03-06,2,0,Bosnia_and_Herzegovina,3300998,Rest of Europe
 2020-03-12,1,0,Bosnia_and_Herzegovina,3300998,Rest of Europe
 2020-03-13,0,0,Bosnia_and_Herzegovina,3300998,Rest of Europe
@@ -6432,6 +6457,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,999,20,Bosnia_and_Herzegovina,3300998,Rest of Europe
 2020-10-24,1179,14,Bosnia_and_Herzegovina,3300998,Rest of Europe
 2020-10-25,1265,6,Bosnia_and_Herzegovina,3300998,Rest of Europe
+2020-10-26,1135,15,Bosnia_and_Herzegovina,3300998,Rest of Europe
 2020-04-01,3,0,Botswana,2303703,Africa
 2020-04-02,1,1,Botswana,2303703,Africa
 2020-04-03,0,0,Botswana,2303703,Africa
@@ -6640,6 +6666,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,314,0,Botswana,2303703,Africa
 2020-10-24,0,0,Botswana,2303703,Africa
 2020-10-25,0,0,Botswana,2303703,Africa
+2020-10-26,0,0,Botswana,2303703,Africa
 2019-12-31,0,0,Brazil,211049519,America - ex USA
 2020-01-01,0,0,Brazil,211049519,America - ex USA
 2020-01-02,0,0,Brazil,211049519,America - ex USA
@@ -6940,6 +6967,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,24858,497,Brazil,211049519,America - ex USA
 2020-10-24,30026,571,Brazil,211049519,America - ex USA
 2020-10-25,26979,432,Brazil,211049519,America - ex USA
+2020-10-26,13493,231,Brazil,211049519,America - ex USA
 2020-03-27,2,0,British_Virgin_Islands,30033,America - ex USA
 2020-03-28,0,0,British_Virgin_Islands,30033,America - ex USA
 2020-03-29,0,0,British_Virgin_Islands,30033,America - ex USA
@@ -7153,6 +7181,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,British_Virgin_Islands,30033,America - ex USA
 2020-10-24,0,0,British_Virgin_Islands,30033,America - ex USA
 2020-10-25,0,0,British_Virgin_Islands,30033,America - ex USA
+2020-10-26,0,0,British_Virgin_Islands,30033,America - ex USA
 2020-03-10,1,0,Brunei_Darussalam,433296,Asia - ex China
 2020-03-12,10,0,Brunei_Darussalam,433296,Asia - ex China
 2020-03-13,14,0,Brunei_Darussalam,433296,Asia - ex China
@@ -7382,6 +7411,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1,0,Brunei_Darussalam,433296,Asia - ex China
 2020-10-24,0,0,Brunei_Darussalam,433296,Asia - ex China
 2020-10-25,0,0,Brunei_Darussalam,433296,Asia - ex China
+2020-10-26,0,0,Brunei_Darussalam,433296,Asia - ex China
 2020-03-08,2,0,Bulgaria,7000039,Rest of Europe
 2020-03-09,2,0,Bulgaria,7000039,Rest of Europe
 2020-03-12,3,1,Bulgaria,7000039,Rest of Europe
@@ -7612,6 +7642,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1595,16,Bulgaria,7000039,Rest of Europe
 2020-10-24,1589,13,Bulgaria,7000039,Rest of Europe
 2020-10-25,1043,7,Bulgaria,7000039,Rest of Europe
+2020-10-26,327,10,Bulgaria,7000039,Rest of Europe
 2020-03-11,2,0,Burkina_Faso,20321383,Africa
 2020-03-12,0,0,Burkina_Faso,20321383,Africa
 2020-03-15,1,0,Burkina_Faso,20321383,Africa
@@ -7839,6 +7870,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,15,0,Burkina_Faso,20321383,Africa
 2020-10-24,12,0,Burkina_Faso,20321383,Africa
 2020-10-25,11,0,Burkina_Faso,20321383,Africa
+2020-10-26,7,0,Burkina_Faso,20321383,Africa
 2020-04-01,2,0,Burundi,11530577,Africa
 2020-04-02,0,0,Burundi,11530577,Africa
 2020-04-03,1,0,Burundi,11530577,Africa
@@ -8047,6 +8079,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1,0,Burundi,11530577,Africa
 2020-10-24,2,0,Burundi,11530577,Africa
 2020-10-25,2,0,Burundi,11530577,Africa
+2020-10-26,1,0,Burundi,11530577,Africa
 2019-12-31,0,0,Cambodia,16486542,Asia - ex China
 2020-01-01,0,0,Cambodia,16486542,Asia - ex China
 2020-01-02,0,0,Cambodia,16486542,Asia - ex China
@@ -8338,6 +8371,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Cambodia,16486542,Asia - ex China
 2020-10-24,1,0,Cambodia,16486542,Asia - ex China
 2020-10-25,0,0,Cambodia,16486542,Asia - ex China
+2020-10-26,0,0,Cambodia,16486542,Asia - ex China
 2020-03-07,1,0,Cameroon,25876387,Africa
 2020-03-09,1,0,Cameroon,25876387,Africa
 2020-03-15,1,0,Cameroon,25876387,Africa
@@ -8565,6 +8599,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Cameroon,25876387,Africa
 2020-10-24,0,0,Cameroon,25876387,Africa
 2020-10-25,0,0,Cameroon,25876387,Africa
+2020-10-26,0,0,Cameroon,25876387,Africa
 2019-12-31,0,0,Canada,37411038,America - ex USA
 2020-01-01,0,0,Canada,37411038,America - ex USA
 2020-01-02,0,0,Canada,37411038,America - ex USA
@@ -8865,6 +8900,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2788,33,Canada,37411038,America - ex USA
 2020-10-24,2584,26,Canada,37411038,America - ex USA
 2020-10-25,2227,34,Canada,37411038,America - ex USA
+2020-10-26,2145,24,Canada,37411038,America - ex USA
 2020-03-21,2,0,Cape_Verde,549936,Africa
 2020-03-22,1,0,Cape_Verde,549936,Africa
 2020-03-23,0,0,Cape_Verde,549936,Africa
@@ -9084,6 +9120,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,89,1,Cape_Verde,549936,Africa
 2020-10-24,76,3,Cape_Verde,549936,Africa
 2020-10-25,124,0,Cape_Verde,549936,Africa
+2020-10-26,74,0,Cape_Verde,549936,Africa
 2019-12-31,0,0,Cases_on_an_international_conveyance_Japan,NA,Other
 2020-01-01,0,0,Cases_on_an_international_conveyance_Japan,NA,Other
 2020-01-02,0,0,Cases_on_an_international_conveyance_Japan,NA,Other
@@ -9368,6 +9405,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1,0,Cayman_Islands,64948,America - ex USA
 2020-10-24,3,0,Cayman_Islands,64948,America - ex USA
 2020-10-25,0,0,Cayman_Islands,64948,America - ex USA
+2020-10-26,0,0,Cayman_Islands,64948,America - ex USA
 2020-03-16,1,0,Central_African_Republic,4745179,Africa
 2020-03-17,0,0,Central_African_Republic,4745179,Africa
 2020-03-18,0,0,Central_African_Republic,4745179,Africa
@@ -9592,6 +9630,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4,0,Central_African_Republic,4745179,Africa
 2020-10-24,0,0,Central_African_Republic,4745179,Africa
 2020-10-25,0,0,Central_African_Republic,4745179,Africa
+2020-10-26,0,0,Central_African_Republic,4745179,Africa
 2020-03-20,1,0,Chad,15946882,Africa
 2020-03-21,0,0,Chad,15946882,Africa
 2020-03-22,1,0,Chad,15946882,Africa
@@ -9812,6 +9851,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,6,0,Chad,15946882,Africa
 2020-10-24,13,0,Chad,15946882,Africa
 2020-10-25,11,0,Chad,15946882,Africa
+2020-10-26,3,0,Chad,15946882,Africa
 2020-03-04,1,0,Chile,18952035,America - ex USA
 2020-03-05,2,0,Chile,18952035,America - ex USA
 2020-03-06,1,0,Chile,18952035,America - ex USA
@@ -10047,6 +10087,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1494,73,Chile,18952035,America - ex USA
 2020-10-24,1775,52,Chile,18952035,America - ex USA
 2020-10-25,1636,48,Chile,18952035,America - ex USA
+2020-10-26,1521,52,Chile,18952035,America - ex USA
 2019-12-31,27,0,China,1433783692,China
 2020-01-01,0,0,China,1433783692,China
 2020-01-02,0,0,China,1433783692,China
@@ -10347,6 +10388,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,29,0,China,1433783692,China
 2020-10-24,33,0,China,1433783692,China
 2020-10-25,19,0,China,1433783692,China
+2020-10-26,26,0,China,1433783692,China
 2020-03-07,1,0,Colombia,50339443,America - ex USA
 2020-03-10,2,0,Colombia,50339443,America - ex USA
 2020-03-12,6,0,Colombia,50339443,America - ex USA
@@ -10576,6 +10618,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,8570,172,Colombia,50339443,America - ex USA
 2020-10-24,8672,166,Colombia,50339443,America - ex USA
 2020-10-25,8769,198,Colombia,50339443,America - ex USA
+2020-10-26,8174,154,Colombia,50339443,America - ex USA
 2020-05-02,1,0,Comoros,850891,Africa
 2020-05-03,0,0,Comoros,850891,Africa
 2020-05-04,2,0,Comoros,850891,Africa
@@ -10753,6 +10796,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,13,0,Comoros,850891,Africa
 2020-10-24,0,0,Comoros,850891,Africa
 2020-10-25,0,0,Comoros,850891,Africa
+2020-10-26,0,0,Comoros,850891,Africa
 2020-03-16,1,0,Congo,5380504,Africa
 2020-03-17,0,0,Congo,5380504,Africa
 2020-03-18,0,0,Congo,5380504,Africa
@@ -10977,6 +11021,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Congo,5380504,Africa
 2020-10-24,0,0,Congo,5380504,Africa
 2020-10-25,97,0,Congo,5380504,Africa
+2020-10-26,0,0,Congo,5380504,Africa
 2020-03-07,1,0,Costa_Rica,5047561,America - ex USA
 2020-03-09,4,0,Costa_Rica,5047561,America - ex USA
 2020-03-10,4,0,Costa_Rica,5047561,America - ex USA
@@ -11209,6 +11254,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1191,15,Costa_Rica,5047561,America - ex USA
 2020-10-24,1210,14,Costa_Rica,5047561,America - ex USA
 2020-10-25,1262,17,Costa_Rica,5047561,America - ex USA
+2020-10-26,0,0,Costa_Rica,5047561,America - ex USA
 2020-03-12,1,0,Cote_dIvoire,25716554,Africa
 2020-03-15,3,0,Cote_dIvoire,25716554,Africa
 2020-03-16,0,0,Cote_dIvoire,25716554,Africa
@@ -11435,6 +11481,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,27,0,Cote_dIvoire,25716554,Africa
 2020-10-24,15,0,Cote_dIvoire,25716554,Africa
 2020-10-25,24,0,Cote_dIvoire,25716554,Africa
+2020-10-26,41,1,Cote_dIvoire,25716554,Africa
 2019-12-31,0,0,Croatia,4076246,Rest of Europe
 2020-01-01,0,0,Croatia,4076246,Rest of Europe
 2020-01-02,0,0,Croatia,4076246,Rest of Europe
@@ -11732,6 +11779,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1563,13,Croatia,4076246,Rest of Europe
 2020-10-24,1867,7,Croatia,4076246,Rest of Europe
 2020-10-25,2242,16,Croatia,4076246,Rest of Europe
+2020-10-26,2421,8,Croatia,4076246,Rest of Europe
 2020-03-12,3,0,Cuba,11333484,America - ex USA
 2020-03-14,1,0,Cuba,11333484,America - ex USA
 2020-03-15,0,0,Cuba,11333484,America - ex USA
@@ -11957,6 +12005,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,53,1,Cuba,11333484,America - ex USA
 2020-10-24,58,0,Cuba,11333484,America - ex USA
 2020-10-25,55,0,Cuba,11333484,America - ex USA
+2020-10-26,32,0,Cuba,11333484,America - ex USA
 2020-03-13,1,0,Curaçao,163423,America - ex USA
 2020-03-20,2,0,Curaçao,163423,America - ex USA
 2020-03-24,3,0,Curaçao,163423,America - ex USA
@@ -12173,6 +12222,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,19,0,Curaçao,163423,America - ex USA
 2020-10-24,14,0,Curaçao,163423,America - ex USA
 2020-10-25,19,0,Curaçao,163423,America - ex USA
+2020-10-26,21,0,Curaçao,163423,America - ex USA
 2020-03-10,2,0,Cyprus,875899,Rest of Europe
 2020-03-12,4,0,Cyprus,875899,Rest of Europe
 2020-03-14,8,0,Cyprus,875899,Rest of Europe
@@ -12401,6 +12451,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,188,0,Cyprus,875899,Rest of Europe
 2020-10-24,160,0,Cyprus,875899,Rest of Europe
 2020-10-25,130,0,Cyprus,875899,Rest of Europe
+2020-10-26,101,0,Cyprus,875899,Rest of Europe
 2019-12-31,0,0,Czechia,10649800,Rest of Europe
 2020-01-01,0,0,Czechia,10649800,Rest of Europe
 2020-01-02,0,0,Czechia,10649800,Rest of Europe
@@ -12701,6 +12752,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,14150,106,Czechia,10649800,Rest of Europe
 2020-10-24,15258,126,Czechia,10649800,Rest of Europe
 2020-10-25,12474,106,Czechia,10649800,Rest of Europe
+2020-10-26,7300,124,Czechia,10649800,Rest of Europe
 2020-03-11,1,0,Democratic_Republic_of_the_Congo,86790568,Africa
 2020-03-14,1,0,Democratic_Republic_of_the_Congo,86790568,Africa
 2020-03-15,0,0,Democratic_Republic_of_the_Congo,86790568,Africa
@@ -12928,6 +12980,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,31,1,Democratic_Republic_of_the_Congo,86790568,Africa
 2020-10-24,25,0,Democratic_Republic_of_the_Congo,86790568,Africa
 2020-10-25,21,1,Democratic_Republic_of_the_Congo,86790568,Africa
+2020-10-26,0,0,Democratic_Republic_of_the_Congo,86790568,Africa
 2019-12-31,0,0,Denmark,5806081,Western Europe
 2020-01-01,0,0,Denmark,5806081,Western Europe
 2020-01-02,0,0,Denmark,5806081,Western Europe
@@ -13228,6 +13281,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,760,4,Denmark,5806081,Western Europe
 2020-10-24,859,3,Denmark,5806081,Western Europe
 2020-10-25,789,3,Denmark,5806081,Western Europe
+2020-10-26,945,2,Denmark,5806081,Western Europe
 2020-03-19,1,0,Djibouti,973557,Africa
 2020-03-20,0,0,Djibouti,973557,Africa
 2020-03-21,0,0,Djibouti,973557,Africa
@@ -13449,6 +13503,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,10,0,Djibouti,973557,Africa
 2020-10-24,6,0,Djibouti,973557,Africa
 2020-10-25,2,0,Djibouti,973557,Africa
+2020-10-26,6,0,Djibouti,973557,Africa
 2020-03-23,1,0,Dominica,71808,America - ex USA
 2020-03-24,0,0,Dominica,71808,America - ex USA
 2020-03-25,1,0,Dominica,71808,America - ex USA
@@ -13666,6 +13721,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Dominica,71808,America - ex USA
 2020-10-24,4,0,Dominica,71808,America - ex USA
 2020-10-25,0,0,Dominica,71808,America - ex USA
+2020-10-26,1,0,Dominica,71808,America - ex USA
 2019-12-31,0,0,Dominican_Republic,10738957,America - ex USA
 2020-01-01,0,0,Dominican_Republic,10738957,America - ex USA
 2020-01-02,0,0,Dominican_Republic,10738957,America - ex USA
@@ -13957,6 +14013,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,475,6,Dominican_Republic,10738957,America - ex USA
 2020-10-24,511,2,Dominican_Republic,10738957,America - ex USA
 2020-10-25,634,6,Dominican_Republic,10738957,America - ex USA
+2020-10-26,509,3,Dominican_Republic,10738957,America - ex USA
 2019-12-31,0,0,Ecuador,17373657,America - ex USA
 2020-01-01,0,0,Ecuador,17373657,America - ex USA
 2020-01-02,0,0,Ecuador,17373657,America - ex USA
@@ -14252,6 +14309,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,826,47,Ecuador,17373657,America - ex USA
 2020-10-24,1819,28,Ecuador,17373657,America - ex USA
 2020-10-25,1344,14,Ecuador,17373657,America - ex USA
+2020-10-26,2021,11,Ecuador,17373657,America - ex USA
 2019-12-31,0,0,Egypt,100388076,Africa
 2020-01-01,0,0,Egypt,100388076,Africa
 2020-01-02,0,0,Egypt,100388076,Africa
@@ -14548,6 +14606,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,177,11,Egypt,100388076,Africa
 2020-10-24,170,10,Egypt,100388076,Africa
 2020-10-25,167,11,Egypt,100388076,Africa
+2020-10-26,143,12,Egypt,100388076,Africa
 2020-03-19,1,0,El_Salvador,6453550,America - ex USA
 2020-03-20,0,0,El_Salvador,6453550,America - ex USA
 2020-03-21,2,0,El_Salvador,6453550,America - ex USA
@@ -14769,6 +14828,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,142,4,El_Salvador,6453550,America - ex USA
 2020-10-24,159,4,El_Salvador,6453550,America - ex USA
 2020-10-25,164,5,El_Salvador,6453550,America - ex USA
+2020-10-26,0,4,El_Salvador,6453550,America - ex USA
 2020-03-15,1,0,Equatorial_Guinea,1355982,Africa
 2020-03-16,0,0,Equatorial_Guinea,1355982,Africa
 2020-03-17,0,0,Equatorial_Guinea,1355982,Africa
@@ -14994,6 +15054,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Equatorial_Guinea,1355982,Africa
 2020-10-24,5,0,Equatorial_Guinea,1355982,Africa
 2020-10-25,0,0,Equatorial_Guinea,1355982,Africa
+2020-10-26,0,0,Equatorial_Guinea,1355982,Africa
 2020-03-22,1,0,Eritrea,3497117,Africa
 2020-03-23,0,0,Eritrea,3497117,Africa
 2020-03-24,0,0,Eritrea,3497117,Africa
@@ -15212,6 +15273,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,5,0,Eritrea,3497117,Africa
 2020-10-24,4,0,Eritrea,3497117,Africa
 2020-10-25,0,0,Eritrea,3497117,Africa
+2020-10-26,0,0,Eritrea,3497117,Africa
 2019-12-31,0,0,Estonia,1324820,Rest of Europe
 2020-01-01,0,0,Estonia,1324820,Rest of Europe
 2020-01-02,0,0,Estonia,1324820,Rest of Europe
@@ -15507,6 +15569,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,76,0,Estonia,1324820,Rest of Europe
 2020-10-24,53,2,Estonia,1324820,Rest of Europe
 2020-10-25,51,0,Estonia,1324820,Rest of Europe
+2020-10-26,60,0,Estonia,1324820,Rest of Europe
 2020-03-15,1,0,Eswatini,1148133,Africa
 2020-03-16,0,0,Eswatini,1148133,Africa
 2020-03-17,0,0,Eswatini,1148133,Africa
@@ -15732,6 +15795,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,9,0,Eswatini,1148133,Africa
 2020-10-24,17,0,Eswatini,1148133,Africa
 2020-10-25,16,0,Eswatini,1148133,Africa
+2020-10-26,7,0,Eswatini,1148133,Africa
 2020-03-14,1,0,Ethiopia,112078727,Africa
 2020-03-15,0,0,Ethiopia,112078727,Africa
 2020-03-16,3,0,Ethiopia,112078727,Africa
@@ -15958,6 +16022,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,575,12,Ethiopia,112078727,Africa
 2020-10-24,536,4,Ethiopia,112078727,Africa
 2020-10-25,629,19,Ethiopia,112078727,Africa
+2020-10-26,485,7,Ethiopia,112078727,Africa
 2020-04-04,1,0,Falkland_Islands_(Malvinas),3372,America - ex USA
 2020-04-05,0,0,Falkland_Islands_(Malvinas),3372,America - ex USA
 2020-04-06,1,0,Falkland_Islands_(Malvinas),3372,America - ex USA
@@ -16163,6 +16228,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Falkland_Islands_(Malvinas),3372,America - ex USA
 2020-10-24,0,0,Falkland_Islands_(Malvinas),3372,America - ex USA
 2020-10-25,0,0,Falkland_Islands_(Malvinas),3372,America - ex USA
+2020-10-26,0,0,Falkland_Islands_(Malvinas),3372,America - ex USA
 2020-03-06,1,0,Faroe_Islands,48677,Rest of Europe
 2020-03-07,1,0,Faroe_Islands,48677,Rest of Europe
 2020-03-08,1,0,Faroe_Islands,48677,Rest of Europe
@@ -16397,6 +16463,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2,0,Faroe_Islands,48677,Rest of Europe
 2020-10-24,0,0,Faroe_Islands,48677,Rest of Europe
 2020-10-25,0,0,Faroe_Islands,48677,Rest of Europe
+2020-10-26,0,0,Faroe_Islands,48677,Rest of Europe
 2020-03-20,1,0,Fiji,889955,Oceania
 2020-03-21,0,0,Fiji,889955,Oceania
 2020-03-22,1,0,Fiji,889955,Oceania
@@ -16617,6 +16684,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Fiji,889955,Oceania
 2020-10-24,0,0,Fiji,889955,Oceania
 2020-10-25,0,0,Fiji,889955,Oceania
+2020-10-26,0,0,Fiji,889955,Oceania
 2019-12-31,0,0,Finland,5517919,Western Europe
 2020-01-01,0,0,Finland,5517919,Western Europe
 2020-01-02,0,0,Finland,5517919,Western Europe
@@ -16913,6 +16981,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,184,0,Finland,5517919,Western Europe
 2020-10-24,219,0,Finland,5517919,Western Europe
 2020-10-25,178,0,Finland,5517919,Western Europe
+2020-10-26,196,0,Finland,5517919,Western Europe
 2019-12-31,0,0,France,67012883,Western Europe
 2020-01-01,0,0,France,67012883,Western Europe
 2020-01-02,0,0,France,67012883,Western Europe
@@ -17213,6 +17282,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,41622,162,France,67012883,Western Europe
 2020-10-24,42032,298,France,67012883,Western Europe
 2020-10-25,45422,137,France,67012883,Western Europe
+2020-10-26,52010,116,France,67012883,Western Europe
 2020-03-19,3,0,French_Polynesia,279285,Oceania
 2020-03-20,0,0,French_Polynesia,279285,Oceania
 2020-03-21,12,0,French_Polynesia,279285,Oceania
@@ -17434,6 +17504,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,489,3,French_Polynesia,279285,Oceania
 2020-10-24,698,1,French_Polynesia,279285,Oceania
 2020-10-25,0,0,French_Polynesia,279285,Oceania
+2020-10-26,0,0,French_Polynesia,279285,Oceania
 2020-03-13,1,0,Gabon,2172578,Africa
 2020-03-15,0,0,Gabon,2172578,Africa
 2020-03-16,0,0,Gabon,2172578,Africa
@@ -17660,6 +17731,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Gabon,2172578,Africa
 2020-10-24,18,0,Gabon,2172578,Africa
 2020-10-25,0,0,Gabon,2172578,Africa
+2020-10-26,0,0,Gabon,2172578,Africa
 2020-03-18,1,0,Gambia,2347696,Africa
 2020-03-19,0,0,Gambia,2347696,Africa
 2020-03-20,0,0,Gambia,2347696,Africa
@@ -17882,6 +17954,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2,1,Gambia,2347696,Africa
 2020-10-24,0,0,Gambia,2347696,Africa
 2020-10-25,0,0,Gambia,2347696,Africa
+2020-10-26,1,0,Gambia,2347696,Africa
 2019-12-31,0,0,Georgia,3996762,Rest of Europe
 2020-01-01,0,0,Georgia,3996762,Rest of Europe
 2020-01-02,0,0,Georgia,3996762,Rest of Europe
@@ -18179,6 +18252,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1595,6,Georgia,3996762,Rest of Europe
 2020-10-24,1759,5,Georgia,3996762,Rest of Europe
 2020-10-25,3869,18,Georgia,3996762,Rest of Europe
+2020-10-26,1872,14,Georgia,3996762,Rest of Europe
 2019-12-31,0,0,Germany,83019213,Western Europe
 2020-01-01,0,0,Germany,83019213,Western Europe
 2020-01-02,0,0,Germany,83019213,Western Europe
@@ -18479,6 +18553,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,11242,49,Germany,83019213,Western Europe
 2020-10-24,14714,49,Germany,83019213,Western Europe
 2020-10-25,11176,29,Germany,83019213,Western Europe
+2020-10-26,8685,24,Germany,83019213,Western Europe
 2020-03-13,2,0,Ghana,30417858,Africa
 2020-03-15,0,0,Ghana,30417858,Africa
 2020-03-16,0,0,Ghana,30417858,Africa
@@ -18705,6 +18780,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,77,0,Ghana,30417858,Africa
 2020-10-24,63,2,Ghana,30417858,Africa
 2020-10-25,89,2,Ghana,30417858,Africa
+2020-10-26,0,0,Ghana,30417858,Africa
 2020-03-20,10,0,Gibraltar,33706,Western Europe
 2020-03-21,0,0,Gibraltar,33706,Western Europe
 2020-03-22,0,0,Gibraltar,33706,Western Europe
@@ -18925,6 +19001,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,9,0,Gibraltar,33706,Western Europe
 2020-10-24,11,0,Gibraltar,33706,Western Europe
 2020-10-25,19,0,Gibraltar,33706,Western Europe
+2020-10-26,7,0,Gibraltar,33706,Western Europe
 2019-12-31,0,0,Greece,10724599,Rest of Europe
 2020-01-01,0,0,Greece,10724599,Rest of Europe
 2020-01-02,0,0,Greece,10724599,Rest of Europe
@@ -19223,6 +19300,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,882,15,Greece,10724599,Rest of Europe
 2020-10-24,841,10,Greece,10724599,Rest of Europe
 2020-10-25,935,5,Greece,10724599,Rest of Europe
+2020-10-26,790,10,Greece,10724599,Rest of Europe
 2020-03-20,2,0,Greenland,56660,America - ex USA
 2020-03-21,0,0,Greenland,56660,America - ex USA
 2020-03-22,0,0,Greenland,56660,America - ex USA
@@ -19443,6 +19521,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1,0,Greenland,56660,America - ex USA
 2020-10-24,0,0,Greenland,56660,America - ex USA
 2020-10-25,0,0,Greenland,56660,America - ex USA
+2020-10-26,0,0,Greenland,56660,America - ex USA
 2020-03-23,1,0,Grenada,112002,America - ex USA
 2020-03-24,0,0,Grenada,112002,America - ex USA
 2020-03-25,0,0,Grenada,112002,America - ex USA
@@ -19660,6 +19739,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Grenada,112002,America - ex USA
 2020-10-24,0,0,Grenada,112002,America - ex USA
 2020-10-25,1,0,Grenada,112002,America - ex USA
+2020-10-26,0,0,Grenada,112002,America - ex USA
 2020-03-19,3,0,Guam,167295,Oceania
 2020-03-20,9,0,Guam,167295,Oceania
 2020-03-21,2,0,Guam,167295,Oceania
@@ -19881,6 +19961,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,88,0,Guam,167295,Oceania
 2020-10-24,85,0,Guam,167295,Oceania
 2020-10-25,75,2,Guam,167295,Oceania
+2020-10-26,0,1,Guam,167295,Oceania
 2020-03-15,1,0,Guatemala,17581476,America - ex USA
 2020-03-16,0,1,Guatemala,17581476,America - ex USA
 2020-03-17,5,0,Guatemala,17581476,America - ex USA
@@ -20106,6 +20187,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,757,13,Guatemala,17581476,America - ex USA
 2020-10-24,730,14,Guatemala,17581476,America - ex USA
 2020-10-25,730,15,Guatemala,17581476,America - ex USA
+2020-10-26,155,35,Guatemala,17581476,America - ex USA
 2020-03-20,1,0,Guernsey,64468,Western Europe
 2020-03-21,0,0,Guernsey,64468,Western Europe
 2020-03-22,0,0,Guernsey,64468,Western Europe
@@ -20326,6 +20408,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2,0,Guernsey,64468,Western Europe
 2020-10-24,3,0,Guernsey,64468,Western Europe
 2020-10-25,0,0,Guernsey,64468,Western Europe
+2020-10-26,0,0,Guernsey,64468,Western Europe
 2020-03-14,1,0,Guinea,12771246,Africa
 2020-03-15,0,0,Guinea,12771246,Africa
 2020-03-17,0,0,Guinea,12771246,Africa
@@ -20551,6 +20634,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Guinea,12771246,Africa
 2020-10-24,0,0,Guinea,12771246,Africa
 2020-10-25,34,0,Guinea,12771246,Africa
+2020-10-26,0,0,Guinea,12771246,Africa
 2020-03-27,2,0,Guinea_Bissau,1920917,Africa
 2020-03-28,0,0,Guinea_Bissau,1920917,Africa
 2020-03-29,0,0,Guinea_Bissau,1920917,Africa
@@ -20764,6 +20848,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Guinea_Bissau,1920917,Africa
 2020-10-24,0,0,Guinea_Bissau,1920917,Africa
 2020-10-25,0,0,Guinea_Bissau,1920917,Africa
+2020-10-26,0,0,Guinea_Bissau,1920917,Africa
 2020-03-13,1,1,Guyana,782775,America - ex USA
 2020-03-16,3,0,Guyana,782775,America - ex USA
 2020-03-17,0,0,Guyana,782775,America - ex USA
@@ -20989,6 +21074,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,27,1,Guyana,782775,America - ex USA
 2020-10-24,83,0,Guyana,782775,America - ex USA
 2020-10-25,34,0,Guyana,782775,America - ex USA
+2020-10-26,29,2,Guyana,782775,America - ex USA
 2020-03-20,2,0,Haiti,11263079,America - ex USA
 2020-03-21,0,0,Haiti,11263079,America - ex USA
 2020-03-22,0,0,Haiti,11263079,America - ex USA
@@ -21209,6 +21295,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Haiti,11263079,America - ex USA
 2020-10-24,36,0,Haiti,11263079,America - ex USA
 2020-10-25,0,0,Haiti,11263079,America - ex USA
+2020-10-26,11,1,Haiti,11263079,America - ex USA
 2020-03-07,1,0,Holy_See,815,Western Europe
 2020-03-16,0,0,Holy_See,815,Western Europe
 2020-03-17,0,0,Holy_See,815,Western Europe
@@ -21434,6 +21521,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Holy_See,815,Western Europe
 2020-10-24,0,0,Holy_See,815,Western Europe
 2020-10-25,0,0,Holy_See,815,Western Europe
+2020-10-26,0,0,Holy_See,815,Western Europe
 2020-03-12,2,0,Honduras,9746115,America - ex USA
 2020-03-14,1,0,Honduras,9746115,America - ex USA
 2020-03-16,3,0,Honduras,9746115,America - ex USA
@@ -21660,6 +21748,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,431,8,Honduras,9746115,America - ex USA
 2020-10-24,373,8,Honduras,9746115,America - ex USA
 2020-10-25,842,5,Honduras,9746115,America - ex USA
+2020-10-26,490,6,Honduras,9746115,America - ex USA
 2020-03-05,2,0,Hungary,9772756,Rest of Europe
 2020-03-07,2,0,Hungary,9772756,Rest of Europe
 2020-03-08,3,0,Hungary,9772756,Rest of Europe
@@ -21894,6 +21983,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2066,47,Hungary,9772756,Rest of Europe
 2020-10-24,1820,38,Hungary,9772756,Rest of Europe
 2020-10-25,3149,35,Hungary,9772756,Rest of Europe
+2020-10-26,2316,47,Hungary,9772756,Rest of Europe
 2019-12-31,0,0,Iceland,356991,Western Europe
 2020-01-01,0,0,Iceland,356991,Western Europe
 2020-01-02,0,0,Iceland,356991,Western Europe
@@ -22194,6 +22284,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,38,0,Iceland,356991,Western Europe
 2020-10-24,40,0,Iceland,356991,Western Europe
 2020-10-25,86,0,Iceland,356991,Western Europe
+2020-10-26,54,0,Iceland,356991,Western Europe
 2019-12-31,0,0,India,1366417756,Asia - ex China
 2020-01-01,0,0,India,1366417756,Asia - ex China
 2020-01-02,0,0,India,1366417756,Asia - ex China
@@ -22493,6 +22584,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,54366,690,India,1366417756,Asia - ex China
 2020-10-24,53370,650,India,1366417756,Asia - ex China
 2020-10-25,50129,578,India,1366417756,Asia - ex China
+2020-10-26,45148,480,India,1366417756,Asia - ex China
 2019-12-31,0,0,Indonesia,270625567,Asia - ex China
 2020-01-01,0,0,Indonesia,270625567,Asia - ex China
 2020-01-02,0,0,Indonesia,270625567,Asia - ex China
@@ -22786,6 +22878,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4432,102,Indonesia,270625567,Asia - ex China
 2020-10-24,4369,118,Indonesia,270625567,Asia - ex China
 2020-10-25,4070,128,Indonesia,270625567,Asia - ex China
+2020-10-26,3732,94,Indonesia,270625567,Asia - ex China
 2019-12-31,0,0,Iran,82913893,Asia - ex China
 2020-01-01,0,0,Iran,82913893,Asia - ex China
 2020-01-02,0,0,Iran,82913893,Asia - ex China
@@ -23086,6 +23179,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,5471,304,Iran,82913893,Asia - ex China
 2020-10-24,6134,335,Iran,82913893,Asia - ex China
 2020-10-25,5814,335,Iran,82913893,Asia - ex China
+2020-10-26,6191,296,Iran,82913893,Asia - ex China
 2019-12-31,0,0,Iraq,39309789,Asia - ex China
 2020-01-01,0,0,Iraq,39309789,Asia - ex China
 2020-01-02,0,0,Iraq,39309789,Asia - ex China
@@ -23384,6 +23478,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,3899,47,Iraq,39309789,Asia - ex China
 2020-10-24,3785,48,Iraq,39309789,Asia - ex China
 2020-10-25,3204,55,Iraq,39309789,Asia - ex China
+2020-10-26,2554,55,Iraq,39309789,Asia - ex China
 2019-12-31,0,0,Ireland,4904240,Western Europe
 2020-01-01,0,0,Ireland,4904240,Western Europe
 2020-01-02,0,0,Ireland,4904240,Western Europe
@@ -23682,6 +23777,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1054,3,Ireland,4904240,Western Europe
 2020-10-24,785,7,Ireland,4904240,Western Europe
 2020-10-25,847,4,Ireland,4904240,Western Europe
+2020-10-26,1020,0,Ireland,4904240,Western Europe
 2020-03-21,1,0,Isle_of_Man,84589,Rest of Europe
 2020-03-22,1,0,Isle_of_Man,84589,Rest of Europe
 2020-03-23,0,0,Isle_of_Man,84589,Rest of Europe
@@ -23901,6 +23997,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Isle_of_Man,84589,Rest of Europe
 2020-10-24,0,0,Isle_of_Man,84589,Rest of Europe
 2020-10-25,0,0,Isle_of_Man,84589,Rest of Europe
+2020-10-26,0,0,Isle_of_Man,84589,Rest of Europe
 2019-12-31,0,0,Israel,8519373,Asia - ex China
 2020-01-01,0,0,Israel,8519373,Asia - ex China
 2020-01-02,0,0,Israel,8519373,Asia - ex China
@@ -24198,6 +24295,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1237,28,Israel,8519373,Asia - ex China
 2020-10-24,268,10,Israel,8519373,Asia - ex China
 2020-10-25,573,43,Israel,8519373,Asia - ex China
+2020-10-26,735,25,Israel,8519373,Asia - ex China
 2019-12-31,0,0,Italy,60359546,Western Europe
 2020-01-01,0,0,Italy,60359546,Western Europe
 2020-01-02,0,0,Italy,60359546,Western Europe
@@ -24498,6 +24596,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,16078,136,Italy,60359546,Western Europe
 2020-10-24,19143,91,Italy,60359546,Western Europe
 2020-10-25,19640,151,Italy,60359546,Western Europe
+2020-10-26,21273,128,Italy,60359546,Western Europe
 2020-03-12,2,0,Jamaica,2948277,America - ex USA
 2020-03-13,4,0,Jamaica,2948277,America - ex USA
 2020-03-14,2,0,Jamaica,2948277,America - ex USA
@@ -24725,6 +24824,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,155,5,Jamaica,2948277,America - ex USA
 2020-10-24,38,3,Jamaica,2948277,America - ex USA
 2020-10-25,32,4,Jamaica,2948277,America - ex USA
+2020-10-26,44,2,Jamaica,2948277,America - ex USA
 2019-12-31,0,0,Japan,126860299,Asia - ex China
 2020-01-01,0,0,Japan,126860299,Asia - ex China
 2020-01-02,0,0,Japan,126860299,Asia - ex China
@@ -25025,6 +25125,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,614,9,Japan,126860299,Asia - ex China
 2020-10-24,697,12,Japan,126860299,Asia - ex China
 2020-10-25,699,5,Japan,126860299,Asia - ex China
+2020-10-26,540,7,Japan,126860299,Asia - ex China
 2020-03-20,5,0,Jersey,107796,Western Europe
 2020-03-21,7,0,Jersey,107796,Western Europe
 2020-03-22,0,0,Jersey,107796,Western Europe
@@ -25245,6 +25346,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,3,0,Jersey,107796,Western Europe
 2020-10-24,4,0,Jersey,107796,Western Europe
 2020-10-25,0,0,Jersey,107796,Western Europe
+2020-10-26,0,0,Jersey,107796,Western Europe
 2020-03-03,1,0,Jordan,10101697,Asia - ex China
 2020-03-08,0,0,Jordan,10101697,Asia - ex China
 2020-03-15,0,0,Jordan,10101697,Asia - ex China
@@ -25472,6 +25574,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2821,38,Jordan,10101697,Asia - ex China
 2020-10-24,2489,27,Jordan,10101697,Asia - ex China
 2020-10-25,1820,32,Jordan,10101697,Asia - ex China
+2020-10-26,2337,39,Jordan,10101697,Asia - ex China
 2020-03-15,6,0,Kazakhstan,18551428,Asia - ex China
 2020-03-16,3,0,Kazakhstan,18551428,Asia - ex China
 2020-03-17,2,0,Kazakhstan,18551428,Asia - ex China
@@ -25697,6 +25800,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,365,1,Kazakhstan,18551428,Asia - ex China
 2020-10-24,329,2,Kazakhstan,18551428,Asia - ex China
 2020-10-25,315,0,Kazakhstan,18551428,Asia - ex China
+2020-10-26,166,1,Kazakhstan,18551428,Asia - ex China
 2020-03-14,1,0,Kenya,52573967,Africa
 2020-03-15,0,0,Kenya,52573967,Africa
 2020-03-16,2,0,Kenya,52573967,Africa
@@ -25923,6 +26027,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1068,12,Kenya,52573967,Africa
 2020-10-24,631,14,Kenya,52573967,Africa
 2020-10-25,947,12,Kenya,52573967,Africa
+2020-10-26,931,6,Kenya,52573967,Africa
 2020-03-14,2,0,Kosovo,1798506,Rest of Europe
 2020-03-15,3,0,Kosovo,1798506,Rest of Europe
 2020-03-16,8,0,Kosovo,1798506,Rest of Europe
@@ -26149,6 +26254,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,159,0,Kosovo,1798506,Rest of Europe
 2020-10-24,169,2,Kosovo,1798506,Rest of Europe
 2020-10-25,166,2,Kosovo,1798506,Rest of Europe
+2020-10-26,186,2,Kosovo,1798506,Rest of Europe
 2019-12-31,0,0,Kuwait,4207077,Asia - ex China
 2020-01-01,0,0,Kuwait,4207077,Asia - ex China
 2020-01-02,0,0,Kuwait,4207077,Asia - ex China
@@ -26446,6 +26552,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,889,9,Kuwait,4207077,Asia - ex China
 2020-10-24,812,10,Kuwait,4207077,Asia - ex China
 2020-10-25,695,4,Kuwait,4207077,Asia - ex China
+2020-10-26,708,2,Kuwait,4207077,Asia - ex China
 2020-03-19,3,0,Kyrgyzstan,6415851,Asia - ex China
 2020-03-20,3,0,Kyrgyzstan,6415851,Asia - ex China
 2020-03-21,0,0,Kyrgyzstan,6415851,Asia - ex China
@@ -26667,6 +26774,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,582,4,Kyrgyzstan,6415851,Asia - ex China
 2020-10-24,556,4,Kyrgyzstan,6415851,Asia - ex China
 2020-10-25,606,4,Kyrgyzstan,6415851,Asia - ex China
+2020-10-26,420,0,Kyrgyzstan,6415851,Asia - ex China
 2020-03-25,2,0,Laos,7169456,Asia - ex China
 2020-03-26,0,0,Laos,7169456,Asia - ex China
 2020-03-27,4,0,Laos,7169456,Asia - ex China
@@ -26882,6 +26990,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Laos,7169456,Asia - ex China
 2020-10-24,0,0,Laos,7169456,Asia - ex China
 2020-10-25,0,0,Laos,7169456,Asia - ex China
+2020-10-26,0,0,Laos,7169456,Asia - ex China
 2020-03-03,1,0,Latvia,1919968,Rest of Europe
 2020-03-08,1,0,Latvia,1919968,Rest of Europe
 2020-03-09,1,0,Latvia,1919968,Rest of Europe
@@ -27115,6 +27224,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,161,1,Latvia,1919968,Rest of Europe
 2020-10-24,250,1,Latvia,1919968,Rest of Europe
 2020-10-25,259,4,Latvia,1919968,Rest of Europe
+2020-10-26,211,2,Latvia,1919968,Rest of Europe
 2019-12-31,0,0,Lebanon,6855709,Asia - ex China
 2020-01-01,0,0,Lebanon,6855709,Asia - ex China
 2020-01-02,0,0,Lebanon,6855709,Asia - ex China
@@ -27411,6 +27521,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1450,16,Lebanon,6855709,Asia - ex China
 2020-10-24,1452,7,Lebanon,6855709,Asia - ex China
 2020-10-25,1427,3,Lebanon,6855709,Asia - ex China
+2020-10-26,1484,3,Lebanon,6855709,Asia - ex China
 2020-05-15,1,0,Lesotho,2125267,Africa
 2020-05-16,0,0,Lesotho,2125267,Africa
 2020-05-17,0,0,Lesotho,2125267,Africa
@@ -27575,6 +27686,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Lesotho,2125267,Africa
 2020-10-24,5,0,Lesotho,2125267,Africa
 2020-10-25,11,0,Lesotho,2125267,Africa
+2020-10-26,6,0,Lesotho,2125267,Africa
 2020-03-17,1,0,Liberia,4937374,Africa
 2020-03-18,1,0,Liberia,4937374,Africa
 2020-03-19,0,0,Liberia,4937374,Africa
@@ -27798,6 +27910,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Liberia,4937374,Africa
 2020-10-24,8,0,Liberia,4937374,Africa
 2020-10-25,0,0,Liberia,4937374,Africa
+2020-10-26,0,0,Liberia,4937374,Africa
 2020-03-25,1,0,Libya,6777453,Africa
 2020-03-26,0,0,Libya,6777453,Africa
 2020-03-27,0,0,Libya,6777453,Africa
@@ -28013,6 +28126,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,995,3,Libya,6777453,Africa
 2020-10-24,764,6,Libya,6777453,Africa
 2020-10-25,990,16,Libya,6777453,Africa
+2020-10-26,1639,5,Libya,6777453,Africa
 2020-03-05,1,0,Liechtenstein,38378,Western Europe
 2020-03-12,2,0,Liechtenstein,38378,Western Europe
 2020-03-13,1,0,Liechtenstein,38378,Western Europe
@@ -28242,6 +28356,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,26,0,Liechtenstein,38378,Western Europe
 2020-10-24,42,0,Liechtenstein,38378,Western Europe
 2020-10-25,10,0,Liechtenstein,38378,Western Europe
+2020-10-26,25,0,Liechtenstein,38378,Western Europe
 2019-12-31,0,0,Lithuania,2794184,Rest of Europe
 2020-01-01,0,0,Lithuania,2794184,Rest of Europe
 2020-01-02,0,0,Lithuania,2794184,Rest of Europe
@@ -28533,6 +28648,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,424,5,Lithuania,2794184,Rest of Europe
 2020-10-24,441,1,Lithuania,2794184,Rest of Europe
 2020-10-25,474,3,Lithuania,2794184,Rest of Europe
+2020-10-26,606,5,Lithuania,2794184,Rest of Europe
 2019-12-31,0,0,Luxembourg,613894,Western Europe
 2020-01-01,0,0,Luxembourg,613894,Western Europe
 2020-01-02,0,0,Luxembourg,613894,Western Europe
@@ -28826,6 +28942,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,662,2,Luxembourg,613894,Western Europe
 2020-10-24,518,1,Luxembourg,613894,Western Europe
 2020-10-25,862,3,Luxembourg,613894,Western Europe
+2020-10-26,491,1,Luxembourg,613894,Western Europe
 2020-03-21,3,0,Madagascar,26969306,Africa
 2020-03-22,0,0,Madagascar,26969306,Africa
 2020-03-23,0,0,Madagascar,26969306,Africa
@@ -29045,6 +29162,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Madagascar,26969306,Africa
 2020-10-24,0,0,Madagascar,26969306,Africa
 2020-10-25,158,6,Madagascar,26969306,Africa
+2020-10-26,0,0,Madagascar,26969306,Africa
 2020-04-03,3,0,Malawi,18628749,Africa
 2020-04-04,0,0,Malawi,18628749,Africa
 2020-04-05,1,0,Malawi,18628749,Africa
@@ -29251,6 +29369,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,10,0,Malawi,18628749,Africa
 2020-10-24,11,0,Malawi,18628749,Africa
 2020-10-25,2,0,Malawi,18628749,Africa
+2020-10-26,3,0,Malawi,18628749,Africa
 2019-12-31,0,0,Malaysia,31949789,Asia - ex China
 2020-01-01,0,0,Malaysia,31949789,Asia - ex China
 2020-01-02,0,0,Malaysia,31949789,Asia - ex China
@@ -29550,6 +29669,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,847,5,Malaysia,31949789,Asia - ex China
 2020-10-24,710,10,Malaysia,31949789,Asia - ex China
 2020-10-25,1228,7,Malaysia,31949789,Asia - ex China
+2020-10-26,823,8,Malaysia,31949789,Asia - ex China
 2020-03-08,2,0,Maldives,530957,Asia - ex China
 2020-03-09,2,0,Maldives,530957,Asia - ex China
 2020-03-11,2,0,Maldives,530957,Asia - ex China
@@ -29780,6 +29900,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,42,0,Maldives,530957,Asia - ex China
 2020-10-24,33,0,Maldives,530957,Asia - ex China
 2020-10-25,30,0,Maldives,530957,Asia - ex China
+2020-10-26,84,0,Maldives,530957,Asia - ex China
 2020-03-26,2,0,Mali,19658023,Africa
 2020-03-27,2,0,Mali,19658023,Africa
 2020-03-28,0,0,Mali,19658023,Africa
@@ -29994,6 +30115,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,12,0,Mali,19658023,Africa
 2020-10-24,4,0,Mali,19658023,Africa
 2020-10-25,28,0,Mali,19658023,Africa
+2020-10-26,18,1,Mali,19658023,Africa
 2020-03-07,1,0,Malta,493559,Rest of Europe
 2020-03-08,0,0,Malta,493559,Rest of Europe
 2020-03-09,2,0,Malta,493559,Rest of Europe
@@ -30227,6 +30349,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,111,3,Malta,493559,Rest of Europe
 2020-10-24,121,0,Malta,493559,Rest of Europe
 2020-10-25,115,1,Malta,493559,Rest of Europe
+2020-10-26,0,0,Malta,493559,Rest of Europe
 2020-03-15,1,0,Mauritania,4525698,Africa
 2020-03-16,0,0,Mauritania,4525698,Africa
 2020-03-17,0,0,Mauritania,4525698,Africa
@@ -30452,6 +30575,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4,0,Mauritania,4525698,Africa
 2020-10-24,0,0,Mauritania,4525698,Africa
 2020-10-25,24,0,Mauritania,4525698,Africa
+2020-10-26,0,0,Mauritania,4525698,Africa
 2020-03-20,3,0,Mauritius,1269670,Africa
 2020-03-21,9,0,Mauritius,1269670,Africa
 2020-03-22,2,1,Mauritius,1269670,Africa
@@ -30672,6 +30796,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2,0,Mauritius,1269670,Africa
 2020-10-24,14,0,Mauritius,1269670,Africa
 2020-10-25,0,0,Mauritius,1269670,Africa
+2020-10-26,0,0,Mauritius,1269670,Africa
 2019-12-31,0,0,Mexico,127575529,America - ex USA
 2020-01-01,0,0,Mexico,127575529,America - ex USA
 2020-01-02,0,0,Mexico,127575529,America - ex USA
@@ -30964,6 +31089,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,6612,479,Mexico,127575529,America - ex USA
 2020-10-24,6604,418,Mexico,127575529,America - ex USA
 2020-10-25,6025,431,Mexico,127575529,America - ex USA
+2020-10-26,4360,181,Mexico,127575529,America - ex USA
 2020-03-08,1,0,Moldova,4043258,Rest of Europe
 2020-03-11,2,0,Moldova,4043258,Rest of Europe
 2020-03-12,1,0,Moldova,4043258,Rest of Europe
@@ -31194,6 +31320,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,777,11,Moldova,4043258,Rest of Europe
 2020-10-24,688,14,Moldova,4043258,Rest of Europe
 2020-10-25,833,14,Moldova,4043258,Rest of Europe
+2020-10-26,414,16,Moldova,4043258,Rest of Europe
 2019-12-31,0,0,Monaco,33085,Western Europe
 2020-01-01,0,0,Monaco,33085,Western Europe
 2020-01-02,0,0,Monaco,33085,Western Europe
@@ -31482,6 +31609,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,8,0,Monaco,33085,Western Europe
 2020-10-24,14,0,Monaco,33085,Western Europe
 2020-10-25,1,0,Monaco,33085,Western Europe
+2020-10-26,10,0,Monaco,33085,Western Europe
 2020-03-10,1,0,Mongolia,3225166,Asia - ex China
 2020-03-15,0,0,Mongolia,3225166,Asia - ex China
 2020-03-18,3,0,Mongolia,3225166,Asia - ex China
@@ -31706,6 +31834,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Mongolia,3225166,Asia - ex China
 2020-10-24,9,0,Mongolia,3225166,Asia - ex China
 2020-10-25,1,0,Mongolia,3225166,Asia - ex China
+2020-10-26,1,0,Mongolia,3225166,Asia - ex China
 2020-03-18,2,0,Montenegro,622182,Rest of Europe
 2020-03-19,6,0,Montenegro,622182,Rest of Europe
 2020-03-20,5,0,Montenegro,622182,Rest of Europe
@@ -31928,6 +32057,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,190,3,Montenegro,622182,Rest of Europe
 2020-10-24,177,2,Montenegro,622182,Rest of Europe
 2020-10-25,193,8,Montenegro,622182,Rest of Europe
+2020-10-26,168,3,Montenegro,622182,Rest of Europe
 2020-03-21,1,0,Montserrat,4991,America - ex USA
 2020-03-22,0,0,Montserrat,4991,America - ex USA
 2020-03-23,0,0,Montserrat,4991,America - ex USA
@@ -32146,6 +32276,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Montserrat,4991,America - ex USA
 2020-10-24,0,0,Montserrat,4991,America - ex USA
 2020-10-25,0,0,Montserrat,4991,America - ex USA
+2020-10-26,0,0,Montserrat,4991,America - ex USA
 2020-03-03,1,0,Morocco,36471766,Africa
 2020-03-06,1,0,Morocco,36471766,Africa
 2020-03-12,3,1,Morocco,36471766,Africa
@@ -32376,6 +32507,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4151,35,Morocco,36471766,Africa
 2020-10-24,3685,73,Morocco,36471766,Africa
 2020-10-25,4045,50,Morocco,36471766,Africa
+2020-10-26,3020,46,Morocco,36471766,Africa
 2020-03-23,1,0,Mozambique,30366043,Africa
 2020-03-24,0,0,Mozambique,30366043,Africa
 2020-03-25,0,0,Mozambique,30366043,Africa
@@ -32593,6 +32725,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,228,2,Mozambique,30366043,Africa
 2020-10-24,189,1,Mozambique,30366043,Africa
 2020-10-25,147,3,Mozambique,30366043,Africa
+2020-10-26,91,1,Mozambique,30366043,Africa
 2020-03-17,0,0,Myanmar,54045422,Asia - ex China
 2020-03-24,2,0,Myanmar,54045422,Asia - ex China
 2020-03-25,1,0,Myanmar,54045422,Asia - ex China
@@ -32810,6 +32943,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1312,33,Myanmar,54045422,Asia - ex China
 2020-10-24,1357,33,Myanmar,54045422,Asia - ex China
 2020-10-25,1423,28,Myanmar,54045422,Asia - ex China
+2020-10-26,986,29,Myanmar,54045422,Asia - ex China
 2020-03-15,2,0,Namibia,2494524,Africa
 2020-03-16,0,0,Namibia,2494524,Africa
 2020-03-17,0,0,Namibia,2494524,Africa
@@ -33035,6 +33169,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,54,0,Namibia,2494524,Africa
 2020-10-24,41,0,Namibia,2494524,Africa
 2020-10-25,78,0,Namibia,2494524,Africa
+2020-10-26,81,0,Namibia,2494524,Africa
 2019-12-31,0,0,Nepal,28608715,Asia - ex China
 2020-01-01,0,0,Nepal,28608715,Asia - ex China
 2020-01-02,0,0,Nepal,28608715,Asia - ex China
@@ -33322,6 +33457,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,3637,21,Nepal,28608715,Asia - ex China
 2020-10-24,4499,17,Nepal,28608715,Asia - ex China
 2020-10-25,2225,13,Nepal,28608715,Asia - ex China
+2020-10-26,2856,5,Nepal,28608715,Asia - ex China
 2019-12-31,0,0,Netherlands,17282163,Western Europe
 2020-01-01,0,0,Netherlands,17282163,Western Europe
 2020-01-02,0,0,Netherlands,17282163,Western Europe
@@ -33622,6 +33758,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,9268,46,Netherlands,17282163,Western Europe
 2020-10-24,9983,45,Netherlands,17282163,Western Europe
 2020-10-25,8639,55,Netherlands,17282163,Western Europe
+2020-10-26,10194,27,Netherlands,17282163,Western Europe
 2020-03-21,2,0,New_Caledonia,282757,Oceania
 2020-03-22,2,0,New_Caledonia,282757,Oceania
 2020-03-23,1,0,New_Caledonia,282757,Oceania
@@ -33841,6 +33978,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,New_Caledonia,282757,Oceania
 2020-10-24,0,0,New_Caledonia,282757,Oceania
 2020-10-25,0,0,New_Caledonia,282757,Oceania
+2020-10-26,0,0,New_Caledonia,282757,Oceania
 2019-12-31,0,0,New_Zealand,4783062,Oceania
 2020-01-01,0,0,New_Zealand,4783062,Oceania
 2020-01-02,0,0,New_Zealand,4783062,Oceania
@@ -34132,6 +34270,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,9,0,New_Zealand,4783062,Oceania
 2020-10-24,11,0,New_Zealand,4783062,Oceania
 2020-10-25,1,0,New_Zealand,4783062,Oceania
+2020-10-26,5,0,New_Zealand,4783062,Oceania
 2020-03-19,1,0,Nicaragua,6545503,America - ex USA
 2020-03-20,0,0,Nicaragua,6545503,America - ex USA
 2020-03-21,1,0,Nicaragua,6545503,America - ex USA
@@ -34353,6 +34492,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Nicaragua,6545503,America - ex USA
 2020-10-24,0,0,Nicaragua,6545503,America - ex USA
 2020-10-25,0,0,Nicaragua,6545503,America - ex USA
+2020-10-26,0,0,Nicaragua,6545503,America - ex USA
 2020-03-21,1,0,Niger,23310719,Africa
 2020-03-22,0,0,Niger,23310719,Africa
 2020-03-23,0,0,Niger,23310719,Africa
@@ -34572,6 +34712,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1,0,Niger,23310719,Africa
 2020-10-24,0,0,Niger,23310719,Africa
 2020-10-25,0,0,Niger,23310719,Africa
+2020-10-26,0,0,Niger,23310719,Africa
 2019-12-31,0,0,Nigeria,200963603,Africa
 2020-01-01,0,0,Nigeria,200963603,Africa
 2020-01-02,0,0,Nigeria,200963603,Africa
@@ -34861,6 +35002,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,138,2,Nigeria,200963603,Africa
 2020-10-24,77,2,Nigeria,200963603,Africa
 2020-10-25,48,0,Nigeria,200963603,Africa
+2020-10-26,62,1,Nigeria,200963603,Africa
 2019-12-31,0,0,North_Macedonia,2077132,Rest of Europe
 2020-01-01,0,0,North_Macedonia,2077132,Rest of Europe
 2020-01-02,0,0,North_Macedonia,2077132,Rest of Europe
@@ -35152,6 +35294,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,637,12,North_Macedonia,2077132,Rest of Europe
 2020-10-24,518,9,North_Macedonia,2077132,Rest of Europe
 2020-10-25,403,14,North_Macedonia,2077132,Rest of Europe
+2020-10-26,560,22,North_Macedonia,2077132,Rest of Europe
 2020-03-31,2,0,Northern_Mariana_Islands,57213,Oceania
 2020-04-01,4,0,Northern_Mariana_Islands,57213,Oceania
 2020-04-02,0,1,Northern_Mariana_Islands,57213,Oceania
@@ -35361,6 +35504,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Northern_Mariana_Islands,57213,Oceania
 2020-10-24,0,0,Northern_Mariana_Islands,57213,Oceania
 2020-10-25,0,0,Northern_Mariana_Islands,57213,Oceania
+2020-10-26,4,0,Northern_Mariana_Islands,57213,Oceania
 2019-12-31,0,0,Norway,5328212,Western Europe
 2020-01-01,0,0,Norway,5328212,Western Europe
 2020-01-02,0,0,Norway,5328212,Western Europe
@@ -35661,6 +35805,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,193,0,Norway,5328212,Western Europe
 2020-10-24,268,0,Norway,5328212,Western Europe
 2020-10-25,0,0,Norway,5328212,Western Europe
+2020-10-26,0,0,Norway,5328212,Western Europe
 2019-12-31,0,0,Oman,4974992,Asia - ex China
 2020-01-01,0,0,Oman,4974992,Asia - ex China
 2020-01-02,0,0,Oman,4974992,Asia - ex China
@@ -35955,6 +36100,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,353,10,Oman,4974992,Asia - ex China
 2020-10-24,0,0,Oman,4974992,Asia - ex China
 2020-10-25,0,0,Oman,4974992,Asia - ex China
+2020-10-26,1095,27,Oman,4974992,Asia - ex China
 2019-12-31,0,0,Pakistan,216565317,Asia - ex China
 2020-01-01,0,0,Pakistan,216565317,Asia - ex China
 2020-01-02,0,0,Pakistan,216565317,Asia - ex China
@@ -36250,6 +36396,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,736,13,Pakistan,216565317,Asia - ex China
 2020-10-24,847,12,Pakistan,216565317,Asia - ex China
 2020-10-25,832,9,Pakistan,216565317,Asia - ex China
+2020-10-26,707,3,Pakistan,216565317,Asia - ex China
 2020-03-06,7,0,Palestine,4981422,Asia - ex China
 2020-03-07,9,0,Palestine,4981422,Asia - ex China
 2020-03-08,3,0,Palestine,4981422,Asia - ex China
@@ -36481,6 +36628,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,506,7,Palestine,4981422,Asia - ex China
 2020-10-24,513,4,Palestine,4981422,Asia - ex China
 2020-10-25,410,4,Palestine,4981422,Asia - ex China
+2020-10-26,453,5,Palestine,4981422,Asia - ex China
 2020-03-10,1,0,Panama,4246440,America - ex USA
 2020-03-11,6,1,Panama,4246440,America - ex USA
 2020-03-12,7,0,Panama,4246440,America - ex USA
@@ -36711,6 +36859,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,792,15,Panama,4246440,America - ex USA
 2020-10-24,639,10,Panama,4246440,America - ex USA
 2020-10-25,649,6,Panama,4246440,America - ex USA
+2020-10-26,685,5,Panama,4246440,America - ex USA
 2020-03-21,1,0,Papua_New_Guinea,8776119,Oceania
 2020-03-22,0,0,Papua_New_Guinea,8776119,Oceania
 2020-03-23,0,0,Papua_New_Guinea,8776119,Oceania
@@ -36930,6 +37079,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Papua_New_Guinea,8776119,Oceania
 2020-10-24,0,0,Papua_New_Guinea,8776119,Oceania
 2020-10-25,0,0,Papua_New_Guinea,8776119,Oceania
+2020-10-26,5,0,Papua_New_Guinea,8776119,Oceania
 2020-03-08,1,0,Paraguay,7044639,America - ex USA
 2020-03-11,4,0,Paraguay,7044639,America - ex USA
 2020-03-13,1,0,Paraguay,7044639,America - ex USA
@@ -37158,6 +37308,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,707,17,Paraguay,7044639,America - ex USA
 2020-10-24,733,11,Paraguay,7044639,America - ex USA
 2020-10-25,784,15,Paraguay,7044639,America - ex USA
+2020-10-26,551,16,Paraguay,7044639,America - ex USA
 2020-03-07,1,0,Peru,32510462,America - ex USA
 2020-03-09,6,0,Peru,32510462,America - ex USA
 2020-03-10,2,0,Peru,32510462,America - ex USA
@@ -37390,6 +37541,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2991,47,Peru,32510462,America - ex USA
 2020-10-24,3240,49,Peru,32510462,America - ex USA
 2020-10-25,3098,62,Peru,32510462,America - ex USA
+2020-10-26,2501,54,Peru,32510462,America - ex USA
 2019-12-31,0,0,Philippines,108116622,Asia - ex China
 2020-01-01,0,0,Philippines,108116622,Asia - ex China
 2020-01-02,0,0,Philippines,108116622,Asia - ex China
@@ -37686,6 +37838,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1645,36,Philippines,108116622,Asia - ex China
 2020-10-24,1911,132,Philippines,108116622,Asia - ex China
 2020-10-25,2020,19,Philippines,108116622,Asia - ex China
+2020-10-26,2209,43,Philippines,108116622,Asia - ex China
 2020-03-04,1,0,Poland,37972812,Rest of Europe
 2020-03-07,4,0,Poland,37972812,Rest of Europe
 2020-03-08,1,0,Poland,37972812,Rest of Europe
@@ -37920,6 +38073,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,12107,168,Poland,37972812,Rest of Europe
 2020-10-24,13632,153,Poland,37972812,Rest of Europe
 2020-10-25,13628,179,Poland,37972812,Rest of Europe
+2020-10-26,11742,87,Poland,37972812,Rest of Europe
 2020-03-03,2,0,Portugal,10276617,Western Europe
 2020-03-04,2,0,Portugal,10276617,Western Europe
 2020-03-05,1,0,Portugal,10276617,Western Europe
@@ -38157,6 +38311,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,3270,16,Portugal,10276617,Western Europe
 2020-10-24,2899,31,Portugal,10276617,Western Europe
 2020-10-25,1669,21,Portugal,10276617,Western Europe
+2020-10-26,4577,19,Portugal,10276617,Western Europe
 2020-03-28,64,2,Puerto_Rico,2933404,America - ex USA
 2020-03-29,36,1,Puerto_Rico,2933404,America - ex USA
 2020-03-30,27,2,Puerto_Rico,2933404,America - ex USA
@@ -38369,6 +38524,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,207,9,Puerto_Rico,2933404,America - ex USA
 2020-10-24,1947,8,Puerto_Rico,2933404,America - ex USA
 2020-10-25,296,3,Puerto_Rico,2933404,America - ex USA
+2020-10-26,1223,7,Puerto_Rico,2933404,America - ex USA
 2019-12-31,0,0,Qatar,2832071,Asia - ex China
 2020-01-01,0,0,Qatar,2832071,Asia - ex China
 2020-01-02,0,0,Qatar,2832071,Asia - ex China
@@ -38665,6 +38821,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,252,3,Qatar,2832071,Asia - ex China
 2020-10-24,249,1,Qatar,2832071,Asia - ex China
 2020-10-25,254,0,Qatar,2832071,Asia - ex China
+2020-10-26,205,1,Qatar,2832071,Asia - ex China
 2019-12-31,0,0,Romania,19414458,Rest of Europe
 2020-01-01,0,0,Romania,19414458,Rest of Europe
 2020-01-02,0,0,Romania,19414458,Rest of Europe
@@ -38963,6 +39120,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4902,98,Romania,19414458,Rest of Europe
 2020-10-24,5028,82,Romania,19414458,Rest of Europe
 2020-10-25,4761,73,Romania,19414458,Rest of Europe
+2020-10-26,3855,73,Romania,19414458,Rest of Europe
 2019-12-31,0,0,Russia,145872260,Rest of Europe
 2020-01-01,0,0,Russia,145872260,Rest of Europe
 2020-01-02,0,0,Russia,145872260,Rest of Europe
@@ -39262,7 +39420,8 @@ date,cases,deaths,country,population,continent
 2020-10-22,15700,317,Russia,145872260,Rest of Europe
 2020-10-23,15971,290,Russia,145872260,Rest of Europe
 2020-10-24,17340,283,Russia,145872260,Rest of Europe
-2020-10-25,33231,525,Russia,145872260,Rest of Europe
+2020-10-25,16521,296,Russia,145872260,Rest of Europe
+2020-10-26,16710,229,Russia,145872260,Rest of Europe
 2020-03-15,1,0,Rwanda,12626938,Africa
 2020-03-16,4,0,Rwanda,12626938,Africa
 2020-03-17,0,0,Rwanda,12626938,Africa
@@ -39488,6 +39647,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,5,0,Rwanda,12626938,Africa
 2020-10-24,35,0,Rwanda,12626938,Africa
 2020-10-25,8,0,Rwanda,12626938,Africa
+2020-10-26,6,0,Rwanda,12626938,Africa
 2020-03-26,2,0,Saint_Kitts_and_Nevis,52834,America - ex USA
 2020-03-27,0,0,Saint_Kitts_and_Nevis,52834,America - ex USA
 2020-03-28,0,0,Saint_Kitts_and_Nevis,52834,America - ex USA
@@ -39702,6 +39862,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Saint_Kitts_and_Nevis,52834,America - ex USA
 2020-10-24,0,0,Saint_Kitts_and_Nevis,52834,America - ex USA
 2020-10-25,0,0,Saint_Kitts_and_Nevis,52834,America - ex USA
+2020-10-26,0,0,Saint_Kitts_and_Nevis,52834,America - ex USA
 2020-03-15,2,0,Saint_Lucia,182795,America - ex USA
 2020-03-16,0,0,Saint_Lucia,182795,America - ex USA
 2020-03-17,0,0,Saint_Lucia,182795,America - ex USA
@@ -39927,6 +40088,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,3,0,Saint_Lucia,182795,America - ex USA
 2020-10-24,6,0,Saint_Lucia,182795,America - ex USA
 2020-10-25,4,0,Saint_Lucia,182795,America - ex USA
+2020-10-26,2,0,Saint_Lucia,182795,America - ex USA
 2020-03-13,1,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA
 2020-03-25,0,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA
 2020-03-26,0,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA
@@ -40143,6 +40305,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA
 2020-10-24,5,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA
 2020-10-25,0,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA
+2020-10-26,0,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA
 2019-12-31,0,0,San_Marino,34453,Western Europe
 2020-01-01,0,0,San_Marino,34453,Western Europe
 2020-01-02,0,0,San_Marino,34453,Western Europe
@@ -40442,6 +40605,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,28,0,San_Marino,34453,Western Europe
 2020-10-24,17,0,San_Marino,34453,Western Europe
 2020-10-25,0,0,San_Marino,34453,Western Europe
+2020-10-26,0,0,San_Marino,34453,Western Europe
 2020-04-09,4,0,Sao_Tome_and_Principe,215048,Africa
 2020-04-10,0,0,Sao_Tome_and_Principe,215048,Africa
 2020-04-11,0,0,Sao_Tome_and_Principe,215048,Africa
@@ -40642,6 +40806,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Sao_Tome_and_Principe,215048,Africa
 2020-10-24,3,0,Sao_Tome_and_Principe,215048,Africa
 2020-10-25,2,0,Sao_Tome_and_Principe,215048,Africa
+2020-10-26,0,0,Sao_Tome_and_Principe,215048,Africa
 2020-03-03,1,0,Saudi_Arabia,34268529,Asia - ex China
 2020-03-06,4,0,Saudi_Arabia,34268529,Asia - ex China
 2020-03-08,2,0,Saudi_Arabia,34268529,Asia - ex China
@@ -40876,6 +41041,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,401,15,Saudi_Arabia,34268529,Asia - ex China
 2020-10-24,383,14,Saudi_Arabia,34268529,Asia - ex China
 2020-10-25,395,17,Saudi_Arabia,34268529,Asia - ex China
+2020-10-26,323,15,Saudi_Arabia,34268529,Asia - ex China
 2020-03-03,1,0,Senegal,16296362,Africa
 2020-03-05,2,0,Senegal,16296362,Africa
 2020-03-06,1,0,Senegal,16296362,Africa
@@ -41106,6 +41272,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,24,0,Senegal,16296362,Africa
 2020-10-24,17,0,Senegal,16296362,Africa
 2020-10-25,18,0,Senegal,16296362,Africa
+2020-10-26,8,0,Senegal,16296362,Africa
 2020-03-07,1,0,Serbia,6963764,Rest of Europe
 2020-03-11,4,0,Serbia,6963764,Rest of Europe
 2020-03-12,13,0,Serbia,6963764,Rest of Europe
@@ -41336,6 +41503,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,416,3,Serbia,6963764,Rest of Europe
 2020-10-24,579,3,Serbia,6963764,Rest of Europe
 2020-10-25,757,3,Serbia,6963764,Rest of Europe
+2020-10-26,614,3,Serbia,6963764,Rest of Europe
 2020-03-15,2,0,Seychelles,97741,Africa
 2020-03-16,1,0,Seychelles,97741,Africa
 2020-03-17,1,0,Seychelles,97741,Africa
@@ -41561,6 +41729,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2,0,Seychelles,97741,Africa
 2020-10-24,0,0,Seychelles,97741,Africa
 2020-10-25,0,0,Seychelles,97741,Africa
+2020-10-26,0,0,Seychelles,97741,Africa
 2020-04-01,1,0,Sierra_Leone,7813207,Africa
 2020-04-02,0,0,Sierra_Leone,7813207,Africa
 2020-04-03,1,0,Sierra_Leone,7813207,Africa
@@ -41769,6 +41938,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,3,0,Sierra_Leone,7813207,Africa
 2020-10-24,3,1,Sierra_Leone,7813207,Africa
 2020-10-25,2,0,Sierra_Leone,7813207,Africa
+2020-10-26,1,0,Sierra_Leone,7813207,Africa
 2019-12-31,0,0,Singapore,5804343,Asia - ex China
 2020-01-01,0,0,Singapore,5804343,Asia - ex China
 2020-01-02,0,0,Singapore,5804343,Asia - ex China
@@ -42069,6 +42239,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,8,0,Singapore,5804343,Asia - ex China
 2020-10-24,10,0,Singapore,5804343,Asia - ex China
 2020-10-25,14,0,Singapore,5804343,Asia - ex China
+2020-10-26,5,0,Singapore,5804343,Asia - ex China
 2020-03-03,1,0,Sint_Maarten,42389,America - ex USA
 2020-03-26,1,0,Sint_Maarten,42389,America - ex USA
 2020-03-27,0,0,Sint_Maarten,42389,America - ex USA
@@ -42283,6 +42454,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,7,0,Sint_Maarten,42389,America - ex USA
 2020-10-24,4,0,Sint_Maarten,42389,America - ex USA
 2020-10-25,0,0,Sint_Maarten,42389,America - ex USA
+2020-10-26,4,0,Sint_Maarten,42389,America - ex USA
 2020-03-07,1,0,Slovakia,5450421,Rest of Europe
 2020-03-08,2,0,Slovakia,5450421,Rest of Europe
 2020-03-09,2,0,Slovakia,5450421,Rest of Europe
@@ -42515,6 +42687,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1728,17,Slovakia,5450421,Rest of Europe
 2020-10-24,2581,19,Slovakia,5450421,Rest of Europe
 2020-10-25,2890,25,Slovakia,5450421,Rest of Europe
+2020-10-26,3042,0,Slovakia,5450421,Rest of Europe
 2020-03-05,1,0,Slovenia,2080908,Rest of Europe
 2020-03-06,5,0,Slovenia,2080908,Rest of Europe
 2020-03-07,3,0,Slovenia,2080908,Rest of Europe
@@ -42749,6 +42922,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1668,7,Slovenia,2080908,Rest of Europe
 2020-10-24,1662,5,Slovenia,2080908,Rest of Europe
 2020-10-25,1964,2,Slovenia,2080908,Rest of Europe
+2020-10-26,1673,2,Slovenia,2080908,Rest of Europe
 2020-10-16,2,0,Solomon_Islands,669821,Oceania
 2020-10-17,1,0,Solomon_Islands,669821,Oceania
 2020-10-18,0,0,Solomon_Islands,669821,Oceania
@@ -42759,6 +42933,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Solomon_Islands,669821,Oceania
 2020-10-24,0,0,Solomon_Islands,669821,Oceania
 2020-10-25,1,0,Solomon_Islands,669821,Oceania
+2020-10-26,0,0,Solomon_Islands,669821,Oceania
 2020-03-17,1,0,Somalia,15442906,Africa
 2020-03-18,0,0,Somalia,15442906,Africa
 2020-03-19,0,0,Somalia,15442906,Africa
@@ -42982,6 +43157,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,7,1,Somalia,15442906,Africa
 2020-10-24,0,0,Somalia,15442906,Africa
 2020-10-25,0,0,Somalia,15442906,Africa
+2020-10-26,44,2,Somalia,15442906,Africa
 2020-03-06,1,0,South_Africa,58558267,Africa
 2020-03-08,1,0,South_Africa,58558267,Africa
 2020-03-09,1,0,South_Africa,58558267,Africa
@@ -43214,6 +43390,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2156,102,South_Africa,58558267,Africa
 2020-10-24,1897,48,South_Africa,58558267,Africa
 2020-10-25,1834,53,South_Africa,58558267,Africa
+2020-10-26,1622,24,South_Africa,58558267,Africa
 2019-12-31,0,0,South_Korea,51225321,Asia - ex China
 2020-01-01,0,0,South_Korea,51225321,Asia - ex China
 2020-01-02,0,0,South_Korea,51225321,Asia - ex China
@@ -43514,6 +43691,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,155,2,South_Korea,51225321,Asia - ex China
 2020-10-24,77,2,South_Korea,51225321,Asia - ex China
 2020-10-25,61,0,South_Korea,51225321,Asia - ex China
+2020-10-26,119,0,South_Korea,51225321,Asia - ex China
 2020-04-06,1,0,South_Sudan,11062114,Africa
 2020-04-07,0,0,South_Sudan,11062114,Africa
 2020-04-08,0,0,South_Sudan,11062114,Africa
@@ -43717,6 +43895,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2,0,South_Sudan,11062114,Africa
 2020-10-24,4,1,South_Sudan,11062114,Africa
 2020-10-25,2,0,South_Sudan,11062114,Africa
+2020-10-26,5,0,South_Sudan,11062114,Africa
 2019-12-31,0,0,Spain,46937060,Western Europe
 2020-01-01,0,0,Spain,46937060,Western Europe
 2020-01-02,0,0,Spain,46937060,Western Europe
@@ -44016,6 +44195,7 @@ date,cases,deaths,country,population,continent
 2020-10-22,20986,155,Spain,46937060,Western Europe
 2020-10-23,19851,231,Spain,46937060,Western Europe
 2020-10-24,0,0,Spain,46937060,Western Europe
+2020-10-25,0,0,Spain,46937060,Western Europe
 2019-12-31,0,0,Sri_Lanka,21323734,Asia - ex China
 2020-01-01,0,0,Sri_Lanka,21323734,Asia - ex China
 2020-01-02,0,0,Sri_Lanka,21323734,Asia - ex China
@@ -44307,6 +44487,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,309,1,Sri_Lanka,21323734,Asia - ex China
 2020-10-24,866,0,Sri_Lanka,21323734,Asia - ex China
 2020-10-25,368,1,Sri_Lanka,21323734,Asia - ex China
+2020-10-26,351,0,Sri_Lanka,21323734,Asia - ex China
 2020-03-14,1,0,Sudan,42813237,Africa
 2020-03-15,0,1,Sudan,42813237,Africa
 2020-03-16,0,0,Sudan,42813237,Africa
@@ -44533,6 +44714,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Sudan,42813237,Africa
 2020-10-24,0,0,Sudan,42813237,Africa
 2020-10-25,18,1,Sudan,42813237,Africa
+2020-10-26,0,0,Sudan,42813237,Africa
 2020-03-15,1,0,Suriname,581363,America - ex USA
 2020-03-21,0,0,Suriname,581363,America - ex USA
 2020-03-22,4,0,Suriname,581363,America - ex USA
@@ -44753,6 +44935,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4,0,Suriname,581363,America - ex USA
 2020-10-24,1,0,Suriname,581363,America - ex USA
 2020-10-25,11,0,Suriname,581363,America - ex USA
+2020-10-26,4,0,Suriname,581363,America - ex USA
 2019-12-31,0,0,Sweden,10230185,Western Europe
 2020-01-01,0,0,Sweden,10230185,Western Europe
 2020-01-02,0,0,Sweden,10230185,Western Europe
@@ -45053,6 +45236,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1255,1,Sweden,10230185,Western Europe
 2020-10-24,0,0,Sweden,10230185,Western Europe
 2020-10-25,0,0,Sweden,10230185,Western Europe
+2020-10-26,0,0,Sweden,10230185,Western Europe
 2019-12-31,0,0,Switzerland,8544527,Western Europe
 2020-01-01,0,0,Switzerland,8544527,Western Europe
 2020-01-02,0,0,Switzerland,8544527,Western Europe
@@ -45353,6 +45537,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4968,11,Switzerland,8544527,Western Europe
 2020-10-24,6592,10,Switzerland,8544527,Western Europe
 2020-10-25,0,0,Switzerland,8544527,Western Europe
+2020-10-26,0,0,Switzerland,8544527,Western Europe
 2020-03-23,1,0,Syria,17070132,Asia - ex China
 2020-03-24,0,0,Syria,17070132,Asia - ex China
 2020-03-25,0,0,Syria,17070132,Asia - ex China
@@ -45570,6 +45755,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,43,3,Syria,17070132,Asia - ex China
 2020-10-24,52,4,Syria,17070132,Asia - ex China
 2020-10-25,40,3,Syria,17070132,Asia - ex China
+2020-10-26,49,2,Syria,17070132,Asia - ex China
 2019-12-31,0,0,Taiwan,23773881,Asia - ex China
 2020-01-01,0,0,Taiwan,23773881,Asia - ex China
 2020-01-02,0,0,Taiwan,23773881,Asia - ex China
@@ -45870,6 +46056,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,4,0,Taiwan,23773881,Asia - ex China
 2020-10-24,2,0,Taiwan,23773881,Asia - ex China
 2020-10-25,0,0,Taiwan,23773881,Asia - ex China
+2020-10-26,0,0,Taiwan,23773881,Asia - ex China
 2020-05-01,15,0,Tajikistan,9321023,Asia - ex China
 2020-05-02,0,0,Tajikistan,9321023,Asia - ex China
 2020-05-03,17,0,Tajikistan,9321023,Asia - ex China
@@ -46048,6 +46235,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,40,1,Tajikistan,9321023,Asia - ex China
 2020-10-24,42,0,Tajikistan,9321023,Asia - ex China
 2020-10-25,41,0,Tajikistan,9321023,Asia - ex China
+2020-10-26,40,0,Tajikistan,9321023,Asia - ex China
 2019-12-31,0,0,Thailand,69625581,Asia - ex China
 2020-01-01,0,0,Thailand,69625581,Asia - ex China
 2020-01-02,0,0,Thailand,69625581,Asia - ex China
@@ -46341,6 +46529,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,8,0,Thailand,69625581,Asia - ex China
 2020-10-24,4,0,Thailand,69625581,Asia - ex China
 2020-10-25,5,0,Thailand,69625581,Asia - ex China
+2020-10-26,7,0,Thailand,69625581,Asia - ex China
 2020-03-22,1,0,Timor_Leste,1293120,Asia - ex China
 2020-03-23,0,0,Timor_Leste,1293120,Asia - ex China
 2020-03-24,0,0,Timor_Leste,1293120,Asia - ex China
@@ -46559,6 +46748,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Timor_Leste,1293120,Asia - ex China
 2020-10-24,0,0,Timor_Leste,1293120,Asia - ex China
 2020-10-25,0,0,Timor_Leste,1293120,Asia - ex China
+2020-10-26,0,0,Timor_Leste,1293120,Asia - ex China
 2020-03-07,1,0,Togo,8082359,Africa
 2020-03-15,0,0,Togo,8082359,Africa
 2020-03-16,0,0,Togo,8082359,Africa
@@ -46785,6 +46975,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,19,1,Togo,8082359,Africa
 2020-10-24,23,0,Togo,8082359,Africa
 2020-10-25,25,0,Togo,8082359,Africa
+2020-10-26,13,0,Togo,8082359,Africa
 2020-03-13,1,0,Trinidad_and_Tobago,1394969,America - ex USA
 2020-03-14,1,0,Trinidad_and_Tobago,1394969,America - ex USA
 2020-03-15,0,0,Trinidad_and_Tobago,1394969,America - ex USA
@@ -47012,6 +47203,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,54,2,Trinidad_and_Tobago,1394969,America - ex USA
 2020-10-24,41,1,Trinidad_and_Tobago,1394969,America - ex USA
 2020-10-25,16,1,Trinidad_and_Tobago,1394969,America - ex USA
+2020-10-26,8,0,Trinidad_and_Tobago,1394969,America - ex USA
 2020-03-03,1,0,Tunisia,11694721,Africa
 2020-03-10,1,0,Tunisia,11694721,Africa
 2020-03-11,3,0,Tunisia,11694721,Africa
@@ -47243,6 +47435,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Tunisia,11694721,Africa
 2020-10-24,1322,44,Tunisia,11694721,Africa
 2020-10-25,1585,35,Tunisia,11694721,Africa
+2020-10-26,0,0,Tunisia,11694721,Africa
 2020-03-12,1,0,Turkey,82003882,Asia - ex China
 2020-03-13,1,0,Turkey,82003882,Asia - ex China
 2020-03-16,16,0,Turkey,82003882,Asia - ex China
@@ -47469,6 +47662,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,2102,71,Turkey,82003882,Asia - ex China
 2020-10-24,2165,74,Turkey,82003882,Asia - ex China
 2020-10-25,2091,69,Turkey,82003882,Asia - ex China
+2020-10-26,2017,72,Turkey,82003882,Asia - ex China
 2020-03-25,1,0,Turks_and_Caicos_islands,38194,America - ex USA
 2020-03-26,0,0,Turks_and_Caicos_islands,38194,America - ex USA
 2020-03-27,1,0,Turks_and_Caicos_islands,38194,America - ex USA
@@ -47684,6 +47878,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Turks_and_Caicos_islands,38194,America - ex USA
 2020-10-24,1,0,Turks_and_Caicos_islands,38194,America - ex USA
 2020-10-25,2,0,Turks_and_Caicos_islands,38194,America - ex USA
+2020-10-26,0,0,Turks_and_Caicos_islands,38194,America - ex USA
 2020-03-22,1,0,Uganda,44269587,Africa
 2020-03-23,0,0,Uganda,44269587,Africa
 2020-03-24,8,0,Uganda,44269587,Africa
@@ -47902,6 +48097,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,108,0,Uganda,44269587,Africa
 2020-10-24,122,1,Uganda,44269587,Africa
 2020-10-25,134,0,Uganda,44269587,Africa
+2020-10-26,146,2,Uganda,44269587,Africa
 2020-03-04,1,0,Ukraine,43993643,Rest of Europe
 2020-03-13,2,0,Ukraine,43993643,Rest of Europe
 2020-03-16,0,0,Ukraine,43993643,Rest of Europe
@@ -48128,6 +48324,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,7053,116,Ukraine,43993643,Rest of Europe
 2020-10-24,7517,121,Ukraine,43993643,Rest of Europe
 2020-10-25,7014,125,Ukraine,43993643,Rest of Europe
+2020-10-26,6079,102,Ukraine,43993643,Rest of Europe
 2019-12-31,0,0,United_Arab_Emirates,9770526,Asia - ex China
 2020-01-01,0,0,United_Arab_Emirates,9770526,Asia - ex China
 2020-01-02,0,0,United_Arab_Emirates,9770526,Asia - ex China
@@ -48422,6 +48619,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,1578,2,United_Arab_Emirates,9770526,Asia - ex China
 2020-10-24,1563,1,United_Arab_Emirates,9770526,Asia - ex China
 2020-10-25,1491,0,United_Arab_Emirates,9770526,Asia - ex China
+2020-10-26,1359,2,United_Arab_Emirates,9770526,Asia - ex China
 2019-12-31,0,0,United_Kingdom,66647112,Western Europe
 2020-01-01,0,0,United_Kingdom,66647112,Western Europe
 2020-01-02,0,0,United_Kingdom,66647112,Western Europe
@@ -48722,6 +48920,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,21238,189,United_Kingdom,66647112,Western Europe
 2020-10-24,20531,224,United_Kingdom,66647112,Western Europe
 2020-10-25,23012,174,United_Kingdom,66647112,Western Europe
+2020-10-26,19790,151,United_Kingdom,66647112,Western Europe
 2020-03-17,1,0,United_Republic_of_Tanzania,58005461,Africa
 2020-03-18,0,0,United_Republic_of_Tanzania,58005461,Africa
 2020-03-19,2,0,United_Republic_of_Tanzania,58005461,Africa
@@ -48945,6 +49144,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,United_Republic_of_Tanzania,58005461,Africa
 2020-10-24,0,0,United_Republic_of_Tanzania,58005461,Africa
 2020-10-25,0,0,United_Republic_of_Tanzania,58005461,Africa
+2020-10-26,0,0,United_Republic_of_Tanzania,58005461,Africa
 2019-12-31,0,0,United_States_of_America,329064917,USA
 2020-01-01,0,0,United_States_of_America,329064917,USA
 2020-01-02,0,0,United_States_of_America,329064917,USA
@@ -49245,6 +49445,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,72058,841,United_States_of_America,329064917,USA
 2020-10-24,85329,953,United_States_of_America,329064917,USA
 2020-10-25,83056,904,United_States_of_America,329064917,USA
+2020-10-26,59440,331,United_States_of_America,329064917,USA
 2020-03-24,17,0,United_States_Virgin_Islands,104579,America - ex USA
 2020-03-25,0,0,United_States_Virgin_Islands,104579,America - ex USA
 2020-03-26,0,0,United_States_Virgin_Islands,104579,America - ex USA
@@ -49460,6 +49661,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,United_States_Virgin_Islands,104579,America - ex USA
 2020-10-24,3,0,United_States_Virgin_Islands,104579,America - ex USA
 2020-10-25,2,0,United_States_Virgin_Islands,104579,America - ex USA
+2020-10-26,0,0,United_States_Virgin_Islands,104579,America - ex USA
 2020-03-15,6,0,Uruguay,3461731,America - ex USA
 2020-03-16,2,0,Uruguay,3461731,America - ex USA
 2020-03-17,21,0,Uruguay,3461731,America - ex USA
@@ -49685,6 +49887,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,38,0,Uruguay,3461731,America - ex USA
 2020-10-24,58,0,Uruguay,3461731,America - ex USA
 2020-10-25,48,0,Uruguay,3461731,America - ex USA
+2020-10-26,44,0,Uruguay,3461731,America - ex USA
 2020-03-16,6,0,Uzbekistan,32981715,Asia - ex China
 2020-03-17,2,0,Uzbekistan,32981715,Asia - ex China
 2020-03-18,8,0,Uzbekistan,32981715,Asia - ex China
@@ -49909,6 +50112,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,298,3,Uzbekistan,32981715,Asia - ex China
 2020-10-24,178,1,Uzbekistan,32981715,Asia - ex China
 2020-10-25,389,5,Uzbekistan,32981715,Asia - ex China
+2020-10-26,280,3,Uzbekistan,32981715,Asia - ex China
 2020-03-15,10,0,Venezuela,28515829,America - ex USA
 2020-03-16,5,0,Venezuela,28515829,America - ex USA
 2020-03-17,18,0,Venezuela,28515829,America - ex USA
@@ -50133,6 +50337,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,381,6,Venezuela,28515829,America - ex USA
 2020-10-24,302,5,Venezuela,28515829,America - ex USA
 2020-10-25,424,6,Venezuela,28515829,America - ex USA
+2020-10-26,423,3,Venezuela,28515829,America - ex USA
 2019-12-31,0,0,Vietnam,96462108,Asia - ex China
 2020-01-01,0,0,Vietnam,96462108,Asia - ex China
 2020-01-02,0,0,Vietnam,96462108,Asia - ex China
@@ -50429,6 +50634,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,3,0,Vietnam,96462108,Asia - ex China
 2020-10-24,0,0,Vietnam,96462108,Asia - ex China
 2020-10-25,12,0,Vietnam,96462108,Asia - ex China
+2020-10-26,8,0,Vietnam,96462108,Asia - ex China
 2020-10-17,1,0,Wallis_and_Futuna,NA,Oceania
 2020-10-18,0,0,Wallis_and_Futuna,NA,Oceania
 2020-10-19,0,0,Wallis_and_Futuna,NA,Oceania
@@ -50438,6 +50644,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Wallis_and_Futuna,NA,Oceania
 2020-10-24,0,0,Wallis_and_Futuna,NA,Oceania
 2020-10-25,0,0,Wallis_and_Futuna,NA,Oceania
+2020-10-26,0,0,Wallis_and_Futuna,NA,Oceania
 2020-04-26,6,0,Western_Sahara,582458,Africa
 2020-04-27,0,0,Western_Sahara,582458,Africa
 2020-04-28,0,0,Western_Sahara,582458,Africa
@@ -50621,6 +50828,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Western_Sahara,582458,Africa
 2020-10-24,0,0,Western_Sahara,582458,Africa
 2020-10-25,0,0,Western_Sahara,582458,Africa
+2020-10-26,0,0,Western_Sahara,582458,Africa
 2020-04-10,1,0,Yemen,29161922,Asia - ex China
 2020-04-11,0,0,Yemen,29161922,Asia - ex China
 2020-04-12,0,0,Yemen,29161922,Asia - ex China
@@ -50820,6 +51028,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,0,0,Yemen,29161922,Asia - ex China
 2020-10-24,0,0,Yemen,29161922,Asia - ex China
 2020-10-25,3,1,Yemen,29161922,Asia - ex China
+2020-10-26,0,0,Yemen,29161922,Asia - ex China
 2020-03-19,2,0,Zambia,17861034,Africa
 2020-03-20,0,0,Zambia,17861034,Africa
 2020-03-21,0,0,Zambia,17861034,Africa
@@ -51041,6 +51250,7 @@ date,cases,deaths,country,population,continent
 2020-10-23,35,0,Zambia,17861034,Africa
 2020-10-24,60,0,Zambia,17861034,Africa
 2020-10-25,22,2,Zambia,17861034,Africa
+2020-10-26,0,0,Zambia,17861034,Africa
 2020-03-21,1,0,Zimbabwe,14645473,Africa
 2020-03-22,1,0,Zimbabwe,14645473,Africa
 2020-03-23,0,0,Zimbabwe,14645473,Africa
@@ -51260,3 +51470,4 @@ date,cases,deaths,country,population,continent
 2020-10-23,27,0,Zimbabwe,14645473,Africa
 2020-10-24,15,0,Zimbabwe,14645473,Africa
 2020-10-25,12,0,Zimbabwe,14645473,Africa
+2020-10-26,7,1,Zimbabwe,14645473,Africa
