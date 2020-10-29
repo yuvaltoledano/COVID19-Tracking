@@ -339,14 +339,15 @@ ggsave(filename =  file_name, plot = plot_daily_deaths_14day_rolling_sum_per1000
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Cumulative cases charts by continent
+# Cases and deaths charts by continent
+
+# Prepare data:
 population_continent <- raw_data %>%
   select(country, continent, population) %>%
   distinct() %>%
   group_by(continent) %>%
-  summarize(population_continent_total = sum(population)) %>%
-  ungroup() %>%
-  drop_na()
+  summarize(population_continent_total = sum(population, na.rm = TRUE)) %>%
+  filter(population_continent_total > 0)
 
 clean_data_continent <- raw_data %>%
   group_by(date, continent) %>%
