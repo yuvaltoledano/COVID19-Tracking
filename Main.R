@@ -89,7 +89,7 @@ plot_daily_cases <- ggplot(clean_data, aes(x = date, y = cases)) +
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "Daily new COVID-19 cases",
        caption = chart_caption)
 
@@ -103,7 +103,7 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "Cumulative reported COVID-19 cases",
        caption = chart_caption)
 
@@ -117,7 +117,7 @@ plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_case
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases per 100,000",
+       y = "",
        title = "Cumulative reported COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -131,7 +131,7 @@ plot_daily_cases_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = ca
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "Daily new COVID-19 cases (7-day rolling average)",
        caption = chart_caption)
 
@@ -145,7 +145,7 @@ plot_daily_cases_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = cases_
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "COVID-19 cases 7-day rolling sum",
        caption = chart_caption)
 
@@ -159,7 +159,7 @@ plot_daily_cases_7day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date, 
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "COVID-19 cases 7-day rolling sum per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -173,7 +173,7 @@ plot_daily_cases_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = c
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "Daily new COVID-19 cases (14-day rolling average)",
        caption = chart_caption)
 
@@ -187,7 +187,7 @@ plot_daily_cases_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = d
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "Daily new COVID-19 cases (14-day rolling average) per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -201,7 +201,7 @@ plot_daily_cases_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date,
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "COVID-19 cases 14-day rolling sum per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -218,7 +218,7 @@ plot_daily_deaths <- ggplot(clean_data, aes(x = date, y = deaths)) +
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "Daily new COVID-19 deaths",
        caption = chart_caption)
 
@@ -232,7 +232,7 @@ plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cum_deaths)) +
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "Cumulative reported COVID-19 deaths",
        caption = chart_caption)
 
@@ -246,7 +246,7 @@ plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = deaths_
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths per 100,000",
+       y = "",
        title = "Cumulative reported COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -260,7 +260,7 @@ plot_daily_deaths_7day_rolling_average <- ggplot(clean_data, aes(x = date, y = d
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "Daily new COVID-19 deaths (7-day rolling average)",
        caption = chart_caption)
 
@@ -274,7 +274,7 @@ plot_daily_deaths_7day_rolling_sum <- ggplot(clean_data, aes(x = date, y = death
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "COVID-19 deaths (7-day rolling sum)",
        caption = chart_caption)
 
@@ -288,7 +288,7 @@ plot_daily_deaths_7day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date,
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "COVID-19 deaths 7-day rolling sum per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -302,7 +302,7 @@ plot_daily_deaths_14day_rolling_average <- ggplot(clean_data, aes(x = date, y = 
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "Daily new COVID-19 deaths (14-day rolling average)",
        caption = chart_caption)
 
@@ -316,7 +316,7 @@ plot_daily_deaths_14day_rolling_average_per100000 <- ggplot(clean_data, aes(x = 
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "Daily new COVID-19 deaths (14-day rolling average) per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -330,7 +330,7 @@ plot_daily_deaths_14day_rolling_sum_per100000 <- ggplot(clean_data, aes(x = date
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "COVID-19 deaths 14-day rolling sum per 100,000 inhabitants",
        caption = chart_caption)
 
@@ -390,7 +390,7 @@ plot_daily_cases_7day_rolling_sum_continent <- ggplot(clean_data_continent, aes(
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "COVID-19 cases 7-day rolling sum",
        caption = chart_caption)
 
@@ -404,7 +404,7 @@ plot_daily_cases_7day_rolling_sum_per1000000_continent <- ggplot(clean_data_cont
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "COVID-19 cases 7-day rolling sum per 1,000,000 inhabitants",
        caption = chart_caption)
 
@@ -418,7 +418,7 @@ plot_cumulative_cases_per1000000_continent <- ggplot(clean_data_continent, aes(x
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases per 1,000,000 inhabitants",
+       y = "",
        title = "Cumulative reported COVID-19 cases per 1,000,000 inhabitants",
        caption = chart_caption)
   
@@ -432,7 +432,7 @@ plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y 
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported cases",
+       y = "",
        title = "Cumulative reported COVID-19 cases",
        caption = chart_caption)
 
@@ -447,7 +447,7 @@ plot_daily_deaths_7day_rolling_sum_continent <- ggplot(clean_data_continent, aes
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "COVID-19 deaths 7-day rolling sum",
        caption = chart_caption)
 
@@ -461,7 +461,7 @@ plot_daily_deaths_7day_rolling_sum_per1000000_continent <- ggplot(clean_data_con
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "COVID-19 deaths 7-day rolling sum per 1,000,000 inhabitants",
        caption = chart_caption)
 
@@ -475,7 +475,7 @@ plot_cumulative_deaths_per1000000_continent <- ggplot(clean_data_continent, aes(
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths per 1,000,000 inhabitants",
+       y = "",
        title = "Cumulative reported COVID-19 deaths per 1,000,000 inhabitants",
        caption = chart_caption)
 
@@ -489,7 +489,7 @@ plot_cumulative_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
-       y = "Reported deaths",
+       y = "",
        title = "Cumulative reported COVID-19 deaths",
        caption = chart_caption)
 
