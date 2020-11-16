@@ -69,7 +69,8 @@ clean_data <- clean_data %>%
          deaths_14day_rollmean = rollmean(deaths, 14, fill = NA, align = "right"),
          deaths_14day_rollsum = rollsum(deaths, 14, fill = NA, align = "right"),
          deaths_14day_rollmean_per100000 = deaths_14day_rollmean / (population / 100000),
-         deaths_14day_rollsum_per100000 = deaths_14day_rollsum / (population / 100000))
+         deaths_14day_rollsum_per100000 = deaths_14day_rollsum / (population / 100000)) %>%
+  ungroup()
 
 # Write results back to csv:
 as_of_date <- max(clean_data$date)
@@ -381,7 +382,8 @@ clean_data_continent <- clean_data_continent %>%
          deaths_14day_rollmean = rollmean(total_continent_deaths_on_date, 14, fill = NA, align = "right"),
          deaths_14day_rollsum = rollsum(total_continent_deaths_on_date, 14, fill = NA, align = "right"),
          deaths_14day_rollmean_per1000000 = deaths_14day_rollmean / (population_continent_total / 1000000),
-         deaths_14day_rollsum_per1000000 = deaths_14day_rollsum / (population_continent_total / 1000000))
+         deaths_14day_rollsum_per1000000 = deaths_14day_rollsum / (population_continent_total / 1000000)) %>%
+  ungroup()
 
 # Plot cases:
 plot_daily_cases_7day_rolling_sum_continent <- ggplot(clean_data_continent, aes(x = date, y = cases_7day_rollsum)) +
