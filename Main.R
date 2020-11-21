@@ -498,3 +498,12 @@ plot_cumulative_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y
 
 file_name <- paste(as_of_date, " Cumulative deaths by continent",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Read in and process ICU admissions data:
+icu_admissions_raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/hospitalicuadmissionrates/csv")
+
+icu_admissions_raw_data <- icu_admissions_raw_data %>%
+  clean_names() %>%
+  select(country, indicator, date, value)
