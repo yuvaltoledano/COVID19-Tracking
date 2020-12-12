@@ -32,11 +32,11 @@ if(all_equal(raw_data, raw_data_master) != TRUE) {
   raw_data_master <- anti_join(raw_data_master, obsolte_entries)
 }
 
-raw_data_master <- raw_data_master %>%
-  arrange(country, date)
-
 # Write results back to csv:
-write_csv(raw_data_master, here("Data Files", "Raw data.csv"))
+raw_data_master <- raw_data_master %>%
+  arrange(country, date) %>%
+  write_csv(here("Data Files", "Raw data.csv"))
+
 rm(raw_data_master)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
