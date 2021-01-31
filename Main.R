@@ -78,7 +78,7 @@ plot_weekly_cases <- ggplot(clean_data, aes(x = date, y = cases_weekly)) +
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly new COVID-19 cases",
+       title = "Weekly COVID-19 cases",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Weekly cases",  ".png", sep = "")
@@ -92,7 +92,7 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 cases",
+       title = "Cumulative COVID-19 cases",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases",  ".png", sep = "")
@@ -106,7 +106,7 @@ plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_case
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 cases per 100,000 inhabitants",
+       title = "Cumulative COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases per 100,000 inhabitants",  ".png", sep = "")
@@ -120,7 +120,7 @@ plot_weekly_cases_per100000 <- ggplot(clean_data, aes(x = date, y = weekly_cases
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly new COVID-19 cases per 100,000 inhabitants",
+       title = "Weekly COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Weekly cases per 100,000 inhabitants",  ".png", sep = "")
@@ -137,7 +137,7 @@ plot_weekly_deaths <- ggplot(clean_data, aes(x = date, y = deaths_weekly)) +
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly new COVID-19 deaths",
+       title = "Weekly COVID-19 deaths",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Weekly deaths",  ".png", sep = "")
@@ -151,7 +151,7 @@ plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cum_deaths)) +
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 deaths",
+       title = "Cumulative COVID-19 deaths",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths",  ".png", sep = "")
@@ -165,7 +165,7 @@ plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = cum_dea
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 deaths per 100,000 inhabitants",
+       title = "Cumulative COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths per 100,000 inhabitants",  ".png", sep = "")
@@ -179,7 +179,7 @@ plot_weekly_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = weekly_deat
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly new COVID-19 deaths per 100,000 inhabitants",
+       title = "Weekly COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Weekly deaths per 100,000 inhabitants",  ".png", sep = "")
@@ -255,7 +255,7 @@ plot_cumulative_cases_per1000000_continent <- ggplot(clean_data_continent, aes(x
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 cases per 1,000,000 inhabitants",
+       title = "Cumulative COVID-19 cases per 1,000,000 inhabitants",
        caption = chart_caption)
   
 file_name <- paste(as_of_date, " Cumulative cases per 1,000,000 inhabitants by continent",  ".png", sep = "")
@@ -269,7 +269,7 @@ plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y 
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 cases",
+       title = "Cumulative COVID-19 cases",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative cases by continent",  ".png", sep = "")
@@ -312,7 +312,7 @@ plot_cumulative_deaths_per1000000_continent <- ggplot(clean_data_continent, aes(
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 deaths per 1,000,000 inhabitants",
+       title = "Cumulative COVID-19 deaths per 1,000,000 inhabitants",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths per 1,000,000 inhabitants by continent",  ".png", sep = "")
@@ -326,7 +326,7 @@ plot_cumulative_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative reported COVID-19 deaths",
+       title = "Cumulative COVID-19 deaths",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " Cumulative deaths by continent",  ".png", sep = "")
