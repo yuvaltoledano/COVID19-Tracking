@@ -48,7 +48,7 @@ clean_data <- raw_data %>%
   filter(country %in% relevant_countries) %>%
   arrange(country, date)
 
-# Calculate 7-day rolling averages, sums, and cumulatives:
+# Add calculated columns:
 clean_data <- clean_data %>%
   group_by(country) %>%
   mutate(cum_cases = cumsum(cases_weekly),
@@ -334,7 +334,7 @@ ggsave(filename =  file_name, plot = plot_cumulative_deaths_continent, path = he
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Read in and process ICU admissions data:
+# Read in and process hospital and ICU data:
 hospital_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/hospitalicuadmissionrates/csv")
 
 hospital_data <- hospital_data %>%
