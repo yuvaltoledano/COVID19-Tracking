@@ -415,3 +415,23 @@ plot_weekly_icu_admissions_per100000 <- hospital_data %>%
 
 file_name <- paste(as_of_date, " Weekly new ICU admissions per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_weekly_icu_admissions_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Read in and process Germany vaccination data:
+vaccination_data <- read_tsv("https://impfdashboard.de/static/data/germany_vaccinations_timeseries_v2.tsv")
+
+vaccination_data <- vaccination_data %>%
+  clean_names() %>%
+  rename(cum_vacs = dosen_kumulativ,
+         new_vacs_all = dosen_differenz_zum_vortag,
+         new_vacs_first_dose_all = dosen_erst_differenz_zum_vortag,
+         new_vacs_second_dose_all = dosen_zweit_differenz_zum_vortag,
+         cum_vacs_pfizer = dosen_biontech_kumulativ,
+         cum_vacs_moderna = dosen_moderna_kumulativ,
+         cum_persons_vaccinated_first_dose = personen_erst_kumulativ,
+         cum_persons_vaccinated_second_dose = personen_voll_kumulativ,
+         pct_population_vaccinated_first_dose = impf_quote_erst,
+         pct_population_vaccinated_second_dose - impf_quote_voll)
+
+
