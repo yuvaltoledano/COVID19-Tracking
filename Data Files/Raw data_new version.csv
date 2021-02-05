@@ -55,6 +55,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,675,71,Afghanistan,38041757,Asia - ex China,4.15
 2021-01-18,2021-02,557,45,Afghanistan,38041757,Asia - ex China,3.24
 2021-01-25,2021-03,713,43,Afghanistan,38041757,Asia - ex China,3.34
+2021-02-01,2021-04,267,16,Afghanistan,38041757,Asia - ex China,2.58
 2020-03-09,2020-10,2,0,Albania,2862427,Rest of Europe,NA
 2020-03-16,2020-11,40,1,Albania,2862427,Rest of Europe,1.47
 2020-03-23,2020-12,47,1,Albania,2862427,Rest of Europe,3.04
@@ -102,6 +103,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4157,48,Albania,2862427,Rest of Europe,245.35
 2021-01-18,2021-02,4095,36,Albania,2862427,Rest of Europe,288.29
 2021-01-25,2021-03,4584,38,Albania,2862427,Rest of Europe,303.2
+2021-02-01,2021-04,5853,65,Albania,2862427,Rest of Europe,364.62
 2020-01-06,2020-01,0,0,Algeria,43053054,Africa,NA
 2020-01-13,2020-02,0,0,Algeria,43053054,Africa,0
 2020-01-20,2020-03,0,0,Algeria,43053054,Africa,0
@@ -158,6 +160,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1736,35,Algeria,43053054,Africa,8.16
 2021-01-18,2021-02,1689,29,Algeria,43053054,Africa,7.96
 2021-01-25,2021-03,1763,27,Algeria,43053054,Africa,8.02
+2021-02-01,2021-04,1743,28,Algeria,43053054,Africa,8.14
 2020-03-16,2020-11,5,0,Andorra,76177,Rest of Europe,NA
 2020-03-23,2020-12,108,0,Andorra,76177,Rest of Europe,148.34
 2020-03-30,2020-13,221,6,Andorra,76177,Rest of Europe,431.89
@@ -204,6 +207,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,490,2,Andorra,76177,Rest of Europe,1437.44
 2021-01-18,2021-02,401,5,Andorra,76177,Rest of Europe,1169.64
 2021-01-25,2021-03,466,5,Andorra,76177,Rest of Europe,1138.14
+2021-02-01,2021-04,388,5,Andorra,76177,Rest of Europe,1121.07
 2020-03-23,2020-12,2,0,Angola,31825299,Africa,NA
 2020-03-30,2020-13,5,2,Angola,31825299,Africa,0.02
 2020-04-06,2020-14,7,0,Angola,31825299,Africa,0.04
@@ -249,6 +253,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,551,8,Angola,31825299,Africa,2.82
 2021-01-18,2021-02,682,20,Angola,31825299,Africa,3.87
 2021-01-25,2021-03,524,23,Angola,31825299,Africa,3.79
+2021-02-01,2021-04,397,7,Angola,31825299,Africa,2.89
 2020-03-30,2020-13,2,0,Anguilla,14872,America - ex USA,NA
 2020-04-06,2020-14,1,0,Anguilla,14872,America - ex USA,20.17
 2020-04-13,2020-15,0,0,Anguilla,14872,America - ex USA,6.72
@@ -293,6 +298,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Anguilla,14872,America - ex USA,13.45
 2021-01-18,2021-02,0,0,Anguilla,14872,America - ex USA,0
 2021-01-25,2021-03,1,0,Anguilla,14872,America - ex USA,6.72
+2021-02-01,2021-04,1,0,Anguilla,14872,America - ex USA,13.45
 2020-03-23,2020-12,1,0,Antigua_and_Barbuda,97115,America - ex USA,NA
 2020-03-30,2020-13,6,0,Antigua_and_Barbuda,97115,America - ex USA,7.21
 2020-04-06,2020-14,8,0,Antigua_and_Barbuda,97115,America - ex USA,14.42
@@ -336,8 +342,9 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2020-12-28,2020-52,5,0,Antigua_and_Barbuda,97115,America - ex USA,10.3
 2021-01-04,2020-53,2,0,Antigua_and_Barbuda,97115,America - ex USA,7.21
 2021-01-11,2021-01,16,0,Antigua_and_Barbuda,97115,America - ex USA,18.53
-2021-01-18,2021-02,13,1,Antigua_and_Barbuda,97115,America - ex USA,29.86
+2021-01-18,2021-02,13,0,Antigua_and_Barbuda,97115,America - ex USA,29.86
 2021-01-25,2021-03,12,0,Antigua_and_Barbuda,97115,America - ex USA,25.74
+2021-02-01,2021-04,33,0,Antigua_and_Barbuda,97115,America - ex USA,46.34
 2020-03-09,2020-10,12,1,Argentina,44780675,America - ex USA,NA
 2020-03-16,2020-11,44,1,Argentina,44780675,America - ex USA,0.13
 2020-03-23,2020-12,210,2,Argentina,44780675,America - ex USA,0.57
@@ -385,6 +392,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,90203,1172,Argentina,44780675,America - ex USA,313.58
 2021-01-18,2021-02,76488,1178,Argentina,44780675,America - ex USA,372.24
 2021-01-25,2021-03,67388,1202,Argentina,44780675,America - ex USA,321.29
+2021-02-01,2021-04,59056,1215,Argentina,44780675,America - ex USA,282.36
 2020-01-06,2020-01,0,0,Armenia,2957728,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Armenia,2957728,Rest of Europe,0
 2020-01-20,2020-03,0,0,Armenia,2957728,Rest of Europe,0
@@ -441,6 +449,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2068,67,Armenia,2957728,Rest of Europe,146.73
 2021-01-18,2021-02,2388,67,Armenia,2957728,Rest of Europe,150.66
 2021-01-25,2021-03,1418,49,Armenia,2957728,Rest of Europe,128.68
+2021-02-01,2021-04,994,37,Armenia,2957728,Rest of Europe,81.55
 2020-03-30,2020-13,50,0,Aruba,106310,America - ex USA,NA
 2020-04-06,2020-14,14,0,Aruba,106310,America - ex USA,60.2
 2020-04-13,2020-15,28,0,Aruba,106310,America - ex USA,39.51
@@ -485,6 +494,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,504,3,Aruba,106310,America - ex USA,700.78
 2021-01-18,2021-02,367,0,Aruba,106310,America - ex USA,819.3
 2021-01-25,2021-03,307,5,Aruba,106310,America - ex USA,633.99
+2021-02-01,2021-04,244,2,Aruba,106310,America - ex USA,518.3
 2020-01-06,2020-01,0,0,Australia,25203200,Oceania,NA
 2020-01-13,2020-02,0,0,Australia,25203200,Oceania,0
 2020-01-20,2020-03,0,0,Australia,25203200,Oceania,0
@@ -541,6 +551,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,110,0,Australia,25203200,Oceania,1.2
 2021-01-18,2021-02,94,0,Australia,25203200,Oceania,0.81
 2021-01-25,2021-03,58,0,Australia,25203200,Oceania,0.6
+2021-02-01,2021-04,52,0,Australia,25203200,Oceania,0.44
 2020-01-06,2020-01,0,0,Austria,8858775,Western Europe,NA
 2020-01-13,2020-02,0,0,Austria,8858775,Western Europe,0
 2020-01-20,2020-03,0,0,Austria,8858775,Western Europe,0
@@ -597,6 +608,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,15133,378,Austria,8858775,Western Europe,319.69
 2021-01-18,2021-02,11406,383,Austria,8858775,Western Europe,299.58
 2021-01-25,2021-03,10421,348,Austria,8858775,Western Europe,246.39
+2021-02-01,2021-04,9451,291,Austria,8858775,Western Europe,224.32
 2020-01-06,2020-01,0,0,Azerbaijan,10047719,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Azerbaijan,10047719,Rest of Europe,0
 2020-01-20,2020-03,0,0,Azerbaijan,10047719,Rest of Europe,0
@@ -653,6 +665,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4562,193,Azerbaijan,10047719,Rest of Europe,93
 2021-01-18,2021-02,2564,96,Azerbaijan,10047719,Rest of Europe,70.92
 2021-01-25,2021-03,1641,71,Azerbaijan,10047719,Rest of Europe,41.85
+2021-02-01,2021-04,1187,39,Azerbaijan,10047719,Rest of Europe,28.15
 2020-03-16,2020-11,1,0,Bahamas,389486,America - ex USA,NA
 2020-03-23,2020-12,3,0,Bahamas,389486,America - ex USA,1.03
 2020-03-30,2020-13,10,0,Bahamas,389486,America - ex USA,3.34
@@ -699,6 +712,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,80,0,Bahamas,389486,America - ex USA,43.65
 2021-01-18,2021-02,63,0,Bahamas,389486,America - ex USA,36.72
 2021-01-25,2021-03,66,0,Bahamas,389486,America - ex USA,33.12
+2021-02-01,2021-04,41,1,Bahamas,389486,America - ex USA,27.47
 2020-01-06,2020-01,0,0,Bahrain,1641164,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Bahrain,1641164,Asia - ex China,0
 2020-01-20,2020-03,0,0,Bahrain,1641164,Asia - ex China,0
@@ -755,6 +769,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2080,4,Bahrain,1641164,Asia - ex China,233.07
 2021-01-18,2021-02,2049,4,Bahrain,1641164,Asia - ex China,251.59
 2021-01-25,2021-03,1849,7,Bahrain,1641164,Asia - ex China,237.51
+2021-02-01,2021-04,3601,8,Bahrain,1641164,Asia - ex China,332.08
 2020-03-09,2020-10,3,0,Bangladesh,163046173,Asia - ex China,NA
 2020-03-16,2020-11,0,0,Bangladesh,163046173,Asia - ex China,0
 2020-03-23,2020-12,24,3,Bangladesh,163046173,Asia - ex China,0.01
@@ -802,6 +817,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,6434,155,Bangladesh,163046173,Asia - ex China,8.16
 2021-01-18,2021-02,5179,125,Bangladesh,163046173,Asia - ex China,7.12
 2021-01-25,2021-03,4167,117,Bangladesh,163046173,Asia - ex China,5.73
+2021-02-01,2021-04,3340,104,Bangladesh,163046173,Asia - ex China,4.6
 2020-03-23,2020-12,17,0,Barbados,287021,America - ex USA,NA
 2020-03-30,2020-13,16,0,Barbados,287021,America - ex USA,11.5
 2020-04-06,2020-14,23,1,Barbados,287021,America - ex USA,13.59
@@ -847,6 +863,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,278,0,Barbados,287021,America - ex USA,181.87
 2021-01-18,2021-02,211,0,Barbados,287021,America - ex USA,170.37
 2021-01-25,2021-03,306,3,Barbados,287021,America - ex USA,180.13
+2021-02-01,2021-04,157,4,Barbados,287021,America - ex USA,161.31
 2020-01-06,2020-01,0,0,Belarus,9452409,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Belarus,9452409,Rest of Europe,0
 2020-01-20,2020-03,0,0,Belarus,9452409,Rest of Europe,0
@@ -903,6 +920,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,14031,75,Belarus,9452409,Rest of Europe,268.77
 2021-01-18,2021-02,13367,65,Belarus,9452409,Rest of Europe,289.85
 2021-01-25,2021-03,10251,58,Belarus,9452409,Rest of Europe,249.86
+2021-02-01,2021-04,10725,69,Belarus,9452409,Rest of Europe,221.91
 2020-01-06,2020-01,0,0,Belgium,11455519,Western Europe,NA
 2020-01-13,2020-02,0,0,Belgium,11455519,Western Europe,0
 2020-01-20,2020-03,0,0,Belgium,11455519,Western Europe,0
@@ -943,22 +961,23 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2020-09-21,2020-38,10108,27,Belgium,11455519,Western Europe,141.99
 2020-09-28,2020-39,11274,39,Belgium,11455519,Western Europe,186.65
 2020-10-05,2020-40,18884,84,Belgium,11455519,Western Europe,263.26
-2020-10-12,2020-41,38829,139,Belgium,11455519,Western Europe,503.8
-2020-10-19,2020-42,72196,236,Belgium,11455519,Western Europe,969.18
+2020-10-12,2020-41,38830,139,Belgium,11455519,Western Europe,503.81
+2020-10-19,2020-42,72196,236,Belgium,11455519,Western Europe,969.19
 2020-10-26,2020-43,105329,502,Belgium,11455519,Western Europe,1549.69
 2020-11-02,2020-44,99544,1056,Belgium,11455519,Western Europe,1788.42
-2020-11-09,2020-45,53993,1411,Belgium,11455519,Western Europe,1340.29
+2020-11-09,2020-45,53994,1411,Belgium,11455519,Western Europe,1340.3
 2020-11-16,2020-46,33962,1328,Belgium,11455519,Western Europe,767.8
 2020-11-23,2020-47,22306,1123,Belgium,11455519,Western Europe,491.19
 2020-11-30,2020-48,16253,874,Belgium,11455519,Western Europe,336.6
 2020-12-07,2020-49,15275,699,Belgium,11455519,Western Europe,275.22
 2020-12-14,2020-50,16793,666,Belgium,11455519,Western Europe,279.93
 2020-12-21,2020-51,17683,654,Belgium,11455519,Western Europe,300.96
-2020-12-28,2020-52,12583,534,Belgium,11455519,Western Europe,264.2
-2021-01-04,2020-53,11383,455,Belgium,11455519,Western Europe,209.21
-2021-01-11,2021-01,14706,383,Belgium,11455519,Western Europe,227.74
-2021-01-18,2021-02,13829,343,Belgium,11455519,Western Europe,249.09
-2021-01-25,2021-03,15113,368,Belgium,11455519,Western Europe,252.65
+2020-12-28,2020-52,12584,534,Belgium,11455519,Western Europe,264.21
+2021-01-04,2020-53,11383,455,Belgium,11455519,Western Europe,209.22
+2021-01-11,2021-01,14706,384,Belgium,11455519,Western Europe,227.74
+2021-01-18,2021-02,13845,344,Belgium,11455519,Western Europe,249.23
+2021-01-25,2021-03,15206,373,Belgium,11455519,Western Europe,253.6
+2021-02-01,2021-04,16454,291,Belgium,11455519,Western Europe,276.37
 2020-03-30,2020-13,2,0,Belize,390351,America - ex USA,NA
 2020-04-06,2020-14,3,1,Belize,390351,America - ex USA,1.28
 2020-04-13,2020-15,9,1,Belize,390351,America - ex USA,3.07
@@ -1003,6 +1022,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,402,24,Belize,390351,America - ex USA,190.09
 2021-01-18,2021-02,205,7,Belize,390351,America - ex USA,155.5
 2021-01-25,2021-03,262,12,Belize,390351,America - ex USA,119.64
+2021-02-01,2021-04,175,9,Belize,390351,America - ex USA,111.95
 2020-03-23,2020-12,2,0,Benin,11801151,Africa,NA
 2020-03-30,2020-13,4,0,Benin,11801151,Africa,0.05
 2020-04-06,2020-14,16,0,Benin,11801151,Africa,0.17
@@ -1048,6 +1068,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,53,0,Benin,11801151,Africa,0.84
 2021-01-18,2021-02,109,2,Benin,11801151,Africa,1.37
 2021-01-25,2021-03,230,2,Benin,11801151,Africa,2.87
+2021-02-01,2021-04,250,4,Benin,11801151,Africa,4.07
 2020-03-23,2020-12,6,0,Bermuda,62508,America - ex USA,NA
 2020-03-30,2020-13,16,0,Bermuda,62508,America - ex USA,35.2
 2020-04-06,2020-14,15,0,Bermuda,62508,America - ex USA,49.59
@@ -1093,6 +1114,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,34,2,Bermuda,62508,America - ex USA,119.98
 2021-01-18,2021-02,27,0,Bermuda,62508,America - ex USA,97.59
 2021-01-25,2021-03,3,0,Bermuda,62508,America - ex USA,47.99
+2021-02-01,2021-04,6,0,Bermuda,62508,America - ex USA,14.4
 2020-03-23,2020-12,2,0,Bhutan,763094,Asia - ex China,NA
 2020-03-30,2020-13,2,0,Bhutan,763094,Asia - ex China,0.52
 2020-04-06,2020-14,1,0,Bhutan,763094,Asia - ex China,0.39
@@ -1138,6 +1160,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,97,1,Bhutan,763094,Asia - ex China,24.9
 2021-01-18,2021-02,29,0,Bhutan,763094,Asia - ex China,16.51
 2021-01-25,2021-03,13,0,Bhutan,763094,Asia - ex China,5.5
+2021-02-01,2021-04,4,0,Bhutan,763094,Asia - ex China,2.23
 2020-03-23,2020-12,27,0,Bolivia,11513102,America - ex USA,NA
 2020-03-30,2020-13,69,3,Bolivia,11513102,America - ex USA,0.83
 2020-04-06,2020-14,87,8,Bolivia,11513102,America - ex USA,1.35
@@ -1183,6 +1206,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,11235,175,Bolivia,11513102,America - ex USA,165.49
 2021-01-18,2021-02,13287,260,Bolivia,11513102,America - ex USA,212.99
 2021-01-25,2021-03,15635,415,Bolivia,11513102,America - ex USA,251.21
+2021-02-01,2021-04,14017,328,Bolivia,11513102,America - ex USA,257.55
 2020-04-06,2020-14,2,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA,NA
 2020-04-13,2020-15,1,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA,11.55
 2020-04-20,2020-16,2,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA,11.55
@@ -1226,6 +1250,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,93,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA,581.15
 2021-01-18,2021-02,31,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA,477.24
 2021-01-25,2021-03,17,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA,184.74
+2021-02-01,2021-04,10,0,"Bonaire, Saint Eustatius and Saba",25983,America - ex USA,103.91
 2020-03-16,2020-11,18,0,Bosnia_and_Herzegovina,3300998,Rest of Europe,NA
 2020-03-23,2020-12,107,1,Bosnia_and_Herzegovina,3300998,Rest of Europe,3.79
 2020-03-30,2020-13,198,5,Bosnia_and_Herzegovina,3300998,Rest of Europe,9.24
@@ -1272,6 +1297,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3113,227,Bosnia_and_Herzegovina,3300998,Rest of Europe,183.79
 2021-01-18,2021-02,2325,128,Bosnia_and_Herzegovina,3300998,Rest of Europe,164.74
 2021-01-25,2021-03,2060,107,Bosnia_and_Herzegovina,3300998,Rest of Europe,132.84
+2021-02-01,2021-04,2056,131,Bosnia_and_Herzegovina,3300998,Rest of Europe,124.69
 2020-04-06,2020-14,6,1,Botswana,2303703,Africa,NA
 2020-04-13,2020-15,7,0,Botswana,2303703,Africa,0.56
 2020-04-20,2020-16,7,0,Botswana,2303703,Africa,0.61
@@ -1315,6 +1341,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1285,3,Botswana,2303703,Africa,87.9
 2021-01-18,2021-02,1315,23,Botswana,2303703,Africa,112.86
 2021-01-25,2021-03,2289,34,Botswana,2303703,Africa,156.44
+2021-02-01,2021-04,1639,29,Botswana,2303703,Africa,170.51
 2020-01-06,2020-01,0,0,Brazil,211049519,America - ex USA,NA
 2020-01-13,2020-02,0,0,Brazil,211049519,America - ex USA,0
 2020-01-20,2020-03,0,0,Brazil,211049519,America - ex USA,0
@@ -1371,6 +1398,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,397866,7562,Brazil,211049519,America - ex USA,306.72
 2021-01-18,2021-02,380158,6719,Brazil,211049519,America - ex USA,368.65
 2021-01-25,2021-03,359623,7365,Brazil,211049519,America - ex USA,350.52
+2021-02-01,2021-04,357929,7435,Brazil,211049519,America - ex USA,339.99
 2020-03-30,2020-13,2,0,British_Virgin_Islands,30033,America - ex USA,NA
 2020-04-06,2020-14,1,0,British_Virgin_Islands,30033,America - ex USA,9.99
 2020-04-13,2020-15,0,0,British_Virgin_Islands,30033,America - ex USA,3.33
@@ -1415,6 +1443,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,British_Virgin_Islands,30033,America - ex USA,13.32
 2021-01-18,2021-02,24,0,British_Virgin_Islands,30033,America - ex USA,79.91
 2021-01-25,2021-03,16,0,British_Virgin_Islands,30033,America - ex USA,133.19
+2021-02-01,2021-04,4,0,British_Virgin_Islands,30033,America - ex USA,66.59
 2020-03-16,2020-11,50,0,Brunei_Darussalam,433296,Asia - ex China,NA
 2020-03-23,2020-12,38,0,Brunei_Darussalam,433296,Asia - ex China,20.31
 2020-03-30,2020-13,38,1,Brunei_Darussalam,433296,Asia - ex China,17.54
@@ -1461,6 +1490,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1,0,Brunei_Darussalam,433296,Asia - ex China,4.85
 2021-01-18,2021-02,1,0,Brunei_Darussalam,433296,Asia - ex China,0.46
 2021-01-25,2021-03,1,0,Brunei_Darussalam,433296,Asia - ex China,0.46
+2021-02-01,2021-04,5,0,Brunei_Darussalam,433296,Asia - ex China,1.38
 2020-03-09,2020-10,4,0,Bulgaria,7000039,Rest of Europe,NA
 2020-03-16,2020-11,47,2,Bulgaria,7000039,Rest of Europe,0.73
 2020-03-23,2020-12,134,1,Bulgaria,7000039,Rest of Europe,2.59
@@ -1508,6 +1538,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,5460,448,Bulgaria,7000039,Rest of Europe,154.21
 2021-01-18,2021-02,3302,357,Bulgaria,7000039,Rest of Europe,125.17
 2021-01-25,2021-03,3004,337,Bulgaria,7000039,Rest of Europe,90.09
+2021-02-01,2021-04,3931,225,Bulgaria,7000039,Rest of Europe,99.07
 2020-03-16,2020-11,3,0,Burkina_Faso,20321383,Africa,NA
 2020-03-23,2020-12,61,3,Burkina_Faso,20321383,Africa,0.31
 2020-03-30,2020-13,116,6,Burkina_Faso,20321383,Africa,0.87
@@ -1554,6 +1585,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1224,3,Burkina_Faso,20321383,Africa,9.5
 2021-01-18,2021-02,913,13,Burkina_Faso,20321383,Africa,10.52
 2021-01-25,2021-03,915,15,Burkina_Faso,20321383,Africa,9
+2021-02-01,2021-04,665,4,Burkina_Faso,20321383,Africa,7.78
 2020-04-06,2020-14,3,0,Burundi,11530577,Africa,NA
 2020-04-13,2020-15,2,0,Burundi,11530577,Africa,0.04
 2020-04-20,2020-16,1,1,Burundi,11530577,Africa,0.03
@@ -1597,6 +1629,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,186,0,Burundi,11530577,Africa,1.82
 2021-01-18,2021-02,217,0,Burundi,11530577,Africa,3.5
 2021-01-25,2021-03,243,0,Burundi,11530577,Africa,3.99
+2021-02-01,2021-04,156,0,Burundi,11530577,Africa,3.46
 2020-01-06,2020-01,0,0,Cambodia,16486542,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Cambodia,16486542,Asia - ex China,0
 2020-01-20,2020-03,0,0,Cambodia,16486542,Asia - ex China,0
@@ -1653,6 +1686,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,9,0,Cambodia,16486542,Asia - ex China,0.16
 2021-01-18,2021-02,50,0,Cambodia,16486542,Asia - ex China,0.36
 2021-01-25,2021-03,17,0,Cambodia,16486542,Asia - ex China,0.41
+2021-02-01,2021-04,8,0,Cambodia,16486542,Asia - ex China,0.15
 2020-03-09,2020-10,2,0,Cameroon,25876387,Africa,NA
 2020-03-16,2020-11,2,0,Cameroon,25876387,Africa,0.02
 2020-03-23,2020-12,23,0,Cameroon,25876387,Africa,0.1
@@ -1700,6 +1734,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Cameroon,25876387,Africa,2.21
 2021-01-18,2021-02,1162,7,Cameroon,25876387,Africa,4.49
 2021-01-25,2021-03,1607,7,Cameroon,25876387,Africa,10.7
+2021-02-01,2021-04,696,12,Cameroon,25876387,Africa,8.9
 2020-01-06,2020-01,0,0,Canada,37411038,America - ex USA,NA
 2020-01-13,2020-02,0,0,Canada,37411038,America - ex USA,0
 2020-01-20,2020-03,0,0,Canada,37411038,America - ex USA,0
@@ -1756,6 +1791,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,66518,1221,Canada,37411038,America - ex USA,310.5
 2021-01-18,2021-02,46891,1034,Canada,37411038,America - ex USA,303.14
 2021-01-25,2021-03,37939,1118,Canada,37411038,America - ex USA,226.75
+2021-02-01,2021-04,30578,898,Canada,37411038,America - ex USA,183.15
 2020-03-23,2020-12,3,0,Cape_Verde,549936,Africa,NA
 2020-03-30,2020-13,2,1,Cape_Verde,549936,Africa,0.91
 2020-04-06,2020-14,2,0,Cape_Verde,549936,Africa,0.73
@@ -1801,6 +1837,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,513,2,Cape_Verde,549936,Africa,129.11
 2021-01-18,2021-02,560,4,Cape_Verde,549936,Africa,195.11
 2021-01-25,2021-03,496,11,Cape_Verde,549936,Africa,192.02
+2021-02-01,2021-04,609,4,Cape_Verde,549936,Africa,200.93
 2020-01-06,2020-01,0,0,Cases_on_an_international_conveyance_Japan,NA,Other,NA
 2020-01-13,2020-02,0,0,Cases_on_an_international_conveyance_Japan,NA,Other,NA
 2020-01-20,2020-03,0,0,Cases_on_an_international_conveyance_Japan,NA,Other,NA
@@ -1855,6 +1892,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,15,0,Cayman_Islands,64948,America - ex USA,67.75
 2021-01-18,2021-02,18,0,Cayman_Islands,64948,America - ex USA,50.81
 2021-01-25,2021-03,3,0,Cayman_Islands,64948,America - ex USA,32.33
+2021-02-01,2021-04,15,0,Cayman_Islands,64948,America - ex USA,27.71
 2020-03-16,2020-11,1,0,Central_African_Republic,4745179,Africa,NA
 2020-03-23,2020-12,3,0,Central_African_Republic,4745179,Africa,0.08
 2020-03-30,2020-13,2,0,Central_African_Republic,4745179,Africa,0.11
@@ -1901,6 +1939,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,10,0,Central_African_Republic,4745179,Africa,0.25
 2021-01-18,2021-02,1,0,Central_African_Republic,4745179,Africa,0.23
 2021-01-25,2021-03,6,0,Central_African_Republic,4745179,Africa,0.15
+2021-02-01,2021-04,9,0,Central_African_Republic,4745179,Africa,0.32
 2020-03-23,2020-12,2,0,Chad,15946882,Africa,NA
 2020-03-30,2020-13,3,0,Chad,15946882,Africa,0.03
 2020-04-06,2020-14,4,0,Chad,15946882,Africa,0.04
@@ -1946,6 +1985,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,324,3,Chad,15946882,Africa,3.27
 2021-01-18,2021-02,358,4,Chad,15946882,Africa,4.28
 2021-01-25,2021-03,266,5,Chad,15946882,Africa,3.91
+2021-02-01,2021-04,224,5,Chad,15946882,Africa,3.07
 2020-03-09,2020-10,10,0,Chile,18952035,America - ex USA,NA
 2020-03-16,2020-11,65,0,Chile,18952035,America - ex USA,0.4
 2020-03-23,2020-12,557,1,Chile,18952035,America - ex USA,3.28
@@ -1993,6 +2033,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,27701,395,Chile,18952035,America - ex USA,231.45
 2021-01-18,2021-02,27858,385,Chile,18952035,America - ex USA,293.16
 2021-01-25,2021-03,29428,452,Chile,18952035,America - ex USA,302.27
+2021-02-01,2021-04,27710,538,Chile,18952035,America - ex USA,301.49
 2020-01-06,2020-01,59,0,China,1433783692,China,NA
 2020-01-13,2020-02,0,1,China,1433783692,China,0
 2020-01-20,2020-03,176,2,China,1433783692,China,0.01
@@ -2049,6 +2090,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,611,2,China,1433783692,China,0.11
 2021-01-18,2021-02,1115,10,China,1433783692,China,0.12
 2021-01-25,2021-03,1308,7,China,1433783692,China,0.17
+2021-02-01,2021-04,816,13,China,1433783692,China,0.15
 2020-03-16,2020-11,45,0,Colombia,50339443,America - ex USA,NA
 2020-03-23,2020-12,190,2,Colombia,50339443,America - ex USA,0.47
 2020-03-30,2020-13,467,8,Colombia,50339443,America - ex USA,1.31
@@ -2095,6 +2137,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,126083,2486,Colombia,50339443,America - ex USA,393.52
 2021-01-18,2021-02,121229,2553,Colombia,50339443,America - ex USA,491.29
 2021-01-25,2021-03,104614,2743,Colombia,50339443,America - ex USA,448.64
+2021-02-01,2021-04,76760,2525,Colombia,50339443,America - ex USA,360.3
 2020-05-04,2020-18,3,0,Comoros,850891,Africa,NA
 2020-05-11,2020-19,8,1,Comoros,850891,Africa,1.29
 2020-05-18,2020-20,0,0,Comoros,850891,Africa,0.94
@@ -2134,6 +2177,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,296,5,Comoros,850891,Africa,50.42
 2021-01-18,2021-02,432,27,Comoros,850891,Africa,85.56
 2021-01-25,2021-03,676,26,Comoros,850891,Africa,130.22
+2021-02-01,2021-04,543,27,Comoros,850891,Africa,143.26
 2020-03-16,2020-11,1,0,Congo,5380504,Africa,NA
 2020-03-23,2020-12,3,0,Congo,5380504,Africa,0.07
 2020-03-30,2020-13,15,0,Congo,5380504,Africa,0.33
@@ -2180,6 +2224,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,110,0,Congo,5380504,Africa,12.01
 2021-01-18,2021-02,492,6,Congo,5380504,Africa,11.19
 2021-01-25,2021-03,85,3,Congo,5380504,Africa,10.72
+2021-02-01,2021-04,93,1,Congo,5380504,Africa,3.31
 2020-03-09,2020-10,5,0,Costa_Rica,5047561,America - ex USA,NA
 2020-03-16,2020-11,30,0,Costa_Rica,5047561,America - ex USA,0.69
 2020-03-23,2020-12,99,2,Costa_Rica,5047561,America - ex USA,2.56
@@ -2227,6 +2272,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,7625,124,Costa_Rica,5047561,America - ex USA,283.29
 2021-01-18,2021-02,5955,105,Costa_Rica,5047561,America - ex USA,269.04
 2021-01-25,2021-03,4729,100,Costa_Rica,5047561,America - ex USA,211.67
+2021-02-01,2021-04,3824,76,Costa_Rica,5047561,America - ex USA,169.45
 2020-03-16,2020-11,4,0,Cote_dIvoire,25716554,Africa,NA
 2020-03-23,2020-12,21,0,Cote_dIvoire,25716554,Africa,0.1
 2020-03-30,2020-13,140,1,Cote_dIvoire,25716554,Africa,0.63
@@ -2273,6 +2319,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1102,1,Cote_dIvoire,25716554,Africa,6.12
 2021-01-18,2021-02,1491,2,Cote_dIvoire,25716554,Africa,10.08
 2021-01-25,2021-03,1609,5,Cote_dIvoire,25716554,Africa,12.05
+2021-02-01,2021-04,844,5,Cote_dIvoire,25716554,Africa,9.54
 2020-01-06,2020-01,0,0,Croatia,4076246,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Croatia,4076246,Rest of Europe,0
 2020-01-20,2020-03,0,0,Croatia,4076246,Rest of Europe,0
@@ -2329,6 +2376,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,7265,331,Croatia,4076246,Rest of Europe,367.42
 2021-01-18,2021-02,4905,252,Croatia,4076246,Rest of Europe,298.56
 2021-01-25,2021-03,3926,204,Croatia,4076246,Rest of Europe,216.65
+2021-02-01,2021-04,3466,195,Croatia,4076246,Rest of Europe,181.34
 2020-03-23,2020-12,35,1,Cuba,11333484,America - ex USA,NA
 2020-03-30,2020-13,104,2,Cuba,11333484,America - ex USA,1.23
 2020-04-06,2020-14,181,5,Cuba,11333484,America - ex USA,2.51
@@ -2374,6 +2422,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2267,6,Cuba,11333484,America - ex USA,31.53
 2021-01-18,2021-02,3436,20,Cuba,11333484,America - ex USA,50.32
 2021-01-25,2021-03,3385,24,Cuba,11333484,America - ex USA,60.18
+2021-02-01,2021-04,5764,19,Cuba,11333484,America - ex USA,80.73
 2020-03-30,2020-13,9,1,Curaçao,163423,America - ex USA,NA
 2020-04-06,2020-14,2,0,Curaçao,163423,America - ex USA,6.73
 2020-04-13,2020-15,3,0,Curaçao,163423,America - ex USA,3.06
@@ -2418,6 +2467,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,147,3,Curaçao,163423,America - ex USA,191.53
 2021-01-18,2021-02,56,0,Curaçao,163423,America - ex USA,124.22
 2021-01-25,2021-03,28,1,Curaçao,163423,America - ex USA,51.4
+2021-02-01,2021-04,37,1,Curaçao,163423,America - ex USA,39.77
 2020-03-16,2020-11,30,0,Cyprus,875899,Rest of Europe,NA
 2020-03-23,2020-12,65,0,Cyprus,875899,Rest of Europe,10.85
 2020-03-30,2020-13,119,6,Cyprus,875899,Rest of Europe,21.01
@@ -2464,6 +2514,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3376,17,Cyprus,875899,Rest of Europe,878.3
 2021-01-18,2021-02,1618,22,Cyprus,875899,Rest of Europe,570.16
 2021-01-25,2021-03,1049,16,Cyprus,875899,Rest of Europe,304.49
+2021-02-01,2021-04,859,13,Cyprus,875899,Rest of Europe,217.83
 2020-01-06,2020-01,0,0,Czechia,10649800,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Czechia,10649800,Rest of Europe,0
 2020-01-20,2020-03,0,0,Czechia,10649800,Rest of Europe,0
@@ -2520,6 +2571,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,88740,1202,Czechia,10649800,Rest of Europe,1512.84
 2021-01-18,2021-02,56398,1177,Czechia,10649800,Rest of Europe,1362.82
 2021-01-25,2021-03,48152,1004,Czechia,10649800,Rest of Europe,981.71
+2021-02-01,2021-04,47325,939,Czechia,10649800,Rest of Europe,896.51
 2020-03-16,2020-11,2,0,Democratic_Republic_of_the_Congo,86790568,Africa,NA
 2020-03-23,2020-12,24,2,Democratic_Republic_of_the_Congo,86790568,Africa,0.03
 2020-03-30,2020-13,55,6,Democratic_Republic_of_the_Congo,86790568,Africa,0.09
@@ -2566,6 +2618,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1343,20,Democratic_Republic_of_the_Congo,86790568,Africa,2.97
 2021-01-18,2021-02,1564,15,Democratic_Republic_of_the_Congo,86790568,Africa,3.35
 2021-01-25,2021-03,895,28,Democratic_Republic_of_the_Congo,86790568,Africa,2.83
+2021-02-01,2021-04,888,12,Democratic_Republic_of_the_Congo,86790568,Africa,2.05
 2020-01-06,2020-01,0,0,Denmark,5806081,Western Europe,NA
 2020-01-13,2020-02,0,0,Denmark,5806081,Western Europe,0
 2020-01-20,2020-03,0,0,Denmark,5806081,Western Europe,0
@@ -2622,6 +2675,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,14014,223,Denmark,5806081,Western Europe,505.95
 2021-01-18,2021-02,7170,208,Denmark,5806081,Western Europe,364.86
 2021-01-25,2021-03,5401,205,Denmark,5806081,Western Europe,216.51
+2021-02-01,2021-04,3664,135,Denmark,5806081,Western Europe,156.13
 2020-03-23,2020-12,1,0,Djibouti,973557,Africa,NA
 2020-03-30,2020-13,18,0,Djibouti,973557,Africa,1.95
 2020-04-06,2020-14,40,0,Djibouti,973557,Africa,5.96
@@ -2667,6 +2721,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,29,0,Djibouti,973557,Africa,5.96
 2021-01-18,2021-02,34,0,Djibouti,973557,Africa,6.47
 2021-01-25,2021-03,14,0,Djibouti,973557,Africa,4.93
+2021-02-01,2021-04,13,2,Djibouti,973557,Africa,2.77
 2020-03-23,2020-12,1,0,Dominica,71808,America - ex USA,NA
 2020-03-30,2020-13,10,0,Dominica,71808,America - ex USA,15.32
 2020-04-06,2020-14,3,0,Dominica,71808,America - ex USA,18.1
@@ -2712,6 +2767,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,13,0,Dominica,71808,America - ex USA,23.67
 2021-01-18,2021-02,4,0,Dominica,71808,America - ex USA,23.67
 2021-01-25,2021-03,0,0,Dominica,71808,America - ex USA,5.57
+2021-02-01,2021-04,4,0,Dominica,71808,America - ex USA,5.57
 2020-01-06,2020-01,0,0,Dominican_Republic,10738957,America - ex USA,NA
 2020-01-13,2020-02,0,0,Dominican_Republic,10738957,America - ex USA,0
 2020-01-20,2020-03,0,0,Dominican_Republic,10738957,America - ex USA,0
@@ -2768,6 +2824,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,9951,9,Dominican_Republic,10738957,America - ex USA,147.84
 2021-01-18,2021-02,11684,21,Dominican_Republic,10738957,America - ex USA,201.46
 2021-01-25,2021-03,10196,97,Dominican_Republic,10738957,America - ex USA,203.74
+2021-02-01,2021-04,9924,143,Dominican_Republic,10738957,America - ex USA,187.36
 2020-01-06,2020-01,0,0,Ecuador,17373657,America - ex USA,NA
 2020-01-13,2020-02,0,0,Ecuador,17373657,America - ex USA,0
 2020-01-20,2020-03,0,0,Ecuador,17373657,America - ex USA,0
@@ -2824,6 +2881,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,6892,125,Ecuador,17373657,America - ex USA,67.62
 2021-01-18,2021-02,10138,138,Ecuador,17373657,America - ex USA,98.02
 2021-01-25,2021-03,9923,317,Ecuador,17373657,America - ex USA,115.47
+2021-02-01,2021-04,9419,251,Ecuador,17373657,America - ex USA,111.33
 2020-01-06,2020-01,0,0,Egypt,100388076,Africa,NA
 2020-01-13,2020-02,0,0,Egypt,100388076,Africa,0
 2020-01-20,2020-03,0,0,Egypt,100388076,Africa,0
@@ -2880,6 +2938,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,7605,392,Egypt,100388076,Africa,17.18
 2021-01-18,2021-02,6605,386,Egypt,100388076,Africa,14.16
 2021-01-25,2021-03,5420,376,Egypt,100388076,Africa,11.98
+2021-02-01,2021-04,4134,357,Egypt,100388076,Africa,9.52
 2020-03-23,2020-12,3,0,El_Salvador,6453550,America - ex USA,NA
 2020-03-30,2020-13,27,0,El_Salvador,6453550,America - ex USA,0.46
 2020-04-06,2020-14,39,3,El_Salvador,6453550,America - ex USA,1.02
@@ -2925,6 +2984,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1818,64,El_Salvador,6453550,America - ex USA,66.41
 2021-01-18,2021-02,2532,70,El_Salvador,6453550,America - ex USA,67.4
 2021-01-25,2021-03,2042,85,El_Salvador,6453550,America - ex USA,70.88
+2021-02-01,2021-04,1716,49,El_Salvador,6453550,America - ex USA,58.23
 2020-03-16,2020-11,1,0,Equatorial_Guinea,1355982,Africa,NA
 2020-03-23,2020-12,5,0,Equatorial_Guinea,1355982,Africa,0.44
 2020-03-30,2020-13,8,0,Equatorial_Guinea,1355982,Africa,0.96
@@ -2971,6 +3031,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,17,0,Equatorial_Guinea,1355982,Africa,3.54
 2021-01-18,2021-02,69,0,Equatorial_Guinea,1355982,Africa,6.34
 2021-01-25,2021-03,89,0,Equatorial_Guinea,1355982,Africa,11.65
+2021-02-01,2021-04,80,0,Equatorial_Guinea,1355982,Africa,12.46
 2020-03-23,2020-12,1,0,Eritrea,3497117,Africa,NA
 2020-03-30,2020-13,11,0,Eritrea,3497117,Africa,0.34
 2020-04-06,2020-14,17,0,Eritrea,3497117,Africa,0.8
@@ -3016,6 +3077,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,193,3,Eritrea,3497117,Africa,14.78
 2021-01-18,2021-02,321,0,Eritrea,3497117,Africa,14.7
 2021-01-25,2021-03,73,1,Eritrea,3497117,Africa,11.27
+2021-02-01,2021-04,185,0,Eritrea,3497117,Africa,7.38
 2020-01-06,2020-01,0,0,Estonia,1324820,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Estonia,1324820,Rest of Europe,0
 2020-01-20,2020-03,0,0,Estonia,1324820,Rest of Europe,0
@@ -3072,6 +3134,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4284,36,Estonia,1324820,Rest of Europe,603.63
 2021-01-18,2021-02,3539,46,Estonia,1324820,Rest of Europe,590.5
 2021-01-25,2021-03,3372,43,Estonia,1324820,Rest of Europe,521.66
+2021-02-01,2021-04,3492,43,Estonia,1324820,Rest of Europe,518.11
 2020-03-16,2020-11,1,0,Eswatini,1148133,Africa,NA
 2020-03-23,2020-12,3,0,Eswatini,1148133,Africa,0.35
 2020-03-30,2020-13,5,0,Eswatini,1148133,Africa,0.7
@@ -3118,6 +3181,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1768,67,Eswatini,1148133,Africa,263.38
 2021-01-18,2021-02,1233,78,Eswatini,1148133,Africa,261.38
 2021-01-25,2021-03,0,0,Eswatini,1148133,Africa,107.39
+2021-02-01,2021-04,2860,198,Eswatini,1148133,Africa,249.1
 2020-03-16,2020-11,4,0,Ethiopia,112078727,Africa,NA
 2020-03-23,2020-12,7,0,Ethiopia,112078727,Africa,0.01
 2020-03-30,2020-13,5,0,Ethiopia,112078727,Africa,0.01
@@ -3164,6 +3228,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2994,55,Ethiopia,112078727,Africa,4.88
 2021-01-18,2021-02,2579,27,Ethiopia,112078727,Africa,4.97
 2021-01-25,2021-03,2572,36,Ethiopia,112078727,Africa,4.6
+2021-02-01,2021-04,4617,37,Ethiopia,112078727,Africa,6.41
 2020-04-06,2020-14,2,0,Falkland_Islands_(Malvinas),3372,America - ex USA,NA
 2020-04-13,2020-15,3,0,Falkland_Islands_(Malvinas),3372,America - ex USA,148.28
 2020-04-20,2020-16,6,0,Falkland_Islands_(Malvinas),3372,America - ex USA,266.9
@@ -3207,6 +3272,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Falkland_Islands_(Malvinas),3372,America - ex USA,29.66
 2021-01-18,2021-02,3,0,Falkland_Islands_(Malvinas),3372,America - ex USA,88.97
 2021-01-25,2021-03,5,0,Falkland_Islands_(Malvinas),3372,America - ex USA,237.25
+2021-02-01,2021-04,3,0,Falkland_Islands_(Malvinas),3372,America - ex USA,237.25
 2020-03-09,2020-10,3,0,Faroe_Islands,48677,Rest of Europe,NA
 2020-03-16,2020-11,6,0,Faroe_Islands,48677,Rest of Europe,18.49
 2020-03-23,2020-12,106,0,Faroe_Islands,48677,Rest of Europe,230.09
@@ -3254,6 +3320,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,26,1,Faroe_Islands,48677,Rest of Europe,131.48
 2021-01-18,2021-02,3,0,Faroe_Islands,48677,Rest of Europe,59.58
 2021-01-25,2021-03,3,0,Faroe_Islands,48677,Rest of Europe,12.33
+2021-02-01,2021-04,2,0,Faroe_Islands,48677,Rest of Europe,10.27
 2020-03-23,2020-12,3,0,Fiji,889955,Oceania,NA
 2020-03-30,2020-13,2,0,Fiji,889955,Oceania,0.56
 2020-04-06,2020-14,9,0,Fiji,889955,Oceania,1.24
@@ -3299,6 +3366,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4,0,Fiji,889955,Oceania,0.79
 2021-01-18,2021-02,2,0,Fiji,889955,Oceania,0.67
 2021-01-25,2021-03,0,0,Fiji,889955,Oceania,0.22
+2021-02-01,2021-04,0,0,Fiji,889955,Oceania,0
 2020-01-06,2020-01,0,0,Finland,5517919,Western Europe,NA
 2020-01-13,2020-02,0,0,Finland,5517919,Western Europe,0
 2020-01-20,2020-03,0,0,Finland,5517919,Western Europe,0
@@ -3355,6 +3423,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1671,32,Finland,5517919,Western Europe,62.58
 2021-01-18,2021-02,1747,24,Finland,5517919,Western Europe,61.94
 2021-01-25,2021-03,2243,34,Finland,5517919,Western Europe,72.31
+2021-02-01,2021-04,2902,22,Finland,5517919,Western Europe,93.24
 2020-01-06,2020-01,0,0,France,67012883,Western Europe,NA
 2020-01-13,2020-02,0,0,France,67012883,Western Europe,0
 2020-01-20,2020-03,0,0,France,67012883,Western Europe,0
@@ -3411,6 +3480,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,127528,2713,France,67012883,Western Europe,329.21
 2021-01-18,2021-02,127733,2533,France,67012883,Western Europe,380.91
 2021-01-25,2021-03,142628,2766,France,67012883,Western Europe,403.45
+2021-02-01,2021-04,143497,3008,France,67012883,Western Europe,426.97
 2020-03-23,2020-12,18,0,French_Polynesia,279285,Oceania,NA
 2020-03-30,2020-13,17,0,French_Polynesia,279285,Oceania,12.53
 2020-04-06,2020-14,6,0,French_Polynesia,279285,Oceania,8.24
@@ -3456,6 +3526,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,315,8,French_Polynesia,279285,Oceania,247.42
 2021-01-18,2021-02,394,4,French_Polynesia,279285,Oceania,253.86
 2021-01-25,2021-03,0,0,French_Polynesia,279285,Oceania,141.07
+2021-02-01,2021-04,425,5,French_Polynesia,279285,Oceania,152.17
 2020-03-16,2020-11,1,0,Gabon,2172578,Africa,NA
 2020-03-23,2020-12,5,1,Gabon,2172578,Africa,0.28
 2020-03-30,2020-13,1,0,Gabon,2172578,Africa,0.28
@@ -3502,6 +3573,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,135,0,Gabon,2172578,Africa,10.59
 2021-01-18,2021-02,159,0,Gabon,2172578,Africa,13.53
 2021-01-25,2021-03,512,1,Gabon,2172578,Africa,30.88
+2021-02-01,2021-04,542,1,Gabon,2172578,Africa,48.51
 2020-03-23,2020-12,1,0,Gambia,2347696,Africa,NA
 2020-03-30,2020-13,2,1,Gambia,2347696,Africa,0.13
 2020-04-06,2020-14,1,0,Gambia,2347696,Africa,0.13
@@ -3547,6 +3619,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,70,0,Gambia,2347696,Africa,3.37
 2021-01-18,2021-02,34,2,Gambia,2347696,Africa,4.43
 2021-01-25,2021-03,98,1,Gambia,2347696,Africa,5.62
+2021-02-01,2021-04,131,3,Gambia,2347696,Africa,9.75
 2020-01-06,2020-01,0,0,Georgia,3996762,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Georgia,3996762,Rest of Europe,0
 2020-01-20,2020-03,0,0,Georgia,3996762,Rest of Europe,0
@@ -3603,6 +3676,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,10017,168,Georgia,3996762,Rest of Europe,441.28
 2021-01-18,2021-02,8135,162,Georgia,3996762,Rest of Europe,454.17
 2021-01-25,2021-03,5901,113,Georgia,3996762,Rest of Europe,351.18
+2021-02-01,2021-04,4535,123,Georgia,3996762,Rest of Europe,261.11
 2020-01-06,2020-01,0,0,Germany,83019213,Western Europe,NA
 2020-01-13,2020-02,0,0,Germany,83019213,Western Europe,0
 2020-01-20,2020-03,0,0,Germany,83019213,Western Europe,0
@@ -3659,6 +3733,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,145511,6112,Germany,83019213,Western Europe,324.25
 2021-01-18,2021-02,119635,5947,Germany,83019213,Western Europe,319.38
 2021-01-25,2021-03,101006,5454,Germany,83019213,Western Europe,265.77
+2021-02-01,2021-04,80306,5033,Germany,83019213,Western Europe,218.4
 2020-03-16,2020-11,2,0,Ghana,30417858,Africa,NA
 2020-03-23,2020-12,22,1,Ghana,30417858,Africa,0.08
 2020-03-30,2020-13,128,4,Ghana,30417858,Africa,0.49
@@ -3705,6 +3780,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1062,3,Ghana,30417858,Africa,5.68
 2021-01-18,2021-02,1484,8,Ghana,30417858,Africa,8.37
 2021-01-25,2021-03,4421,26,Ghana,30417858,Africa,19.41
+2021-02-01,2021-04,4875,44,Ghana,30417858,Africa,30.56
 2020-03-23,2020-12,15,0,Gibraltar,33706,Western Europe,NA
 2020-03-30,2020-13,50,0,Gibraltar,33706,Western Europe,192.84
 2020-04-06,2020-14,38,0,Gibraltar,33706,Western Europe,261.08
@@ -3750,6 +3826,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,764,8,Gibraltar,33706,Western Europe,4343.44
 2021-01-18,2021-02,500,27,Gibraltar,33706,Western Europe,3750.07
 2021-01-25,2021-03,296,20,Gibraltar,33706,Western Europe,2361.6
+2021-02-01,2021-04,148,14,Gibraltar,33706,Western Europe,1317.27
 2020-01-06,2020-01,0,0,Greece,10724599,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Greece,10724599,Rest of Europe,0
 2020-01-20,2020-03,0,0,Greece,10724599,Rest of Europe,0
@@ -3806,6 +3883,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4639,306,Greece,10724599,Rest of Europe,82.12
 2021-01-18,2021-02,3869,206,Greece,10724599,Rest of Europe,79.33
 2021-01-25,2021-03,3373,177,Greece,10724599,Rest of Europe,67.53
+2021-02-01,2021-04,4977,150,Greece,10724599,Rest of Europe,77.86
 2020-03-23,2020-12,2,0,Greenland,56660,America - ex USA,NA
 2020-03-30,2020-13,8,0,Greenland,56660,America - ex USA,17.65
 2020-04-06,2020-14,1,0,Greenland,56660,America - ex USA,15.88
@@ -3851,6 +3929,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Greenland,56660,America - ex USA,1.76
 2021-01-18,2021-02,3,0,Greenland,56660,America - ex USA,5.29
 2021-01-25,2021-03,0,0,Greenland,56660,America - ex USA,5.29
+2021-02-01,2021-04,0,0,Greenland,56660,America - ex USA,0
 2020-03-23,2020-12,1,0,Grenada,112002,America - ex USA,NA
 2020-03-30,2020-13,8,0,Grenada,112002,America - ex USA,8.04
 2020-04-06,2020-14,3,0,Grenada,112002,America - ex USA,9.82
@@ -3896,6 +3975,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1,1,Grenada,112002,America - ex USA,16.96
 2021-01-18,2021-02,4,0,Grenada,112002,America - ex USA,4.46
 2021-01-25,2021-03,9,0,Grenada,112002,America - ex USA,11.61
+2021-02-01,2021-04,0,0,Grenada,112002,America - ex USA,8.04
 2020-03-23,2020-12,27,1,Guam,167295,Oceania,NA
 2020-03-30,2020-13,29,0,Guam,167295,Oceania,33.47
 2020-04-06,2020-14,54,3,Guam,167295,Oceania,49.61
@@ -3941,6 +4021,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,96,1,Guam,167295,Oceania,91.46
 2021-01-18,2021-02,62,4,Guam,167295,Oceania,94.44
 2021-01-25,2021-03,69,1,Guam,167295,Oceania,78.3
+2021-02-01,2021-04,54,0,Guam,167295,Oceania,73.52
 2020-03-16,2020-11,1,1,Guatemala,17581476,America - ex USA,NA
 2020-03-23,2020-12,18,0,Guatemala,17581476,America - ex USA,0.11
 2020-03-30,2020-13,17,0,Guatemala,17581476,America - ex USA,0.2
@@ -3987,6 +4068,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4517,215,Guatemala,17581476,America - ex USA,43.98
 2021-01-18,2021-02,5973,228,Guatemala,17581476,America - ex USA,59.67
 2021-01-25,2021-03,5284,191,Guatemala,17581476,America - ex USA,64.03
+2021-02-01,2021-04,5202,204,Guatemala,17581476,America - ex USA,59.64
 2020-03-23,2020-12,17,0,Guernsey,64468,Western Europe,NA
 2020-03-30,2020-13,28,0,Guernsey,64468,Western Europe,69.8
 2020-04-06,2020-14,109,3,Guernsey,64468,Western Europe,212.51
@@ -4032,6 +4114,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,5,0,Guernsey,64468,Western Europe,12.41
 2021-01-18,2021-02,4,0,Guernsey,64468,Western Europe,13.96
 2021-01-25,2021-03,12,0,Guernsey,64468,Western Europe,24.82
+2021-02-01,2021-04,218,0,Guernsey,64468,Western Europe,356.77
 2020-03-23,2020-12,2,0,Guinea,12771246,Africa,NA
 2020-03-30,2020-13,6,0,Guinea,12771246,Africa,0.06
 2020-04-06,2020-14,113,0,Guinea,12771246,Africa,0.93
@@ -4077,6 +4160,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,190,0,Guinea,12771246,Africa,2.36
 2021-01-18,2021-02,183,0,Guinea,12771246,Africa,2.92
 2021-01-25,2021-03,207,1,Guinea,12771246,Africa,3.05
+2021-02-01,2021-04,176,1,Guinea,12771246,Africa,3
 2020-03-30,2020-13,2,0,Guinea_Bissau,1920917,Africa,NA
 2020-04-06,2020-14,16,0,Guinea_Bissau,1920917,Africa,0.94
 2020-04-13,2020-15,21,0,Guinea_Bissau,1920917,Africa,1.93
@@ -4121,6 +4205,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,31,1,Guinea_Bissau,1920917,Africa,1.61
 2021-01-18,2021-02,31,0,Guinea_Bissau,1920917,Africa,3.23
 2021-01-25,2021-03,23,0,Guinea_Bissau,1920917,Africa,2.81
+2021-02-01,2021-04,103,0,Guinea_Bissau,1920917,Africa,6.56
 2020-03-16,2020-11,4,1,Guyana,782775,America - ex USA,NA
 2020-03-23,2020-12,1,0,Guyana,782775,America - ex USA,0.64
 2020-03-30,2020-13,3,0,Guyana,782775,America - ex USA,0.51
@@ -4167,6 +4252,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,396,5,Guyana,782775,America - ex USA,58.89
 2021-01-18,2021-02,154,1,Guyana,782775,America - ex USA,70.26
 2021-01-25,2021-03,409,2,Guyana,782775,America - ex USA,71.92
+2021-02-01,2021-04,324,4,Guyana,782775,America - ex USA,93.64
 2020-03-23,2020-12,2,0,Haiti,11263079,America - ex USA,NA
 2020-03-30,2020-13,13,0,Haiti,11263079,America - ex USA,0.13
 2020-04-06,2020-14,6,0,Haiti,11263079,America - ex USA,0.17
@@ -4212,6 +4298,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,145,2,Haiti,11263079,America - ex USA,2.42
 2021-01-18,2021-02,635,2,Haiti,11263079,America - ex USA,6.93
 2021-01-25,2021-03,379,3,Haiti,11263079,America - ex USA,9
+2021-02-01,2021-04,304,2,Haiti,11263079,America - ex USA,6.06
 2020-03-16,2020-11,1,0,Holy_See,815,Western Europe,NA
 2020-03-23,2020-12,0,0,Holy_See,815,Western Europe,122.7
 2020-03-30,2020-13,5,0,Holy_See,815,Western Europe,613.5
@@ -4258,6 +4345,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Holy_See,815,Western Europe,0
 2021-01-18,2021-02,0,0,Holy_See,815,Western Europe,0
 2021-01-25,2021-03,0,0,Holy_See,815,Western Europe,0
+2021-02-01,2021-04,0,0,Holy_See,815,Western Europe,0
 2020-03-16,2020-11,6,0,Honduras,9746115,America - ex USA,NA
 2020-03-23,2020-12,21,0,Honduras,9746115,America - ex USA,0.28
 2020-03-30,2020-13,112,3,Honduras,9746115,America - ex USA,1.36
@@ -4304,6 +4392,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4576,93,Honduras,9746115,America - ex USA,80.46
 2021-01-18,2021-02,6166,81,Honduras,9746115,America - ex USA,110.22
 2021-01-25,2021-03,7873,108,Honduras,9746115,America - ex USA,144.05
+2021-02-01,2021-04,5859,148,Honduras,9746115,America - ex USA,140.9
 2020-03-09,2020-10,8,0,Hungary,9772756,Rest of Europe,NA
 2020-03-16,2020-11,31,1,Hungary,9772756,Rest of Europe,0.4
 2020-03-23,2020-12,128,6,Hungary,9772756,Rest of Europe,1.63
@@ -4351,6 +4440,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,14805,748,Hungary,9772756,Rest of Europe,276.15
 2021-01-18,2021-02,9047,684,Hungary,9772756,Rest of Europe,244.07
 2021-01-25,2021-03,7715,615,Hungary,9772756,Rest of Europe,171.52
+2021-02-01,2021-04,8292,554,Hungary,9772756,Rest of Europe,163.79
 2020-01-06,2020-01,0,0,Iceland,356991,Western Europe,NA
 2020-01-13,2020-02,0,0,Iceland,356991,Western Europe,0
 2020-01-20,2020-03,0,0,Iceland,356991,Western Europe,0
@@ -4407,6 +4497,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,144,0,Iceland,356991,Western Europe,48.18
 2021-01-18,2021-02,72,0,Iceland,356991,Western Europe,60.51
 2021-01-25,2021-03,20,0,Iceland,356991,Western Europe,25.77
+2021-02-01,2021-04,19,0,Iceland,356991,Western Europe,10.92
 2020-01-06,2020-01,0,0,India,1366417756,Asia - ex China,NA
 2020-01-13,2020-02,0,0,India,1366417756,Asia - ex China,0
 2020-01-20,2020-03,0,0,India,1366417756,Asia - ex China,0
@@ -4463,6 +4554,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,126126,1511,India,1366417756,Asia - ex China,18.93
 2021-01-18,2021-02,105178,1259,India,1366417756,Asia - ex China,16.93
 2021-01-25,2021-03,95963,1051,India,1366417756,Asia - ex China,14.72
+2021-02-01,2021-04,89874,922,India,1366417756,Asia - ex China,13.6
 2020-01-06,2020-01,0,0,Indonesia,270625567,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Indonesia,270625567,Asia - ex China,0
 2020-01-20,2020-03,0,0,Indonesia,270625567,Asia - ex China,0
@@ -4519,6 +4611,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,69553,1574,Indonesia,270625567,Asia - ex China,42.37
 2021-01-18,2021-02,79903,1858,Indonesia,270625567,Asia - ex China,55.23
 2021-01-25,2021-03,81333,1848,Indonesia,270625567,Asia - ex China,59.58
+2021-02-01,2021-04,89052,2163,Indonesia,270625567,Asia - ex China,62.96
 2020-01-06,2020-01,0,0,Iran,82913893,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Iran,82913893,Asia - ex China,0
 2020-01-20,2020-03,0,0,Iran,82913893,Asia - ex China,0
@@ -4575,6 +4668,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,42972,631,Iran,82913893,Asia - ex China,103.65
 2021-01-18,2021-02,44005,632,Iran,82913893,Asia - ex China,104.9
 2021-01-25,2021-03,42566,580,Iran,82913893,Asia - ex China,104.41
+2021-02-01,2021-04,45022,576,Iran,82913893,Asia - ex China,105.64
 2020-01-06,2020-01,0,0,Iraq,39309789,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Iraq,39309789,Asia - ex China,0
 2020-01-20,2020-03,0,0,Iraq,39309789,Asia - ex China,0
@@ -4631,6 +4725,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Iraq,39309789,Asia - ex China,17.23
 2021-01-18,2021-02,9863,100,Iraq,39309789,Asia - ex China,25.09
 2021-01-25,2021-03,5531,49,Iraq,39309789,Asia - ex China,39.16
+2021-02-01,2021-04,5873,54,Iraq,39309789,Asia - ex China,29.01
 2020-01-06,2020-01,0,0,Ireland,4904240,Western Europe,NA
 2020-01-13,2020-02,0,0,Ireland,4904240,Western Europe,0
 2020-01-20,2020-03,0,0,Ireland,4904240,Western Europe,0
@@ -4687,6 +4782,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,45726,85,Ireland,4904240,Western Europe,1253.69
 2021-01-18,2021-02,25113,264,Ireland,4904240,Western Europe,1444.44
 2021-01-25,2021-03,14828,362,Ireland,4904240,Western Europe,814.42
+2021-02-01,2021-04,8993,337,Ireland,4904240,Western Europe,485.72
 2020-03-23,2020-12,2,0,Isle_of_Man,84589,Rest of Europe,NA
 2020-03-30,2020-13,40,0,Isle_of_Man,84589,Rest of Europe,49.65
 2020-04-06,2020-14,85,1,Isle_of_Man,84589,Rest of Europe,147.77
@@ -4732,6 +4828,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,16,0,Isle_of_Man,84589,Rest of Europe,26.01
 2021-01-18,2021-02,32,0,Isle_of_Man,84589,Rest of Europe,56.74
 2021-01-25,2021-03,4,0,Isle_of_Man,84589,Rest of Europe,42.56
+2021-02-01,2021-04,2,0,Isle_of_Man,84589,Rest of Europe,7.09
 2020-01-06,2020-01,0,0,Israel,8519373,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Israel,8519373,Asia - ex China,0
 2020-01-20,2020-03,0,0,Israel,8519373,Asia - ex China,0
@@ -4788,6 +4885,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,52876,256,Israel,8519373,Asia - ex China,1069.06
 2021-01-18,2021-02,56626,316,Israel,8519373,Asia - ex China,1285.33
 2021-01-25,2021-03,49380,432,Israel,8519373,Asia - ex China,1244.29
+2021-02-01,2021-04,45208,359,Israel,8519373,Asia - ex China,1110.27
 2020-01-06,2020-01,0,0,Italy,60359546,Western Europe,NA
 2020-01-13,2020-02,0,0,Italy,60359546,Western Europe,0
 2020-01-20,2020-03,0,0,Italy,60359546,Western Europe,0
@@ -4844,6 +4942,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,121045,3423,Italy,60359546,Western Europe,379.05
 2021-01-18,2021-02,104786,3422,Italy,60359546,Western Europe,374.14
 2021-01-25,2021-03,85536,3284,Italy,60359546,Western Europe,315.31
+2021-02-01,2021-04,86219,3055,Italy,60359546,Western Europe,284.55
 2020-03-16,2020-11,10,0,Jamaica,2948277,America - ex USA,NA
 2020-03-23,2020-12,9,0,Jamaica,2948277,America - ex USA,0.64
 2020-03-30,2020-13,15,1,Jamaica,2948277,America - ex USA,0.81
@@ -4890,6 +4989,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,588,9,Jamaica,2948277,America - ex USA,30.7
 2021-01-18,2021-02,637,13,Jamaica,2948277,America - ex USA,41.55
 2021-01-25,2021-03,738,12,Jamaica,2948277,America - ex USA,46.64
+2021-02-01,2021-04,766,14,Jamaica,2948277,America - ex USA,51.01
 2020-01-06,2020-01,0,0,Japan,126860299,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Japan,126860299,Asia - ex China,0
 2020-01-20,2020-03,1,0,Japan,126860299,Asia - ex China,0
@@ -4946,6 +5046,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,42905,445,Japan,126860299,Asia - ex China,52.43
 2021-01-18,2021-02,41542,457,Japan,126860299,Asia - ex China,66.57
 2021-01-25,2021-03,32367,518,Japan,126860299,Asia - ex China,58.26
+2021-02-01,2021-04,28857,703,Japan,126860299,Asia - ex China,48.26
 2020-03-23,2020-12,15,0,Jersey,107796,Western Europe,NA
 2020-03-30,2020-13,48,2,Jersey,107796,Western Europe,58.44
 2020-04-06,2020-14,92,1,Jersey,107796,Western Europe,129.87
@@ -4991,6 +5092,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,151,13,Jersey,107796,Western Europe,286.65
 2021-01-18,2021-02,82,5,Jersey,107796,Western Europe,216.15
 2021-01-25,2021-03,68,1,Jersey,107796,Western Europe,139.15
+2021-02-01,2021-04,30,3,Jersey,107796,Western Europe,90.91
 2020-03-16,2020-11,15,0,Jordan,10101697,Asia - ex China,NA
 2020-03-23,2020-12,84,0,Jordan,10101697,Asia - ex China,0.98
 2020-03-30,2020-13,160,1,Jordan,10101697,Asia - ex China,2.42
@@ -5037,6 +5139,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,10462,140,Jordan,10101697,Asia - ex China,205.15
 2021-01-18,2021-02,6874,110,Jordan,10101697,Asia - ex China,171.61
 2021-01-25,2021-03,4909,71,Jordan,10101697,Asia - ex China,116.64
+2021-02-01,2021-04,7609,102,Jordan,10101697,Asia - ex China,123.92
 2020-03-16,2020-11,9,0,Kazakhstan,18551428,Asia - ex China,NA
 2020-03-23,2020-12,51,0,Kazakhstan,18551428,Asia - ex China,0.32
 2020-03-30,2020-13,224,1,Kazakhstan,18551428,Asia - ex China,1.48
@@ -5083,6 +5186,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3018,100,Kazakhstan,18551428,Asia - ex China,61.6
 2021-01-18,2021-02,6878,16,Kazakhstan,18551428,Asia - ex China,53.34
 2021-01-25,2021-03,8927,67,Kazakhstan,18551428,Asia - ex China,85.2
+2021-02-01,2021-04,9953,88,Kazakhstan,18551428,Asia - ex China,101.77
 2020-03-16,2020-11,3,0,Kenya,52573967,Africa,NA
 2020-03-23,2020-12,12,0,Kenya,52573967,Africa,0.03
 2020-03-30,2020-13,27,1,Kenya,52573967,Africa,0.07
@@ -5129,6 +5233,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1469,28,Kenya,52573967,Africa,4.33
 2021-01-18,2021-02,891,18,Kenya,52573967,Africa,4.49
 2021-01-25,2021-03,890,13,Kenya,52573967,Africa,3.39
+2021-02-01,2021-04,804,22,Kenya,52573967,Africa,3.22
 2020-03-16,2020-11,13,0,Kosovo,1798506,Rest of Europe,NA
 2020-03-23,2020-12,20,1,Kosovo,1798506,Rest of Europe,1.83
 2020-03-30,2020-13,65,0,Kosovo,1798506,Rest of Europe,4.73
@@ -5175,6 +5280,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1811,33,Kosovo,1798506,Rest of Europe,165.42
 2021-01-18,2021-02,2075,33,Kosovo,1798506,Rest of Europe,216.07
 2021-01-25,2021-03,2237,46,Kosovo,1798506,Rest of Europe,239.75
+2021-02-01,2021-04,2130,42,Kosovo,1798506,Rest of Europe,242.81
 2020-01-06,2020-01,0,0,Kuwait,4207077,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Kuwait,4207077,Asia - ex China,0
 2020-01-20,2020-03,0,0,Kuwait,4207077,Asia - ex China,0
@@ -5231,6 +5337,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2971,6,Kuwait,4207077,Asia - ex China,110.79
 2021-01-18,2021-02,3463,4,Kuwait,4207077,Asia - ex China,152.93
 2021-01-25,2021-03,3508,5,Kuwait,4207077,Asia - ex China,165.7
+2021-02-01,2021-04,3972,7,Kuwait,4207077,Asia - ex China,177.8
 2020-03-23,2020-12,14,0,Kyrgyzstan,6415851,Asia - ex China,NA
 2020-03-30,2020-13,70,0,Kyrgyzstan,6415851,Asia - ex China,1.31
 2020-04-06,2020-14,132,4,Kyrgyzstan,6415851,Asia - ex China,3.15
@@ -5276,6 +5383,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,992,11,Kyrgyzstan,6415851,Asia - ex China,28.76
 2021-01-18,2021-02,798,16,Kyrgyzstan,6415851,Asia - ex China,27.9
 2021-01-25,2021-03,793,14,Kyrgyzstan,6415851,Asia - ex China,24.8
+2021-02-01,2021-04,617,11,Kyrgyzstan,6415851,Asia - ex China,21.98
 2020-03-30,2020-13,6,0,Laos,7169456,Asia - ex China,NA
 2020-04-06,2020-14,5,0,Laos,7169456,Asia - ex China,0.15
 2020-04-13,2020-15,8,0,Laos,7169456,Asia - ex China,0.18
@@ -5320,6 +5428,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Laos,7169456,Asia - ex China,0
 2021-01-18,2021-02,0,0,Laos,7169456,Asia - ex China,0
 2021-01-25,2021-03,3,0,Laos,7169456,Asia - ex China,0.04
+2021-02-01,2021-04,0,0,Laos,7169456,Asia - ex China,0.04
 2020-03-09,2020-10,3,0,Latvia,1919968,Rest of Europe,NA
 2020-03-16,2020-11,28,0,Latvia,1919968,Rest of Europe,1.61
 2020-03-23,2020-12,108,0,Latvia,1919968,Rest of Europe,7.08
@@ -5367,6 +5476,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,7071,169,Latvia,1919968,Rest of Europe,689.49
 2021-01-18,2021-02,6096,129,Latvia,1919968,Rest of Europe,685.79
 2021-01-25,2021-03,5344,133,Latvia,1919968,Rest of Europe,595.84
+2021-02-01,2021-04,5233,84,Latvia,1919968,Rest of Europe,550.89
 2020-01-06,2020-01,0,0,Lebanon,6855709,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Lebanon,6855709,Asia - ex China,0
 2020-01-20,2020-03,0,0,Lebanon,6855709,Asia - ex China,0
@@ -5420,9 +5530,10 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2020-12-21,2020-51,11584,81,Lebanon,6855709,Asia - ex China,305.6
 2020-12-28,2020-52,13122,113,Lebanon,6855709,Asia - ex China,360.37
 2021-01-04,2020-53,18052,105,Lebanon,6855709,Asia - ex China,454.72
-2021-01-11,2021-01,0,0,Lebanon,6855709,Asia - ex China,263.31
-2021-01-18,2021-02,63534,366,Lebanon,6855709,Asia - ex China,926.73
-2021-01-25,2021-03,26785,455,Lebanon,6855709,Asia - ex China,1317.43
+2021-01-11,2021-01,30018,107,Lebanon,6855709,Asia - ex China,701.17
+2021-01-18,2021-02,33516,259,Lebanon,6855709,Asia - ex China,926.73
+2021-01-25,2021-03,26785,455,Lebanon,6855709,Asia - ex China,879.57
+2021-02-01,2021-04,21455,762,Lebanon,6855709,Asia - ex China,703.65
 2020-05-18,2020-20,1,0,Lesotho,2125267,Africa,NA
 2020-05-25,2020-21,1,0,Lesotho,2125267,Africa,0.09
 2020-06-01,2020-22,0,0,Lesotho,2125267,Africa,0.05
@@ -5460,6 +5571,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2731,20,Lesotho,2125267,Africa,140.26
 2021-01-18,2021-02,434,8,Lesotho,2125267,Africa,148.92
 2021-01-25,2021-03,1285,30,Lesotho,2125267,Africa,80.88
+2021-02-01,2021-04,622,37,Lesotho,2125267,Africa,89.73
 2020-03-23,2020-12,3,0,Liberia,4937374,Africa,NA
 2020-03-30,2020-13,0,0,Liberia,4937374,Africa,0.06
 2020-04-06,2020-14,10,3,Liberia,4937374,Africa,0.2
@@ -5505,6 +5617,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Liberia,4937374,Africa,0
 2021-01-18,2021-02,87,1,Liberia,4937374,Africa,1.76
 2021-01-25,2021-03,27,0,Liberia,4937374,Africa,2.31
+2021-02-01,2021-04,25,0,Liberia,4937374,Africa,1.05
 2020-03-30,2020-13,8,0,Libya,6777453,Africa,NA
 2020-04-06,2020-14,10,1,Libya,6777453,Africa,0.27
 2020-04-13,2020-15,7,0,Libya,6777453,Africa,0.25
@@ -5549,6 +5662,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3403,63,Libya,6777453,Africa,103.24
 2021-01-18,2021-02,4491,109,Libya,6777453,Africa,116.47
 2021-01-25,2021-03,5430,91,Libya,6777453,Africa,146.38
+2021-02-01,2021-04,4103,94,Libya,6777453,Africa,140.66
 2020-03-16,2020-11,7,0,Liechtenstein,38378,Western Europe,NA
 2020-03-23,2020-12,39,0,Liechtenstein,38378,Western Europe,119.86
 2020-03-30,2020-13,16,0,Liechtenstein,38378,Western Europe,143.31
@@ -5595,6 +5709,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,124,14,Liechtenstein,38378,Western Europe,661.84
 2021-01-18,2021-02,49,1,Liechtenstein,38378,Western Europe,450.78
 2021-01-25,2021-03,59,2,Liechtenstein,38378,Western Europe,281.41
+2021-02-01,2021-04,43,0,Liechtenstein,38378,Western Europe,265.78
 2020-01-06,2020-01,0,0,Lithuania,2794184,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Lithuania,2794184,Rest of Europe,0
 2020-01-20,2020-03,0,0,Lithuania,2794184,Rest of Europe,0
@@ -5651,6 +5766,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,12459,282,Lithuania,2794184,Rest of Europe,1004.84
 2021-01-18,2021-02,7546,237,Lithuania,2794184,Rest of Europe,715.95
 2021-01-25,2021-03,9174,195,Lithuania,2794184,Rest of Europe,598.39
+2021-02-01,2021-04,5727,161,Lithuania,2794184,Rest of Europe,533.29
 2020-01-06,2020-01,0,0,Luxembourg,613894,Western Europe,NA
 2020-01-13,2020-02,0,0,Luxembourg,613894,Western Europe,0
 2020-01-20,2020-03,0,0,Luxembourg,613894,Western Europe,0
@@ -5707,6 +5823,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1065,27,Luxembourg,613894,Western Europe,347.78
 2021-01-18,2021-02,868,19,Luxembourg,613894,Western Europe,314.88
 2021-01-25,2021-03,852,12,Luxembourg,613894,Western Europe,280.18
+2021-02-01,2021-04,965,16,Luxembourg,613894,Western Europe,295.98
 2020-03-23,2020-12,3,0,Madagascar,26969306,Africa,NA
 2020-03-30,2020-13,34,0,Madagascar,26969306,Africa,0.14
 2020-04-06,2020-14,35,0,Madagascar,26969306,Africa,0.26
@@ -5752,6 +5869,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,234,5,Madagascar,26969306,Africa,1.06
 2021-01-18,2021-02,300,6,Madagascar,26969306,Africa,1.98
 2021-01-25,2021-03,442,6,Madagascar,26969306,Africa,2.75
+2021-02-01,2021-04,322,2,Madagascar,26969306,Africa,2.83
 2020-04-06,2020-14,4,0,Malawi,18628749,Africa,NA
 2020-04-13,2020-15,9,2,Malawi,18628749,Africa,0.07
 2020-04-20,2020-16,4,0,Malawi,18628749,Africa,0.07
@@ -5795,6 +5913,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1731,30,Malawi,18628749,Africa,11.8
 2021-01-18,2021-02,3895,89,Malawi,18628749,Africa,30.2
 2021-01-25,2021-03,7517,204,Malawi,18628749,Africa,61.26
+2021-02-01,2021-04,4378,194,Malawi,18628749,Africa,63.85
 2020-01-06,2020-01,0,0,Malaysia,31949789,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Malaysia,31949789,Asia - ex China,0
 2020-01-20,2020-03,0,0,Malaysia,31949789,Asia - ex China,0
@@ -5851,6 +5970,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,15174,50,Malaysia,31949789,Asia - ex China,96.7
 2021-01-18,2021-02,22442,50,Malaysia,31949789,Asia - ex China,117.73
 2021-01-25,2021-03,25367,77,Malaysia,31949789,Asia - ex China,149.64
+2021-02-01,2021-04,31158,82,Malaysia,31949789,Asia - ex China,176.92
 2020-03-09,2020-10,4,0,Maldives,530957,Asia - ex China,NA
 2020-03-16,2020-11,9,0,Maldives,530957,Asia - ex China,2.45
 2020-03-23,2020-12,0,0,Maldives,530957,Asia - ex China,1.7
@@ -5898,6 +6018,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,242,1,Maldives,530957,Asia - ex China,87.58
 2021-01-18,2021-02,404,0,Maldives,530957,Asia - ex China,121.67
 2021-01-25,2021-03,480,2,Maldives,530957,Asia - ex China,166.49
+2021-02-01,2021-04,848,1,Maldives,530957,Asia - ex China,250.11
 2020-03-30,2020-13,18,0,Mali,19658023,Africa,NA
 2020-04-06,2020-14,27,5,Mali,19658023,Africa,0.23
 2020-04-13,2020-15,71,4,Mali,19658023,Africa,0.5
@@ -5942,6 +6063,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,347,20,Mali,19658023,Africa,4.56
 2021-01-18,2021-02,239,13,Mali,19658023,Africa,2.98
 2021-01-25,2021-03,144,11,Mali,19658023,Africa,1.95
+2021-02-01,2021-04,117,8,Mali,19658023,Africa,1.33
 2020-03-09,2020-10,3,0,Malta,493559,Rest of Europe,NA
 2020-03-16,2020-11,27,0,Malta,493559,Rest of Europe,6.08
 2020-03-23,2020-12,77,0,Malta,493559,Rest of Europe,21.07
@@ -5980,15 +6102,16 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2020-11-09,2020-45,842,14,Malta,493559,Rest of Europe,337.35
 2020-11-16,2020-46,894,20,Malta,493559,Rest of Europe,351.73
 2020-11-23,2020-47,867,15,Malta,493559,Rest of Europe,356.8
-2020-11-30,2020-48,759,23,Malta,493559,Rest of Europe,329.44
-2020-12-07,2020-49,768,18,Malta,493559,Rest of Europe,309.39
-2020-12-14,2020-50,734,23,Malta,493559,Rest of Europe,304.32
-2020-12-21,2020-51,460,16,Malta,493559,Rest of Europe,241.92
-2020-12-28,2020-52,712,25,Malta,493559,Rest of Europe,237.46
-2021-01-04,2020-53,804,7,Malta,493559,Rest of Europe,307.16
+2020-11-30,2020-48,869,25,Malta,493559,Rest of Europe,351.73
+2020-12-07,2020-49,786,15,Malta,493559,Rest of Europe,335.32
+2020-12-14,2020-50,595,21,Malta,493559,Rest of Europe,279.8
+2020-12-21,2020-51,548,20,Malta,493559,Rest of Europe,231.58
+2020-12-28,2020-52,624,20,Malta,493559,Rest of Europe,237.46
+2021-01-04,2020-53,804,6,Malta,493559,Rest of Europe,289.33
 2021-01-11,2021-01,1299,11,Malta,493559,Rest of Europe,426.09
-2021-01-18,2021-02,1213,8,Malta,493559,Rest of Europe,508.96
+2021-01-18,2021-02,1213,7,Malta,493559,Rest of Europe,508.96
 2021-01-25,2021-03,1119,12,Malta,493559,Rest of Europe,472.49
+2021-02-01,2021-04,1177,22,Malta,493559,Rest of Europe,465.19
 2020-11-02,2020-44,1,0,Marshall_Islands,58791,Oceania,NA
 2020-11-09,2020-45,0,0,Marshall_Islands,58791,Oceania,1.7
 2020-11-16,2020-46,0,0,Marshall_Islands,58791,Oceania,0
@@ -6002,6 +6125,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Marshall_Islands,58791,Oceania,0
 2021-01-18,2021-02,0,0,Marshall_Islands,58791,Oceania,0
 2021-01-25,2021-03,0,0,Marshall_Islands,58791,Oceania,0
+2021-02-01,2021-04,0,0,Marshall_Islands,58791,Oceania,0
 2020-03-16,2020-11,1,0,Mauritania,4525698,Africa,NA
 2020-03-23,2020-12,1,0,Mauritania,4525698,Africa,0.04
 2020-03-30,2020-13,3,0,Mauritania,4525698,Africa,0.09
@@ -6048,6 +6172,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,718,26,Mauritania,4525698,Africa,38.31
 2021-01-18,2021-02,527,21,Mauritania,4525698,Africa,27.51
 2021-01-25,2021-03,358,11,Mauritania,4525698,Africa,19.55
+2021-02-01,2021-04,146,5,Mauritania,4525698,Africa,11.14
 2020-03-23,2020-12,28,2,Mauritius,1269670,Africa,NA
 2020-03-30,2020-13,82,1,Mauritius,1269670,Africa,8.66
 2020-04-06,2020-14,117,4,Mauritius,1269670,Africa,15.67
@@ -6093,6 +6218,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,14,0,Mauritius,1269670,Africa,1.42
 2021-01-18,2021-02,2,0,Mauritius,1269670,Africa,1.26
 2021-01-25,2021-03,21,0,Mauritius,1269670,Africa,1.81
+2021-02-01,2021-04,1,0,Mauritius,1269670,Africa,1.73
 2020-01-06,2020-01,0,0,Mexico,127575529,America - ex USA,NA
 2020-01-13,2020-02,0,0,Mexico,127575529,America - ex USA,0
 2020-01-20,2020-03,1,0,Mexico,127575529,America - ex USA,0
@@ -6149,9 +6275,11 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,92878,7155,Mexico,127575529,America - ex USA,119.3
 2021-01-18,2021-02,107869,6880,Mexico,127575529,America - ex USA,157.36
 2021-01-25,2021-03,122238,9025,Mexico,127575529,America - ex USA,180.37
-2021-01-11,2021-01,1,0,Micronesia_(Federated_States_of),113811,Oceania,NA
-2021-01-18,2021-02,0,0,Micronesia_(Federated_States_of),113811,Oceania,0.88
+2021-02-01,2021-04,97968,8827,Mexico,127575529,America - ex USA,172.61
+2021-01-11,2021-01,0,0,Micronesia_(Federated_States_of),113811,Oceania,NA
+2021-01-18,2021-02,0,0,Micronesia_(Federated_States_of),113811,Oceania,0
 2021-01-25,2021-03,0,0,Micronesia_(Federated_States_of),113811,Oceania,0
+2021-02-01,2021-04,0,0,Micronesia_(Federated_States_of),113811,Oceania,0
 2020-03-16,2020-11,23,0,Moldova,4043258,Rest of Europe,NA
 2020-03-23,2020-12,71,1,Moldova,4043258,Rest of Europe,2.32
 2020-03-30,2020-13,169,1,Moldova,4043258,Rest of Europe,5.94
@@ -6198,6 +6326,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3518,102,Moldova,4043258,Rest of Europe,198.75
 2021-01-18,2021-02,3463,111,Moldova,4043258,Rest of Europe,172.66
 2021-01-25,2021-03,3348,111,Moldova,4043258,Rest of Europe,168.45
+2021-02-01,2021-04,3602,77,Moldova,4043258,Rest of Europe,171.89
 2020-01-06,2020-01,0,0,Monaco,33085,Western Europe,NA
 2020-01-13,2020-02,0,0,Monaco,33085,Western Europe,0
 2020-01-20,2020-03,0,0,Monaco,33085,Western Europe,0
@@ -6254,6 +6383,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,150,0,Monaco,33085,Western Europe,767.72
 2021-01-18,2021-02,148,5,Monaco,33085,Western Europe,900.71
 2021-01-25,2021-03,152,0,Monaco,33085,Western Europe,906.76
+2021-02-01,2021-04,132,5,Monaco,33085,Western Europe,858.4
 2020-03-23,2020-12,10,0,Mongolia,3225166,Asia - ex China,NA
 2020-03-30,2020-13,2,0,Mongolia,3225166,Asia - ex China,0.37
 2020-04-06,2020-14,2,0,Mongolia,3225166,Asia - ex China,0.12
@@ -6299,6 +6429,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,156,0,Mongolia,3225166,Asia - ex China,9.46
 2021-01-18,2021-02,84,0,Mongolia,3225166,Asia - ex China,7.44
 2021-01-25,2021-03,117,0,Mongolia,3225166,Asia - ex China,6.23
+2021-02-01,2021-04,171,2,Mongolia,3225166,Asia - ex China,8.93
 2020-03-23,2020-12,21,0,Montenegro,622182,Rest of Europe,NA
 2020-03-30,2020-13,64,1,Montenegro,622182,Rest of Europe,13.66
 2020-04-06,2020-14,129,1,Montenegro,622182,Rest of Europe,31.02
@@ -6344,6 +6475,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3236,36,Montenegro,622182,Rest of Europe,922.08
 2021-01-18,2021-02,3062,20,Montenegro,622182,Rest of Europe,1012.24
 2021-01-25,2021-03,2823,23,Montenegro,622182,Rest of Europe,945.86
+2021-02-01,2021-04,3343,37,Montenegro,622182,Rest of Europe,991.03
 2020-03-23,2020-12,1,0,Montserrat,4991,America - ex USA,NA
 2020-03-30,2020-13,4,0,Montserrat,4991,America - ex USA,100.18
 2020-04-06,2020-14,1,0,Montserrat,4991,America - ex USA,100.18
@@ -6389,6 +6521,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Montserrat,4991,America - ex USA,0
 2021-01-18,2021-02,0,0,Montserrat,4991,America - ex USA,0
 2021-01-25,2021-03,0,0,Montserrat,4991,America - ex USA,0
+2021-02-01,2021-04,0,0,Montserrat,4991,America - ex USA,0
 2020-03-16,2020-11,28,1,Morocco,36471766,Africa,NA
 2020-03-23,2020-12,87,3,Morocco,36471766,Africa,0.32
 2020-03-30,2020-13,364,22,Morocco,36471766,Africa,1.24
@@ -6435,6 +6568,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,9386,258,Morocco,36471766,Africa,56.08
 2021-01-18,2021-02,7139,199,Morocco,36471766,Africa,45.31
 2021-01-25,2021-03,6618,208,Morocco,36471766,Africa,37.72
+2021-02-01,2021-04,4868,125,Morocco,36471766,Africa,31.49
 2020-03-23,2020-12,1,0,Mozambique,30366043,Africa,NA
 2020-03-30,2020-13,7,0,Mozambique,30366043,Africa,0.03
 2020-04-06,2020-14,2,0,Mozambique,30366043,Africa,0.03
@@ -6480,6 +6614,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3025,28,Mozambique,30366043,Africa,13.25
 2021-01-18,2021-02,4217,44,Mozambique,30366043,Africa,23.85
 2021-01-25,2021-03,6230,122,Mozambique,30366043,Africa,34.4
+2021-02-01,2021-04,6679,23,Mozambique,30366043,Africa,42.51
 2020-03-30,2020-13,8,0,Myanmar,54045422,Asia - ex China,NA
 2020-04-06,2020-14,13,1,Myanmar,54045422,Asia - ex China,0.04
 2020-04-13,2020-15,20,3,Myanmar,54045422,Asia - ex China,0.06
@@ -6524,6 +6659,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4259,118,Myanmar,54045422,Asia - ex China,16.13
 2021-01-18,2021-02,3714,109,Myanmar,54045422,Asia - ex China,14.75
 2021-01-25,2021-03,3256,107,Myanmar,54045422,Asia - ex China,12.9
+2021-02-01,2021-04,2571,69,Myanmar,54045422,Asia - ex China,10.78
 2020-03-16,2020-11,2,0,Namibia,2494524,Africa,NA
 2020-03-23,2020-12,1,0,Namibia,2494524,Africa,0.12
 2020-03-30,2020-13,8,0,Namibia,2494524,Africa,0.36
@@ -6570,6 +6706,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3216,43,Namibia,2494524,Africa,253.15
 2021-01-18,2021-02,1761,24,Namibia,2494524,Africa,199.52
 2021-01-25,2021-03,2062,34,Namibia,2494524,Africa,153.26
+2021-02-01,2021-04,1743,34,Namibia,2494524,Africa,152.53
 2020-01-06,2020-01,0,0,Nepal,28608715,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Nepal,28608715,Asia - ex China,0
 2020-01-20,2020-03,0,0,Nepal,28608715,Asia - ex China,0
@@ -6626,6 +6763,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2921,39,Nepal,28608715,Asia - ex China,23.07
 2021-01-18,2021-02,2542,42,Nepal,28608715,Asia - ex China,19.1
 2021-01-25,2021-03,2128,42,Nepal,28608715,Asia - ex China,16.32
+2021-02-01,2021-04,1509,28,Nepal,28608715,Asia - ex China,12.71
 2020-01-06,2020-01,0,0,Netherlands,17282163,Western Europe,NA
 2020-01-13,2020-02,0,0,Netherlands,17282163,Western Europe,0
 2020-01-20,2020-03,0,0,Netherlands,17282163,Western Europe,0
@@ -6682,6 +6820,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,57026,799,Netherlands,17282163,Western Europe,623.33
 2021-01-18,2021-02,38967,645,Netherlands,17282163,Western Europe,555.45
 2021-01-25,2021-03,35590,522,Netherlands,17282163,Western Europe,431.41
+2021-02-01,2021-04,28671,445,Netherlands,17282163,Western Europe,371.83
 2020-03-23,2020-12,5,0,New_Caledonia,282757,Oceania,NA
 2020-03-30,2020-13,10,0,New_Caledonia,282757,Oceania,5.3
 2020-04-06,2020-14,3,0,New_Caledonia,282757,Oceania,4.6
@@ -6727,6 +6866,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,New_Caledonia,282757,Oceania,0.71
 2021-01-18,2021-02,4,0,New_Caledonia,282757,Oceania,1.41
 2021-01-25,2021-03,0,0,New_Caledonia,282757,Oceania,1.41
+2021-02-01,2021-04,3,0,New_Caledonia,282757,Oceania,1.06
 2020-01-06,2020-01,0,0,New_Zealand,4783062,Oceania,NA
 2020-01-13,2020-02,0,0,New_Zealand,4783062,Oceania,0
 2020-01-20,2020-03,0,0,New_Zealand,4783062,Oceania,0
@@ -6783,6 +6923,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,41,0,New_Zealand,4783062,Oceania,1.63
 2021-01-18,2021-02,40,0,New_Zealand,4783062,Oceania,1.69
 2021-01-25,2021-03,26,0,New_Zealand,4783062,Oceania,1.38
+2021-02-01,2021-04,15,0,New_Zealand,4783062,Oceania,0.86
 2020-03-23,2020-12,2,0,Nicaragua,6545503,America - ex USA,NA
 2020-03-30,2020-13,2,1,Nicaragua,6545503,America - ex USA,0.06
 2020-04-06,2020-14,1,0,Nicaragua,6545503,America - ex USA,0.05
@@ -6828,6 +6969,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,51,1,Nicaragua,6545503,America - ex USA,1.62
 2021-01-18,2021-02,55,1,Nicaragua,6545503,America - ex USA,1.62
 2021-01-25,2021-03,52,1,Nicaragua,6545503,America - ex USA,1.63
+2021-02-01,2021-04,49,1,Nicaragua,6545503,America - ex USA,1.54
 2020-03-23,2020-12,1,0,Niger,23310719,Africa,NA
 2020-03-30,2020-13,9,1,Niger,23310719,Africa,0.04
 2020-04-06,2020-14,174,9,Niger,23310719,Africa,0.79
@@ -6873,6 +7015,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,412,16,Niger,23310719,Africa,3.08
 2021-01-18,2021-02,279,14,Niger,23310719,Africa,2.96
 2021-01-25,2021-03,197,11,Niger,23310719,Africa,2.04
+2021-02-01,2021-04,184,10,Niger,23310719,Africa,1.63
 2020-01-06,2020-01,0,0,Nigeria,200963603,Africa,NA
 2020-01-13,2020-02,0,0,Nigeria,200963603,Africa,0
 2020-01-20,2020-03,0,0,Nigeria,200963603,Africa,0
@@ -6929,6 +7072,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,10007,47,Nigeria,200963603,Africa,7.6
 2021-01-18,2021-02,10300,77,Nigeria,200963603,Africa,10.1
 2021-01-25,2021-03,12609,72,Nigeria,200963603,Africa,11.4
+2021-02-01,2021-04,8922,100,Nigeria,200963603,Africa,10.71
 2020-01-06,2020-01,0,0,North_Macedonia,2077132,Rest of Europe,NA
 2020-01-13,2020-02,0,0,North_Macedonia,2077132,Rest of Europe,0
 2020-01-20,2020-03,0,0,North_Macedonia,2077132,Rest of Europe,0
@@ -6985,6 +7129,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2470,92,North_Macedonia,2077132,Rest of Europe,225.79
 2021-01-18,2021-02,2444,80,North_Macedonia,2077132,Rest of Europe,236.58
 2021-01-25,2021-03,1716,83,North_Macedonia,2077132,Rest of Europe,200.28
+2021-02-01,2021-04,2039,70,North_Macedonia,2077132,Rest of Europe,180.78
 2020-04-06,2020-14,8,1,Northern_Mariana_Islands,57213,Oceania,NA
 2020-04-13,2020-15,3,1,Northern_Mariana_Islands,57213,Oceania,19.23
 2020-04-20,2020-16,3,0,Northern_Mariana_Islands,57213,Oceania,10.49
@@ -7028,6 +7173,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3,0,Northern_Mariana_Islands,57213,Oceania,5.24
 2021-01-18,2021-02,3,0,Northern_Mariana_Islands,57213,Oceania,10.49
 2021-01-25,2021-03,1,0,Northern_Mariana_Islands,57213,Oceania,6.99
+2021-02-01,2021-04,3,0,Northern_Mariana_Islands,57213,Oceania,6.99
 2020-01-06,2020-01,0,0,Norway,5328212,Western Europe,NA
 2020-01-13,2020-02,0,0,Norway,5328212,Western Europe,0
 2020-01-20,2020-03,0,0,Norway,5328212,Western Europe,0
@@ -7084,6 +7230,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4758,29,Norway,5328212,Western Europe,157.95
 2021-01-18,2021-02,3178,43,Norway,5328212,Western Europe,148.94
 2021-01-25,2021-03,2431,27,Norway,5328212,Western Europe,105.27
+2021-02-01,2021-04,1884,19,Norway,5328212,Western Europe,80.98
 2020-01-06,2020-01,0,0,Oman,4974992,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Oman,4974992,Asia - ex China,0
 2020-01-20,2020-03,0,0,Oman,4974992,Asia - ex China,0
@@ -7140,6 +7287,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1196,6,Oman,4974992,Asia - ex China,46.39
 2021-01-18,2021-02,1010,4,Oman,4974992,Asia - ex China,44.34
 2021-01-25,2021-03,1254,9,Oman,4974992,Asia - ex China,45.51
+2021-02-01,2021-04,1480,11,Oman,4974992,Asia - ex China,54.95
 2020-01-06,2020-01,0,0,Pakistan,216565317,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Pakistan,216565317,Asia - ex China,0
 2020-01-20,2020-03,0,0,Pakistan,216565317,Asia - ex China,0
@@ -7196,6 +7344,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,15764,326,Pakistan,216565317,Asia - ex China,14.31
 2021-01-18,2021-02,16918,321,Pakistan,216565317,Asia - ex China,15.09
 2021-01-25,2021-03,12830,321,Pakistan,216565317,Asia - ex China,13.74
+2021-02-01,2021-04,12387,365,Pakistan,216565317,Asia - ex China,11.64
 2020-03-16,2020-11,38,0,Palestine,4981422,Asia - ex China,NA
 2020-03-23,2020-12,21,0,Palestine,4981422,Asia - ex China,1.18
 2020-03-30,2020-13,47,1,Palestine,4981422,Asia - ex China,1.37
@@ -7242,6 +7391,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,5906,124,Palestine,4981422,Asia - ex China,312.88
 2021-01-18,2021-02,5266,125,Palestine,4981422,Asia - ex China,224.27
 2021-01-25,2021-03,3731,90,Palestine,4981422,Asia - ex China,180.61
+2021-02-01,2021-04,3973,50,Palestine,4981422,Asia - ex China,154.65
 2020-03-16,2020-11,43,1,Panama,4246440,America - ex USA,NA
 2020-03-23,2020-12,270,2,Panama,4246440,America - ex USA,7.37
 2020-03-30,2020-13,676,21,Panama,4246440,America - ex USA,22.28
@@ -7288,6 +7438,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,25460,315,Panama,4246440,America - ex USA,1071.27
 2021-01-18,2021-02,18823,332,Panama,4246440,America - ex USA,1042.83
 2021-01-25,2021-03,14139,311,Panama,4246440,America - ex USA,776.23
+2021-02-01,2021-04,8221,172,Panama,4246440,America - ex USA,526.56
 2020-03-23,2020-12,1,0,Papua_New_Guinea,8776119,Oceania,NA
 2020-03-30,2020-13,0,0,Papua_New_Guinea,8776119,Oceania,0.01
 2020-04-06,2020-14,0,0,Papua_New_Guinea,8776119,Oceania,0
@@ -7333,6 +7484,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,12,0,Papua_New_Guinea,8776119,Oceania,0.35
 2021-01-18,2021-02,23,0,Papua_New_Guinea,8776119,Oceania,0.4
 2021-01-25,2021-03,15,0,Papua_New_Guinea,8776119,Oceania,0.43
+2021-02-01,2021-04,18,0,Papua_New_Guinea,8776119,Oceania,0.38
 2020-03-16,2020-11,8,0,Paraguay,7044639,America - ex USA,NA
 2020-03-23,2020-12,14,1,Paraguay,7044639,America - ex USA,0.31
 2020-03-30,2020-13,42,2,Paraguay,7044639,America - ex USA,0.79
@@ -7379,6 +7531,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,6660,113,Paraguay,7044639,America - ex USA,147.05
 2021-01-18,2021-02,6427,100,Paraguay,7044639,America - ex USA,185.77
 2021-01-25,2021-03,6206,127,Paraguay,7044639,America - ex USA,179.33
+2021-02-01,2021-04,4861,86,Paraguay,7044639,America - ex USA,157.1
 2020-03-09,2020-10,7,0,Peru,32510462,America - ex USA,NA
 2020-03-16,2020-11,64,0,Peru,32510462,America - ex USA,0.22
 2020-03-23,2020-12,292,5,Peru,32510462,America - ex USA,1.1
@@ -7426,6 +7579,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,16292,462,Peru,32510462,America - ex USA,87.49
 2021-01-18,2021-02,31452,596,Peru,32510462,America - ex USA,146.86
 2021-01-25,2021-03,30211,846,Peru,32510462,America - ex USA,189.67
+2021-02-01,2021-04,43703,1404,Peru,32510462,America - ex USA,227.35
 2020-01-06,2020-01,0,0,Philippines,108116622,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Philippines,108116622,Asia - ex China,0
 2020-01-20,2020-03,0,0,Philippines,108116622,Asia - ex China,0
@@ -7482,6 +7636,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,9883,148,Philippines,108116622,Asia - ex China,16.47
 2021-01-18,2021-02,12887,490,Philippines,108116622,Asia - ex China,21.06
 2021-01-25,2021-03,13042,347,Philippines,108116622,Asia - ex China,23.98
+2021-02-01,2021-04,11999,507,Philippines,108116622,Asia - ex China,23.16
 2020-03-09,2020-10,11,0,Poland,37972812,Rest of Europe,NA
 2020-03-16,2020-11,114,3,Poland,37972812,Rest of Europe,0.33
 2020-03-23,2020-12,509,4,Poland,37972812,Rest of Europe,1.64
@@ -7529,6 +7684,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,67438,2103,Poland,37972812,Rest of Europe,340.7
 2021-01-18,2021-02,48529,2143,Poland,37972812,Rest of Europe,305.39
 2021-01-25,2021-03,39205,1994,Poland,37972812,Rest of Europe,231.04
+2021-02-01,2021-04,35266,1779,Poland,37972812,Rest of Europe,196.12
 2020-03-09,2020-10,30,0,Portugal,10276617,Western Europe,NA
 2020-03-16,2020-11,215,0,Portugal,10276617,Western Europe,2.38
 2020-03-23,2020-12,1355,14,Portugal,10276617,Western Europe,15.28
@@ -7575,7 +7731,8 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-04,2020-53,34957,519,Portugal,10276617,Western Europe,559.54
 2021-01-11,2021-01,57670,729,Portugal,10276617,Western Europe,901.34
 2021-01-18,2021-02,67210,1103,Portugal,10276617,Western Europe,1215.19
-2021-01-25,2021-03,79687,1441,Portugal,10276617,Western Europe,1429.43
+2021-01-25,2021-03,86610,1693,Portugal,10276617,Western Europe,1496.8
+2021-02-01,2021-04,83208,2036,Portugal,10276617,Western Europe,1652.47
 2020-03-30,2020-13,127,5,Puerto_Rico,2933404,America - ex USA,NA
 2020-04-06,2020-14,348,15,Puerto_Rico,2933404,America - ex USA,16.19
 2020-04-13,2020-15,422,24,Puerto_Rico,2933404,America - ex USA,26.25
@@ -7620,6 +7777,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,5800,80,Puerto_Rico,2933404,America - ex USA,464.85
 2021-01-18,2021-02,7978,61,Puerto_Rico,2933404,America - ex USA,469.69
 2021-01-25,2021-03,7630,75,Puerto_Rico,2933404,America - ex USA,532.08
+2021-02-01,2021-04,5521,58,Puerto_Rico,2933404,America - ex USA,448.32
 2020-01-06,2020-01,0,0,Qatar,2832071,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Qatar,2832071,Asia - ex China,0
 2020-01-20,2020-03,0,0,Qatar,2832071,Asia - ex China,0
@@ -7676,6 +7834,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1424,1,Qatar,2832071,Asia - ex China,106.14
 2021-01-18,2021-02,1436,2,Qatar,2832071,Asia - ex China,100.99
 2021-01-25,2021-03,1515,0,Qatar,2832071,Asia - ex China,104.2
+2021-02-01,2021-04,2316,0,Qatar,2832071,Asia - ex China,135.27
 2020-01-06,2020-01,0,0,Romania,19414458,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Romania,19414458,Rest of Europe,0
 2020-01-20,2020-03,0,0,Romania,19414458,Rest of Europe,0
@@ -7732,6 +7891,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,32842,746,Romania,19414458,Rest of Europe,282.48
 2021-01-18,2021-02,21882,546,Romania,19414458,Rest of Europe,281.87
 2021-01-25,2021-03,17408,570,Romania,19414458,Rest of Europe,202.37
+2021-02-01,2021-04,16182,494,Romania,19414458,Rest of Europe,173.02
 2020-01-06,2020-01,0,0,Russia,145872260,Rest of Europe,NA
 2020-01-13,2020-02,0,0,Russia,145872260,Rest of Europe,0
 2020-01-20,2020-03,0,0,Russia,145872260,Rest of Europe,0
@@ -7788,6 +7948,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,165131,3285,Russia,145872260,Rest of Europe,238.04
 2021-01-18,2021-02,165797,3764,Russia,145872260,Rest of Europe,226.86
 2021-01-25,2021-03,147624,3881,Russia,145872260,Rest of Europe,214.86
+2021-02-01,2021-04,129397,3701,Russia,145872260,Rest of Europe,189.91
 2020-03-16,2020-11,5,0,Rwanda,12626938,Africa,NA
 2020-03-23,2020-12,14,0,Rwanda,12626938,Africa,0.15
 2020-03-30,2020-13,51,0,Rwanda,12626938,Africa,0.51
@@ -7834,6 +7995,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,954,19,Rwanda,12626938,Africa,12.74
 2021-01-18,2021-02,1402,22,Rwanda,12626938,Africa,18.66
 2021-01-25,2021-03,1943,32,Rwanda,12626938,Africa,26.49
+2021-02-01,2021-04,2484,24,Rwanda,12626938,Africa,35.06
 2020-03-30,2020-13,7,0,Saint_Kitts_and_Nevis,52834,America - ex USA,NA
 2020-04-06,2020-14,3,0,Saint_Kitts_and_Nevis,52834,America - ex USA,18.93
 2020-04-13,2020-15,2,0,Saint_Kitts_and_Nevis,52834,America - ex USA,9.46
@@ -7878,6 +8040,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1,0,Saint_Kitts_and_Nevis,52834,America - ex USA,3.79
 2021-01-18,2021-02,1,0,Saint_Kitts_and_Nevis,52834,America - ex USA,3.79
 2021-01-25,2021-03,0,0,Saint_Kitts_and_Nevis,52834,America - ex USA,1.89
+2021-02-01,2021-04,3,0,Saint_Kitts_and_Nevis,52834,America - ex USA,5.68
 2020-03-16,2020-11,2,0,Saint_Lucia,182795,America - ex USA,NA
 2020-03-23,2020-12,0,0,Saint_Lucia,182795,America - ex USA,1.09
 2020-03-30,2020-13,7,0,Saint_Lucia,182795,America - ex USA,3.83
@@ -7924,6 +8087,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,85,0,Saint_Lucia,182795,America - ex USA,72.76
 2021-01-18,2021-02,173,3,Saint_Lucia,182795,America - ex USA,141.14
 2021-01-25,2021-03,310,5,Saint_Lucia,182795,America - ex USA,264.23
+2021-02-01,2021-04,490,2,Saint_Lucia,182795,America - ex USA,437.65
 2020-03-30,2020-13,1,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA,NA
 2020-04-06,2020-14,6,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA,6.33
 2020-04-13,2020-15,5,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA,9.95
@@ -7968,6 +8132,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,125,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA,126.59
 2021-01-18,2021-02,245,1,Saint_Vincent_and_the_Grenadines,110593,America - ex USA,334.56
 2021-01-25,2021-03,252,1,Saint_Vincent_and_the_Grenadines,110593,America - ex USA,449.4
+2021-02-01,2021-04,205,0,Saint_Vincent_and_the_Grenadines,110593,America - ex USA,413.23
 2020-01-06,2020-01,0,0,San_Marino,34453,Western Europe,NA
 2020-01-13,2020-02,0,0,San_Marino,34453,Western Europe,0
 2020-01-20,2020-03,0,0,San_Marino,34453,Western Europe,0
@@ -8024,6 +8189,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,174,2,San_Marino,34453,Western Europe,1137.78
 2021-01-18,2021-02,120,1,San_Marino,34453,Western Europe,853.34
 2021-01-25,2021-03,87,0,San_Marino,34453,Western Europe,600.82
+2021-02-01,2021-04,151,2,San_Marino,34453,Western Europe,690.8
 2020-04-13,2020-15,4,0,Sao_Tome_and_Principe,215048,Africa,NA
 2020-04-20,2020-16,0,0,Sao_Tome_and_Principe,215048,Africa,1.86
 2020-04-27,2020-17,4,0,Sao_Tome_and_Principe,215048,Africa,1.86
@@ -8066,6 +8232,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,42,0,Sao_Tome_and_Principe,215048,Africa,24.18
 2021-01-18,2021-02,76,0,Sao_Tome_and_Principe,215048,Africa,54.87
 2021-01-25,2021-03,47,0,Sao_Tome_and_Principe,215048,Africa,57.2
+2021-02-01,2021-04,58,0,Sao_Tome_and_Principe,215048,Africa,48.83
 2020-03-09,2020-10,11,0,Saudi_Arabia,34268529,Asia - ex China,NA
 2020-03-16,2020-11,107,0,Saudi_Arabia,34268529,Asia - ex China,0.34
 2020-03-23,2020-12,393,0,Saudi_Arabia,34268529,Asia - ex China,1.46
@@ -8113,6 +8280,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,654,35,Saudi_Arabia,34268529,Asia - ex China,4.64
 2021-01-18,2021-02,1120,32,Saudi_Arabia,34268529,Asia - ex China,5.18
 2021-01-25,2021-03,1442,29,Saudi_Arabia,34268529,Asia - ex China,7.48
+2021-02-01,2021-04,1703,23,Saudi_Arabia,34268529,Asia - ex China,9.18
 2020-03-16,2020-11,26,0,Senegal,16296362,Africa,NA
 2020-03-23,2020-12,41,0,Senegal,16296362,Africa,0.41
 2020-03-30,2020-13,75,0,Senegal,16296362,Africa,0.71
@@ -8159,6 +8327,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1730,45,Senegal,16296362,Africa,17.21
 2021-01-18,2021-02,1691,57,Senegal,16296362,Africa,20.99
 2021-01-25,2021-03,1769,56,Senegal,16296362,Africa,21.23
+2021-02-01,2021-04,1934,56,Senegal,16296362,Africa,22.72
 2020-03-16,2020-11,55,0,Serbia,6963764,Rest of Europe,NA
 2020-03-23,2020-12,133,1,Serbia,6963764,Rest of Europe,2.7
 2020-03-30,2020-13,553,12,Serbia,6963764,Rest of Europe,9.85
@@ -8205,6 +8374,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,15819,257,Serbia,6963764,Rest of Europe,446.17
 2021-01-18,2021-02,12844,168,Serbia,6963764,Rest of Europe,411.6
 2021-01-25,2021-03,11070,136,Serbia,6963764,Rest of Europe,343.41
+2021-02-01,2021-04,11660,134,Serbia,6963764,Rest of Europe,326.4
 2020-03-16,2020-11,3,0,Seychelles,97741,Africa,NA
 2020-03-23,2020-12,4,0,Seychelles,97741,Africa,7.16
 2020-03-30,2020-13,1,0,Seychelles,97741,Africa,5.12
@@ -8251,6 +8421,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,234,2,Seychelles,97741,Africa,321.26
 2021-01-18,2021-02,174,0,Seychelles,97741,Africa,417.43
 2021-01-25,2021-03,364,1,Seychelles,97741,Africa,550.43
+2021-02-01,2021-04,154,2,Seychelles,97741,Africa,529.97
 2020-04-06,2020-14,6,0,Sierra_Leone,7813207,Africa,NA
 2020-04-13,2020-15,4,0,Sierra_Leone,7813207,Africa,0.13
 2020-04-20,2020-16,25,0,Sierra_Leone,7813207,Africa,0.37
@@ -8294,6 +8465,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,173,1,Sierra_Leone,7813207,Africa,3.66
 2021-01-18,2021-02,160,0,Sierra_Leone,7813207,Africa,4.26
 2021-01-25,2021-03,167,0,Sierra_Leone,7813207,Africa,4.19
+2021-02-01,2021-04,461,2,Sierra_Leone,7813207,Africa,8.04
 2020-01-06,2020-01,0,0,Singapore,5804343,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Singapore,5804343,Asia - ex China,0
 2020-01-20,2020-03,0,0,Singapore,5804343,Asia - ex China,0
@@ -8350,6 +8522,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,210,0,Singapore,5804343,Asia - ex China,6.6
 2021-01-18,2021-02,206,0,Singapore,5804343,Asia - ex China,7.17
 2021-01-25,2021-03,195,0,Singapore,5804343,Asia - ex China,6.91
+2021-02-01,2021-04,228,0,Singapore,5804343,Asia - ex China,7.29
 2020-03-30,2020-13,3,0,Sint_Maarten,42389,America - ex USA,NA
 2020-04-06,2020-14,22,4,Sint_Maarten,42389,America - ex USA,58.98
 2020-04-13,2020-15,25,5,Sint_Maarten,42389,America - ex USA,110.88
@@ -8394,6 +8567,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,113,0,Sint_Maarten,42389,America - ex USA,386.89
 2021-01-18,2021-02,81,0,Sint_Maarten,42389,America - ex USA,457.67
 2021-01-25,2021-03,102,0,Sint_Maarten,42389,America - ex USA,431.72
+2021-02-01,2021-04,112,0,Sint_Maarten,42389,America - ex USA,504.85
 2020-03-09,2020-10,5,0,Slovakia,5450421,Rest of Europe,NA
 2020-03-16,2020-11,56,0,Slovakia,5450421,Rest of Europe,1.12
 2020-03-23,2020-12,124,0,Slovakia,5450421,Rest of Europe,3.3
@@ -8441,6 +8615,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,20970,486,Slovakia,5450421,Rest of Europe,751.81
 2021-01-18,2021-02,15316,519,Slovakia,5450421,Rest of Europe,665.75
 2021-01-25,2021-03,12642,542,Slovakia,5450421,Rest of Europe,512.95
+2021-02-01,2021-04,12886,574,Slovakia,5450421,Rest of Europe,468.37
 2020-03-09,2020-10,16,0,Slovenia,2080908,Rest of Europe,NA
 2020-03-16,2020-11,203,0,Slovenia,2080908,Rest of Europe,10.52
 2020-03-23,2020-12,195,1,Slovenia,2080908,Rest of Europe,19.13
@@ -8488,6 +8663,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,13855,256,Slovenia,2080908,Rest of Europe,1171.89
 2021-01-18,2021-02,9721,224,Slovenia,2080908,Rest of Europe,1132.97
 2021-01-25,2021-03,8705,210,Slovenia,2080908,Rest of Europe,885.48
+2021-02-01,2021-04,8334,171,Slovenia,2080908,Rest of Europe,818.83
 2020-10-19,2020-42,3,0,Solomon_Islands,669821,Oceania,NA
 2020-10-26,2020-43,1,0,Solomon_Islands,669821,Oceania,0.6
 2020-11-02,2020-44,4,0,Solomon_Islands,669821,Oceania,0.75
@@ -8503,6 +8679,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Solomon_Islands,669821,Oceania,0
 2021-01-18,2021-02,0,0,Solomon_Islands,669821,Oceania,0
 2021-01-25,2021-03,0,0,Solomon_Islands,669821,Oceania,0
+2021-02-01,2021-04,0,0,Solomon_Islands,669821,Oceania,0
 2020-03-23,2020-12,1,0,Somalia,15442906,Africa,NA
 2020-03-30,2020-13,2,0,Somalia,15442906,Africa,0.02
 2020-04-06,2020-14,4,0,Somalia,15442906,Africa,0.04
@@ -8548,6 +8725,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,12,0,Somalia,15442906,Africa,0.23
 2021-01-18,2021-02,18,0,Somalia,15442906,Africa,0.19
 2021-01-25,2021-03,10,0,Somalia,15442906,Africa,0.18
+2021-02-01,2021-04,30,0,Somalia,15442906,Africa,0.26
 2020-03-09,2020-10,3,0,South_Africa,58558267,Africa,NA
 2020-03-16,2020-11,48,0,South_Africa,58558267,Africa,0.09
 2020-03-23,2020-12,223,0,South_Africa,58558267,Africa,0.46
@@ -8595,6 +8773,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,130849,3586,South_Africa,58558267,Africa,375.23
 2021-01-18,2021-02,106329,3942,South_Africa,58558267,Africa,405.03
 2021-01-25,2021-03,75060,3769,South_Africa,58558267,Africa,309.76
+2021-02-01,2021-04,43323,3525,South_Africa,58558267,Africa,202.16
 2020-01-06,2020-01,0,0,South_Korea,51225321,Asia - ex China,NA
 2020-01-13,2020-02,0,0,South_Korea,51225321,Asia - ex China,0
 2020-01-20,2020-03,1,0,South_Korea,51225321,Asia - ex China,0
@@ -8651,6 +8830,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,4850,159,South_Korea,51225321,Asia - ex China,22.32
 2021-01-18,2021-02,3615,124,South_Korea,51225321,Asia - ex China,16.53
 2021-01-25,2021-03,2792,96,South_Korea,51225321,Asia - ex China,12.51
+2021-02-01,2021-04,2987,65,South_Korea,51225321,Asia - ex China,11.28
 2020-04-06,2020-14,1,0,South_Sudan,11062114,Africa,NA
 2020-04-13,2020-15,3,0,South_Sudan,11062114,Africa,0.04
 2020-04-20,2020-16,0,0,South_Sudan,11062114,Africa,0.03
@@ -8694,6 +8874,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,73,0,South_Sudan,11062114,Africa,1.55
 2021-01-18,2021-02,8,0,South_Sudan,11062114,Africa,0.73
 2021-01-25,2021-03,118,1,South_Sudan,11062114,Africa,1.14
+2021-02-01,2021-04,249,0,South_Sudan,11062114,Africa,3.32
 2020-01-06,2020-01,0,0,Spain,46937060,Western Europe,NA
 2020-01-13,2020-02,0,0,Spain,46937060,Western Europe,0
 2020-01-20,2020-03,0,0,Spain,46937060,Western Europe,0
@@ -8750,6 +8931,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,152938,1197,Spain,46937060,Western Europe,495.07
 2021-01-18,2021-02,224669,1494,Spain,46937060,Western Europe,804.5
 2021-01-25,2021-03,256931,2439,Spain,46937060,Western Europe,1026.05
+2021-02-01,2021-04,229423,2873,Spain,46937060,Western Europe,1036.18
 2020-01-06,2020-01,0,0,Sri_Lanka,21323734,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Sri_Lanka,21323734,Asia - ex China,0
 2020-01-20,2020-03,0,0,Sri_Lanka,21323734,Asia - ex China,0
@@ -8806,6 +8988,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3606,19,Sri_Lanka,21323734,Asia - ex China,34.36
 2021-01-18,2021-02,4682,32,Sri_Lanka,21323734,Asia - ex China,38.87
 2021-01-25,2021-03,5368,19,Sri_Lanka,21323734,Asia - ex China,47.13
+2021-02-01,2021-04,5727,33,Sri_Lanka,21323734,Asia - ex China,52.03
 2020-03-16,2020-11,1,1,Sudan,42813237,Africa,NA
 2020-03-23,2020-12,1,0,Sudan,42813237,Africa,0
 2020-03-30,2020-13,3,0,Sudan,42813237,Africa,0.01
@@ -8852,6 +9035,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Sudan,42813237,Africa,0
 2021-01-18,2021-02,0,0,Sudan,42813237,Africa,0
 2021-01-25,2021-03,5206,254,Sudan,42813237,Africa,12.16
+2021-02-01,2021-04,927,85,Sudan,42813237,Africa,14.33
 2020-03-23,2020-12,5,0,Suriname,581363,America - ex USA,NA
 2020-03-30,2020-13,3,0,Suriname,581363,America - ex USA,1.38
 2020-04-06,2020-14,2,1,Suriname,581363,America - ex USA,0.86
@@ -8897,6 +9081,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,671,15,Suriname,581363,America - ex USA,180.78
 2021-01-18,2021-02,560,7,Suriname,581363,America - ex USA,211.74
 2021-01-25,2021-03,488,4,Suriname,581363,America - ex USA,180.27
+2021-02-01,2021-04,337,7,Suriname,581363,America - ex USA,141.91
 2020-01-06,2020-01,0,0,Sweden,10230185,Western Europe,NA
 2020-01-13,2020-02,0,0,Sweden,10230185,Western Europe,0
 2020-01-20,2020-03,0,0,Sweden,10230185,Western Europe,0
@@ -8907,52 +9092,53 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2020-02-24,2020-08,0,0,Sweden,10230185,Western Europe,0
 2020-03-02,2020-09,13,0,Sweden,10230185,Western Europe,0.13
 2020-03-09,2020-10,211,0,Sweden,10230185,Western Europe,2.19
-2020-03-16,2020-11,921,8,Sweden,10230185,Western Europe,11.07
-2020-03-23,2020-12,1023,73,Sweden,10230185,Western Europe,19
-2020-03-30,2020-13,2191,251,Sweden,10230185,Western Europe,31.42
-2020-04-06,2020-14,3201,532,Sweden,10230185,Western Europe,52.71
-2020-04-13,2020-15,3787,666,Sweden,10230185,Western Europe,68.31
-2020-04-20,2020-16,3775,629,Sweden,10230185,Western Europe,73.92
-2020-04-27,2020-17,4303,556,Sweden,10230185,Western Europe,78.96
-2020-05-04,2020-18,3746,543,Sweden,10230185,Western Europe,78.68
-2020-05-11,2020-19,4131,480,Sweden,10230185,Western Europe,77
-2020-05-18,2020-20,3844,354,Sweden,10230185,Western Europe,77.96
-2020-05-25,2020-21,3720,330,Sweden,10230185,Western Europe,73.94
-2020-06-01,2020-22,4438,279,Sweden,10230185,Western Europe,79.74
-2020-06-08,2020-23,6050,241,Sweden,10230185,Western Europe,102.52
-2020-06-15,2020-24,7131,221,Sweden,10230185,Western Europe,128.84
-2020-06-22,2020-25,7188,187,Sweden,10230185,Western Europe,139.97
-2020-06-29,2020-26,7386,129,Sweden,10230185,Western Europe,142.46
-2020-07-06,2020-27,3800,89,Sweden,10230185,Western Europe,109.34
-2020-07-13,2020-28,2098,77,Sweden,10230185,Western Europe,57.65
-2020-07-20,2020-29,1583,50,Sweden,10230185,Western Europe,35.98
-2020-07-27,2020-30,1256,27,Sweden,10230185,Western Europe,27.75
-2020-08-03,2020-31,1650,14,Sweden,10230185,Western Europe,28.41
-2020-08-10,2020-32,2045,18,Sweden,10230185,Western Europe,36.12
-2020-08-17,2020-33,2030,17,Sweden,10230185,Western Europe,39.83
-2020-08-24,2020-34,1687,14,Sweden,10230185,Western Europe,36.33
-2020-08-31,2020-35,1188,13,Sweden,10230185,Western Europe,28.1
-2020-09-07,2020-36,1355,9,Sweden,10230185,Western Europe,24.86
-2020-09-14,2020-37,1627,14,Sweden,10230185,Western Europe,29.15
-2020-09-21,2020-38,2126,12,Sweden,10230185,Western Europe,36.69
-2020-09-28,2020-39,3031,11,Sweden,10230185,Western Europe,50.41
-2020-10-05,2020-40,3638,20,Sweden,10230185,Western Europe,65.19
-2020-10-12,2020-41,4541,20,Sweden,10230185,Western Europe,79.95
-2020-10-19,2020-42,5754,20,Sweden,10230185,Western Europe,100.63
-2020-10-26,2020-43,9454,55,Sweden,10230185,Western Europe,148.66
-2020-11-02,2020-44,18975,102,Sweden,10230185,Western Europe,277.89
-2020-11-09,2020-45,27561,187,Sweden,10230185,Western Europe,454.89
-2020-11-16,2020-46,30142,246,Sweden,10230185,Western Europe,564.05
-2020-11-23,2020-47,33279,374,Sweden,10230185,Western Europe,619.94
-2020-11-30,2020-48,35166,429,Sweden,10230185,Western Europe,669.05
-2020-12-07,2020-49,37141,453,Sweden,10230185,Western Europe,706.8
-2020-12-14,2020-50,43384,569,Sweden,10230185,Western Europe,787.13
-2020-12-21,2020-51,47810,631,Sweden,10230185,Western Europe,891.42
-2020-12-28,2020-52,39076,659,Sweden,10230185,Western Europe,849.31
-2021-01-04,2020-53,41227,636,Sweden,10230185,Western Europe,784.96
-2021-01-11,2021-01,37132,606,Sweden,10230185,Western Europe,765.96
-2021-01-18,2021-02,26438,307,Sweden,10230185,Western Europe,621.4
-2021-01-25,2021-03,23035,89,Sweden,10230185,Western Europe,483.6
+2020-03-16,2020-11,838,5,Sweden,10230185,Western Europe,10.25
+2020-03-23,2020-12,924,44,Sweden,10230185,Western Europe,17.22
+2020-03-30,2020-13,1957,190,Sweden,10230185,Western Europe,28.16
+2020-04-06,2020-14,3228,451,Sweden,10230185,Western Europe,50.68
+2020-04-13,2020-15,3739,664,Sweden,10230185,Western Europe,68.1
+2020-04-20,2020-16,3751,658,Sweden,10230185,Western Europe,73.21
+2020-04-27,2020-17,4201,546,Sweden,10230185,Western Europe,77.73
+2020-05-04,2020-18,3832,544,Sweden,10230185,Western Europe,78.52
+2020-05-11,2020-19,4153,510,Sweden,10230185,Western Europe,78.05
+2020-05-18,2020-20,3869,380,Sweden,10230185,Western Europe,78.42
+2020-05-25,2020-21,3659,360,Sweden,10230185,Western Europe,73.59
+2020-06-01,2020-22,4281,274,Sweden,10230185,Western Europe,77.61
+2020-06-08,2020-23,6021,245,Sweden,10230185,Western Europe,100.7
+2020-06-15,2020-24,7123,234,Sweden,10230185,Western Europe,128.48
+2020-06-22,2020-25,7073,200,Sweden,10230185,Western Europe,138.77
+2020-06-29,2020-26,7459,138,Sweden,10230185,Western Europe,142.05
+2020-07-06,2020-27,4276,98,Sweden,10230185,Western Europe,114.71
+2020-07-13,2020-28,2179,84,Sweden,10230185,Western Europe,63.1
+2020-07-20,2020-29,1622,57,Sweden,10230185,Western Europe,37.15
+2020-07-27,2020-30,1316,30,Sweden,10230185,Western Europe,28.72
+2020-08-03,2020-31,1556,18,Sweden,10230185,Western Europe,28.07
+2020-08-10,2020-32,2014,18,Sweden,10230185,Western Europe,34.9
+2020-08-17,2020-33,2052,16,Sweden,10230185,Western Europe,39.75
+2020-08-24,2020-34,1687,19,Sweden,10230185,Western Europe,36.55
+2020-08-31,2020-35,1200,10,Sweden,10230185,Western Europe,28.22
+2020-09-07,2020-36,1332,12,Sweden,10230185,Western Europe,24.75
+2020-09-14,2020-37,1592,13,Sweden,10230185,Western Europe,28.58
+2020-09-21,2020-38,2080,12,Sweden,10230185,Western Europe,35.89
+2020-09-28,2020-39,2919,11,Sweden,10230185,Western Europe,48.87
+2020-10-05,2020-40,3642,17,Sweden,10230185,Western Europe,64.13
+2020-10-12,2020-41,4278,22,Sweden,10230185,Western Europe,77.42
+2020-10-19,2020-42,5620,16,Sweden,10230185,Western Europe,96.75
+2020-10-26,2020-43,9156,43,Sweden,10230185,Western Europe,144.44
+2020-11-02,2020-44,18475,82,Sweden,10230185,Western Europe,270.09
+2020-11-09,2020-45,25405,157,Sweden,10230185,Western Europe,428.93
+2020-11-16,2020-46,31320,235,Sweden,10230185,Western Europe,554.49
+2020-11-23,2020-47,31945,332,Sweden,10230185,Western Europe,618.42
+2020-11-30,2020-48,35559,418,Sweden,10230185,Western Europe,659.85
+2020-12-07,2020-49,36841,476,Sweden,10230185,Western Europe,707.71
+2020-12-14,2020-50,43631,499,Sweden,10230185,Western Europe,786.61
+2020-12-21,2020-51,46181,645,Sweden,10230185,Western Europe,877.91
+2020-12-28,2020-52,37138,638,Sweden,10230185,Western Europe,814.44
+2021-01-04,2020-53,41336,657,Sweden,10230185,Western Europe,767.08
+2021-01-11,2021-01,39467,637,Sweden,10230185,Western Europe,789.85
+2021-01-18,2021-02,28957,569,Sweden,10230185,Western Europe,668.84
+2021-01-25,2021-03,23255,400,Sweden,10230185,Western Europe,510.37
+2021-02-01,2021-04,20683,89,Sweden,10230185,Western Europe,429.49
 2020-01-06,2020-01,0,0,Switzerland,8544527,Western Europe,NA
 2020-01-13,2020-02,0,0,Switzerland,8544527,Western Europe,0
 2020-01-20,2020-03,0,0,Switzerland,8544527,Western Europe,0
@@ -9009,6 +9195,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,22434,417,Switzerland,8544527,Western Europe,536.58
 2021-01-18,2021-02,15378,392,Switzerland,8544527,Western Europe,442.53
 2021-01-25,2021-03,13605,337,Switzerland,8544527,Western Europe,339.2
+2021-02-01,2021-04,11451,295,Switzerland,8544527,Western Europe,293.24
 2020-03-23,2020-12,1,0,Syria,17070132,Asia - ex China,NA
 2020-03-30,2020-13,8,1,Syria,17070132,Asia - ex China,0.05
 2020-04-06,2020-14,10,1,Syria,17070132,Asia - ex China,0.11
@@ -9054,6 +9241,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,654,45,Syria,17070132,Asia - ex China,7.8
 2021-01-18,2021-02,672,58,Syria,17070132,Asia - ex China,7.77
 2021-01-25,2021-03,592,53,Syria,17070132,Asia - ex China,7.4
+2021-02-01,2021-04,420,36,Syria,17070132,Asia - ex China,5.93
 2020-01-06,2020-01,0,0,Taiwan,23773881,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Taiwan,23773881,Asia - ex China,0
 2020-01-20,2020-03,0,0,Taiwan,23773881,Asia - ex China,0
@@ -9110,6 +9298,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,19,0,Taiwan,23773881,Asia - ex China,0.17
 2021-01-18,2021-02,28,0,Taiwan,23773881,Asia - ex China,0.2
 2021-01-25,2021-03,27,0,Taiwan,23773881,Asia - ex China,0.23
+2021-02-01,2021-04,23,1,Taiwan,23773881,Asia - ex China,0.21
 2020-05-04,2020-18,76,2,Tajikistan,9321023,Asia - ex China,NA
 2020-05-11,2020-19,536,18,Tajikistan,9321023,Asia - ex China,6.57
 2020-05-18,2020-20,912,19,Tajikistan,9321023,Asia - ex China,15.53
@@ -9149,6 +9338,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,8,0,Tajikistan,9321023,Asia - ex China,0.76
 2021-01-18,2021-02,0,0,Tajikistan,9321023,Asia - ex China,0.09
 2021-01-25,2021-03,0,0,Tajikistan,9321023,Asia - ex China,0
+2021-02-01,2021-04,0,0,Tajikistan,9321023,Asia - ex China,0
 2020-01-06,2020-01,0,0,Thailand,69625581,Asia - ex China,NA
 2020-01-13,2020-02,1,0,Thailand,69625581,Asia - ex China,0
 2020-01-20,2020-03,1,0,Thailand,69625581,Asia - ex China,0
@@ -9205,6 +9395,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2108,2,Thailand,69625581,Asia - ex China,6.12
 2021-01-18,2021-02,1876,3,Thailand,69625581,Asia - ex China,5.72
 2021-01-25,2021-03,1264,5,Thailand,69625581,Asia - ex China,4.51
+2021-02-01,2021-04,5931,2,Thailand,69625581,Asia - ex China,10.33
 2020-03-23,2020-12,1,0,Timor_Leste,1293120,Asia - ex China,NA
 2020-03-30,2020-13,0,0,Timor_Leste,1293120,Asia - ex China,0.08
 2020-04-06,2020-14,0,0,Timor_Leste,1293120,Asia - ex China,0
@@ -9250,6 +9441,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,5,0,Timor_Leste,1293120,Asia - ex China,0.62
 2021-01-18,2021-02,3,0,Timor_Leste,1293120,Asia - ex China,0.62
 2021-01-25,2021-03,15,0,Timor_Leste,1293120,Asia - ex China,1.39
+2021-02-01,2021-04,3,0,Timor_Leste,1293120,Asia - ex China,1.39
 2020-03-16,2020-11,1,0,Togo,8082359,Africa,NA
 2020-03-23,2020-12,14,0,Togo,8082359,Africa,0.19
 2020-03-30,2020-13,15,1,Togo,8082359,Africa,0.36
@@ -9296,6 +9488,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,255,4,Togo,8082359,Africa,4.71
 2021-01-18,2021-02,345,1,Togo,8082359,Africa,7.42
 2021-01-25,2021-03,360,3,Togo,8082359,Africa,8.72
+2021-02-01,2021-04,430,3,Togo,8082359,Africa,9.77
 2020-03-16,2020-11,4,0,Trinidad_and_Tobago,1394969,America - ex USA,NA
 2020-03-23,2020-12,46,0,Trinidad_and_Tobago,1394969,America - ex USA,3.58
 2020-03-30,2020-13,28,3,Trinidad_and_Tobago,1394969,America - ex USA,5.3
@@ -9342,6 +9535,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,97,1,Trinidad_and_Tobago,1394969,America - ex USA,10.75
 2021-01-18,2021-02,128,4,Trinidad_and_Tobago,1394969,America - ex USA,16.13
 2021-01-25,2021-03,97,2,Trinidad_and_Tobago,1394969,America - ex USA,16.13
+2021-02-01,2021-04,74,0,Trinidad_and_Tobago,1394969,America - ex USA,12.26
 2020-03-16,2020-11,18,0,Tunisia,11694721,Africa,NA
 2020-03-23,2020-12,57,3,Tunisia,11694721,Africa,0.64
 2020-03-30,2020-13,203,5,Tunisia,11694721,Africa,2.22
@@ -9388,6 +9582,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,18806,484,Tunisia,11694721,Africa,263.01
 2021-01-18,2021-02,19535,466,Tunisia,11694721,Africa,327.85
 2021-01-25,2021-03,16751,537,Tunisia,11694721,Africa,310.28
+2021-02-01,2021-04,11409,515,Tunisia,11694721,Africa,240.79
 2020-03-16,2020-11,18,0,Turkey,82003882,Rest of Europe,NA
 2020-03-23,2020-12,1218,30,Turkey,82003882,Rest of Europe,1.51
 2020-03-30,2020-13,8035,101,Turkey,82003882,Rest of Europe,11.28
@@ -9434,6 +9629,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,84344,1319,Turkey,82003882,Rest of Europe,217.89
 2021-01-18,2021-02,60845,1190,Turkey,82003882,Rest of Europe,177.05
 2021-01-25,2021-03,42504,1076,Turkey,82003882,Rest of Europe,126.03
+2021-02-01,2021-04,47858,920,Turkey,82003882,Rest of Europe,110.19
 2020-03-30,2020-13,5,0,Turks_and_Caicos_islands,38194,America - ex USA,NA
 2020-04-06,2020-14,0,1,Turks_and_Caicos_islands,38194,America - ex USA,13.09
 2020-04-13,2020-15,4,0,Turks_and_Caicos_islands,38194,America - ex USA,10.47
@@ -9478,6 +9674,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,84,0,Turks_and_Caicos_islands,38194,America - ex USA,379.64
 2021-01-18,2021-02,111,1,Turks_and_Caicos_islands,38194,America - ex USA,510.55
 2021-01-25,2021-03,182,0,Turks_and_Caicos_islands,38194,America - ex USA,767.14
+2021-02-01,2021-04,217,2,Turks_and_Caicos_islands,38194,America - ex USA,1044.67
 2020-03-23,2020-12,1,0,Uganda,44269587,Africa,NA
 2020-03-30,2020-13,32,0,Uganda,44269587,Africa,0.07
 2020-04-06,2020-14,19,0,Uganda,44269587,Africa,0.12
@@ -9523,6 +9720,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1758,28,Uganda,44269587,Africa,8.66
 2021-01-18,2021-02,277,2,Uganda,44269587,Africa,4.6
 2021-01-25,2021-03,1103,14,Uganda,44269587,Africa,3.12
+2021-02-01,2021-04,418,7,Uganda,44269587,Africa,3.44
 2020-03-16,2020-11,3,0,Ukraine,43993643,Rest of Europe,NA
 2020-03-23,2020-12,44,3,Ukraine,43993643,Rest of Europe,0.11
 2020-03-30,2020-13,371,6,Ukraine,43993643,Rest of Europe,0.94
@@ -9569,6 +9767,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,45221,981,Ukraine,43993643,Rest of Europe,202.17
 2021-01-18,2021-02,44402,1034,Ukraine,43993643,Rest of Europe,203.72
 2021-01-25,2021-03,30612,1055,Ukraine,43993643,Rest of Europe,170.51
+2021-02-01,2021-04,29551,1010,Ukraine,43993643,Rest of Europe,136.75
 2020-01-06,2020-01,0,0,United_Arab_Emirates,9770526,Asia - ex China,NA
 2020-01-13,2020-02,0,0,United_Arab_Emirates,9770526,Asia - ex China,0
 2020-01-20,2020-03,0,0,United_Arab_Emirates,9770526,Asia - ex China,0
@@ -9625,6 +9824,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,18250,29,United_Arab_Emirates,9770526,Asia - ex China,318.78
 2021-01-18,2021-02,20279,34,United_Arab_Emirates,9770526,Asia - ex China,394.34
 2021-01-25,2021-03,24694,47,United_Arab_Emirates,9770526,Asia - ex China,460.29
+2021-02-01,2021-04,25654,58,United_Arab_Emirates,9770526,Asia - ex China,515.3
 2020-01-06,2020-01,0,0,United_Kingdom,66647112,Western Europe,NA
 2020-01-13,2020-02,0,0,United_Kingdom,66647112,Western Europe,0
 2020-01-20,2020-03,0,0,United_Kingdom,66647112,Western Europe,0
@@ -9681,6 +9881,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,417570,6407,United_Kingdom,66647112,Western Europe,1114.26
 2021-01-18,2021-02,323610,7830,United_Kingdom,66647112,Western Europe,1112.1
 2021-01-25,2021-03,251504,8678,United_Kingdom,66647112,Western Europe,862.92
+2021-02-01,2021-04,169713,8219,United_Kingdom,66647112,Western Europe,632.01
 2020-03-23,2020-12,12,0,United_Republic_of_Tanzania,58005461,Africa,NA
 2020-03-30,2020-13,2,1,United_Republic_of_Tanzania,58005461,Africa,0.02
 2020-04-06,2020-14,8,0,United_Republic_of_Tanzania,58005461,Africa,0.02
@@ -9726,6 +9927,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,United_Republic_of_Tanzania,58005461,Africa,0
 2021-01-18,2021-02,0,0,United_Republic_of_Tanzania,58005461,Africa,0
 2021-01-25,2021-03,0,0,United_Republic_of_Tanzania,58005461,Africa,0
+2021-02-01,2021-04,0,0,United_Republic_of_Tanzania,58005461,Africa,0
 2020-01-06,2020-01,0,0,United_States_of_America,329064917,USA,NA
 2020-01-13,2020-02,0,0,United_States_of_America,329064917,USA,0
 2020-01-20,2020-03,0,0,United_States_of_America,329064917,USA,0
@@ -9782,6 +9984,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,1782792,22852,United_States_of_America,329064917,USA,994.14
 2021-01-18,2021-02,1515282,23169,United_States_of_America,329064917,USA,1002.26
 2021-01-25,2021-03,1358783,23518,United_States_of_America,329064917,USA,873.4
+2021-02-01,2021-04,1024054,22226,United_States_of_America,329064917,USA,724.12
 2020-03-30,2020-13,30,0,United_States_Virgin_Islands,104579,America - ex USA,NA
 2020-04-06,2020-14,12,1,United_States_Virgin_Islands,104579,America - ex USA,40.16
 2020-04-13,2020-15,9,0,United_States_Virgin_Islands,104579,America - ex USA,20.08
@@ -9826,6 +10029,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,111,0,United_States_Virgin_Islands,104579,America - ex USA,154.91
 2021-01-18,2021-02,94,0,United_States_Virgin_Islands,104579,America - ex USA,196.02
 2021-01-25,2021-03,90,0,United_States_Virgin_Islands,104579,America - ex USA,175.94
+2021-02-01,2021-04,71,0,United_States_Virgin_Islands,104579,America - ex USA,153.95
 2020-03-16,2020-11,8,0,Uruguay,3461731,America - ex USA,NA
 2020-03-23,2020-12,150,0,Uruguay,3461731,America - ex USA,4.56
 2020-03-30,2020-13,137,1,Uruguay,3461731,America - ex USA,8.29
@@ -9872,6 +10076,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,6078,58,Uruguay,3461731,America - ex USA,277.17
 2021-01-18,2021-02,5962,57,Uruguay,3461731,America - ex USA,347.8
 2021-01-25,2021-03,5178,71,Uruguay,3461731,America - ex USA,321.8
+2021-02-01,2021-04,4087,54,Uruguay,3461731,America - ex USA,267.64
 2020-03-16,2020-11,6,0,Uzbekistan,32981715,Asia - ex China,NA
 2020-03-23,2020-12,40,0,Uzbekistan,32981715,Asia - ex China,0.14
 2020-03-30,2020-13,99,1,Uzbekistan,32981715,Asia - ex China,0.42
@@ -9918,6 +10123,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,353,3,Uzbekistan,32981715,Asia - ex China,2.36
 2021-01-18,2021-02,425,2,Uzbekistan,32981715,Asia - ex China,2.36
 2021-01-25,2021-03,393,2,Uzbekistan,32981715,Asia - ex China,2.48
+2021-02-01,2021-04,326,0,Uzbekistan,32981715,Asia - ex China,2.18
 2020-11-16,2020-46,1,0,Vanuatu,299882,Oceania,NA
 2020-11-23,2020-47,0,0,Vanuatu,299882,Oceania,0.33
 2020-11-30,2020-48,0,0,Vanuatu,299882,Oceania,0
@@ -9929,6 +10135,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Vanuatu,299882,Oceania,0
 2021-01-18,2021-02,0,0,Vanuatu,299882,Oceania,0
 2021-01-25,2021-03,0,0,Vanuatu,299882,Oceania,0
+2021-02-01,2021-04,0,0,Vanuatu,299882,Oceania,0
 2020-03-16,2020-11,15,0,Venezuela,28515829,America - ex USA,NA
 2020-03-23,2020-12,21,0,Venezuela,28515829,America - ex USA,0.13
 2020-03-30,2020-13,83,1,Venezuela,28515829,America - ex USA,0.36
@@ -9975,6 +10182,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,2576,35,Venezuela,28515829,America - ex USA,16.37
 2021-01-18,2021-02,3461,39,Venezuela,28515829,America - ex USA,21.17
 2021-01-25,2021-03,3265,36,Venezuela,28515829,America - ex USA,23.59
+2021-02-01,2021-04,3218,41,Venezuela,28515829,America - ex USA,22.73
 2020-01-06,2020-01,0,0,Vietnam,96462108,Asia - ex China,NA
 2020-01-13,2020-02,0,0,Vietnam,96462108,Asia - ex China,0
 2020-01-20,2020-03,0,0,Vietnam,96462108,Asia - ex China,0
@@ -10031,6 +10239,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,17,0,Vietnam,96462108,Asia - ex China,0.08
 2021-01-18,2021-02,25,0,Vietnam,96462108,Asia - ex China,0.04
 2021-01-25,2021-03,9,0,Vietnam,96462108,Asia - ex China,0.04
+2021-02-01,2021-04,271,0,Vietnam,96462108,Asia - ex China,0.29
 2020-10-19,2020-42,1,0,Wallis_and_Futuna,NA,Oceania,NA
 2020-10-26,2020-43,0,0,Wallis_and_Futuna,NA,Oceania,NA
 2020-11-02,2020-44,0,0,Wallis_and_Futuna,NA,Oceania,NA
@@ -10046,6 +10255,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Wallis_and_Futuna,NA,Oceania,NA
 2021-01-18,2021-02,0,0,Wallis_and_Futuna,NA,Oceania,NA
 2021-01-25,2021-03,0,0,Wallis_and_Futuna,NA,Oceania,NA
+2021-02-01,2021-04,1,0,Wallis_and_Futuna,NA,Oceania,NA
 2020-04-27,2020-17,6,0,Western_Sahara,582458,Africa,NA
 2020-05-04,2020-18,0,0,Western_Sahara,582458,Africa,1.03
 2020-05-11,2020-19,0,0,Western_Sahara,582458,Africa,0
@@ -10086,6 +10296,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,0,0,Western_Sahara,582458,Africa,0
 2021-01-18,2021-02,0,0,Western_Sahara,582458,Africa,0
 2021-01-25,2021-03,0,0,Western_Sahara,582458,Africa,0
+2021-02-01,2021-04,0,0,Western_Sahara,582458,Africa,0
 2020-04-13,2020-15,1,0,Yemen,29161922,Asia - ex China,NA
 2020-04-20,2020-16,0,0,Yemen,29161922,Asia - ex China,0
 2020-04-27,2020-17,0,0,Yemen,29161922,Asia - ex China,0
@@ -10128,6 +10339,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,3,1,Yemen,29161922,Asia - ex China,0.03
 2021-01-18,2021-02,8,1,Yemen,29161922,Asia - ex China,0.04
 2021-01-25,2021-03,6,3,Yemen,29161922,Asia - ex China,0.05
+2021-02-01,2021-04,3,0,Yemen,29161922,Asia - ex China,0.03
 2020-03-23,2020-12,3,0,Zambia,17861034,Africa,NA
 2020-03-30,2020-13,26,0,Zambia,17861034,Africa,0.16
 2020-04-06,2020-14,10,1,Zambia,17861034,Africa,0.2
@@ -10173,6 +10385,7 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,6603,73,Zambia,17861034,Africa,48.45
 2021-01-18,2021-02,9611,88,Zambia,17861034,Africa,90.78
 2021-01-25,2021-03,7939,101,Zambia,17861034,Africa,98.26
+2021-02-01,2021-04,8896,120,Zambia,17861034,Africa,94.26
 2020-03-23,2020-12,2,0,Zimbabwe,14645473,Africa,NA
 2020-03-30,2020-13,5,1,Zimbabwe,14645473,Africa,0.05
 2020-04-06,2020-14,2,0,Zimbabwe,14645473,Africa,0.05
@@ -10218,3 +10431,4 @@ date,year_week,cases_weekly,deaths_weekly,country,population,continent,notificat
 2021-01-11,2021-01,6212,127,Zimbabwe,14645473,Africa,56.87
 2021-01-18,2021-02,5726,206,Zimbabwe,14645473,Africa,81.51
 2021-01-25,2021-03,4117,292,Zimbabwe,14645473,Africa,67.21
+2021-02-01,2021-04,2228,229,Zimbabwe,14645473,Africa,43.32
