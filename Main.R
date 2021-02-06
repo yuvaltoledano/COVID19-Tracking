@@ -1,6 +1,6 @@
 # Load required libraries:
 library(pacman)
-p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, RcppRoll, here, ggthemes, MMWRweek)
+p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, RcppRoll, here, ggthemes, MMWRweek, gmailr)
 
 # Read in and process data:
 raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv")
@@ -431,7 +431,24 @@ vaccination_data <- vaccination_data %>%
          cum_vacs_moderna = dosen_moderna_kumulativ,
          cum_persons_vaccinated_first_dose = personen_erst_kumulativ,
          cum_persons_vaccinated_second_dose = personen_voll_kumulativ,
-         pct_population_vaccinated_first_dose = impf_quote_erst,
-         pct_population_vaccinated_second_dose - impf_quote_voll)
+         pct_pop_vaccinated_first_dose = impf_quote_erst,
+         pct_pop_vaccinated_second_dose = impf_quote_voll)
 
+as_of_date_vaccinations <- max(vaccination_data$date)
+chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit data as of", as_of_date_vaccinations, sep = " ")
 
+# Create charts:
+plot_vacs_proportions <- vaccination_data %>%
+  select(date, pct_pop_vaccinated_first_dose, pct_pop_vaccinated_second_dose) %>%
+  rename(`First dose` = pct_pop_vaccinated_first_dose, `Both doses` = pct_pop_vaccinated_second_dose) %>%
+  pivot_longer(cols = contains("dose"), names_to = "Dose") %>%
+  ggplot(aes(x = date, y = value, color = Dose)) +
+  geom_line(size = 1.2) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 0.01)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Proportions of German population vaccinated",
+       caption = chart_caption_vaccinations)
+  
