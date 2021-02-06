@@ -453,13 +453,33 @@ vaccination_data <- vaccination_data %>%
          new_vacs_elderly = cum_vacs_elderly - lag(cum_vacs_elderly, n = 1L, default = 0),
          new_vacs_medical_profession = cum_vacs_medical_profession - lag(cum_vacs_medical_profession, n = 1L, default = 0),
          new_vacs_medical_condition = cum_vacs_medical_condition - lag(cum_vacs_medical_condition, n = 1L, default = 0),
-         new_vacs_care_homes = cum_vacs_care_homes - lag(cum_vacs_care_homes, n = 1L, default = 0))
+         new_vacs_care_homes = cum_vacs_care_homes - lag(cum_vacs_care_homes, n = 1L, default = 0),
+         new_vacs_all_7day_rollsum = rollsum(new_vacs_all, 7, fill = NA, align = "right"),
+         new_vacs_pfizer_7day_rollsum = rollsum(new_vacs_pfizer, 7, fill = NA, align = "right"),
+         new_vacs_moderna_7day_rollsum = rollsum(new_vacs_moderna, 7, fill = NA, align = "right"))
 
 # Set chart caption:
 as_of_date_vaccinations <- max(vaccination_data$date)
 chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit data as of", as_of_date_vaccinations, sep = " ")
 
 # Create charts:
+plot_new_vacs_7day_rollsum <- vaccination_data %>%
+  select(date, new_vacs_pfizer_7day_rollsum, new_vacs_moderna_7day_rollsum) %>%
+  rename(Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum) %>%
+  pivot_longer(cols = c("Pfizer", "Moderna"), names_to = "Type of vaccine") %>%
+  ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
+  geom_area() +
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "7-day rolling sum administered vacs in Germany",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " New vacs 7-day rolling sum",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_new_vacs_7day_rollsum, path = here("Charts"), scale = 1, width = 15, height = 10)
+
 plot_new_vacs_type <- vaccination_data %>%
   select(date, new_vacs_pfizer, new_vacs_moderna) %>%
   rename(Pfizer = new_vacs_pfizer, Moderna = new_vacs_moderna) %>%
