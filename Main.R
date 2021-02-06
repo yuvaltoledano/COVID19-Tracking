@@ -462,8 +462,9 @@ chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit d
 # Create charts:
 plot_new_vacs_type <- vaccination_data %>%
   select(date, new_vacs_pfizer, new_vacs_moderna) %>%
-  pivot_longer(cols = contains("vacs"), names_to = "type_of_vac") %>%
-  ggplot(aes(x = date, y = value, fill = type_of_vac)) +
+  rename(Pfizer = new_vacs_pfizer, Moderna = new_vacs_moderna) %>%
+  pivot_longer(cols = c("Pfizer", "Moderna"), names_to = "Type of vaccine") %>%
+  ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
   geom_col() +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
@@ -478,8 +479,9 @@ ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts"), 
 
 plot_new_vacs_recipient <- vaccination_data %>%
   select(date, new_vacs_elderly, new_vacs_medical_profession, new_vacs_medical_condition, new_vacs_care_homes) %>%
-  pivot_longer(cols = contains("vacs"), names_to = "type_of_recipient") %>%
-  ggplot(aes(x = date, y = value, fill = type_of_recipient)) +
+  rename(`Vacs for elderly` = new_vacs_elderly, `Vacs for medical professionals` = new_vacs_medical_profession, `Vacs for pre-existing conditions` = new_vacs_medical_condition, `Vacs for nursing home residents` = new_vacs_care_homes) %>%
+  pivot_longer(cols = contains("Vacs"), names_to = "Type of recipient") %>%
+  ggplot(aes(x = date, y = value, fill = `Type of recipient`)) +
   geom_col() +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
