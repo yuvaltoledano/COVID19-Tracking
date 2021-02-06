@@ -492,7 +492,7 @@ plot_new_vacs_recipient <- vaccination_data %>%
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by recipient",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_new_vacs_recipient, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_vacs_proportions <- vaccination_data %>%
+plot_cum_vacs_proportions <- vaccination_data %>%
   select(date, pct_pop_vaccinated_first_dose, pct_pop_vaccinated_second_dose) %>%
   rename(`First dose` = pct_pop_vaccinated_first_dose, `Both doses` = pct_pop_vaccinated_second_dose) %>%
   pivot_longer(cols = contains("dose"), names_to = "Dose") %>%
@@ -507,4 +507,4 @@ plot_vacs_proportions <- vaccination_data %>%
        caption = chart_caption_vaccinations)
   
 file_name <- paste(as_of_date_vaccinations, " Cumulative proportion of German population vaccinated",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_vacs_proportions, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cum_vacs_proportions, path = here("Charts"), scale = 1, width = 15, height = 10)
