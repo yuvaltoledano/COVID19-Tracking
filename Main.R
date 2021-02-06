@@ -450,7 +450,7 @@ vaccination_data <- vaccination_data %>%
 vaccination_data <- vaccination_data %>%
   mutate(new_vacs_pfizer = cum_vacs_pfizer - lag(cum_vacs_pfizer, n = 1L, default = 0),
          new_vacs_moderna = cum_vacs_moderna - lag(cum_vacs_moderna, n = 1L, default = 0),
-         new_vacs_eldery = cum_vacs_elderly - lag(cum_vacs_elderly, n = 1L, default = 0),
+         new_vacs_elderly = cum_vacs_elderly - lag(cum_vacs_elderly, n = 1L, default = 0),
          new_vacs_medical_profession = cum_vacs_medical_profession - lag(cum_vacs_medical_profession, n = 1L, default = 0),
          new_vacs_medical_condition = cum_vacs_medical_condition - lag(cum_vacs_medical_condition, n = 1L, default = 0),
          new_vacs_care_homes = cum_vacs_care_homes - lag(cum_vacs_care_homes, n = 1L, default = 0))
@@ -477,7 +477,7 @@ file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany
 ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_new_vacs_recipient <- vaccination_data %>%
-  select(date, new_vacs_eldery, new_vacs_medical_profession, new_vacs_medical_condition, new_vacs_care_homes) %>%
+  select(date, new_vacs_elderly, new_vacs_medical_profession, new_vacs_medical_condition, new_vacs_care_homes) %>%
   pivot_longer(cols = contains("vacs"), names_to = "type_of_recipient") %>%
   ggplot(aes(x = date, y = value, fill = type_of_recipient)) +
   geom_col() +
