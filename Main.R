@@ -506,5 +506,5 @@ plot_vacs_proportions <- vaccination_data %>%
        title = "Proportions of German population vaccinated",
        caption = chart_caption_vaccinations)
   
-file_name <- paste(as_of_date_vaccinations, " Cumulative oroportions of German population vaccinated",  ".png", sep = "")
+file_name <- paste(as_of_date_vaccinations, " Cumulative proportion of German population vaccinated",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_vacs_proportions, path = here("Charts"), scale = 1, width = 15, height = 10)
