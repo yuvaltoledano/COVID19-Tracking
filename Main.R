@@ -432,12 +432,66 @@ vaccination_data <- vaccination_data %>%
          cum_persons_vaccinated_first_dose = personen_erst_kumulativ,
          cum_persons_vaccinated_second_dose = personen_voll_kumulativ,
          pct_pop_vaccinated_first_dose = impf_quote_erst,
-         pct_pop_vaccinated_second_dose = impf_quote_voll)
+         pct_pop_vaccinated_second_dose = impf_quote_voll,
+         cum_vacs_elderly = indikation_alter_dosen,
+         cum_vacs_medical_profession = indikation_beruf_dosen,
+         cum_vacs_medical_condition = indikation_medizinisch_dosen,
+         cum_vacs_care_homes = indikation_pflegeheim_dosen,
+         cum_vacs_elderly_first_dose = indikation_alter_erst,
+         cum_vacs_medical_profession_first_dose = indikation_beruf_erst,
+         cum_vacs_medical_condition_first_dose = indikation_medizinisch_erst,
+         cum_vacs_care_homes_first_dose = indikation_pflegeheim_erst,
+         cum_vacs_elderly_second_dose = indikation_alter_voll,
+         cum_vacs_medical_profession_second_dose = indikation_beruf_voll,
+         cum_vacs_medical_condition_second_dose = indikation_medizinisch_voll,
+         cum_vacs_care_homes_second_dose = indikation_pflegeheim_voll)
 
+# Add calculated columns:
+vaccination_data <- vaccination_data %>%
+  mutate(new_vacs_pfizer = cum_vacs_pfizer - lag(cum_vacs_pfizer, n = 1L, default = 0),
+         new_vacs_moderna = cum_vacs_moderna - lag(cum_vacs_moderna, n = 1L, default = 0),
+         new_vacs_eldery = cum_vacs_elderly - lag(cum_vacs_elderly, n = 1L, default = 0),
+         new_vacs_medical_profession = cum_vacs_medical_profession - lag(cum_vacs_medical_profession, n = 1L, default = 0),
+         new_vacs_medical_condition = cum_vacs_medical_condition - lag(cum_vacs_medical_condition, n = 1L, default = 0),
+         new_vacs_care_homes = cum_vacs_care_homes - lag(cum_vacs_care_homes, n = 1L, default = 0))
+
+# Set chart caption:
 as_of_date_vaccinations <- max(vaccination_data$date)
 chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit data as of", as_of_date_vaccinations, sep = " ")
 
 # Create charts:
+plot_new_vacs_type <- vaccination_data %>%
+  select(date, new_vacs_pfizer, new_vacs_moderna) %>%
+  pivot_longer(cols = contains("vacs"), names_to = "type_of_vac") %>%
+  ggplot(aes(x = date, y = value, fill = type_of_vac)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Daily administered vacs in Germany by type",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by type",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_new_vacs_recipient <- vaccination_data %>%
+  select(date, new_vacs_eldery, new_vacs_medical_profession, new_vacs_medical_condition, new_vacs_care_homes) %>%
+  pivot_longer(cols = contains("vacs"), names_to = "type_of_recipient") %>%
+  ggplot(aes(x = date, y = value, fill = type_of_recipient)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Daily administered vacs in Germany by recipient",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by recipient",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_new_vacs_recipient, path = here("Charts"), scale = 1, width = 15, height = 10)
+
 plot_vacs_proportions <- vaccination_data %>%
   select(date, pct_pop_vaccinated_first_dose, pct_pop_vaccinated_second_dose) %>%
   rename(`First dose` = pct_pop_vaccinated_first_dose, `Both doses` = pct_pop_vaccinated_second_dose) %>%
@@ -452,3 +506,5 @@ plot_vacs_proportions <- vaccination_data %>%
        title = "Proportions of German population vaccinated",
        caption = chart_caption_vaccinations)
   
+file_name <- paste(as_of_date_vaccinations, " Cumulative oroportions of German population vaccinated",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_vacs_proportions, path = here("Charts"), scale = 1, width = 15, height = 10)
