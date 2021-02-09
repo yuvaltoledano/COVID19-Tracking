@@ -429,6 +429,7 @@ vaccination_data <- vaccination_data %>%
          new_vacs_second_dose_all = dosen_zweit_differenz_zum_vortag,
          cum_vacs_pfizer = dosen_biontech_kumulativ,
          cum_vacs_moderna = dosen_moderna_kumulativ,
+         cum_vacs_astrazeneca = dosen_astrazeneca_kumulativ,
          cum_persons_vaccinated_first_dose = personen_erst_kumulativ,
          cum_persons_vaccinated_second_dose = personen_voll_kumulativ,
          pct_pop_vaccinated_first_dose = impf_quote_erst,
@@ -450,13 +451,15 @@ vaccination_data <- vaccination_data %>%
 vaccination_data <- vaccination_data %>%
   mutate(new_vacs_pfizer = cum_vacs_pfizer - lag(cum_vacs_pfizer, n = 1L, default = 0),
          new_vacs_moderna = cum_vacs_moderna - lag(cum_vacs_moderna, n = 1L, default = 0),
+         new_vacs_astrazeneca = cum_vacs_astrazeneca - lag(cum_vacs_astrazeneca, n = 1L, default = 0),
          new_vacs_elderly = cum_vacs_elderly - lag(cum_vacs_elderly, n = 1L, default = 0),
          new_vacs_medical_profession = cum_vacs_medical_profession - lag(cum_vacs_medical_profession, n = 1L, default = 0),
          new_vacs_medical_condition = cum_vacs_medical_condition - lag(cum_vacs_medical_condition, n = 1L, default = 0),
          new_vacs_care_homes = cum_vacs_care_homes - lag(cum_vacs_care_homes, n = 1L, default = 0),
          new_vacs_all_7day_rollsum = rollsum(new_vacs_all, 7, fill = NA, align = "right"),
          new_vacs_pfizer_7day_rollsum = rollsum(new_vacs_pfizer, 7, fill = NA, align = "right"),
-         new_vacs_moderna_7day_rollsum = rollsum(new_vacs_moderna, 7, fill = NA, align = "right"))
+         new_vacs_moderna_7day_rollsum = rollsum(new_vacs_moderna, 7, fill = NA, align = "right"),
+         new_vacs_astrazeneca_7day_rollsum = rollsum(new_vacs_astrazeneca, 7, fill = NA, align = "right"))
 
 # Set chart caption:
 as_of_date_vaccinations <- max(vaccination_data$date)
@@ -464,9 +467,9 @@ chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit d
 
 # Create charts:
 plot_new_vacs_7day_rollsum <- vaccination_data %>%
-  select(date, new_vacs_pfizer_7day_rollsum, new_vacs_moderna_7day_rollsum) %>%
-  rename(Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum) %>%
-  pivot_longer(cols = c("Pfizer", "Moderna"), names_to = "Type of vaccine") %>%
+  select(date, new_vacs_pfizer_7day_rollsum, new_vacs_moderna_7day_rollsum, new_vacs_astrazeneca_7day_rollsum) %>%
+  rename(Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum, AstraZeneca = new_vacs_astrazeneca_7day_rollsum) %>%
+  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
   geom_area() +
   scale_y_continuous(labels = scales::comma) +
@@ -481,9 +484,9 @@ file_name <- paste(as_of_date_vaccinations, " New vacs 7-day rolling sum",  ".pn
 ggsave(filename =  file_name, plot = plot_new_vacs_7day_rollsum, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_new_vacs_type <- vaccination_data %>%
-  select(date, new_vacs_pfizer, new_vacs_moderna) %>%
-  rename(Pfizer = new_vacs_pfizer, Moderna = new_vacs_moderna) %>%
-  pivot_longer(cols = c("Pfizer", "Moderna"), names_to = "Type of vaccine") %>%
+  select(date, new_vacs_pfizer, new_vacs_moderna, new_vacs_astrazeneca) %>%
+  rename(Pfizer = new_vacs_pfizer, Moderna = new_vacs_moderna, AstraZeneca = new_vacs_astrazeneca) %>%
+  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
   geom_col() +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
