@@ -528,7 +528,7 @@ plot_cum_vacs <- vaccination_data %>%
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Number of vaccinations administered",
+       title = "Cumulative number of vaccinations administered",
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Cumulative vaccinations administered",  ".png", sep = "")
