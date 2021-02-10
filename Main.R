@@ -517,6 +517,23 @@ plot_new_vacs_recipient <- vaccination_data %>%
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by recipient",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_new_vacs_recipient, path = here("Charts"), scale = 1, width = 15, height = 10)
 
+plot_cum_vacs <- vaccination_data %>%
+  select(date, cum_vacs_pfizer, cum_vacs_moderna, cum_vacs_astrazeneca) %>%
+  rename(Pfizer = cum_vacs_pfizer, Moderna = cum_vacs_moderna, AstraZeneca = cum_vacs_astrazeneca) %>%
+  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
+  ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
+  geom_area() +
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Number of vaccinations administered",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Cumulative vaccinations administered",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cum_vacs, path = here("Charts"), scale = 1, width = 15, height = 10)
+
 plot_cum_vacs_proportions <- vaccination_data %>%
   select(date, pct_pop_vaccinated_first_dose, pct_pop_vaccinated_second_dose) %>%
   rename(`First dose` = pct_pop_vaccinated_first_dose, `Both doses` = pct_pop_vaccinated_second_dose) %>%
