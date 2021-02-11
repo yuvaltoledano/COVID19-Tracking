@@ -126,6 +126,20 @@ plot_weekly_cases_per100000 <- ggplot(clean_data, aes(x = date, y = weekly_cases
 file_name <- paste(as_of_date, " Weekly cases per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_weekly_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
+plot_cases_14day_rollsum_per100000 <- ggplot(clean_data, aes(x = date, y = notification_rate_per_100000_population_14_days)) +
+  geom_line(color = "cadetblue", size = 1.2) +
+  facet_wrap(~country) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " Cases 14-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cases_14day_rollsum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Plot deaths:
@@ -482,6 +496,23 @@ plot_new_vacs_7day_rollsum <- vaccination_data %>%
 
 file_name <- paste(as_of_date_vaccinations, " New vacs 7-day rolling sum",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_new_vacs_7day_rollsum, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_new_vacs_dose <- vaccination_data %>%
+  select(date, new_vacs_first_dose_all, new_vacs_second_dose_all) %>%
+  rename(`First dose` = new_vacs_first_dose_all, `Second dose` = new_vacs_second_dose_all) %>%
+  pivot_longer(cols = contains("dose"), names_to = "Dose") %>%
+  ggplot(aes(x = date, y = value, fill = `Dose`)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Daily administered vacs in Germany by dose",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by dose",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_new_vacs_dose, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_new_vacs_type <- vaccination_data %>%
   select(date, new_vacs_pfizer, new_vacs_moderna, new_vacs_astrazeneca) %>%
