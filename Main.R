@@ -481,11 +481,12 @@ chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit d
 
 # Create charts:
 plot_new_vacs_7day_rollsum <- vaccination_data %>%
-  select(date, new_vacs_pfizer_7day_rollsum, new_vacs_moderna_7day_rollsum, new_vacs_astrazeneca_7day_rollsum) %>%
-  rename(Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum, AstraZeneca = new_vacs_astrazeneca_7day_rollsum) %>%
-  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
-  ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
-  geom_area() +
+  select(date, new_vacs_all_7day_rollsum, new_vacs_pfizer_7day_rollsum, new_vacs_moderna_7day_rollsum, new_vacs_astrazeneca_7day_rollsum) %>%
+  rename(All = new_vacs_all_7day_rollsum, Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum, AstraZeneca = new_vacs_astrazeneca_7day_rollsum) %>%
+  pivot_longer(cols = c("All", "Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
+  ggplot(aes(x = date, y = value)) +
+  facet_wrap(~`Type of vaccine`, scales = "free_y") + 
+  geom_line(color = "cadetblue", size = 1.2) +
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
   background_grid() +
