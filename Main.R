@@ -436,7 +436,8 @@ ggsave(filename =  file_name, plot = plot_weekly_icu_admissions_per100000, path 
 vaccination_data <- read_tsv("https://impfdashboard.de/static/data/germany_vaccinations_timeseries_v2.tsv")
 
 vaccination_data <- vaccination_data %>%
-  clean_names() %>%
+  clean_names() %>% 
+  mutate(dosen_moderna_kumulativ = parse_number(dosen_moderna_kumulativ, na = c("", "NA", "#REF!"))) %>%
   rename(cum_vacs = dosen_kumulativ,
          new_vacs_all = dosen_differenz_zum_vortag,
          new_vacs_first_dose_all = dosen_erst_differenz_zum_vortag,
