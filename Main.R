@@ -41,7 +41,7 @@ deaths_data_all <- raw_data %>%
   select(-one_of("year", "week", "year_week", "indicator")) %>%
   rename(weekly_deaths = weekly_count,
          cumulative_deaths = cumulative_count,
-         deaths_14day_rollsum_per100000 = rate_14_day)
+         deaths_14day_rollsum_per1000000 = rate_14_day)
 
 # Join case and deaths datasets:
 clean_data_all <- left_join(case_data_all, deaths_data_all) %>%
@@ -60,7 +60,7 @@ if(all_equal(clean_data_all, clean_data_master) != TRUE) {
 }
 
 # Write results back to csv:
-clean_data_master <- clean_data_master %>%
+clean_data_all <- clean_data_all %>%
   arrange(country, date) %>%
   write_csv(here("Data Files", "Clean data_all_master.csv"))
 
@@ -69,7 +69,7 @@ rm(list = c("clean_data_master", "case_data_all", "deaths_data_all", "raw_data")
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Filter for relevant countries:
-relevant_countries <- c("Germany", "Netherlands", "Sweden", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France", "Belgium", "Greece")
+relevant_countries <- c("Germany", "Netherlands", "Sweden", "Spain", "Italy", "United Kingdom", "Ireland", "United States", "Russia", "France", "Belgium", "Greece")
 
 clean_data_filtered <- clean_data_all %>%
   filter(country %in% relevant_countries) %>%
@@ -106,10 +106,38 @@ plot_weekly_cases <- ggplot(clean_data_filtered, aes(x = date, y = weekly_cases)
        title = "Weekly COVID-19 cases",
        caption = chart_caption)
 
-file_name <- paste(as_of_date, " Weekly cases",  ".png", sep = "")
+file_name <- paste(as_of_date, " New cases - weekly",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_weekly_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cumulative_cases <- ggplot(clean_data_filtered, aes(x = date, y = cum_cases)) +
+plot_weekly_cases_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = weekly_cases_per100000)) +
+  geom_line(color = "cadetblue", size = 1.2) +
+  facet_wrap(~country) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Weekly COVID-19 cases per 100,000 inhabitants",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " New cases - weekly - per 100,000",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_weekly_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_cases_14day_rollsum_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = cases_14day_rollsum_per100000)) +
+  geom_line(color = "cadetblue", size = 1.2) +
+  facet_wrap(~country) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " New cases -  14day rollsum - per 100,000",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_cases_14day_rollsum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_cumulative_cases <- ggplot(clean_data_filtered, aes(x = date, y = cumulative_cases)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -134,41 +162,13 @@ plot_cumulative_cases_per100000 <- ggplot(clean_data_filtered, aes(x = date, y =
        title = "Cumulative COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption)
 
-file_name <- paste(as_of_date, " Cumulative cases per 100,000 inhabitants",  ".png", sep = "")
+file_name <- paste(as_of_date, " Cumulative cases  - per 100,000",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
-
-plot_weekly_cases_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = weekly_cases_per100000)) +
-  geom_line(color = "cadetblue", size = 1.2) +
-  facet_wrap(~country) + 
-  scale_y_continuous(labels = scales::comma) +
-  theme_cowplot() + 
-  background_grid() +
-  labs(x = "Date",
-       y = "",
-       title = "Weekly COVID-19 cases per 100,000 inhabitants",
-       caption = chart_caption)
-
-file_name <- paste(as_of_date, " Weekly cases per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_weekly_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
-
-plot_cases_14day_rollsum_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = notification_rate_per_100000_population_14_days)) +
-  geom_line(color = "cadetblue", size = 1.2) +
-  facet_wrap(~country) + 
-  scale_y_continuous(labels = scales::comma) +
-  theme_cowplot() + 
-  background_grid() +
-  labs(x = "Date",
-       y = "",
-       title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
-       caption = chart_caption)
-
-file_name <- paste(as_of_date, " Cases 14-day rolling sum per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cases_14day_rollsum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Plot deaths:
-plot_weekly_deaths <- ggplot(clean_data_filtered, aes(x = date, y = deaths_weekly)) +
+plot_weekly_deaths <- ggplot(clean_data_filtered, aes(x = date, y = weekly_deaths)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -179,10 +179,38 @@ plot_weekly_deaths <- ggplot(clean_data_filtered, aes(x = date, y = deaths_weekl
        title = "Weekly COVID-19 deaths",
        caption = chart_caption)
 
-file_name <- paste(as_of_date, " Weekly deaths",  ".png", sep = "")
+file_name <- paste(as_of_date, " New deaths - weekly",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_weekly_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cumulative_deaths <- ggplot(clean_data_filtered, aes(x = date, y = cum_deaths)) +
+plot_weekly_deaths_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = weekly_deaths_per100000)) +
+  geom_line(color = "cadetblue", size = 1.2) +
+  facet_wrap(~country) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Weekly COVID-19 deaths per 100,000 inhabitants",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " New deaths - weekly - per 100,000",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_weekly_deaths_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_deaths_14day_rollsum_per1000000 <- ggplot(clean_data_filtered, aes(x = date, y = deaths_14day_rollsum_per1000000)) +
+  geom_line(color = "cadetblue", size = 1.2) +
+  facet_wrap(~country) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "14-day rolling sum COVID-19 cases per 1,000,000 inhabitants",
+       caption = chart_caption)
+
+file_name <- paste(as_of_date, " New deaths -  14day rollsum - per 1,000,000",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_deaths_14day_rollsum_per1000000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+plot_cumulative_deaths <- ggplot(clean_data_filtered, aes(x = date, y = cumulative_deaths)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -207,22 +235,8 @@ plot_cumulative_deaths_per100000 <- ggplot(clean_data_filtered, aes(x = date, y 
        title = "Cumulative COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption)
 
-file_name <- paste(as_of_date, " Cumulative deaths per 100,000 inhabitants",  ".png", sep = "")
+file_name <- paste(as_of_date, " Cumulative deaths  - per 100,000",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
-
-plot_weekly_deaths_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = weekly_deaths_per100000)) +
-  geom_line(color = "cadetblue", size = 1.2) +
-  facet_wrap(~country) + 
-  scale_y_continuous(labels = scales::comma) +
-  theme_cowplot() + 
-  background_grid() +
-  labs(x = "Date",
-       y = "",
-       title = "Weekly COVID-19 deaths per 100,000 inhabitants",
-       caption = chart_caption)
-
-file_name <- paste(as_of_date, " Weekly deaths per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_weekly_deaths_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
