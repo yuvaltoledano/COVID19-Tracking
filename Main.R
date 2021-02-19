@@ -582,3 +582,33 @@ plot_cum_vacs_proportions <- vaccination_data %>%
   
 file_name <- paste(as_of_date_vaccinations, " Cumulative proportion of German population vaccinated",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cum_vacs_proportions, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+# Read in and process Germany vaccine delivery data:
+vaccine_delivery_data <- read_tsv("https://impfdashboard.de/static/data/germany_deliveries_timeseries.tsv")
+
+vaccine_delivery_data <- vaccine_delivery_data %>%
+  clean_names() %>%
+  rename(vaccine_type = impfstoff,
+         delivered_doses = dosen) %>%
+  mutate(vaccine_type = recode(vaccine_type,
+                               "comirnaty" = "Pfizer",
+                               "moderna" = "Moderna",
+                               "astra" = "AstraZeneca")) %>%
+  group_by(vaccine_type) %>%
+  mutate(cum_delivered_doses = cumsum(delivered_doses)) %>%
+  ungroup()
+
+plot_vaccine_deliveries <- vaccine_delivery_data %>%
+  rename(`Type of vaccine` = vaccine_type) %>%
+  ggplot(aes(x = date, y = cum_delivered_doses, color = `Type of vaccine`)) + 
+  geom_line(size = 1.2) +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Cumulative delivered vaccine doses by type",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Cumulative delivered vaccine doses by type",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_vaccine_deliveries, path = here("Charts"), scale = 1, width = 15, height = 10)
