@@ -1,68 +1,93 @@
 # Load required libraries:
 library(pacman)
-p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, RcppRoll, here, ggthemes, MMWRweek)
+p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, here, MMWRweek)
 
-# Read in and process data:
-raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv")
+# Read in case data:
+raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/csv")
 
-raw_data <- raw_data %>%
+# Process case data:
+case_data_all <- raw_data %>%
+  # Clean column names:
   clean_names() %>%
-  select(date_rep, year_week, cases_weekly, deaths_weekly, countries_and_territories, pop_data2019, continent_exp, cumulative_number_for_14_days_of_covid_19_cases_per_100000) %>%
-  rename(date = date_rep, country = countries_and_territories, population = pop_data2019, continent = continent_exp) %>%
-  mutate(date = dmy(date))
+  # Select relevant columns:
+  select(year_week, country, continent, indicator, weekly_count, rate_14_day, cumulative_count, population) %>%
+  filter(indicator == "cases") %>%
+  # Convert year-week format into dates:
+  mutate(year = str_sub(year_week, 1, 4),
+         year = as.numeric(year),
+         week = str_sub(year_week, 6, 8),
+         week = as.numeric(week),
+         date = MMWRweek2Date(year, week, 2)) %>%
+  # Delete temporary helper columns:
+  select(-one_of("year", "week", "year_week", "indicator")) %>%
+  rename(weekly_cases = weekly_count,
+         cumulative_cases = cumulative_count,
+         cases_14day_rollsum_per100000 = rate_14_day)
 
-# Clean continent column:
-raw_data$continent[raw_data$continent == "America" & raw_data$country == "United_States_of_America"] <- "USA"
-raw_data$continent[raw_data$continent == "America" & raw_data$country != "United_States_of_America"] <- "America - ex USA"
-raw_data$continent[raw_data$continent == "Asia" & raw_data$country == "China"] <- "China"
-raw_data$continent[raw_data$continent == "Asia" & raw_data$country != "China"] <- "Asia - ex China"
+# Process deaths data:
+deaths_data_all <- raw_data %>%
+  # Clean column names:
+  clean_names() %>%
+  # Select relevant columns:
+  select(year_week, country, continent, indicator, weekly_count, rate_14_day, cumulative_count, population) %>%
+  filter(indicator == "deaths") %>%
+  # Convert year-week format into dates:
+  mutate(year = str_sub(year_week, 1, 4), 
+         year = as.numeric(year),
+         week = str_sub(year_week, 6, 8),
+         week = as.numeric(week),
+         date = MMWRweek2Date(year, week, 2)) %>%
+  # Delete temporary helper columns:
+  select(-one_of("year", "week", "year_week", "indicator")) %>%
+  rename(weekly_deaths = weekly_count,
+         cumulative_deaths = cumulative_count,
+         deaths_14day_rollsum_per100000 = rate_14_day)
 
-western_europe <- c("United_Kingdom", "Ireland", "Netherlands", "Belgium", "Luxembourg", "France", "Spain", "Portugal", "Germany", "Switzerland", "Italy", "Austria", "Norway", "Sweden", "Finland", "Denmark", "Monaco", "San_Marino", "Holy_See", "Liechtenstein", "Iceland", "Gibraltar", "Guernsey", "Jersey")
-raw_data$continent[raw_data$continent == "Europe" & raw_data$country %in% western_europe] <- "Western Europe"
-raw_data$continent[raw_data$continent == "Europe"] <- "Rest of Europe"
-
+# Join case and deaths datasets:
+clean_data_all <- left_join(case_data_all, deaths_data_all) %>%
+  relocate(date, .before = country) %>%
+  relocate(population, .before = weekly_cases)
+  
 # Add new cases to master raw dataframe:
-raw_data_master <- read_csv(here("Data Files", "Raw data_new version.csv"))
-new_entries <- anti_join(raw_data, raw_data_master)
-raw_data_master <- bind_rows(raw_data_master, new_entries)
+clean_data_master <- read_csv(here("Data Files", "Clean data_all_master.csv"))
+new_entries <- anti_join(clean_data_all, clean_data_master)
+clean_data_master <- bind_rows(clean_data_master, new_entries)
 
 # Remove old entries from master raw dataframe:
-if(all_equal(raw_data, raw_data_master) != TRUE) {
-  obsolte_entries <- anti_join(raw_data_master, raw_data)
-  raw_data_master <- anti_join(raw_data_master, obsolte_entries)
+if(all_equal(clean_data_all, clean_data_master) != TRUE) {
+  obsolte_entries <- anti_join(clean_data_master, clean_data_all)
+  clean_data_master <- anti_join(clean_data_master, obsolte_entries)
 }
 
 # Write results back to csv:
-raw_data_master <- raw_data_master %>%
+clean_data_master <- clean_data_master %>%
   arrange(country, date) %>%
-  write_csv(here("Data Files", "Raw data_new version.csv"))
+  write_csv(here("Data Files", "Clean data_all_master.csv"))
 
-rm(raw_data_master)
+rm(list = c("clean_data_master", "case_data_all", "deaths_data_all", "raw_data"))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Filter for relevant countries:
 relevant_countries <- c("Germany", "Netherlands", "Sweden", "Spain", "Italy", "United_Kingdom", "Ireland", "United_States_of_America", "Russia", "France", "Belgium", "Greece")
 
-clean_data <- raw_data %>%
+clean_data_filtered <- clean_data_all %>%
   filter(country %in% relevant_countries) %>%
   arrange(country, date)
 
 # Add calculated columns:
-clean_data <- clean_data %>%
+clean_data_filtered <- clean_data_filtered %>%
   group_by(country) %>%
-  mutate(cum_cases = cumsum(cases_weekly),
-         cum_cases_per100000 = cum_cases / (population / 100000),
-         weekly_cases_per100000 = cases_weekly / (population / 100000),
-         cum_deaths = cumsum(deaths_weekly),
-         cum_deaths_per100000 = cum_deaths / (population / 100000),
-         weekly_deaths_per100000 = deaths_weekly / (population / 100000)) %>%
+  mutate(weekly_cases_per100000 = weekly_cases / (population / 100000),
+         cum_cases_per100000 = cumulative_cases / (population / 100000),
+         weekly_deaths_per100000 = weekly_deaths / (population / 100000),
+         cum_deaths_per100000 = cumulative_deaths / (population / 100000)) %>%
   ungroup()
 
 # Write results back to csv:
-as_of_date <- max(clean_data$date)
-output_file_name <- paste(as_of_date, " Clean data.csv", sep = "")
-write_csv(clean_data, here("Data Files", output_file_name))
+as_of_date <- max(clean_data_filtered$date)
+output_file_name <- paste(as_of_date, " Clean data_filtered.csv", sep = "")
+write_csv(clean_data_filtered, here("Data Files", output_file_name))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -70,7 +95,7 @@ write_csv(clean_data, here("Data Files", output_file_name))
 chart_caption <- paste("Source: ECDC data as of", as_of_date, sep = " ")
 
 # Plot cases:
-plot_weekly_cases <- ggplot(clean_data, aes(x = date, y = cases_weekly)) +
+plot_weekly_cases <- ggplot(clean_data_filtered, aes(x = date, y = weekly_cases)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -84,7 +109,7 @@ plot_weekly_cases <- ggplot(clean_data, aes(x = date, y = cases_weekly)) +
 file_name <- paste(as_of_date, " Weekly cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_weekly_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
+plot_cumulative_cases <- ggplot(clean_data_filtered, aes(x = date, y = cum_cases)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -98,7 +123,7 @@ plot_cumulative_cases <- ggplot(clean_data, aes(x = date, y = cum_cases)) +
 file_name <- paste(as_of_date, " Cumulative cases",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_cases_per100000)) +
+plot_cumulative_cases_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = cum_cases_per100000)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
@@ -112,7 +137,7 @@ plot_cumulative_cases_per100000 <- ggplot(clean_data, aes(x = date, y = cum_case
 file_name <- paste(as_of_date, " Cumulative cases per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_weekly_cases_per100000 <- ggplot(clean_data, aes(x = date, y = weekly_cases_per100000)) +
+plot_weekly_cases_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = weekly_cases_per100000)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
@@ -126,7 +151,7 @@ plot_weekly_cases_per100000 <- ggplot(clean_data, aes(x = date, y = weekly_cases
 file_name <- paste(as_of_date, " Weekly cases per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_weekly_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cases_14day_rollsum_per100000 <- ggplot(clean_data, aes(x = date, y = notification_rate_per_100000_population_14_days)) +
+plot_cases_14day_rollsum_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = notification_rate_per_100000_population_14_days)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
@@ -143,7 +168,7 @@ ggsave(filename =  file_name, plot = plot_cases_14day_rollsum_per100000, path = 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Plot deaths:
-plot_weekly_deaths <- ggplot(clean_data, aes(x = date, y = deaths_weekly)) +
+plot_weekly_deaths <- ggplot(clean_data_filtered, aes(x = date, y = deaths_weekly)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -157,7 +182,7 @@ plot_weekly_deaths <- ggplot(clean_data, aes(x = date, y = deaths_weekly)) +
 file_name <- paste(as_of_date, " Weekly deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_weekly_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cum_deaths)) +
+plot_cumulative_deaths <- ggplot(clean_data_filtered, aes(x = date, y = cum_deaths)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -171,7 +196,7 @@ plot_cumulative_deaths <- ggplot(clean_data, aes(x = date, y = cum_deaths)) +
 file_name <- paste(as_of_date, " Cumulative deaths",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = cum_deaths_per100000)) +
+plot_cumulative_deaths_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = cum_deaths_per100000)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
@@ -185,7 +210,7 @@ plot_cumulative_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = cum_dea
 file_name <- paste(as_of_date, " Cumulative deaths per 100,000 inhabitants",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_deaths_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
-plot_weekly_deaths_per100000 <- ggplot(clean_data, aes(x = date, y = weekly_deaths_per100000)) +
+plot_weekly_deaths_per100000 <- ggplot(clean_data_filtered, aes(x = date, y = weekly_deaths_per100000)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
@@ -204,14 +229,14 @@ ggsave(filename =  file_name, plot = plot_weekly_deaths_per100000, path = here("
 # Cases and deaths charts by continent
 
 # Prepare data:
-population_continent <- raw_data %>%
+population_continent <- case_data_all %>%
   select(country, continent, population) %>%
   distinct() %>%
   group_by(continent) %>%
   summarize(population_continent_total = sum(population, na.rm = TRUE)) %>%
   filter(population_continent_total > 0)
 
-clean_data_continent <- raw_data %>%
+clean_data_continent <- case_data_all %>%
   group_by(date, continent) %>%
   mutate(total_continent_weekly_cases = sum(cases_weekly),
          total_continent_weekly_deaths = sum(deaths_weekly)) %>%
