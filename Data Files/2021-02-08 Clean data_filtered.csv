@@ -1,4 +1,4 @@
-date,country,continent,population,weekly_cases,cases_14day_rollsum_per100000,cumulative_cases,weekly_deaths,deaths_14day_rollsum_per100000,cumulative_deaths,weekly_cases_per100000,cum_cases_per100000,weekly_deaths_per100000,cum_deaths_per100000
+date,country,continent,population,weekly_cases,cases_14day_rollsum_per100000,cumulative_cases,weekly_deaths,deaths_14day_rollsum_per1000000,cumulative_deaths,weekly_cases_per100000,cum_cases_per100000,weekly_deaths_per100000,cum_deaths_per100000
 2019-12-30,Belgium,Europe,11522440,0,NA,0,0,NA,0,0,0,0,0
 2020-01-06,Belgium,Europe,11522440,0,0,0,0,0,0,0,0,0,0
 2020-01-13,Belgium,Europe,11522440,0,0,0,0,0,0,0,0,0,0
