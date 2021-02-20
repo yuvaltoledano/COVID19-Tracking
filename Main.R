@@ -7,18 +7,14 @@ raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/
 
 # Process case data:
 case_data_all <- raw_data %>%
-  # Clean column names:
   clean_names() %>%
-  # Select relevant columns:
   select(year_week, country, continent, indicator, weekly_count, rate_14_day, cumulative_count, population) %>%
   filter(indicator == "cases") %>%
-  # Convert year-week format into dates:
   mutate(year = str_sub(year_week, 1, 4),
          year = as.numeric(year),
          week = str_sub(year_week, 6, 8),
          week = as.numeric(week),
          date = MMWRweek2Date(year, week, 2)) %>%
-  # Delete temporary helper columns:
   select(-one_of("year", "week", "year_week", "indicator")) %>%
   rename(weekly_cases = weekly_count,
          cumulative_cases = cumulative_count,
@@ -26,18 +22,14 @@ case_data_all <- raw_data %>%
 
 # Process deaths data:
 deaths_data_all <- raw_data %>%
-  # Clean column names:
   clean_names() %>%
-  # Select relevant columns:
   select(year_week, country, continent, indicator, weekly_count, rate_14_day, cumulative_count, population) %>%
   filter(indicator == "deaths") %>%
-  # Convert year-week format into dates:
   mutate(year = str_sub(year_week, 1, 4), 
          year = as.numeric(year),
          week = str_sub(year_week, 6, 8),
          week = as.numeric(week),
          date = MMWRweek2Date(year, week, 2)) %>%
-  # Delete temporary helper columns:
   select(-one_of("year", "week", "year_week", "indicator")) %>%
   rename(weekly_deaths = weekly_count,
          cumulative_deaths = cumulative_count,
@@ -634,6 +626,8 @@ plot_cum_vacs_proportions <- vaccination_data %>%
   
 file_name <- paste(as_of_date_vaccinations, " Cumulative proportion of German population vaccinated",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cum_vacs_proportions, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Read in and process Germany vaccine delivery data:
 vaccine_delivery_data <- read_tsv("https://impfdashboard.de/static/data/germany_deliveries_timeseries.tsv")
