@@ -646,15 +646,16 @@ vaccine_delivery_data <- vaccine_delivery_data %>%
 
 plot_vaccine_deliveries <- vaccine_delivery_data %>%
   rename(`Type of vaccine` = vaccine_type) %>%
-  ggplot(aes(x = date, y = cum_delivered_doses, color = `Type of vaccine`)) + 
-  geom_line(size = 1.2) +
+  ggplot(aes(x = date, y = delivered_doses, fill = `Type of vaccine`)) + 
+  geom_col() +
+  scale_x_date(date_breaks = "5 days") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative delivered vaccine doses by type",
+       title = "Delivered vaccine doses by type",
        caption = chart_caption_vaccinations)
 
-file_name <- paste(as_of_date_vaccinations, " Cumulative delivered vaccine doses by type",  ".png", sep = "")
+file_name <- paste(as_of_date_vaccinations, " Delivered vaccine doses by type",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_vaccine_deliveries, path = here("Charts"), scale = 1, width = 15, height = 10)
