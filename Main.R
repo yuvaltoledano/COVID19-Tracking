@@ -259,7 +259,7 @@ plot_cases_7day_rollsum_continent <- ggplot(clean_data_continent, aes(x = date, 
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly COVID-19 cases",
+       title = "7-day rolling sum COVID-19 cases",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " New cases - 7day rollsum - by continent",  ".png", sep = "")
@@ -273,7 +273,7 @@ plot_cases_7day_rollsum_continent_per100000 <- ggplot(clean_data_continent, aes(
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly COVID-19 cases per 100,000 inhabitants",
+       title = "7-day rolling sum COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption)
 
 file_name <- paste(as_of_date, " New cases - 7day rollsum - by continent - per 100,000",  ".png", sep = "")
@@ -290,7 +290,7 @@ plot_cases_14day_rollsum_continent_per100000 <- ggplot(clean_data_continent, aes
        title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption)
 
-file_name <- paste(as_of_date, " New cases - 14day rollsum - per 100,000 - by continent",  ".png", sep = "")
+file_name <- paste(as_of_date, " New cases - 14day rollsum - by continent - per 100,000",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cases_14day_rollsum_continent_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y = cumulative_cases)) +
@@ -318,9 +318,10 @@ plot_cumulative_cases_continent_per100000 <- ggplot(clean_data_continent, aes(x 
        title = "Cumulative COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption)
 
-file_name <- paste(as_of_date, " Cumulative cases  - per 100,000 - by continent",  ".png", sep = "")
+file_name <- paste(as_of_date, " Cumulative cases - by continent - per 100,000",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cumulative_cases_continent_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
+# Plot deaths:
 plot_weekly_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y = weekly_deaths)) +
   geom_line(color = "cadetblue", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
