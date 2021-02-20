@@ -60,7 +60,7 @@ if(all_equal(clean_data_countries_all, clean_data_countries_master) != TRUE) {
 }
 
 # Write results back to csv:
-clean_data_countries_all <- clean_data_countries_all %>%
+clean_data_countries_master <- clean_data_countries_master %>%
   arrange(country, date) %>%
   write_csv(here("Data Files", "Clean data_all_master.csv"))
 
@@ -106,7 +106,7 @@ plot_cases_7day_rollsum <- ggplot(clean_data_countries_filtered, aes(x = date, y
        title = "7-day rolling sum COVID-19 cases",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New cases - 7day rollsum - by country",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New cases_7day sum_country",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cases_7day_rollsum, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cases_7day_rollsum_per100000 <- ggplot(clean_data_countries_filtered, aes(x = date, y = weekly_cases_per100000)) +
@@ -120,7 +120,7 @@ plot_cases_7day_rollsum_per100000 <- ggplot(clean_data_countries_filtered, aes(x
        title = "7-day rolling sum COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New cases - 7day rollsum - by country - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New cases_7day sum_country_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cases_7day_rollsum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cases_14day_rollsum_per100000 <- ggplot(clean_data_countries_filtered, aes(x = date, y = cases_14day_rollsum_per100000)) +
@@ -134,7 +134,7 @@ plot_cases_14day_rollsum_per100000 <- ggplot(clean_data_countries_filtered, aes(
        title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New cases - 14day rollsum - by country - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New cases_14day sum_country_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cases_14day_rollsum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases <- ggplot(clean_data_countries_filtered, aes(x = date, y = cumulative_cases)) +
@@ -148,7 +148,7 @@ plot_cumulative_cases <- ggplot(clean_data_countries_filtered, aes(x = date, y =
        title = "Cumulative COVID-19 cases",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " Cumulative cases - by country",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " Cum cases_country",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_cases, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_per100000 <- ggplot(clean_data_countries_filtered, aes(x = date, y = cum_cases_per100000)) +
@@ -162,7 +162,7 @@ plot_cumulative_cases_per100000 <- ggplot(clean_data_countries_filtered, aes(x =
        title = "Cumulative COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " Cumulative cases - by country - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " Cum cases_country_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_cases_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -179,7 +179,7 @@ plot_deaths_7day_rollsum <- ggplot(clean_data_countries_filtered, aes(x = date, 
        title = "Weekly COVID-19 deaths",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New deaths - 7day rollsum - by country",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_country",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_deaths_7day_rollsum, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_deaths_7day_rollsum_per100000 <- ggplot(clean_data_countries_filtered, aes(x = date, y = weekly_deaths_per100000)) +
@@ -193,7 +193,7 @@ plot_deaths_7day_rollsum_per100000 <- ggplot(clean_data_countries_filtered, aes(
        title = "Weekly COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New deaths - 7day rollsum - by country - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_country_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_deaths_7day_rollsum_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_deaths_14day_rollsum_per1000000 <- ggplot(clean_data_countries_filtered, aes(x = date, y = deaths_14day_rollsum_per1000000)) +
@@ -207,7 +207,7 @@ plot_deaths_14day_rollsum_per1000000 <- ggplot(clean_data_countries_filtered, ae
        title = "14-day rolling sum COVID-19 deaths per 1,000,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New deaths - 14day rollsum - by country - per 1,000,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New deaths_14day sum_country_per1M",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_deaths_14day_rollsum_per1000000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths <- ggplot(clean_data_countries_filtered, aes(x = date, y = cumulative_deaths)) +
@@ -221,7 +221,7 @@ plot_cumulative_deaths <- ggplot(clean_data_countries_filtered, aes(x = date, y 
        title = "Cumulative COVID-19 deaths",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " Cumulative deaths - by country",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " Cum deaths_country",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_deaths, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_per100000 <- ggplot(clean_data_countries_filtered, aes(x = date, y = cum_deaths_per100000)) +
@@ -235,7 +235,7 @@ plot_cumulative_deaths_per100000 <- ggplot(clean_data_countries_filtered, aes(x 
        title = "Cumulative COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " Cumulative deaths - by country - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " Cum deaths_country_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_deaths_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -264,7 +264,7 @@ plot_cases_7day_rollsum_continent <- ggplot(clean_data_continent, aes(x = date, 
        title = "7-day rolling sum COVID-19 cases",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New cases - 7day rollsum - by continent",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New cases_7day sum_continent",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cases_7day_rollsum_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cases_7day_rollsum_continent_per100000 <- ggplot(clean_data_continent, aes(x = date, y = weekly_cases_per100000)) +
@@ -278,7 +278,7 @@ plot_cases_7day_rollsum_continent_per100000 <- ggplot(clean_data_continent, aes(
        title = "7-day rolling sum COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New cases - 7day rollsum - by continent - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New cases_7day sum_continent_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cases_7day_rollsum_continent_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cases_14day_rollsum_continent_per100000 <- ggplot(clean_data_continent, aes(x = date, y = cases_14day_rollsum_per100000)) +
@@ -292,7 +292,7 @@ plot_cases_14day_rollsum_continent_per100000 <- ggplot(clean_data_continent, aes
        title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " New cases - 14day rollsum - by continent - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " New cases_14day sum_continent_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cases_14day_rollsum_continent_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y = cumulative_cases)) +
@@ -306,7 +306,7 @@ plot_cumulative_cases_continent <- ggplot(clean_data_continent, aes(x = date, y 
        title = "Cumulative COVID-19 cases",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " Cumulative cases - by continent",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " Cum cases_continent",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_cases_continent, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_cases_continent_per100000 <- ggplot(clean_data_continent, aes(x = date, y = cum_cases_per100000)) +
@@ -320,8 +320,10 @@ plot_cumulative_cases_continent_per100000 <- ggplot(clean_data_continent, aes(x 
        title = "Cumulative COVID-19 cases per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
-file_name <- paste(as_of_date_cases_deaths, " Cumulative cases - by continent - per 100,000",  ".png", sep = "")
+file_name <- paste(as_of_date_cases_deaths, " Cum cases_continent_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_cases_continent_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+#TODO - fix continent-level death charts
 
 # Plot deaths:
 plot_weekly_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y = weekly_deaths)) +
