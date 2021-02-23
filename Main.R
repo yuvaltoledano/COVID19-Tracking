@@ -47,8 +47,8 @@ clean_data_countries_master <- bind_rows(clean_data_countries_master, new_entrie
 
 # Remove old entries from master raw dataframe:
 if(all_equal(clean_data_countries_all, clean_data_countries_master) != TRUE) {
-  obsolte_entries <- anti_join(clean_data_countries_master, clean_data_countries_all)
-  clean_data_countries_master <- anti_join(clean_data_countries_master, obsolte_entries)
+  obsolete_entries <- anti_join(clean_data_countries_master, clean_data_countries_all)
+  clean_data_countries_master <- anti_join(clean_data_countries_master, obsolete_entries)
 }
 
 # Write results back to csv:
@@ -56,7 +56,7 @@ clean_data_countries_master <- clean_data_countries_master %>%
   arrange(country, date) %>%
   write_csv(here("Data Files", "Clean data_all_master.csv"))
 
-rm(list = c("clean_data_countries_master", "case_data_all", "deaths_data_all", "raw_data", "new_entries"))
+rm(list = c("clean_data_countries_master", "case_data_all", "deaths_data_all", "raw_data", "new_entries", "obsolete_entries"))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
