@@ -536,7 +536,7 @@ plot_new_vacs_7day_rollsum <- vaccination_data %>%
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "7-day rolling sum administered vacs in Germany",
+       title = "7-day rolling sum administered vaccinations in Germany",
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " New vacs 7-day rolling sum",  ".png", sep = "")
@@ -553,7 +553,7 @@ plot_new_vacs_dose <- vaccination_data %>%
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Daily administered vacs in Germany by dose",
+       title = "Daily administered vaccinations in Germany by dose",
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by dose",  ".png", sep = "")
@@ -570,7 +570,7 @@ plot_new_vacs_type <- vaccination_data %>%
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Daily administered vacs in Germany by type",
+       title = "Daily administered vaccinations in Germany by type",
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by type",  ".png", sep = "")
@@ -587,7 +587,7 @@ plot_new_vacs_recipient <- vaccination_data %>%
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Daily administered vacs in Germany by recipient",
+       title = "Daily administered vaccinations in Germany by recipient",
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by recipient",  ".png", sep = "")
@@ -607,7 +607,7 @@ plot_cum_vacs <- vaccination_data %>%
        title = "Cumulative number of vaccinations administered",
        caption = chart_caption_vaccinations)
 
-file_name <- paste(as_of_date_vaccinations, " Cumulative vaccinations administered",  ".png", sep = "")
+file_name <- paste(as_of_date_vaccinations, " Cumulative vacs administered",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_cum_vacs, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 plot_cum_vacs_proportions <- vaccination_data %>%
