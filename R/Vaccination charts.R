@@ -45,8 +45,12 @@ vaccination_data <- vaccination_data %>%
          new_vacs_moderna_7day_rollsum = rollsum(new_vacs_moderna, 7, fill = NA, align = "right"),
          new_vacs_astrazeneca_7day_rollsum = rollsum(new_vacs_astrazeneca, 7, fill = NA, align = "right"))
 
-# Set chart caption:
+# Save data as csv:
 as_of_date_vaccinations <- max(vaccination_data$date)
+output_file_name <- paste(as_of_date_vaccinations, " Germany vaccination data.csv", sep = "")
+write_csv(vaccination_data, here("Data Files", "Vaccinations", output_file_name))
+
+# Set chart caption:
 chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit data as of", as_of_date_vaccinations, sep = " ")
 
 # Create charts:
