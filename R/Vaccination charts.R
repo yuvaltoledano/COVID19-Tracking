@@ -70,7 +70,7 @@ plot_new_vacs_7day_rollsum <- vaccination_data %>%
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " New vacs 7-day rolling sum",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_new_vacs_7day_rollsum, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_new_vacs_7day_rollsum, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
 
 plot_new_vacs_dose <- vaccination_data %>%
   select(date, new_vacs_first_dose_all, new_vacs_second_dose_all) %>%
@@ -87,7 +87,7 @@ plot_new_vacs_dose <- vaccination_data %>%
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by dose",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_new_vacs_dose, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_new_vacs_dose, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
 
 plot_new_vacs_type <- vaccination_data %>%
   select(date, new_vacs_pfizer, new_vacs_moderna, new_vacs_astrazeneca) %>%
@@ -104,7 +104,7 @@ plot_new_vacs_type <- vaccination_data %>%
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by type",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
 
 plot_new_vacs_recipient <- vaccination_data %>%
   select(date, new_vacs_elderly, new_vacs_medical_profession, new_vacs_medical_condition, new_vacs_care_homes) %>%
@@ -121,7 +121,7 @@ plot_new_vacs_recipient <- vaccination_data %>%
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by recipient",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_new_vacs_recipient, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_new_vacs_recipient, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
 
 plot_cum_vacs <- vaccination_data %>%
   select(date, cum_vacs_pfizer, cum_vacs_moderna, cum_vacs_astrazeneca) %>%
@@ -138,7 +138,7 @@ plot_cum_vacs <- vaccination_data %>%
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Cumulative vacs administered",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cum_vacs, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cum_vacs, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
 
 plot_cum_vacs_proportions <- vaccination_data %>%
   select(date, pct_pop_vaccinated_first_dose, pct_pop_vaccinated_second_dose) %>%
@@ -155,12 +155,12 @@ plot_cum_vacs_proportions <- vaccination_data %>%
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Cumulative proportion of German population vaccinated",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_cum_vacs_proportions, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_cum_vacs_proportions, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Read in and process Germany vaccine delivery data:
-vaccine_delivery_data <- read_tsv("https://impfdashboard.de/static/data/germany_deliveries_timeseries.tsv")
+vaccine_delivery_data <- read_tsv("https://impfdashboard.de/static/data/germany_deliveries_timeseries_v2.tsv")
 
 vaccine_delivery_data <- vaccine_delivery_data %>%
   clean_names() %>%
@@ -188,4 +188,4 @@ plot_vaccine_deliveries <- vaccine_delivery_data %>%
        caption = chart_caption_vaccinations)
 
 file_name <- paste(as_of_date_vaccinations, " Delivered vaccine doses by type",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_vaccine_deliveries, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_vaccine_deliveries, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
