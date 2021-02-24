@@ -16,9 +16,13 @@ hospital_data <- hospital_data %>%
          date = if_else(is.na(date), MMWRweek_date, date)) %>%
   select(country, indicator, date, value)
 
+# Save data as csv:
+as_of_date_hospital <- max(hospital_data$date)
+output_file_name <- paste(as_of_date_hospital, " Hospital occupancy data.csv", sep = "")
+write_csv(hospital_data, here("Data Files", "Hospital occupancy", output_file_name))
+
 # Create daily occupancy charts:
 relevant_countries <- c("Germany", "Netherlands", "Sweden", "Spain", "Italy", "United_Kingdom", "Ireland", "France", "Belgium")
-as_of_date_hospital <- max(hospital_data$date)
 chart_caption_hospital <- paste("Source: ECDC data as of", as_of_date_hospital, sep = " ")
 
 plot_daily_hospital_occupancy <- hospital_data %>%
@@ -35,7 +39,7 @@ plot_daily_hospital_occupancy <- hospital_data %>%
        caption = chart_caption_hospital)
 
 file_name <- paste(as_of_date_hospital, " Daily hospital occupancy",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_hospital_occupancy, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_hospital_occupancy, path = here("Charts", "Hospital occupancy"), scale = 1, width = 15, height = 10)
 
 plot_daily_icu_occupancy <- hospital_data %>%
   filter(country %in% relevant_countries, indicator == "Daily ICU occupancy") %>%
@@ -51,7 +55,7 @@ plot_daily_icu_occupancy <- hospital_data %>%
        caption = chart_caption_hospital)
 
 file_name <- paste(as_of_date_hospital, " Daily ICU occupancy",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_daily_icu_occupancy, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_daily_icu_occupancy, path = here("Charts", "Hospital occupancy"), scale = 1, width = 15, height = 10)
 
 # Create weekly admissions charts:
 plot_weekly_hospital_admissions_per100000 <- hospital_data %>%
@@ -68,7 +72,7 @@ plot_weekly_hospital_admissions_per100000 <- hospital_data %>%
        caption = chart_caption_hospital)
 
 file_name <- paste(as_of_date_hospital, " Weekly new hospital admissions per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_weekly_hospital_admissions_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_weekly_hospital_admissions_per100000, path = here("Charts", "Hospital occupancy"), scale = 1, width = 15, height = 10)
 
 plot_weekly_icu_admissions_per100000 <- hospital_data %>%
   filter(country %in% relevant_countries, indicator == "Weekly new ICU admissions per 100k") %>%
@@ -84,4 +88,4 @@ plot_weekly_icu_admissions_per100000 <- hospital_data %>%
        caption = chart_caption_hospital)
 
 file_name <- paste(as_of_date_hospital, " Weekly new ICU admissions per 100,000 inhabitants",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_weekly_icu_admissions_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+ggsave(filename =  file_name, plot = plot_weekly_icu_admissions_per100000, path = here("Charts", "Hospital occupancy"), scale = 1, width = 15, height = 10)
