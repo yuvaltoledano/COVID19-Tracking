@@ -2,7 +2,7 @@
 library(pacman)
 p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, here, MMWRweek)
 
-# Read in case data:
+# Read in data:
 raw_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/nationalcasedeath/csv")
 
 # Process case data:
@@ -387,6 +387,44 @@ plot_cumulative_deaths_continent_per100000 <- ggplot(clean_data_continent, aes(x
 
 file_name <- paste(as_of_date_cases_deaths, " Cumulative deaths  - per 100,000 - by continent",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_deaths_continent_per100000, path = here("Charts"), scale = 1, width = 15, height = 10)
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Cases and deaths charts by German Bundesländer
+
+# Read in case data:
+bundeslander_case_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/subnationalcaseweekly/csv")
+
+# Process data:
+bundeslander_case_data <- bundeslander_case_data %>%
+  clean_names() %>%
+  select(year_week, country, region_name, rate_14_day_per_100k) %>%
+  filter(country == "Germany") %>%
+  mutate(year = str_sub(year_week, 1, 4),
+         year = as.numeric(year),
+         week = str_sub(year_week, 7, 8),
+         week = as.numeric(week),
+         date = MMWRweek2Date(year, week, 2)) %>%
+  select(-one_of("year", "week", "year_week")) %>%
+  rename(cases_14day_rollsum_per100000 = rate_14_day_per_100k)
+
+# Create chart:
+as_of_date_bundeslander <- max(bundeslander_case_data$date)
+chart_caption_bundeslander <- paste("Source: ECDC data as of", as_of_date_bundeslander, sep = " ")
+
+plot_cases_14day_rollsum_per100000_bundeslander <- ggplot(bundeslander_case_data, aes(x = date, y = cases_14day_rollsum_per100000)) +
+  geom_line(color = "cadetblue", size = 1.2) +
+  facet_wrap(~region_name) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
+       caption = chart_caption_bundeslander)
+
+file_name <- paste(as_of_date_bundeslander, " New cases_14day sum_bundeslander_per100k",  ".png", sep = "")
+ggsave(filename = file_name, plot = plot_cases_14day_rollsum_per100000_bundeslander, path = here("Charts"), scale = 1, width = 15, height = 10)
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
