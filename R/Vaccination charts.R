@@ -195,7 +195,8 @@ vaccine_delivery_data <- vaccine_delivery_data %>%
                              "DE-SH" = "Schleswig-Holstein",
                              "DE-TH" = "Thüringen")) %>%
   group_by(date, vaccine_type) %>%
-  mutate(total_delivered_doses_on_date = sum(delivered_doses)) %>%
+  mutate(total_delivered_doses_on_date = sum(delivered_doses),
+         pct_delivered_bundesland = delivered_doses / total_delivered_doses_on_date * 100) %>%
   ungroup()
 
 plot_vaccine_deliveries <- vaccine_delivery_data %>%
