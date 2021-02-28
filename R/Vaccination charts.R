@@ -200,7 +200,7 @@ vaccine_delivery_data <- vaccine_delivery_data %>%
   ungroup()
 
 plot_vaccine_deliveries <- vaccine_delivery_data %>%
-  select(-one_of("delivered_doses", "bundesland")) %>%
+  select(-one_of("delivered_doses", "bundesland", "pct_delivered_bundesland")) %>%
   distinct() %>%
   rename(`Type of vaccine` = vaccine_type) %>%
   ggplot(aes(x = date, y = total_delivered_doses_on_date, fill = `Type of vaccine`)) + 
@@ -216,3 +216,108 @@ plot_vaccine_deliveries <- vaccine_delivery_data %>%
 
 file_name <- paste(as_of_date_vaccinations, " Delivered vaccine doses by type",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_vaccine_deliveries, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Comparison of delivered doses vs. used doses
+vaccines_delivered_temp <- vaccine_delivery_data %>%
+  select(-one_of("delivered_doses", "bundesland", "pct_delivered_bundesland")) %>%
+  distinct() %>%
+  rename(delivered_vaccine_doses = total_delivered_doses_on_date)
+
+dates_vec <- seq(min(vaccination_data$date), max(vaccination_data$date), by = "days")
+
+vaccines_delivered <- tibble(dates_vec) %>%
+  rename(date = dates_vec) %>%
+  left_join(vaccines_delivered_temp) %>%
+  mutate(vaccine_type = replace_na(vaccine_type, "No delivery"),
+         delivered_vaccine_doses = replace_na(delivered_vaccine_doses, 0)) %>%
+  pivot_wider(names_from = vaccine_type, values_from = delivered_vaccine_doses) %>%
+  select(-"No delivery") %>%
+  mutate(Pfizer = replace_na(Pfizer, 0),
+         Moderna = replace_na(Moderna, 0),
+         AstraZeneca = replace_na(AstraZeneca, 0)) %>%
+  rename(delivered_doses_pfizer = Pfizer,
+         delivered_doses_moderna = Moderna,
+         delivered_doses_astrazeneca = AstraZeneca)
+
+rm(vaccines_delivered_temp)
+
+vaccinations_administered <- vaccination_data %>%
+  arrange(date) %>%
+  select(date, new_vacs_pfizer, new_vacs_moderna,  new_vacs_astrazeneca) %>%
+  rename(administered_doses_pfizer = new_vacs_pfizer,
+         administered_doses_moderna = new_vacs_moderna,
+         administered_doses_astrazeneca = new_vacs_astrazeneca)
+
+vaccination_capacity <- left_join(vaccinations_administered, vaccines_delivered, by = "date")
+
+rm(list = c("vaccinations_administered", "vaccines_delivered", "dates_vec"))
+
+vaccination_capacity <- vaccination_capacity %>%
+  mutate(cum_administered_doses_pfizer = cumsum(administered_doses_pfizer),
+         cum_administered_doses_moderna = cumsum(administered_doses_moderna),
+         cum_administered_doses_astrazeneca = cumsum(administered_doses_astrazeneca),
+         cum_delivered_doses_pfizer = cumsum(delivered_doses_pfizer),
+         cum_delivered_doses_moderna = cumsum(delivered_doses_moderna),
+         cum_delivered_doses_astrazeneca = cumsum(delivered_doses_astrazeneca))
+
+plot_vaccine_capacity_pfizer <- vaccination_capacity %>%
+  select(date, cum_delivered_doses_pfizer, cum_administered_doses_pfizer) %>%
+  pivot_longer(cols = contains("cum"), names_to = "Metric") %>%
+  mutate(Metric = recode(Metric,
+                         "cum_delivered_doses_pfizer" = "Pfizer - cumulative delivered doses",
+                         "cum_administered_doses_pfizer" = "Pfizer - cumulative administered doses")) %>%
+  ggplot(aes(x = date, y = value, color = Metric)) +
+  geom_line(size = 1.2) +
+  scale_x_date(date_breaks = "10 days") +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Pfizer vaccine capacity",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Vaccine capacity - Pfizer",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_vaccine_capacity_pfizer, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
+
+plot_vaccine_capacity_moderna <- vaccination_capacity %>%
+  select(date, cum_delivered_doses_moderna, cum_administered_doses_moderna) %>%
+  pivot_longer(cols = contains("cum"), names_to = "Metric") %>%
+  mutate(Metric = recode(Metric,
+                         "cum_delivered_doses_moderna" = "Moderna - cumulative delivered doses",
+                         "cum_administered_doses_moderna" = "Moderna - cumulative administered doses")) %>%
+  ggplot(aes(x = date, y = value, color = Metric)) +
+  geom_line(size = 1.2) +
+  scale_x_date(date_breaks = "10 days") +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Moderna vaccine capacity",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Vaccine capacity - Moderna",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_vaccine_capacity_moderna, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
+
+plot_vaccine_capacity_astrazeneca <- vaccination_capacity %>%
+  select(date, cum_delivered_doses_astrazeneca, cum_administered_doses_astrazeneca) %>%
+  pivot_longer(cols = contains("cum"), names_to = "Metric") %>%
+  mutate(Metric = recode(Metric,
+                         "cum_delivered_doses_astrazeneca" = "AstraZeneca - cumulative delivered doses",
+                         "cum_administered_doses_astrazeneca" = "AstraZeneca - cumulative administered doses")) %>%
+  ggplot(aes(x = date, y = value, color = Metric)) +
+  geom_line(size = 1.2) +
+  scale_x_date(date_breaks = "10 days") +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "AstraZeneca vaccine capacity",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Vaccine capacity - AstraZeneca",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_vaccine_capacity_astrazeneca, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
