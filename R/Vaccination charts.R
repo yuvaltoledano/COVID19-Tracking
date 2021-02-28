@@ -262,6 +262,10 @@ vaccination_capacity <- vaccination_capacity %>%
          cum_delivered_doses_moderna = cumsum(delivered_doses_moderna),
          cum_delivered_doses_astrazeneca = cumsum(delivered_doses_astrazeneca))
 
+# Save data as csv:
+output_file_name <- paste(as_of_date_vaccinations, " Germany vaccine capacity data.csv", sep = "")
+write_csv(vaccination_capacity, here("Data Files", "Vaccinations", output_file_name))
+
 # Create charts:
 plot_vaccine_capacity_pfizer <- vaccination_capacity %>%
   select(date, cum_delivered_doses_pfizer, cum_administered_doses_pfizer) %>%
