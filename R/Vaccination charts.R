@@ -219,7 +219,9 @@ ggsave(filename =  file_name, plot = plot_vaccine_deliveries, path = here("Chart
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Comparison of delivered doses vs. used doses
+# Compare delivered doses vs. used doses per vaccine type
+
+# Process data:
 vaccines_delivered_temp <- vaccine_delivery_data %>%
   select(-one_of("delivered_doses", "bundesland", "pct_delivered_bundesland")) %>%
   distinct() %>%
@@ -241,8 +243,6 @@ vaccines_delivered <- tibble(dates_vec) %>%
          delivered_doses_moderna = Moderna,
          delivered_doses_astrazeneca = AstraZeneca)
 
-rm(vaccines_delivered_temp)
-
 vaccinations_administered <- vaccination_data %>%
   arrange(date) %>%
   select(date, new_vacs_pfizer, new_vacs_moderna,  new_vacs_astrazeneca) %>%
@@ -252,7 +252,7 @@ vaccinations_administered <- vaccination_data %>%
 
 vaccination_capacity <- left_join(vaccinations_administered, vaccines_delivered, by = "date")
 
-rm(list = c("vaccinations_administered", "vaccines_delivered", "dates_vec"))
+rm(list = c("vaccines_delivered_temp", "vaccinations_administered", "vaccines_delivered", "dates_vec"))
 
 vaccination_capacity <- vaccination_capacity %>%
   mutate(cum_administered_doses_pfizer = cumsum(administered_doses_pfizer),
@@ -262,6 +262,7 @@ vaccination_capacity <- vaccination_capacity %>%
          cum_delivered_doses_moderna = cumsum(delivered_doses_moderna),
          cum_delivered_doses_astrazeneca = cumsum(delivered_doses_astrazeneca))
 
+# Create charts:
 plot_vaccine_capacity_pfizer <- vaccination_capacity %>%
   select(date, cum_delivered_doses_pfizer, cum_administered_doses_pfizer) %>%
   pivot_longer(cols = contains("cum"), names_to = "Metric") %>%
