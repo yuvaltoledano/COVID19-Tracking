@@ -205,7 +205,7 @@ plot_vaccine_deliveries <- vaccine_delivery_data %>%
   rename(`Type of vaccine` = vaccine_type) %>%
   ggplot(aes(x = date, y = total_delivered_doses_on_date, fill = `Type of vaccine`)) + 
   geom_col() +
-  scale_x_date(date_breaks = "5 days") +
+  scale_x_date(date_breaks = "1 week") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
