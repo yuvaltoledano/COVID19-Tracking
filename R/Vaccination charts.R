@@ -231,7 +231,7 @@ dates_vec <- seq(min(vaccination_data$date), max(vaccination_data$date), by = "d
 
 vaccines_delivered <- tibble(dates_vec) %>%
   rename(date = dates_vec) %>%
-  left_join(vaccines_delivered_temp) %>%
+  left_join(vaccines_delivered_temp, by = "date") %>%
   mutate(vaccine_type = replace_na(vaccine_type, "No delivery"),
          delivered_vaccine_doses = replace_na(delivered_vaccine_doses, 0)) %>%
   pivot_wider(names_from = vaccine_type, values_from = delivered_vaccine_doses) %>%
