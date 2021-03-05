@@ -59,9 +59,8 @@ plot_new_vacs_7day_rollsum <- vaccination_data %>%
   rename(All = new_vacs_all_7day_rollsum, Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum, AstraZeneca = new_vacs_astrazeneca_7day_rollsum) %>%
   pivot_longer(cols = c("All", "Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value)) +
-  facet_wrap(~`Type of vaccine`, scales = "free_y") + 
+  facet_wrap(~`Type of vaccine`) + 
   geom_line(color = "cadetblue", size = 1.2) +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
   background_grid() +
@@ -79,7 +78,6 @@ plot_new_vacs_dose <- vaccination_data %>%
   pivot_longer(cols = contains("dose"), names_to = "Dose") %>%
   ggplot(aes(x = date, y = value, fill = `Dose`)) +
   geom_col() +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
@@ -97,7 +95,6 @@ plot_new_vacs_type <- vaccination_data %>%
   pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
   geom_col() +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
@@ -115,7 +112,6 @@ plot_new_vacs_recipient <- vaccination_data %>%
   pivot_longer(cols = contains("Vacs"), names_to = "Type of recipient") %>%
   ggplot(aes(x = date, y = value, fill = `Type of recipient`)) +
   geom_col() +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
@@ -133,7 +129,6 @@ plot_cum_vacs <- vaccination_data %>%
   pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
   geom_area() +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
   background_grid() +
@@ -151,7 +146,6 @@ plot_cum_vacs_proportions <- vaccination_data %>%
   pivot_longer(cols = contains("dose"), names_to = "Dose") %>%
   ggplot(aes(x = date, y = value, color = Dose)) +
   geom_line(size = 1.2) +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::percent_format(accuracy = 0.01)) +
   theme_cowplot() + 
   background_grid() +
@@ -205,7 +199,6 @@ plot_vaccine_deliveries <- vaccine_delivery_data %>%
   rename(`Type of vaccine` = vaccine_type) %>%
   ggplot(aes(x = date, y = total_delivered_doses_on_date, fill = `Type of vaccine`)) + 
   geom_col() +
-  scale_x_date(date_breaks = "1 week") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
@@ -275,7 +268,6 @@ plot_vaccine_capacity_pfizer <- vaccination_capacity %>%
                          "cum_administered_doses_pfizer" = "Pfizer - cumulative administered doses")) %>%
   ggplot(aes(x = date, y = value, color = Metric)) +
   geom_line(size = 1.2) +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
@@ -295,7 +287,6 @@ plot_vaccine_capacity_moderna <- vaccination_capacity %>%
                          "cum_administered_doses_moderna" = "Moderna - cumulative administered doses")) %>%
   ggplot(aes(x = date, y = value, color = Metric)) +
   geom_line(size = 1.2) +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
@@ -315,7 +306,6 @@ plot_vaccine_capacity_astrazeneca <- vaccination_capacity %>%
                          "cum_administered_doses_astrazeneca" = "AstraZeneca - cumulative administered doses")) %>%
   ggplot(aes(x = date, y = value, color = Metric)) +
   geom_line(size = 1.2) +
-  scale_x_date(date_breaks = "10 days") +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
   theme_cowplot() + 
   background_grid() +
