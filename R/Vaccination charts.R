@@ -60,7 +60,7 @@ plot_new_vacs_7day_rollsum <- vaccination_data %>%
   pivot_longer(cols = c("All", "Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value)) +
   facet_wrap(~`Type of vaccine`) + 
-  geom_line(color = "cadetblue", size = 1.2) +
+  geom_line(color = "#00BFC4", size = 1.2) +
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
   background_grid() +

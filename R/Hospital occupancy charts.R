@@ -28,7 +28,7 @@ chart_caption_hospital <- paste("Source: ECDC data as of", as_of_date_hospital, 
 plot_daily_hospital_occupancy <- hospital_data %>%
   filter(country %in% relevant_countries, indicator == "Daily hospital occupancy") %>%
   ggplot(aes(x = date, y = value)) +
-  geom_line(color = "cadetblue", size = 1.2) +
+  geom_line(color = "#00BFC4", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -44,7 +44,7 @@ ggsave(filename =  file_name, plot = plot_daily_hospital_occupancy, path = here(
 plot_daily_icu_occupancy <- hospital_data %>%
   filter(country %in% relevant_countries, indicator == "Daily ICU occupancy") %>%
   ggplot(aes(x = date, y = value)) +
-  geom_line(color = "cadetblue", size = 1.2) +
+  geom_line(color = "#00BFC4", size = 1.2) +
   facet_wrap(~country, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -61,7 +61,7 @@ ggsave(filename =  file_name, plot = plot_daily_icu_occupancy, path = here("Char
 plot_weekly_hospital_admissions_per100000 <- hospital_data %>%
   filter(country %in% relevant_countries, indicator == "Weekly new hospital admissions per 100k") %>%
   ggplot(aes(x = date, y = value)) +
-  geom_line(color = "cadetblue", size = 1.2) +
+  geom_line(color = "#00BFC4", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -77,7 +77,7 @@ ggsave(filename =  file_name, plot = plot_weekly_hospital_admissions_per100000, 
 plot_weekly_icu_admissions_per100000 <- hospital_data %>%
   filter(country %in% relevant_countries, indicator == "Weekly new ICU admissions per 100k") %>%
   ggplot(aes(x = date, y = value)) +
-  geom_line(color = "cadetblue", size = 1.2) +
+  geom_line(color = "#00BFC4", size = 1.2) +
   facet_wrap(~country) + 
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
