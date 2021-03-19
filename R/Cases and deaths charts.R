@@ -168,7 +168,7 @@ plot_deaths_7day_rollsum <- ggplot(clean_data_countries_filtered, aes(x = date, 
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly COVID-19 deaths",
+       title = "7-day rolling sum COVID-19 deaths",
        caption = chart_caption_cases_deaths)
 
 file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_country",  ".png", sep = "")
@@ -182,7 +182,7 @@ plot_deaths_7day_rollsum_per100000 <- ggplot(clean_data_countries_filtered, aes(
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly COVID-19 deaths per 100,000 inhabitants",
+       title = "7-day rolling sum COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
 file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_country_per100k",  ".png", sep = "")
@@ -315,8 +315,6 @@ plot_cumulative_cases_continent_per100000 <- ggplot(clean_data_continent, aes(x 
 file_name <- paste(as_of_date_cases_deaths, " Cum cases_continent_per100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cumulative_cases_continent_per100000, path = here("Charts", "Cases and deaths"), scale = 1, width = 15, height = 10)
 
-#TODO - fix continent-level death charts
-
 # Plot deaths:
 plot_weekly_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y = weekly_deaths)) +
   geom_line(color = "#00BFC4", size = 1.2) +
@@ -326,7 +324,7 @@ plot_weekly_deaths_continent <- ggplot(clean_data_continent, aes(x = date, y = w
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly COVID-19 deaths",
+       title = "7-day rolling sum COVID-19 deaths",
        caption = chart_caption_cases_deaths)
 
 file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_continent", ".png", sep = "")
@@ -340,7 +338,7 @@ plot_weekly_deaths_continent_per100000 <- ggplot(clean_data_continent, aes(x = d
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Weekly COVID-19 deaths per 100,000 inhabitants",
+       title = "7-day rolling sum COVID-19 deaths per 100,000 inhabitants",
        caption = chart_caption_cases_deaths)
 
 file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_continent_per100k",  ".png", sep = "")
