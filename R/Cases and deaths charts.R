@@ -61,7 +61,7 @@ rm(list = c("clean_data_countries_master", "case_data_all", "deaths_data_all", "
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Filter for relevant countries:
-relevant_countries <- c("Germany", "Netherlands", "Sweden", "Spain", "Italy", "United Kingdom", "Ireland", "United States", "Russia", "France", "Belgium", "Greece")
+relevant_countries <- c("Germany", "Netherlands", "Sweden", "Spain", "Italy", "United Kingdom", "Ireland", "United States", "Israel", "France", "Belgium", "Greece")
 
 clean_data_countries_filtered <- clean_data_countries_all %>%
   filter(country %in% relevant_countries) %>%
