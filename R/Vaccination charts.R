@@ -18,17 +18,17 @@ vaccination_data <- vaccination_data %>%
          cum_persons_vaccinated_second_dose = personen_voll_kumulativ,
          pct_pop_vaccinated_first_dose = impf_quote_erst,
          pct_pop_vaccinated_second_dose = impf_quote_voll,
-         cum_vacs_elderly = indikation_alter_dosen,
-         cum_vacs_medical_profession = indikation_beruf_dosen,
-         cum_vacs_medical_condition = indikation_medizinisch_dosen,
+         cum_vacs_age_indication = indikation_alter_dosen,
+         cum_vacs_profession_indication = indikation_beruf_dosen,
+         cum_vacs_medical_indication = indikation_medizinisch_dosen,
          cum_vacs_care_homes = indikation_pflegeheim_dosen,
-         cum_vacs_elderly_first_dose = indikation_alter_erst,
-         cum_vacs_medical_profession_first_dose = indikation_beruf_erst,
-         cum_vacs_medical_condition_first_dose = indikation_medizinisch_erst,
+         cum_vacs_age_indication_first_dose = indikation_alter_erst,
+         cum_vacs_profession_indication_first_dose = indikation_beruf_erst,
+         cum_vacs_medical_indication_first_dose = indikation_medizinisch_erst,
          cum_vacs_care_homes_first_dose = indikation_pflegeheim_erst,
-         cum_vacs_elderly_second_dose = indikation_alter_voll,
-         cum_vacs_medical_profession_second_dose = indikation_beruf_voll,
-         cum_vacs_medical_condition_second_dose = indikation_medizinisch_voll,
+         cum_vacs_age_indication_second_dose = indikation_alter_voll,
+         cum_vacs_profession_indication_second_dose = indikation_beruf_voll,
+         cum_vacs_medical_indication_second_dose = indikation_medizinisch_voll,
          cum_vacs_care_homes_second_dose = indikation_pflegeheim_voll)
 
 # Add calculated columns:
@@ -36,9 +36,9 @@ vaccination_data <- vaccination_data %>%
   mutate(new_vacs_pfizer = cum_vacs_pfizer - lag(cum_vacs_pfizer, n = 1L, default = 0),
          new_vacs_moderna = cum_vacs_moderna - lag(cum_vacs_moderna, n = 1L, default = 0),
          new_vacs_astrazeneca = cum_vacs_astrazeneca - lag(cum_vacs_astrazeneca, n = 1L, default = 0),
-         new_vacs_elderly = cum_vacs_elderly - lag(cum_vacs_elderly, n = 1L, default = 0),
-         new_vacs_medical_profession = cum_vacs_medical_profession - lag(cum_vacs_medical_profession, n = 1L, default = 0),
-         new_vacs_medical_condition = cum_vacs_medical_condition - lag(cum_vacs_medical_condition, n = 1L, default = 0),
+         new_vacs_age_indication = cum_vacs_age_indication - lag(cum_vacs_age_indication, n = 1L, default = 0),
+         new_vacs_profession_indication = cum_vacs_profession_indication - lag(cum_vacs_profession_indication, n = 1L, default = 0),
+         new_vacs_medical_indication = cum_vacs_medical_indication - lag(cum_vacs_medical_indication, n = 1L, default = 0),
          new_vacs_care_homes = cum_vacs_care_homes - lag(cum_vacs_care_homes, n = 1L, default = 0),
          new_vacs_all_7day_rollsum = rollsum(new_vacs_all, 7, fill = NA, align = "right"),
          new_vacs_pfizer_7day_rollsum = rollsum(new_vacs_pfizer, 7, fill = NA, align = "right"),
@@ -107,8 +107,8 @@ file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany
 ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
 
 plot_new_vacs_recipient <- vaccination_data %>%
-  select(date, new_vacs_elderly, new_vacs_medical_profession, new_vacs_medical_condition, new_vacs_care_homes) %>%
-  rename(`Vacs for elderly` = new_vacs_elderly, `Vacs for medical professionals` = new_vacs_medical_profession, `Vacs for pre-existing conditions` = new_vacs_medical_condition, `Vacs for nursing home residents` = new_vacs_care_homes) %>%
+  select(date, new_vacs_age_indication, new_vacs_profession_indication, new_vacs_medical_indication, new_vacs_care_homes) %>%
+  rename(`Vacs for age indication` = new_vacs_age_indication, `Vacs for professional indication` = new_vacs_profession_indication, `Vacs for medical indication` = new_vacs_medical_indication, `Vacs for nursing home residents` = new_vacs_care_homes) %>%
   pivot_longer(cols = contains("Vacs"), names_to = "Type of recipient") %>%
   ggplot(aes(x = date, y = value, fill = `Type of recipient`)) +
   geom_col() +
