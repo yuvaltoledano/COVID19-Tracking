@@ -220,7 +220,7 @@ vaccines_delivered_temp <- vaccine_delivery_data %>%
   distinct() %>%
   rename(delivered_vaccine_doses = total_delivered_doses_on_date)
 
-dates_vec <- seq(min(vaccination_data$date), max(vaccination_data$date), by = "days")
+dates_vec <- seq(min(vaccine_delivery_data$date), max(vaccination_data$date), by = "days")
 
 vaccines_delivered <- tibble(dates_vec) %>%
   rename(date = dates_vec) %>%
@@ -241,7 +241,8 @@ vaccinations_administered <- vaccination_data %>%
   select(date, new_vacs_pfizer, new_vacs_moderna,  new_vacs_astrazeneca) %>%
   rename(administered_doses_pfizer = new_vacs_pfizer,
          administered_doses_moderna = new_vacs_moderna,
-         administered_doses_astrazeneca = new_vacs_astrazeneca)
+         administered_doses_astrazeneca = new_vacs_astrazeneca) %>%
+  add_row(date = min(vaccine_delivery_data$date), administered_doses_pfizer = 0, administered_doses_moderna = 0, administered_doses_astrazeneca = 0, .before = 1)
 
 vaccination_capacity <- left_join(vaccinations_administered, vaccines_delivered, by = "date")
 
