@@ -236,7 +236,7 @@ ggsave(filename = file_name, plot = plot_cumulative_deaths_per100000, path = her
 
 # Process data:
 clean_data_continent <- clean_data_countries_all %>%
-  filter(str_detect(country, "total") | country == "United States" | country == "China") %>%
+  filter(str_detect(country, "total") | country == "United States Of America" | country == "China") %>%
   group_by(country) %>%
   mutate(weekly_cases_per100000 = weekly_cases / (population / 100000),
          cum_cases_per100000 = cumulative_cases / (population / 100000),
