@@ -382,6 +382,13 @@ Austria,Daily hospital occupancy,2021-04-15,1586
 Austria,Daily hospital occupancy,2021-04-16,1550
 Austria,Daily hospital occupancy,2021-04-17,1507
 Austria,Daily hospital occupancy,2021-04-18,1475
+Austria,Daily hospital occupancy,2021-04-19,1554
+Austria,Daily hospital occupancy,2021-04-20,1531
+Austria,Daily hospital occupancy,2021-04-21,1417
+Austria,Daily hospital occupancy,2021-04-22,1403
+Austria,Daily hospital occupancy,2021-04-23,1356
+Austria,Daily hospital occupancy,2021-04-24,1309
+Austria,Daily hospital occupancy,2021-04-25,1279
 Austria,Daily ICU occupancy,2020-04-01,215
 Austria,Daily ICU occupancy,2020-04-02,219
 Austria,Daily ICU occupancy,2020-04-03,245
@@ -765,6 +772,13 @@ Austria,Daily ICU occupancy,2021-04-15,571
 Austria,Daily ICU occupancy,2021-04-16,560
 Austria,Daily ICU occupancy,2021-04-17,549
 Austria,Daily ICU occupancy,2021-04-18,546
+Austria,Daily ICU occupancy,2021-04-19,568
+Austria,Daily ICU occupancy,2021-04-20,561
+Austria,Daily ICU occupancy,2021-04-21,551
+Austria,Daily ICU occupancy,2021-04-22,521
+Austria,Daily ICU occupancy,2021-04-23,518
+Austria,Daily ICU occupancy,2021-04-24,508
+Austria,Daily ICU occupancy,2021-04-25,521
 Belgium,Daily hospital occupancy,2020-03-15,263
 Belgium,Daily hospital occupancy,2020-03-16,370
 Belgium,Daily hospital occupancy,2020-03-17,493
@@ -1153,7 +1167,7 @@ Belgium,Daily hospital occupancy,2021-04-03,2911
 Belgium,Daily hospital occupancy,2021-04-04,2923
 Belgium,Daily hospital occupancy,2021-04-05,3055
 Belgium,Daily hospital occupancy,2021-04-06,3167
-Belgium,Daily hospital occupancy,2021-04-07,3163
+Belgium,Daily hospital occupancy,2021-04-07,3164
 Belgium,Daily hospital occupancy,2021-04-08,3129
 Belgium,Daily hospital occupancy,2021-04-09,3117
 Belgium,Daily hospital occupancy,2021-04-10,3022
@@ -1165,6 +1179,13 @@ Belgium,Daily hospital occupancy,2021-04-15,3032
 Belgium,Daily hospital occupancy,2021-04-16,3015
 Belgium,Daily hospital occupancy,2021-04-17,2910
 Belgium,Daily hospital occupancy,2021-04-18,3000
+Belgium,Daily hospital occupancy,2021-04-19,3140
+Belgium,Daily hospital occupancy,2021-04-20,3103
+Belgium,Daily hospital occupancy,2021-04-21,3078
+Belgium,Daily hospital occupancy,2021-04-22,2989
+Belgium,Daily hospital occupancy,2021-04-23,2943
+Belgium,Daily hospital occupancy,2021-04-24,2846
+Belgium,Daily hospital occupancy,2021-04-25,2883
 Belgium,Daily ICU occupancy,2020-03-15,53
 Belgium,Daily ICU occupancy,2020-03-16,79
 Belgium,Daily ICU occupancy,2020-03-17,100
@@ -1553,7 +1574,7 @@ Belgium,Daily ICU occupancy,2021-04-03,821
 Belgium,Daily ICU occupancy,2021-04-04,831
 Belgium,Daily ICU occupancy,2021-04-05,866
 Belgium,Daily ICU occupancy,2021-04-06,892
-Belgium,Daily ICU occupancy,2021-04-07,908
+Belgium,Daily ICU occupancy,2021-04-07,909
 Belgium,Daily ICU occupancy,2021-04-08,911
 Belgium,Daily ICU occupancy,2021-04-09,925
 Belgium,Daily ICU occupancy,2021-04-10,905
@@ -1565,6 +1586,13 @@ Belgium,Daily ICU occupancy,2021-04-15,930
 Belgium,Daily ICU occupancy,2021-04-16,923
 Belgium,Daily ICU occupancy,2021-04-17,923
 Belgium,Daily ICU occupancy,2021-04-18,931
+Belgium,Daily ICU occupancy,2021-04-19,946
+Belgium,Daily ICU occupancy,2021-04-20,926
+Belgium,Daily ICU occupancy,2021-04-21,935
+Belgium,Daily ICU occupancy,2021-04-22,910
+Belgium,Daily ICU occupancy,2021-04-23,901
+Belgium,Daily ICU occupancy,2021-04-24,886
+Belgium,Daily ICU occupancy,2021-04-25,886
 Belgium,Weekly new hospital admissions per 100k,2020-03-09,0.607510214850327
 Belgium,Weekly new hospital admissions per 100k,2020-03-16,13.009397315152
 Belgium,Weekly new hospital admissions per 100k,2020-03-23,30.3668320251613
@@ -1621,8 +1649,9 @@ Belgium,Weekly new hospital admissions per 100k,2021-03-08,9.82430804586529
 Belgium,Weekly new hospital admissions per 100k,2021-03-15,12.0026661019715
 Belgium,Weekly new hospital admissions per 100k,2021-03-22,14.6670323299579
 Belgium,Weekly new hospital admissions per 100k,2021-03-29,15.9948760852736
-Belgium,Weekly new hospital admissions per 100k,2021-04-05,15.4394381745533
+Belgium,Weekly new hospital admissions per 100k,2021-04-05,15.4481168919083
 Belgium,Weekly new hospital admissions per 100k,2021-04-12,14.2591326142727
+Belgium,Weekly new hospital admissions per 100k,2021-04-19,13.8859477680075
 Bulgaria,Daily hospital occupancy,2020-04-06,210
 Bulgaria,Daily hospital occupancy,2020-04-07,213
 Bulgaria,Daily hospital occupancy,2020-04-08,233
@@ -2001,6 +2030,13 @@ Bulgaria,Daily hospital occupancy,2021-04-15,9685
 Bulgaria,Daily hospital occupancy,2021-04-16,9523
 Bulgaria,Daily hospital occupancy,2021-04-17,9195
 Bulgaria,Daily hospital occupancy,2021-04-18,9204
+Bulgaria,Daily hospital occupancy,2021-04-19,9229
+Bulgaria,Daily hospital occupancy,2021-04-20,8834
+Bulgaria,Daily hospital occupancy,2021-04-21,8598
+Bulgaria,Daily hospital occupancy,2021-04-22,8435
+Bulgaria,Daily hospital occupancy,2021-04-23,8309
+Bulgaria,Daily hospital occupancy,2021-04-24,8073
+Bulgaria,Daily hospital occupancy,2021-04-25,8087
 Bulgaria,Daily ICU occupancy,2020-04-06,26
 Bulgaria,Daily ICU occupancy,2020-04-07,26
 Bulgaria,Daily ICU occupancy,2020-04-08,27
@@ -2379,6 +2415,13 @@ Bulgaria,Daily ICU occupancy,2021-04-15,807
 Bulgaria,Daily ICU occupancy,2021-04-16,811
 Bulgaria,Daily ICU occupancy,2021-04-17,801
 Bulgaria,Daily ICU occupancy,2021-04-18,797
+Bulgaria,Daily ICU occupancy,2021-04-19,783
+Bulgaria,Daily ICU occupancy,2021-04-20,780
+Bulgaria,Daily ICU occupancy,2021-04-21,765
+Bulgaria,Daily ICU occupancy,2021-04-22,786
+Bulgaria,Daily ICU occupancy,2021-04-23,781
+Bulgaria,Daily ICU occupancy,2021-04-24,751
+Bulgaria,Daily ICU occupancy,2021-04-25,738
 Croatia,Daily hospital occupancy,2020-04-15,341
 Croatia,Daily hospital occupancy,2020-04-16,372
 Croatia,Daily hospital occupancy,2020-04-17,372
@@ -2748,6 +2791,13 @@ Croatia,Daily hospital occupancy,2021-04-15,1988
 Croatia,Daily hospital occupancy,2021-04-16,2003
 Croatia,Daily hospital occupancy,2021-04-17,2014
 Croatia,Daily hospital occupancy,2021-04-18,2105
+Croatia,Daily hospital occupancy,2021-04-19,2179
+Croatia,Daily hospital occupancy,2021-04-20,2198
+Croatia,Daily hospital occupancy,2021-04-21,2201
+Croatia,Daily hospital occupancy,2021-04-22,2229
+Croatia,Daily hospital occupancy,2021-04-23,2227
+Croatia,Daily hospital occupancy,2021-04-24,2214
+Croatia,Daily hospital occupancy,2021-04-25,2288
 Croatia,Weekly new hospital admissions per 100k,2020-04-13,1.77420090114621
 Croatia,Weekly new hospital admissions per 100k,2020-04-20,2.51345127662379
 Croatia,Weekly new hospital admissions per 100k,2020-04-27,0.591400300382069
@@ -2801,6 +2851,7 @@ Croatia,Weekly new hospital admissions per 100k,2021-03-22,23.0646117149007
 Croatia,Weekly new hospital admissions per 100k,2021-03-29,30.9253073741457
 Croatia,Weekly new hospital admissions per 100k,2021-04-05,37.3321439616181
 Croatia,Weekly new hospital admissions per 100k,2021-04-12,39.8702369174245
+Croatia,Weekly new hospital admissions per 100k,2021-04-19,42.3097631565005
 Cyprus,Daily hospital occupancy,2020-03-09,0
 Cyprus,Daily hospital occupancy,2020-03-10,0
 Cyprus,Daily hospital occupancy,2020-03-11,0
@@ -3207,6 +3258,13 @@ Cyprus,Daily hospital occupancy,2021-04-15,251
 Cyprus,Daily hospital occupancy,2021-04-16,270
 Cyprus,Daily hospital occupancy,2021-04-17,270
 Cyprus,Daily hospital occupancy,2021-04-18,271
+Cyprus,Daily hospital occupancy,2021-04-19,284
+Cyprus,Daily hospital occupancy,2021-04-20,277
+Cyprus,Daily hospital occupancy,2021-04-21,291
+Cyprus,Daily hospital occupancy,2021-04-22,296
+Cyprus,Daily hospital occupancy,2021-04-23,297
+Cyprus,Daily hospital occupancy,2021-04-24,292
+Cyprus,Daily hospital occupancy,2021-04-25,301
 Cyprus,Daily ICU occupancy,2020-03-09,0
 Cyprus,Daily ICU occupancy,2020-03-10,0
 Cyprus,Daily ICU occupancy,2020-03-11,0
@@ -3613,6 +3671,13 @@ Cyprus,Daily ICU occupancy,2021-04-15,39
 Cyprus,Daily ICU occupancy,2021-04-16,37
 Cyprus,Daily ICU occupancy,2021-04-17,37
 Cyprus,Daily ICU occupancy,2021-04-18,36
+Cyprus,Daily ICU occupancy,2021-04-19,35
+Cyprus,Daily ICU occupancy,2021-04-20,37
+Cyprus,Daily ICU occupancy,2021-04-21,39
+Cyprus,Daily ICU occupancy,2021-04-22,38
+Cyprus,Daily ICU occupancy,2021-04-23,36
+Cyprus,Daily ICU occupancy,2021-04-24,36
+Cyprus,Daily ICU occupancy,2021-04-25,38
 Cyprus,Weekly new hospital admissions per 100k,2020-01-27,0.112611978536157
 Cyprus,Weekly new hospital admissions per 100k,2020-02-03,NA
 Cyprus,Weekly new hospital admissions per 100k,2020-02-10,NA
@@ -3674,9 +3739,10 @@ Cyprus,Weekly new hospital admissions per 100k,2021-03-01,11.9368697248326
 Cyprus,Weekly new hospital admissions per 100k,2021-03-08,19.8197082223636
 Cyprus,Weekly new hospital admissions per 100k,2021-03-15,18.8062004155382
 Cyprus,Weekly new hospital admissions per 100k,2021-03-22,16.4413488662789
-Cyprus,Weekly new hospital admissions per 100k,2021-03-29,17.0044087589597
-Cyprus,Weekly new hospital admissions per 100k,2021-04-05,19.5944842652913
-Cyprus,Weekly new hospital admissions per 100k,2021-04-12,19.0314243726105
+Cyprus,Weekly new hospital admissions per 100k,2021-03-29,17.1170207374959
+Cyprus,Weekly new hospital admissions per 100k,2021-04-05,19.7070962438275
+Cyprus,Weekly new hospital admissions per 100k,2021-04-12,22.6350076857675
+Cyprus,Weekly new hospital admissions per 100k,2021-04-19,23.4232915355206
 Cyprus,Weekly new ICU admissions per 100k,2020-03-09,NA
 Cyprus,Weekly new ICU admissions per 100k,2020-03-16,0.563059892680785
 Cyprus,Weekly new ICU admissions per 100k,2020-03-23,2.02701561365082
@@ -3731,10 +3797,11 @@ Cyprus,Weekly new ICU admissions per 100k,2021-02-22,0.450447914144628
 Cyprus,Weekly new ICU admissions per 100k,2021-03-01,0.900895828289255
 Cyprus,Weekly new ICU admissions per 100k,2021-03-08,2.59007550633161
 Cyprus,Weekly new ICU admissions per 100k,2021-03-15,2.02701561365082
-Cyprus,Weekly new ICU admissions per 100k,2021-03-22,2.70268748486777
-Cyprus,Weekly new ICU admissions per 100k,2021-03-29,2.13962759218698
+Cyprus,Weekly new ICU admissions per 100k,2021-03-22,2.47746352779545
+Cyprus,Weekly new ICU admissions per 100k,2021-03-29,2.02701561365082
 Cyprus,Weekly new ICU admissions per 100k,2021-04-05,2.92791144194008
-Cyprus,Weekly new ICU admissions per 100k,2021-04-12,3.04052342047624
+Cyprus,Weekly new ICU admissions per 100k,2021-04-12,2.92791144194008
+Cyprus,Weekly new ICU admissions per 100k,2021-04-19,1.91440363511467
 Czechia,Daily hospital occupancy,2020-03-01,0
 Czechia,Daily hospital occupancy,2020-03-02,0
 Czechia,Daily hospital occupancy,2020-03-03,0
@@ -4019,15 +4086,15 @@ Czechia,Daily hospital occupancy,2020-12-06,4143
 Czechia,Daily hospital occupancy,2020-12-07,4485
 Czechia,Daily hospital occupancy,2020-12-08,4392
 Czechia,Daily hospital occupancy,2020-12-09,4449
-Czechia,Daily hospital occupancy,2020-12-10,4538
-Czechia,Daily hospital occupancy,2020-12-11,4519
-Czechia,Daily hospital occupancy,2020-12-12,4290
-Czechia,Daily hospital occupancy,2020-12-13,4400
-Czechia,Daily hospital occupancy,2020-12-14,4757
-Czechia,Daily hospital occupancy,2020-12-15,4734
-Czechia,Daily hospital occupancy,2020-12-16,4701
-Czechia,Daily hospital occupancy,2020-12-17,4756
-Czechia,Daily hospital occupancy,2020-12-18,4773
+Czechia,Daily hospital occupancy,2020-12-10,4537
+Czechia,Daily hospital occupancy,2020-12-11,4518
+Czechia,Daily hospital occupancy,2020-12-12,4289
+Czechia,Daily hospital occupancy,2020-12-13,4399
+Czechia,Daily hospital occupancy,2020-12-14,4756
+Czechia,Daily hospital occupancy,2020-12-15,4733
+Czechia,Daily hospital occupancy,2020-12-16,4700
+Czechia,Daily hospital occupancy,2020-12-17,4755
+Czechia,Daily hospital occupancy,2020-12-18,4772
 Czechia,Daily hospital occupancy,2020-12-19,4477
 Czechia,Daily hospital occupancy,2020-12-20,4572
 Czechia,Daily hospital occupancy,2020-12-21,4951
@@ -4038,56 +4105,56 @@ Czechia,Daily hospital occupancy,2020-12-25,4381
 Czechia,Daily hospital occupancy,2020-12-26,4644
 Czechia,Daily hospital occupancy,2020-12-27,4957
 Czechia,Daily hospital occupancy,2020-12-28,5710
-Czechia,Daily hospital occupancy,2020-12-29,5958
-Czechia,Daily hospital occupancy,2020-12-30,6124
-Czechia,Daily hospital occupancy,2020-12-31,6142
-Czechia,Daily hospital occupancy,2021-01-01,5646
-Czechia,Daily hospital occupancy,2021-01-02,5949
-Czechia,Daily hospital occupancy,2021-01-03,6262
-Czechia,Daily hospital occupancy,2021-01-04,7200
-Czechia,Daily hospital occupancy,2021-01-05,7381
-Czechia,Daily hospital occupancy,2021-01-06,7373
+Czechia,Daily hospital occupancy,2020-12-29,5959
+Czechia,Daily hospital occupancy,2020-12-30,6125
+Czechia,Daily hospital occupancy,2020-12-31,6143
+Czechia,Daily hospital occupancy,2021-01-01,5647
+Czechia,Daily hospital occupancy,2021-01-02,5950
+Czechia,Daily hospital occupancy,2021-01-03,6263
+Czechia,Daily hospital occupancy,2021-01-04,7201
+Czechia,Daily hospital occupancy,2021-01-05,7382
+Czechia,Daily hospital occupancy,2021-01-06,7374
 Czechia,Daily hospital occupancy,2021-01-07,7513
-Czechia,Daily hospital occupancy,2021-01-08,7308
-Czechia,Daily hospital occupancy,2021-01-09,6731
+Czechia,Daily hospital occupancy,2021-01-08,7309
+Czechia,Daily hospital occupancy,2021-01-09,6733
 Czechia,Daily hospital occupancy,2021-01-10,6841
-Czechia,Daily hospital occupancy,2021-01-11,7381
-Czechia,Daily hospital occupancy,2021-01-12,7435
+Czechia,Daily hospital occupancy,2021-01-11,7382
+Czechia,Daily hospital occupancy,2021-01-12,7436
 Czechia,Daily hospital occupancy,2021-01-13,7260
-Czechia,Daily hospital occupancy,2021-01-14,7183
-Czechia,Daily hospital occupancy,2021-01-15,7097
-Czechia,Daily hospital occupancy,2021-01-16,6473
-Czechia,Daily hospital occupancy,2021-01-17,6439
+Czechia,Daily hospital occupancy,2021-01-14,7182
+Czechia,Daily hospital occupancy,2021-01-15,7095
+Czechia,Daily hospital occupancy,2021-01-16,6469
+Czechia,Daily hospital occupancy,2021-01-17,6438
 Czechia,Daily hospital occupancy,2021-01-18,6926
-Czechia,Daily hospital occupancy,2021-01-19,6642
-Czechia,Daily hospital occupancy,2021-01-20,6472
-Czechia,Daily hospital occupancy,2021-01-21,6352
-Czechia,Daily hospital occupancy,2021-01-22,6329
-Czechia,Daily hospital occupancy,2021-01-23,5828
-Czechia,Daily hospital occupancy,2021-01-24,5867
-Czechia,Daily hospital occupancy,2021-01-25,6289
-Czechia,Daily hospital occupancy,2021-01-26,6253
-Czechia,Daily hospital occupancy,2021-01-27,6097
-Czechia,Daily hospital occupancy,2021-01-28,5990
-Czechia,Daily hospital occupancy,2021-01-29,5932
-Czechia,Daily hospital occupancy,2021-01-30,5491
-Czechia,Daily hospital occupancy,2021-01-31,5538
-Czechia,Daily hospital occupancy,2021-02-01,6063
+Czechia,Daily hospital occupancy,2021-01-19,6645
+Czechia,Daily hospital occupancy,2021-01-20,6475
+Czechia,Daily hospital occupancy,2021-01-21,6355
+Czechia,Daily hospital occupancy,2021-01-22,6331
+Czechia,Daily hospital occupancy,2021-01-23,5830
+Czechia,Daily hospital occupancy,2021-01-24,5868
+Czechia,Daily hospital occupancy,2021-01-25,6288
+Czechia,Daily hospital occupancy,2021-01-26,6254
+Czechia,Daily hospital occupancy,2021-01-27,6098
+Czechia,Daily hospital occupancy,2021-01-28,5991
+Czechia,Daily hospital occupancy,2021-01-29,5933
+Czechia,Daily hospital occupancy,2021-01-30,5490
+Czechia,Daily hospital occupancy,2021-01-31,5537
+Czechia,Daily hospital occupancy,2021-02-01,6061
 Czechia,Daily hospital occupancy,2021-02-02,5953
-Czechia,Daily hospital occupancy,2021-02-03,5924
-Czechia,Daily hospital occupancy,2021-02-04,5949
-Czechia,Daily hospital occupancy,2021-02-05,5932
-Czechia,Daily hospital occupancy,2021-02-06,5598
-Czechia,Daily hospital occupancy,2021-02-07,5740
-Czechia,Daily hospital occupancy,2021-02-08,6155
-Czechia,Daily hospital occupancy,2021-02-09,6089
-Czechia,Daily hospital occupancy,2021-02-10,6010
-Czechia,Daily hospital occupancy,2021-02-11,5986
-Czechia,Daily hospital occupancy,2021-02-12,5919
-Czechia,Daily hospital occupancy,2021-02-13,5614
-Czechia,Daily hospital occupancy,2021-02-14,5827
-Czechia,Daily hospital occupancy,2021-02-15,6312
-Czechia,Daily hospital occupancy,2021-02-16,6344
+Czechia,Daily hospital occupancy,2021-02-03,5923
+Czechia,Daily hospital occupancy,2021-02-04,5948
+Czechia,Daily hospital occupancy,2021-02-05,5930
+Czechia,Daily hospital occupancy,2021-02-06,5596
+Czechia,Daily hospital occupancy,2021-02-07,5739
+Czechia,Daily hospital occupancy,2021-02-08,6154
+Czechia,Daily hospital occupancy,2021-02-09,6087
+Czechia,Daily hospital occupancy,2021-02-10,6008
+Czechia,Daily hospital occupancy,2021-02-11,5984
+Czechia,Daily hospital occupancy,2021-02-12,5917
+Czechia,Daily hospital occupancy,2021-02-13,5612
+Czechia,Daily hospital occupancy,2021-02-14,5826
+Czechia,Daily hospital occupancy,2021-02-15,6311
+Czechia,Daily hospital occupancy,2021-02-16,6343
 Czechia,Daily hospital occupancy,2021-02-17,6428
 Czechia,Daily hospital occupancy,2021-02-18,6525
 Czechia,Daily hospital occupancy,2021-02-19,6544
@@ -4096,59 +4163,66 @@ Czechia,Daily hospital occupancy,2021-02-21,6352
 Czechia,Daily hospital occupancy,2021-02-22,7048
 Czechia,Daily hospital occupancy,2021-02-23,7079
 Czechia,Daily hospital occupancy,2021-02-24,7171
-Czechia,Daily hospital occupancy,2021-02-25,7385
-Czechia,Daily hospital occupancy,2021-02-26,7482
-Czechia,Daily hospital occupancy,2021-02-27,7186
-Czechia,Daily hospital occupancy,2021-02-28,7450
-Czechia,Daily hospital occupancy,2021-03-01,8256
-Czechia,Daily hospital occupancy,2021-03-02,8437
-Czechia,Daily hospital occupancy,2021-03-03,8382
-Czechia,Daily hospital occupancy,2021-03-04,8387
-Czechia,Daily hospital occupancy,2021-03-05,8449
-Czechia,Daily hospital occupancy,2021-03-06,8106
-Czechia,Daily hospital occupancy,2021-03-07,8332
-Czechia,Daily hospital occupancy,2021-03-08,9007
-Czechia,Daily hospital occupancy,2021-03-09,8982
+Czechia,Daily hospital occupancy,2021-02-25,7386
+Czechia,Daily hospital occupancy,2021-02-26,7483
+Czechia,Daily hospital occupancy,2021-02-27,7188
+Czechia,Daily hospital occupancy,2021-02-28,7452
+Czechia,Daily hospital occupancy,2021-03-01,8258
+Czechia,Daily hospital occupancy,2021-03-02,8440
+Czechia,Daily hospital occupancy,2021-03-03,8385
+Czechia,Daily hospital occupancy,2021-03-04,8390
+Czechia,Daily hospital occupancy,2021-03-05,8454
+Czechia,Daily hospital occupancy,2021-03-06,8110
+Czechia,Daily hospital occupancy,2021-03-07,8334
+Czechia,Daily hospital occupancy,2021-03-08,9009
+Czechia,Daily hospital occupancy,2021-03-09,8984
 Czechia,Daily hospital occupancy,2021-03-10,9004
 Czechia,Daily hospital occupancy,2021-03-11,8966
 Czechia,Daily hospital occupancy,2021-03-12,8934
-Czechia,Daily hospital occupancy,2021-03-13,8534
-Czechia,Daily hospital occupancy,2021-03-14,8748
-Czechia,Daily hospital occupancy,2021-03-15,9464
-Czechia,Daily hospital occupancy,2021-03-16,9332
-Czechia,Daily hospital occupancy,2021-03-17,9163
-Czechia,Daily hospital occupancy,2021-03-18,8960
-Czechia,Daily hospital occupancy,2021-03-19,8769
-Czechia,Daily hospital occupancy,2021-03-20,8212
-Czechia,Daily hospital occupancy,2021-03-21,8327
-Czechia,Daily hospital occupancy,2021-03-22,8964
-Czechia,Daily hospital occupancy,2021-03-23,8631
-Czechia,Daily hospital occupancy,2021-03-24,8314
-Czechia,Daily hospital occupancy,2021-03-25,8160
-Czechia,Daily hospital occupancy,2021-03-26,8032
-Czechia,Daily hospital occupancy,2021-03-27,7511
-Czechia,Daily hospital occupancy,2021-03-28,7562
-Czechia,Daily hospital occupancy,2021-03-29,8100
-Czechia,Daily hospital occupancy,2021-03-30,7831
-Czechia,Daily hospital occupancy,2021-03-31,7512
-Czechia,Daily hospital occupancy,2021-04-01,7211
-Czechia,Daily hospital occupancy,2021-04-02,6386
-Czechia,Daily hospital occupancy,2021-04-03,6232
-Czechia,Daily hospital occupancy,2021-04-04,6329
-Czechia,Daily hospital occupancy,2021-04-05,6402
-Czechia,Daily hospital occupancy,2021-04-06,7080
-Czechia,Daily hospital occupancy,2021-04-07,6722
-Czechia,Daily hospital occupancy,2021-04-08,6246
-Czechia,Daily hospital occupancy,2021-04-09,5935
-Czechia,Daily hospital occupancy,2021-04-10,5299
-Czechia,Daily hospital occupancy,2021-04-11,5254
-Czechia,Daily hospital occupancy,2021-04-12,5550
-Czechia,Daily hospital occupancy,2021-04-13,5242
-Czechia,Daily hospital occupancy,2021-04-14,4951
-Czechia,Daily hospital occupancy,2021-04-15,4682
-Czechia,Daily hospital occupancy,2021-04-16,4432
-Czechia,Daily hospital occupancy,2021-04-17,4018
-Czechia,Daily hospital occupancy,2021-04-18,4032
+Czechia,Daily hospital occupancy,2021-03-13,8533
+Czechia,Daily hospital occupancy,2021-03-14,8747
+Czechia,Daily hospital occupancy,2021-03-15,9463
+Czechia,Daily hospital occupancy,2021-03-16,9331
+Czechia,Daily hospital occupancy,2021-03-17,9162
+Czechia,Daily hospital occupancy,2021-03-18,8956
+Czechia,Daily hospital occupancy,2021-03-19,8765
+Czechia,Daily hospital occupancy,2021-03-20,8206
+Czechia,Daily hospital occupancy,2021-03-21,8320
+Czechia,Daily hospital occupancy,2021-03-22,8956
+Czechia,Daily hospital occupancy,2021-03-23,8624
+Czechia,Daily hospital occupancy,2021-03-24,8307
+Czechia,Daily hospital occupancy,2021-03-25,8152
+Czechia,Daily hospital occupancy,2021-03-26,8029
+Czechia,Daily hospital occupancy,2021-03-27,7507
+Czechia,Daily hospital occupancy,2021-03-28,7556
+Czechia,Daily hospital occupancy,2021-03-29,8095
+Czechia,Daily hospital occupancy,2021-03-30,7827
+Czechia,Daily hospital occupancy,2021-03-31,7508
+Czechia,Daily hospital occupancy,2021-04-01,7204
+Czechia,Daily hospital occupancy,2021-04-02,6378
+Czechia,Daily hospital occupancy,2021-04-03,6226
+Czechia,Daily hospital occupancy,2021-04-04,6322
+Czechia,Daily hospital occupancy,2021-04-05,6391
+Czechia,Daily hospital occupancy,2021-04-06,7067
+Czechia,Daily hospital occupancy,2021-04-07,6708
+Czechia,Daily hospital occupancy,2021-04-08,6235
+Czechia,Daily hospital occupancy,2021-04-09,5917
+Czechia,Daily hospital occupancy,2021-04-10,5281
+Czechia,Daily hospital occupancy,2021-04-11,5236
+Czechia,Daily hospital occupancy,2021-04-12,5528
+Czechia,Daily hospital occupancy,2021-04-13,5223
+Czechia,Daily hospital occupancy,2021-04-14,4925
+Czechia,Daily hospital occupancy,2021-04-15,4666
+Czechia,Daily hospital occupancy,2021-04-16,4423
+Czechia,Daily hospital occupancy,2021-04-17,4023
+Czechia,Daily hospital occupancy,2021-04-18,4033
+Czechia,Daily hospital occupancy,2021-04-19,4305
+Czechia,Daily hospital occupancy,2021-04-20,4132
+Czechia,Daily hospital occupancy,2021-04-21,3967
+Czechia,Daily hospital occupancy,2021-04-22,3736
+Czechia,Daily hospital occupancy,2021-04-23,3527
+Czechia,Daily hospital occupancy,2021-04-24,3176
+Czechia,Daily hospital occupancy,2021-04-25,3178
 Czechia,Daily ICU occupancy,2020-03-01,0
 Czechia,Daily ICU occupancy,2020-03-02,0
 Czechia,Daily ICU occupancy,2020-03-03,0
@@ -4214,7 +4288,7 @@ Czechia,Daily ICU occupancy,2020-05-01,53
 Czechia,Daily ICU occupancy,2020-05-02,49
 Czechia,Daily ICU occupancy,2020-05-03,49
 Czechia,Daily ICU occupancy,2020-05-04,54
-Czechia,Daily ICU occupancy,2020-05-05,46
+Czechia,Daily ICU occupancy,2020-05-05,47
 Czechia,Daily ICU occupancy,2020-05-06,43
 Czechia,Daily ICU occupancy,2020-05-07,41
 Czechia,Daily ICU occupancy,2020-05-08,43
@@ -4433,15 +4507,15 @@ Czechia,Daily ICU occupancy,2020-12-06,553
 Czechia,Daily ICU occupancy,2020-12-07,563
 Czechia,Daily ICU occupancy,2020-12-08,555
 Czechia,Daily ICU occupancy,2020-12-09,538
-Czechia,Daily ICU occupancy,2020-12-10,561
-Czechia,Daily ICU occupancy,2020-12-11,578
-Czechia,Daily ICU occupancy,2020-12-12,563
-Czechia,Daily ICU occupancy,2020-12-13,576
-Czechia,Daily ICU occupancy,2020-12-14,604
-Czechia,Daily ICU occupancy,2020-12-15,594
-Czechia,Daily ICU occupancy,2020-12-16,601
+Czechia,Daily ICU occupancy,2020-12-10,560
+Czechia,Daily ICU occupancy,2020-12-11,577
+Czechia,Daily ICU occupancy,2020-12-12,562
+Czechia,Daily ICU occupancy,2020-12-13,575
+Czechia,Daily ICU occupancy,2020-12-14,603
+Czechia,Daily ICU occupancy,2020-12-15,593
+Czechia,Daily ICU occupancy,2020-12-16,600
 Czechia,Daily ICU occupancy,2020-12-17,597
-Czechia,Daily ICU occupancy,2020-12-18,599
+Czechia,Daily ICU occupancy,2020-12-18,598
 Czechia,Daily ICU occupancy,2020-12-19,597
 Czechia,Daily ICU occupancy,2020-12-20,614
 Czechia,Daily ICU occupancy,2020-12-21,627
@@ -4476,7 +4550,7 @@ Czechia,Daily ICU occupancy,2021-01-18,1124
 Czechia,Daily ICU occupancy,2021-01-19,1099
 Czechia,Daily ICU occupancy,2021-01-20,1092
 Czechia,Daily ICU occupancy,2021-01-21,1067
-Czechia,Daily ICU occupancy,2021-01-22,1094
+Czechia,Daily ICU occupancy,2021-01-22,1095
 Czechia,Daily ICU occupancy,2021-01-23,1070
 Czechia,Daily ICU occupancy,2021-01-24,1061
 Czechia,Daily ICU occupancy,2021-01-25,1038
@@ -4489,7 +4563,7 @@ Czechia,Daily ICU occupancy,2021-01-31,970
 Czechia,Daily ICU occupancy,2021-02-01,1023
 Czechia,Daily ICU occupancy,2021-02-02,1032
 Czechia,Daily ICU occupancy,2021-02-03,1016
-Czechia,Daily ICU occupancy,2021-02-04,1033
+Czechia,Daily ICU occupancy,2021-02-04,1032
 Czechia,Daily ICU occupancy,2021-02-05,1045
 Czechia,Daily ICU occupancy,2021-02-06,1045
 Czechia,Daily ICU occupancy,2021-02-07,1055
@@ -4506,63 +4580,70 @@ Czechia,Daily ICU occupancy,2021-02-17,1275
 Czechia,Daily ICU occupancy,2021-02-18,1289
 Czechia,Daily ICU occupancy,2021-02-19,1300
 Czechia,Daily ICU occupancy,2021-02-20,1295
-Czechia,Daily ICU occupancy,2021-02-21,1311
+Czechia,Daily ICU occupancy,2021-02-21,1312
 Czechia,Daily ICU occupancy,2021-02-22,1397
 Czechia,Daily ICU occupancy,2021-02-23,1436
 Czechia,Daily ICU occupancy,2021-02-24,1467
-Czechia,Daily ICU occupancy,2021-02-25,1559
-Czechia,Daily ICU occupancy,2021-02-26,1532
-Czechia,Daily ICU occupancy,2021-02-27,1545
-Czechia,Daily ICU occupancy,2021-02-28,1578
-Czechia,Daily ICU occupancy,2021-03-01,1665
-Czechia,Daily ICU occupancy,2021-03-02,1719
-Czechia,Daily ICU occupancy,2021-03-03,1740
-Czechia,Daily ICU occupancy,2021-03-04,1773
-Czechia,Daily ICU occupancy,2021-03-05,1771
-Czechia,Daily ICU occupancy,2021-03-06,1764
-Czechia,Daily ICU occupancy,2021-03-07,1813
-Czechia,Daily ICU occupancy,2021-03-08,1897
-Czechia,Daily ICU occupancy,2021-03-09,1929
+Czechia,Daily ICU occupancy,2021-02-25,1560
+Czechia,Daily ICU occupancy,2021-02-26,1533
+Czechia,Daily ICU occupancy,2021-02-27,1546
+Czechia,Daily ICU occupancy,2021-02-28,1579
+Czechia,Daily ICU occupancy,2021-03-01,1666
+Czechia,Daily ICU occupancy,2021-03-02,1721
+Czechia,Daily ICU occupancy,2021-03-03,1742
+Czechia,Daily ICU occupancy,2021-03-04,1775
+Czechia,Daily ICU occupancy,2021-03-05,1773
+Czechia,Daily ICU occupancy,2021-03-06,1766
+Czechia,Daily ICU occupancy,2021-03-07,1815
+Czechia,Daily ICU occupancy,2021-03-08,1899
+Czechia,Daily ICU occupancy,2021-03-09,1931
 Czechia,Daily ICU occupancy,2021-03-10,1979
 Czechia,Daily ICU occupancy,2021-03-11,1990
-Czechia,Daily ICU occupancy,2021-03-12,1996
+Czechia,Daily ICU occupancy,2021-03-12,1997
 Czechia,Daily ICU occupancy,2021-03-13,1971
 Czechia,Daily ICU occupancy,2021-03-14,2026
 Czechia,Daily ICU occupancy,2021-03-15,2051
-Czechia,Daily ICU occupancy,2021-03-16,2064
-Czechia,Daily ICU occupancy,2021-03-17,2039
-Czechia,Daily ICU occupancy,2021-03-18,2020
-Czechia,Daily ICU occupancy,2021-03-19,1997
-Czechia,Daily ICU occupancy,2021-03-20,1970
-Czechia,Daily ICU occupancy,2021-03-21,1966
-Czechia,Daily ICU occupancy,2021-03-22,1990
-Czechia,Daily ICU occupancy,2021-03-23,1914
-Czechia,Daily ICU occupancy,2021-03-24,1889
-Czechia,Daily ICU occupancy,2021-03-25,1881
-Czechia,Daily ICU occupancy,2021-03-26,1844
-Czechia,Daily ICU occupancy,2021-03-27,1814
-Czechia,Daily ICU occupancy,2021-03-28,1770
-Czechia,Daily ICU occupancy,2021-03-29,1779
-Czechia,Daily ICU occupancy,2021-03-30,1734
-Czechia,Daily ICU occupancy,2021-03-31,1624
-Czechia,Daily ICU occupancy,2021-04-01,1568
-Czechia,Daily ICU occupancy,2021-04-02,1452
-Czechia,Daily ICU occupancy,2021-04-03,1436
-Czechia,Daily ICU occupancy,2021-04-04,1416
-Czechia,Daily ICU occupancy,2021-04-05,1396
-Czechia,Daily ICU occupancy,2021-04-06,1440
-Czechia,Daily ICU occupancy,2021-04-07,1408
-Czechia,Daily ICU occupancy,2021-04-08,1330
-Czechia,Daily ICU occupancy,2021-04-09,1256
-Czechia,Daily ICU occupancy,2021-04-10,1218
-Czechia,Daily ICU occupancy,2021-04-11,1182
-Czechia,Daily ICU occupancy,2021-04-12,1172
-Czechia,Daily ICU occupancy,2021-04-13,1105
-Czechia,Daily ICU occupancy,2021-04-14,1071
-Czechia,Daily ICU occupancy,2021-04-15,1005
-Czechia,Daily ICU occupancy,2021-04-16,957
-Czechia,Daily ICU occupancy,2021-04-17,922
-Czechia,Daily ICU occupancy,2021-04-18,899
+Czechia,Daily ICU occupancy,2021-03-16,2063
+Czechia,Daily ICU occupancy,2021-03-17,2038
+Czechia,Daily ICU occupancy,2021-03-18,2017
+Czechia,Daily ICU occupancy,2021-03-19,1994
+Czechia,Daily ICU occupancy,2021-03-20,1967
+Czechia,Daily ICU occupancy,2021-03-21,1963
+Czechia,Daily ICU occupancy,2021-03-22,1986
+Czechia,Daily ICU occupancy,2021-03-23,1911
+Czechia,Daily ICU occupancy,2021-03-24,1887
+Czechia,Daily ICU occupancy,2021-03-25,1878
+Czechia,Daily ICU occupancy,2021-03-26,1842
+Czechia,Daily ICU occupancy,2021-03-27,1812
+Czechia,Daily ICU occupancy,2021-03-28,1768
+Czechia,Daily ICU occupancy,2021-03-29,1777
+Czechia,Daily ICU occupancy,2021-03-30,1731
+Czechia,Daily ICU occupancy,2021-03-31,1622
+Czechia,Daily ICU occupancy,2021-04-01,1566
+Czechia,Daily ICU occupancy,2021-04-02,1451
+Czechia,Daily ICU occupancy,2021-04-03,1433
+Czechia,Daily ICU occupancy,2021-04-04,1413
+Czechia,Daily ICU occupancy,2021-04-05,1390
+Czechia,Daily ICU occupancy,2021-04-06,1433
+Czechia,Daily ICU occupancy,2021-04-07,1398
+Czechia,Daily ICU occupancy,2021-04-08,1320
+Czechia,Daily ICU occupancy,2021-04-09,1246
+Czechia,Daily ICU occupancy,2021-04-10,1208
+Czechia,Daily ICU occupancy,2021-04-11,1171
+Czechia,Daily ICU occupancy,2021-04-12,1161
+Czechia,Daily ICU occupancy,2021-04-13,1092
+Czechia,Daily ICU occupancy,2021-04-14,1059
+Czechia,Daily ICU occupancy,2021-04-15,995
+Czechia,Daily ICU occupancy,2021-04-16,951
+Czechia,Daily ICU occupancy,2021-04-17,920
+Czechia,Daily ICU occupancy,2021-04-18,898
+Czechia,Daily ICU occupancy,2021-04-19,910
+Czechia,Daily ICU occupancy,2021-04-20,871
+Czechia,Daily ICU occupancy,2021-04-21,867
+Czechia,Daily ICU occupancy,2021-04-22,796
+Czechia,Daily ICU occupancy,2021-04-23,757
+Czechia,Daily ICU occupancy,2021-04-24,731
+Czechia,Daily ICU occupancy,2021-04-25,725
 Czechia,Weekly new hospital admissions per 100k,2020-01-27,NA
 Czechia,Weekly new hospital admissions per 100k,2020-02-03,NA
 Czechia,Weekly new hospital admissions per 100k,2020-02-10,NA
@@ -4612,21 +4693,22 @@ Czechia,Weekly new hospital admissions per 100k,2020-12-07,67.7860608705548
 Czechia,Weekly new hospital admissions per 100k,2020-12-14,71.4236353882325
 Czechia,Weekly new hospital admissions per 100k,2020-12-21,76.8659705277915
 Czechia,Weekly new hospital admissions per 100k,2020-12-28,95.6055575031801
-Czechia,Weekly new hospital admissions per 100k,2021-01-04,113.33522661762
-Czechia,Weekly new hospital admissions per 100k,2021-01-11,106.892324708417
-Czechia,Weekly new hospital admissions per 100k,2021-01-18,97.8778726903155
+Czechia,Weekly new hospital admissions per 100k,2021-01-04,113.344577708925
+Czechia,Weekly new hospital admissions per 100k,2021-01-11,106.911026891027
+Czechia,Weekly new hospital admissions per 100k,2021-01-18,97.8872237816206
 Czechia,Weekly new hospital admissions per 100k,2021-01-25,90.3502441897228
-Czechia,Weekly new hospital admissions per 100k,2021-02-01,89.3122730548585
-Czechia,Weekly new hospital admissions per 100k,2021-02-08,91.6032904246041
+Czechia,Weekly new hospital admissions per 100k,2021-02-01,89.2842197809432
+Czechia,Weekly new hospital admissions per 100k,2021-02-08,91.593939333299
 Czechia,Weekly new hospital admissions per 100k,2021-02-15,99.3366429339086
-Czechia,Weekly new hospital admissions per 100k,2021-02-22,112.774161139315
-Czechia,Weekly new hospital admissions per 100k,2021-03-01,127.156139566534
-Czechia,Weekly new hospital admissions per 100k,2021-03-08,135.497313010669
-Czechia,Weekly new hospital admissions per 100k,2021-03-15,132.467559427822
-Czechia,Weekly new hospital admissions per 100k,2021-03-22,122.321625361805
-Czechia,Weekly new hospital admissions per 100k,2021-03-29,108.304339495484
-Czechia,Weekly new hospital admissions per 100k,2021-04-05,88.9662826765704
-Czechia,Weekly new hospital admissions per 100k,2021-04-12,70.6100904446902
+Czechia,Weekly new hospital admissions per 100k,2021-02-22,112.78351223062
+Czechia,Weekly new hospital admissions per 100k,2021-03-01,127.174841749144
+Czechia,Weekly new hospital admissions per 100k,2021-03-08,135.516015193279
+Czechia,Weekly new hospital admissions per 100k,2021-03-15,132.476910519127
+Czechia,Weekly new hospital admissions per 100k,2021-03-22,122.29357208789
+Czechia,Weekly new hospital admissions per 100k,2021-03-29,108.257584038959
+Czechia,Weekly new hospital admissions per 100k,2021-04-05,88.92887831135
+Czechia,Weekly new hospital admissions per 100k,2021-04-12,70.6007393533851
+Czechia,Weekly new hospital admissions per 100k,2021-04-19,55.2275452478268
 Czechia,Weekly new ICU admissions per 100k,2020-01-27,NA
 Czechia,Weekly new ICU admissions per 100k,2020-02-03,NA
 Czechia,Weekly new ICU admissions per 100k,2020-02-10,NA
@@ -4678,19 +4760,20 @@ Czechia,Weekly new ICU admissions per 100k,2020-12-21,12.9606125488466
 Czechia,Weekly new ICU admissions per 100k,2020-12-28,15.9342595838634
 Czechia,Weekly new ICU admissions per 100k,2021-01-04,18.225276953609
 Czechia,Weekly new ICU admissions per 100k,2021-01-11,18.7115337014733
-Czechia,Weekly new ICU admissions per 100k,2021-01-18,17.3182210970158
-Czechia,Weekly new ICU admissions per 100k,2021-01-25,16.4859739708633
+Czechia,Weekly new ICU admissions per 100k,2021-01-18,17.3275721883209
+Czechia,Weekly new ICU admissions per 100k,2021-01-25,16.4953250621684
 Czechia,Weekly new ICU admissions per 100k,2021-02-01,17.4678385578971
 Czechia,Weekly new ICU admissions per 100k,2021-02-08,17.9914996709819
 Czechia,Weekly new ICU admissions per 100k,2021-02-15,19.7775581102529
 Czechia,Weekly new ICU admissions per 100k,2021-02-22,22.6483431409138
-Czechia,Weekly new ICU admissions per 100k,2021-03-01,26.126949106405
-Czechia,Weekly new ICU admissions per 100k,2021-03-08,27.903656454371
+Czechia,Weekly new ICU admissions per 100k,2021-03-01,26.1363001977101
+Czechia,Weekly new ICU admissions per 100k,2021-03-08,27.9130075456761
 Czechia,Weekly new ICU admissions per 100k,2021-03-15,27.6418258978287
-Czechia,Weekly new ICU admissions per 100k,2021-03-22,26.0801936498796
-Czechia,Weekly new ICU admissions per 100k,2021-03-29,22.8166627844053
-Czechia,Weekly new ICU admissions per 100k,2021-04-05,19.5063764624055
-Czechia,Weekly new ICU admissions per 100k,2021-04-12,15.9436106751684
+Czechia,Weekly new ICU admissions per 100k,2021-03-22,26.0614914672695
+Czechia,Weekly new ICU admissions per 100k,2021-03-29,22.7979606017951
+Czechia,Weekly new ICU admissions per 100k,2021-04-05,19.4596210058801
+Czechia,Weekly new ICU admissions per 100k,2021-04-12,15.8875041273379
+Czechia,Weekly new ICU admissions per 100k,2021-04-19,12.8764527271008
 Denmark,Daily hospital occupancy,2020-05-14,147
 Denmark,Daily hospital occupancy,2020-05-15,137
 Denmark,Daily hospital occupancy,2020-05-16,140
@@ -5027,6 +5110,13 @@ Denmark,Daily hospital occupancy,2021-04-15,191
 Denmark,Daily hospital occupancy,2021-04-16,185
 Denmark,Daily hospital occupancy,2021-04-17,173
 Denmark,Daily hospital occupancy,2021-04-18,181
+Denmark,Daily hospital occupancy,2021-04-19,199
+Denmark,Daily hospital occupancy,2021-04-20,194
+Denmark,Daily hospital occupancy,2021-04-21,191
+Denmark,Daily hospital occupancy,2021-04-22,191
+Denmark,Daily hospital occupancy,2021-04-23,190
+Denmark,Daily hospital occupancy,2021-04-24,177
+Denmark,Daily hospital occupancy,2021-04-25,181
 Denmark,Daily ICU occupancy,2020-05-14,35
 Denmark,Daily ICU occupancy,2020-05-15,32
 Denmark,Daily ICU occupancy,2020-05-16,28
@@ -5362,6 +5452,13 @@ Denmark,Daily ICU occupancy,2021-04-15,37
 Denmark,Daily ICU occupancy,2021-04-16,36
 Denmark,Daily ICU occupancy,2021-04-17,40
 Denmark,Daily ICU occupancy,2021-04-18,35
+Denmark,Daily ICU occupancy,2021-04-19,36
+Denmark,Daily ICU occupancy,2021-04-20,38
+Denmark,Daily ICU occupancy,2021-04-21,41
+Denmark,Daily ICU occupancy,2021-04-22,44
+Denmark,Daily ICU occupancy,2021-04-23,42
+Denmark,Daily ICU occupancy,2021-04-24,40
+Denmark,Daily ICU occupancy,2021-04-25,40
 Denmark,Weekly new hospital admissions per 100k,2020-02-24,0.0171739773712239
 Denmark,Weekly new hospital admissions per 100k,2020-03-02,0.154565796341015
 Denmark,Weekly new hospital admissions per 100k,2020-03-09,2.31848694511523
@@ -5422,6 +5519,7 @@ Denmark,Weekly new hospital admissions per 100k,2021-03-22,3.62370922532825
 Denmark,Weekly new hospital admissions per 100k,2021-03-29,3.82979695378294
 Denmark,Weekly new hospital admissions per 100k,2021-04-05,3.53783933847213
 Denmark,Weekly new hospital admissions per 100k,2021-04-12,3.24588172316132
+Denmark,Weekly new hospital admissions per 100k,2021-04-19,3.26305570053255
 Estonia,Daily hospital occupancy,2020-02-12,1
 Estonia,Daily hospital occupancy,2020-02-26,1
 Estonia,Daily hospital occupancy,2020-02-27,1
@@ -5838,9 +5936,16 @@ Estonia,Daily hospital occupancy,2021-04-12,567
 Estonia,Daily hospital occupancy,2021-04-13,535
 Estonia,Daily hospital occupancy,2021-04-14,512
 Estonia,Daily hospital occupancy,2021-04-15,495
-Estonia,Daily hospital occupancy,2021-04-16,457
-Estonia,Daily hospital occupancy,2021-04-17,469
-Estonia,Daily hospital occupancy,2021-04-18,474
+Estonia,Daily hospital occupancy,2021-04-16,455
+Estonia,Daily hospital occupancy,2021-04-17,467
+Estonia,Daily hospital occupancy,2021-04-18,472
+Estonia,Daily hospital occupancy,2021-04-19,439
+Estonia,Daily hospital occupancy,2021-04-20,428
+Estonia,Daily hospital occupancy,2021-04-21,426
+Estonia,Daily hospital occupancy,2021-04-22,432
+Estonia,Daily hospital occupancy,2021-04-23,406
+Estonia,Daily hospital occupancy,2021-04-24,408
+Estonia,Daily hospital occupancy,2021-04-25,409
 Estonia,Daily ICU occupancy,2020-02-26,0
 Estonia,Daily ICU occupancy,2020-02-27,0
 Estonia,Daily ICU occupancy,2020-02-28,0
@@ -6163,7 +6268,7 @@ Estonia,Daily ICU occupancy,2021-01-09,42
 Estonia,Daily ICU occupancy,2021-01-10,43
 Estonia,Daily ICU occupancy,2021-01-11,43
 Estonia,Daily ICU occupancy,2021-01-12,44
-Estonia,Daily ICU occupancy,2021-01-13,44
+Estonia,Daily ICU occupancy,2021-01-13,45
 Estonia,Daily ICU occupancy,2021-01-14,44
 Estonia,Daily ICU occupancy,2021-01-15,44
 Estonia,Daily ICU occupancy,2021-01-16,44
@@ -6186,13 +6291,13 @@ Estonia,Daily ICU occupancy,2021-02-01,31
 Estonia,Daily ICU occupancy,2021-02-02,32
 Estonia,Daily ICU occupancy,2021-02-03,33
 Estonia,Daily ICU occupancy,2021-02-04,36
-Estonia,Daily ICU occupancy,2021-02-05,32
+Estonia,Daily ICU occupancy,2021-02-05,33
 Estonia,Daily ICU occupancy,2021-02-06,33
 Estonia,Daily ICU occupancy,2021-02-07,31
 Estonia,Daily ICU occupancy,2021-02-08,31
 Estonia,Daily ICU occupancy,2021-02-09,35
 Estonia,Daily ICU occupancy,2021-02-10,33
-Estonia,Daily ICU occupancy,2021-02-11,30
+Estonia,Daily ICU occupancy,2021-02-11,31
 Estonia,Daily ICU occupancy,2021-02-12,34
 Estonia,Daily ICU occupancy,2021-02-13,36
 Estonia,Daily ICU occupancy,2021-02-14,36
@@ -6259,6 +6364,13 @@ Estonia,Daily ICU occupancy,2021-04-15,56
 Estonia,Daily ICU occupancy,2021-04-16,53
 Estonia,Daily ICU occupancy,2021-04-17,54
 Estonia,Daily ICU occupancy,2021-04-18,52
+Estonia,Daily ICU occupancy,2021-04-19,53
+Estonia,Daily ICU occupancy,2021-04-20,58
+Estonia,Daily ICU occupancy,2021-04-21,60
+Estonia,Daily ICU occupancy,2021-04-22,62
+Estonia,Daily ICU occupancy,2021-04-23,57
+Estonia,Daily ICU occupancy,2021-04-24,59
+Estonia,Daily ICU occupancy,2021-04-25,62
 Estonia,Weekly new hospital admissions per 100k,2020-02-24,0.0752459036130073
 Estonia,Weekly new hospital admissions per 100k,2020-03-02,0
 Estonia,Weekly new hospital admissions per 100k,2020-03-09,0.300983614452029
@@ -6319,6 +6431,7 @@ Estonia,Weekly new hospital admissions per 100k,2021-03-22,40.858525661863
 Estonia,Weekly new hospital admissions per 100k,2021-03-29,37.0962304812126
 Estonia,Weekly new hospital admissions per 100k,2021-04-05,28.2924597584908
 Estonia,Weekly new hospital admissions per 100k,2021-04-12,21.2945907224811
+Estonia,Weekly new hospital admissions per 100k,2021-04-19,18.5104922887998
 Estonia,Weekly new ICU admissions per 100k,2020-02-24,NA
 Estonia,Weekly new ICU admissions per 100k,2020-03-02,NA
 Estonia,Weekly new ICU admissions per 100k,2020-03-09,NA
@@ -6376,8 +6489,10 @@ Estonia,Weekly new ICU admissions per 100k,2021-03-01,3.00983614452029
 Estonia,Weekly new ICU admissions per 100k,2021-03-08,3.91278698787638
 Estonia,Weekly new ICU admissions per 100k,2021-03-15,4.28901650594142
 Estonia,Weekly new ICU admissions per 100k,2021-03-22,3.83754108426337
+Estonia,Weekly new ICU admissions per 100k,2021-03-29,NA
 Estonia,Weekly new ICU admissions per 100k,2021-04-05,3.98803289148939
 Estonia,Weekly new ICU admissions per 100k,2021-04-12,3.00983614452029
+Estonia,Weekly new ICU admissions per 100k,2021-04-19,3.0850820481333
 Finland,Daily hospital occupancy,2020-03-21,0
 Finland,Daily hospital occupancy,2020-03-25,82
 Finland,Daily hospital occupancy,2020-03-26,96
@@ -6627,6 +6742,11 @@ Finland,Daily hospital occupancy,2021-04-13,182
 Finland,Daily hospital occupancy,2021-04-14,180
 Finland,Daily hospital occupancy,2021-04-15,161
 Finland,Daily hospital occupancy,2021-04-16,161
+Finland,Daily hospital occupancy,2021-04-19,166
+Finland,Daily hospital occupancy,2021-04-20,163
+Finland,Daily hospital occupancy,2021-04-21,142
+Finland,Daily hospital occupancy,2021-04-22,129
+Finland,Daily hospital occupancy,2021-04-23,132
 Finland,Daily ICU occupancy,2020-03-21,0
 Finland,Daily ICU occupancy,2020-03-25,22
 Finland,Daily ICU occupancy,2020-03-26,24
@@ -6876,6 +6996,11 @@ Finland,Daily ICU occupancy,2021-04-13,38
 Finland,Daily ICU occupancy,2021-04-14,34
 Finland,Daily ICU occupancy,2021-04-15,37
 Finland,Daily ICU occupancy,2021-04-16,34
+Finland,Daily ICU occupancy,2021-04-19,34
+Finland,Daily ICU occupancy,2021-04-20,36
+Finland,Daily ICU occupancy,2021-04-21,35
+Finland,Daily ICU occupancy,2021-04-22,37
+Finland,Daily ICU occupancy,2021-04-23,31
 France,Daily hospital occupancy,2020-02-02,6
 France,Daily hospital occupancy,2020-02-03,6
 France,Daily hospital occupancy,2020-02-04,6
@@ -7297,6 +7422,13 @@ France,Daily hospital occupancy,2021-04-15,30668
 France,Daily hospital occupancy,2021-04-16,30472
 France,Daily hospital occupancy,2021-04-17,30329
 France,Daily hospital occupancy,2021-04-18,30789
+France,Daily hospital occupancy,2021-04-19,31214
+France,Daily hospital occupancy,2021-04-20,31086
+France,Daily hospital occupancy,2021-04-21,30954
+France,Daily hospital occupancy,2021-04-22,30634
+France,Daily hospital occupancy,2021-04-23,30438
+France,Daily hospital occupancy,2021-04-24,30100
+France,Daily hospital occupancy,2021-04-25,30287
 France,Daily ICU occupancy,2020-02-02,1
 France,Daily ICU occupancy,2020-02-03,1
 France,Daily ICU occupancy,2020-02-04,1
@@ -7717,6 +7849,13 @@ France,Daily ICU occupancy,2021-04-15,5924
 France,Daily ICU occupancy,2021-04-16,5914
 France,Daily ICU occupancy,2021-04-17,5877
 France,Daily ICU occupancy,2021-04-18,5893
+France,Daily ICU occupancy,2021-04-19,5970
+France,Daily ICU occupancy,2021-04-20,5984
+France,Daily ICU occupancy,2021-04-21,5959
+France,Daily ICU occupancy,2021-04-22,5981
+France,Daily ICU occupancy,2021-04-23,5962
+France,Daily ICU occupancy,2021-04-24,5958
+France,Daily ICU occupancy,2021-04-25,5978
 France,Weekly new hospital admissions per 100k,2020-01-27,NA
 France,Weekly new hospital admissions per 100k,2020-02-03,NA
 France,Weekly new hospital admissions per 100k,2020-02-17,NA
@@ -7757,7 +7896,7 @@ France,Weekly new hospital admissions per 100k,2020-10-12,10.5079876749059
 France,Weekly new hospital admissions per 100k,2020-10-19,17.1033319322683
 France,Weekly new hospital admissions per 100k,2020-10-26,23.97496763825
 France,Weekly new hospital admissions per 100k,2020-11-02,27.4746593207604
-France,Weekly new hospital admissions per 100k,2020-11-09,23.7892879012747
+France,Weekly new hospital admissions per 100k,2020-11-09,23.7878024633789
 France,Weekly new hospital admissions per 100k,2020-11-16,18.7789058787334
 France,Weekly new hospital admissions per 100k,2020-11-23,12.8119018512953
 France,Weekly new hospital admissions per 100k,2020-11-30,12.0157071391453
@@ -7765,21 +7904,22 @@ France,Weekly new hospital admissions per 100k,2020-12-07,12.1122606023724
 France,Weekly new hospital admissions per 100k,2020-12-14,12.348445227805
 France,Weekly new hospital admissions per 100k,2020-12-21,10.7738810582545
 France,Weekly new hospital admissions per 100k,2020-12-28,10.6164246412994
-France,Weekly new hospital admissions per 100k,2021-01-04,12.5593774090089
-France,Weekly new hospital admissions per 100k,2021-01-11,13.7105917782557
+France,Weekly new hospital admissions per 100k,2021-01-04,12.5564065332173
+France,Weekly new hospital admissions per 100k,2021-01-11,13.7061354645683
 France,Weekly new hospital admissions per 100k,2021-01-18,15.7946611460664
 France,Weekly new hospital admissions per 100k,2021-01-25,15.6535445459652
-France,Weekly new hospital admissions per 100k,2021-02-01,15.7500980091924
+France,Weekly new hospital admissions per 100k,2021-02-01,15.7471271334008
 France,Weekly new hospital admissions per 100k,2021-02-08,13.8472520646696
 France,Weekly new hospital admissions per 100k,2021-02-15,13.1847467631417
-France,Weekly new hospital admissions per 100k,2021-02-22,13.6556305761111
-France,Weekly new hospital admissions per 100k,2021-03-01,13.4031061338246
-France,Weekly new hospital admissions per 100k,2021-03-08,13.8918152015436
-France,Weekly new hospital admissions per 100k,2021-03-15,15.5822435269667
-France,Weekly new hospital admissions per 100k,2021-03-22,18.1000607603517
-France,Weekly new hospital admissions per 100k,2021-03-29,19.5498481466548
-France,Weekly new hospital admissions per 100k,2021-04-05,19.6879938709644
-France,Weekly new hospital admissions per 100k,2021-04-12,18.9794399946667
+France,Weekly new hospital admissions per 100k,2021-02-22,13.6541451382152
+France,Weekly new hospital admissions per 100k,2021-03-01,13.400135258033
+France,Weekly new hospital admissions per 100k,2021-03-08,13.8873588878562
+France,Weekly new hospital admissions per 100k,2021-03-15,15.5659037101129
+France,Weekly new hospital admissions per 100k,2021-03-22,18.0941190087685
+France,Weekly new hospital admissions per 100k,2021-03-29,19.5171685129471
+France,Weekly new hospital admissions per 100k,2021-04-05,19.6478870477777
+France,Weekly new hospital admissions per 100k,2021-04-12,18.8249544535032
+France,Weekly new hospital admissions per 100k,2021-04-19,17.767322671692
 France,Weekly new ICU admissions per 100k,2020-01-27,NA
 France,Weekly new ICU admissions per 100k,2020-02-03,NA
 France,Weekly new ICU admissions per 100k,2020-02-17,NA
@@ -7829,20 +7969,21 @@ France,Weekly new ICU admissions per 100k,2020-12-14,1.66517588119444
 France,Weekly new ICU admissions per 100k,2020-12-21,1.59684573798753
 France,Weekly new ICU admissions per 100k,2020-12-28,1.62209818221617
 France,Weekly new ICU admissions per 100k,2021-01-04,1.99791396985417
-France,Weekly new ICU admissions per 100k,2021-01-11,2.03207904145762
-France,Weekly new ICU admissions per 100k,2021-01-18,2.47325409651092
+France,Weekly new ICU admissions per 100k,2021-01-11,2.03059360356182
+France,Weekly new ICU admissions per 100k,2021-01-18,2.47176865861512
 France,Weekly new ICU admissions per 100k,2021-01-25,2.59803087975832
 France,Weekly new ICU admissions per 100k,2021-02-01,2.51930267128079
 France,Weekly new ICU admissions per 100k,2021-02-08,2.52970073655141
 France,Weekly new ICU admissions per 100k,2021-02-15,2.63071051346597
-France,Weekly new ICU admissions per 100k,2021-02-22,2.76439992408818
+France,Weekly new ICU admissions per 100k,2021-02-22,2.76291448619238
 France,Weekly new ICU admissions per 100k,2021-03-01,2.9649340400215
-France,Weekly new ICU admissions per 100k,2021-03-08,3.25310899180716
-France,Weekly new ICU admissions per 100k,2021-03-15,3.50117712040615
+France,Weekly new ICU admissions per 100k,2021-03-08,3.25162355391135
+France,Weekly new ICU admissions per 100k,2021-03-15,3.49820624461455
 France,Weekly new ICU admissions per 100k,2021-03-22,4.01068231866636
-France,Weekly new ICU admissions per 100k,2021-03-29,4.54692539905101
-France,Weekly new ICU admissions per 100k,2021-04-05,4.64050798648656
-France,Weekly new ICU admissions per 100k,2021-04-12,4.38649810630435
+France,Weekly new ICU admissions per 100k,2021-03-29,4.5424690853636
+France,Weekly new ICU admissions per 100k,2021-04-05,4.63308079700754
+France,Weekly new ICU admissions per 100k,2021-04-12,4.34936215890929
+France,Weekly new ICU admissions per 100k,2021-04-19,4.33599321784707
 Germany,Daily ICU occupancy,2020-03-20,200
 Germany,Daily ICU occupancy,2020-03-21,308
 Germany,Daily ICU occupancy,2020-03-22,364
@@ -8238,7 +8379,14 @@ Germany,Daily ICU occupancy,2021-04-15,4658
 Germany,Daily ICU occupancy,2021-04-16,4714
 Germany,Daily ICU occupancy,2021-04-17,4760
 Germany,Daily ICU occupancy,2021-04-18,4818
-Germany,Weekly new hospital admissions per 100k,2020-01-27,0.0673346334448647
+Germany,Daily ICU occupancy,2021-04-19,4910
+Germany,Daily ICU occupancy,2021-04-20,4951
+Germany,Daily ICU occupancy,2021-04-21,4970
+Germany,Daily ICU occupancy,2021-04-22,5034
+Germany,Daily ICU occupancy,2021-04-23,5037
+Germany,Daily ICU occupancy,2021-04-24,5008
+Germany,Daily ICU occupancy,2021-04-25,5040
+Germany,Weekly new hospital admissions per 100k,2020-01-27,0.0661322292762064
 Germany,Weekly new hospital admissions per 100k,2020-02-03,0.0312625083851158
 Germany,Weekly new hospital admissions per 100k,2020-02-10,0.0456913584090154
 Germany,Weekly new hospital admissions per 100k,2020-02-17,0.0709418459508396
@@ -8246,11 +8394,11 @@ Germany,Weekly new hospital admissions per 100k,2020-02-24,0.21763515452715201
 Germany,Weekly new hospital admissions per 100k,2020-03-02,0.404007800669188
 Germany,Weekly new hospital admissions per 100k,2020-03-09,1.11342626017759
 Germany,Weekly new hospital admissions per 100k,2020-03-16,2.81362575466042
-Germany,Weekly new hospital admissions per 100k,2020-03-23,5.36753220889065
-Germany,Weekly new hospital admissions per 100k,2020-03-30,4.99719172494389
-Germany,Weekly new hospital admissions per 100k,2020-04-06,3.65651107688989
-Germany,Weekly new hospital admissions per 100k,2020-04-13,2.58156175010937
-Germany,Weekly new hospital admissions per 100k,2020-04-20,1.81442789050537
+Germany,Weekly new hospital admissions per 100k,2020-03-23,5.36632980472199
+Germany,Weekly new hospital admissions per 100k,2020-03-30,4.99598932077523
+Germany,Weekly new hospital admissions per 100k,2020-04-06,3.65530867272123
+Germany,Weekly new hospital admissions per 100k,2020-04-13,2.58035934594071
+Germany,Weekly new hospital admissions per 100k,2020-04-20,1.81563029467403
 Germany,Weekly new hospital admissions per 100k,2020-04-27,1.19759455198367
 Germany,Weekly new hospital admissions per 100k,2020-05-04,0.904207934831041
 Germany,Weekly new hospital admissions per 100k,2020-05-11,0.574749192618667
@@ -8275,33 +8423,34 @@ Germany,Weekly new hospital admissions per 100k,2020-09-14,0.681763163629256
 Germany,Weekly new hospital admissions per 100k,2020-09-21,0.717835288689005
 Germany,Weekly new hospital admissions per 100k,2020-09-28,1.01963873502224
 Germany,Weekly new hospital admissions per 100k,2020-10-05,1.58476869429164
-Germany,Weekly new hospital admissions per 100k,2020-10-12,2.3326640871971
-Germany,Weekly new hospital admissions per 100k,2020-10-19,3.63486780185404
+Germany,Weekly new hospital admissions per 100k,2020-10-12,2.33506889553442
+Germany,Weekly new hospital admissions per 100k,2020-10-19,3.63366539768538
 Germany,Weekly new hospital admissions per 100k,2020-10-26,5.11622973764106
-Germany,Weekly new hospital admissions per 100k,2020-11-02,5.90500687228091
-Germany,Weekly new hospital admissions per 100k,2020-11-09,6.65410466935503
-Germany,Weekly new hospital admissions per 100k,2020-11-16,6.70220083610136
-Germany,Weekly new hospital admissions per 100k,2020-11-23,7.38276159556196
-Germany,Weekly new hospital admissions per 100k,2020-11-30,8.38917388472895
-Germany,Weekly new hospital admissions per 100k,2020-12-07,8.92544614395055
-Germany,Weekly new hospital admissions per 100k,2020-12-14,9.11302119426125
-Germany,Weekly new hospital admissions per 100k,2020-12-21,8.53827200164258
-Germany,Weekly new hospital admissions per 100k,2020-12-28,8.76672879368766
-Germany,Weekly new hospital admissions per 100k,2021-01-04,8.3963883097409
-Germany,Weekly new hospital admissions per 100k,2021-01-11,7.43566737898292
-Germany,Weekly new hospital admissions per 100k,2021-01-18,7.10260142426457
-Germany,Weekly new hospital admissions per 100k,2021-01-25,5.98677035574967
-Germany,Weekly new hospital admissions per 100k,2021-02-01,5.24368457951884
-Germany,Weekly new hospital admissions per 100k,2021-02-08,4.31422615714598
-Germany,Weekly new hospital admissions per 100k,2021-02-15,3.92464720650069
-Germany,Weekly new hospital admissions per 100k,2021-02-22,3.72144090199744
-Germany,Weekly new hospital admissions per 100k,2021-03-01,3.64208222686599
-Germany,Weekly new hospital admissions per 100k,2021-03-08,4.02564915666799
-Germany,Weekly new hospital admissions per 100k,2021-03-15,4.42965695733717
-Germany,Weekly new hospital admissions per 100k,2021-03-22,4.91182102896915
-Germany,Weekly new hospital admissions per 100k,2021-03-29,5.05490712503949
-Germany,Weekly new hospital admissions per 100k,2021-04-05,4.69779308694797
-Germany,Weekly new hospital admissions per 100k,2021-04-12,2.825649796347
+Germany,Weekly new hospital admissions per 100k,2020-11-02,5.90861408478688
+Germany,Weekly new hospital admissions per 100k,2020-11-09,6.66011669019832
+Germany,Weekly new hospital admissions per 100k,2020-11-16,6.70580804860733
+Germany,Weekly new hospital admissions per 100k,2020-11-23,7.38877361640525
+Germany,Weekly new hospital admissions per 100k,2020-11-30,8.39518590557224
+Germany,Weekly new hospital admissions per 100k,2020-12-07,8.95069663149238
+Germany,Weekly new hospital admissions per 100k,2020-12-14,9.13827168180307
+Germany,Weekly new hospital admissions per 100k,2020-12-21,8.5635224891844
+Germany,Weekly new hospital admissions per 100k,2020-12-28,8.77153841036229
+Germany,Weekly new hospital admissions per 100k,2021-01-04,8.40841235142749
+Germany,Weekly new hospital admissions per 100k,2021-01-11,7.44167939982621
+Germany,Weekly new hospital admissions per 100k,2021-01-18,7.12424469930042
+Germany,Weekly new hospital admissions per 100k,2021-01-25,6.00480641827955
+Germany,Weekly new hospital admissions per 100k,2021-02-01,5.26532785455469
+Germany,Weekly new hospital admissions per 100k,2021-02-08,4.33226221967585
+Germany,Weekly new hospital admissions per 100k,2021-02-15,3.94268326903056
+Germany,Weekly new hospital admissions per 100k,2021-02-22,3.74789379370792
+Germany,Weekly new hospital admissions per 100k,2021-03-01,3.66613031023915
+Germany,Weekly new hospital admissions per 100k,2021-03-08,4.07735253592029
+Germany,Weekly new hospital admissions per 100k,2021-03-15,4.5414805450224
+Germany,Weekly new hospital admissions per 100k,2021-03-22,5.09578886677387
+Germany,Weekly new hospital admissions per 100k,2021-03-29,5.39398510060113
+Germany,Weekly new hospital admissions per 100k,2021-04-05,5.3458889338548
+Germany,Weekly new hospital admissions per 100k,2021-04-12,4.81081907880185
+Germany,Weekly new hospital admissions per 100k,2021-04-19,2.90621087564711
 Greece,Weekly new hospital admissions per 100k,2020-02-24,0.102625677970885
 Greece,Weekly new hospital admissions per 100k,2020-03-02,0.279888212647869
 Greece,Weekly new hospital admissions per 100k,2020-03-09,0.615754067825311
@@ -8414,7 +8563,52 @@ Greece,Weekly new ICU admissions per 100k,2021-03-15,3.20005523127396
 Greece,Weekly new ICU admissions per 100k,2021-03-22,3.16273680292091
 Greece,Weekly new ICU admissions per 100k,2021-03-29,3.18139601709744
 Greece,Weekly new ICU admissions per 100k,2021-04-05,3.27469208798006
-Greece,Weekly new ICU admissions per 100k,2021-04-12,3.65720597859881
+Greece,Weekly new ICU admissions per 100k,2021-04-12,3.6851947998636
+Greece,Weekly new ICU admissions per 100k,2021-04-19,3.06944073203829
+Hungary,Daily hospital occupancy,2020-03-03,0
+Hungary,Daily hospital occupancy,2020-03-04,2
+Hungary,Daily hospital occupancy,2020-03-05,4
+Hungary,Daily hospital occupancy,2020-03-06,4
+Hungary,Daily hospital occupancy,2020-03-07,5
+Hungary,Daily hospital occupancy,2020-03-08,7
+Hungary,Daily hospital occupancy,2020-03-09,9
+Hungary,Daily hospital occupancy,2020-03-10,12
+Hungary,Daily hospital occupancy,2020-03-11,13
+Hungary,Daily hospital occupancy,2020-03-12,16
+Hungary,Daily hospital occupancy,2020-03-13,18
+Hungary,Daily hospital occupancy,2020-03-14,29
+Hungary,Daily hospital occupancy,2020-03-15,31
+Hungary,Daily hospital occupancy,2020-03-16,36
+Hungary,Daily hospital occupancy,2020-03-17,47
+Hungary,Daily hospital occupancy,2020-03-18,55
+Hungary,Daily hospital occupancy,2020-03-19,70
+Hungary,Daily hospital occupancy,2020-03-20,74
+Hungary,Daily hospital occupancy,2020-03-21,92
+Hungary,Daily hospital occupancy,2020-03-22,113
+Hungary,Daily hospital occupancy,2020-03-23,144
+Hungary,Daily hospital occupancy,2020-03-24,158
+Hungary,Daily hospital occupancy,2020-03-25,195
+Hungary,Daily hospital occupancy,2020-03-26,223
+Hungary,Daily hospital occupancy,2020-03-27,256
+Hungary,Daily hospital occupancy,2020-03-28,298
+Hungary,Daily hospital occupancy,2020-03-29,361
+Hungary,Daily hospital occupancy,2020-03-30,398
+Hungary,Daily hospital occupancy,2020-03-31,439
+Hungary,Daily hospital occupancy,2020-04-01,465
+Hungary,Daily hospital occupancy,2020-04-02,522
+Hungary,Daily hospital occupancy,2020-04-03,554
+Hungary,Daily hospital occupancy,2020-04-04,588
+Hungary,Daily hospital occupancy,2020-04-05,633
+Hungary,Daily hospital occupancy,2020-04-06,639
+Hungary,Daily hospital occupancy,2020-04-07,699
+Hungary,Daily hospital occupancy,2020-04-08,743
+Hungary,Daily hospital occupancy,2020-04-09,818
+Hungary,Daily hospital occupancy,2020-04-10,1001
+Hungary,Daily hospital occupancy,2020-04-11,1110
+Hungary,Daily hospital occupancy,2020-04-12,1193
+Hungary,Daily hospital occupancy,2020-04-13,1229
+Hungary,Daily hospital occupancy,2020-04-14,1268
+Hungary,Daily hospital occupancy,2020-04-15,1253
 Hungary,Daily hospital occupancy,2020-04-16,729
 Hungary,Daily hospital occupancy,2020-04-17,847
 Hungary,Daily hospital occupancy,2020-04-18,829
@@ -8781,6 +8975,13 @@ Hungary,Daily hospital occupancy,2021-04-15,9848
 Hungary,Daily hospital occupancy,2021-04-16,9459
 Hungary,Daily hospital occupancy,2021-04-17,8947
 Hungary,Daily hospital occupancy,2021-04-18,8445
+Hungary,Daily hospital occupancy,2021-04-19,8650
+Hungary,Daily hospital occupancy,2021-04-20,8602
+Hungary,Daily hospital occupancy,2021-04-21,8097
+Hungary,Daily hospital occupancy,2021-04-22,7507
+Hungary,Daily hospital occupancy,2021-04-23,7177
+Hungary,Daily hospital occupancy,2021-04-24,6737
+Hungary,Daily hospital occupancy,2021-04-25,6284
 Iceland,Daily hospital occupancy,2020-02-28,1
 Iceland,Daily hospital occupancy,2020-02-29,1
 Iceland,Daily hospital occupancy,2020-03-01,1
@@ -9090,239 +9291,10 @@ Iceland,Daily hospital occupancy,2021-04-13,2
 Iceland,Daily hospital occupancy,2021-04-14,2
 Iceland,Daily hospital occupancy,2021-04-15,3
 Iceland,Daily hospital occupancy,2021-04-18,3
-Iceland,Daily ICU occupancy,2020-02-28,0
-Iceland,Daily ICU occupancy,2020-02-29,0
-Iceland,Daily ICU occupancy,2020-03-01,0
-Iceland,Daily ICU occupancy,2020-03-02,0
-Iceland,Daily ICU occupancy,2020-03-03,0
-Iceland,Daily ICU occupancy,2020-03-04,0
-Iceland,Daily ICU occupancy,2020-03-05,0
-Iceland,Daily ICU occupancy,2020-03-06,0
-Iceland,Daily ICU occupancy,2020-03-07,0
-Iceland,Daily ICU occupancy,2020-03-08,0
-Iceland,Daily ICU occupancy,2020-03-09,0
-Iceland,Daily ICU occupancy,2020-03-10,0
-Iceland,Daily ICU occupancy,2020-03-11,0
-Iceland,Daily ICU occupancy,2020-03-12,0
-Iceland,Daily ICU occupancy,2020-03-13,0
-Iceland,Daily ICU occupancy,2020-03-14,1
-Iceland,Daily ICU occupancy,2020-03-15,2
-Iceland,Daily ICU occupancy,2020-03-16,2
-Iceland,Daily ICU occupancy,2020-03-17,2
-Iceland,Daily ICU occupancy,2020-03-18,0
-Iceland,Daily ICU occupancy,2020-03-19,1
-Iceland,Daily ICU occupancy,2020-03-20,1
-Iceland,Daily ICU occupancy,2020-03-21,1
-Iceland,Daily ICU occupancy,2020-03-22,0
-Iceland,Daily ICU occupancy,2020-03-23,2
-Iceland,Daily ICU occupancy,2020-03-24,2
-Iceland,Daily ICU occupancy,2020-03-25,3
-Iceland,Daily ICU occupancy,2020-03-26,6
-Iceland,Daily ICU occupancy,2020-03-27,6
-Iceland,Daily ICU occupancy,2020-03-28,7
-Iceland,Daily ICU occupancy,2020-03-29,10
-Iceland,Daily ICU occupancy,2020-03-30,11
-Iceland,Daily ICU occupancy,2020-03-31,13
-Iceland,Daily ICU occupancy,2020-04-01,14
-Iceland,Daily ICU occupancy,2020-04-02,12
-Iceland,Daily ICU occupancy,2020-04-03,11
-Iceland,Daily ICU occupancy,2020-04-04,11
-Iceland,Daily ICU occupancy,2020-04-05,11
-Iceland,Daily ICU occupancy,2020-04-06,13
-Iceland,Daily ICU occupancy,2020-04-07,12
-Iceland,Daily ICU occupancy,2020-04-08,11
-Iceland,Daily ICU occupancy,2020-04-09,11
-Iceland,Daily ICU occupancy,2020-04-10,10
-Iceland,Daily ICU occupancy,2020-04-11,9
-Iceland,Daily ICU occupancy,2020-04-12,9
-Iceland,Daily ICU occupancy,2020-04-13,8
-Iceland,Daily ICU occupancy,2020-04-14,8
-Iceland,Daily ICU occupancy,2020-04-15,6
-Iceland,Daily ICU occupancy,2020-04-16,3
-Iceland,Daily ICU occupancy,2020-04-17,5
-Iceland,Daily ICU occupancy,2020-04-18,5
-Iceland,Daily ICU occupancy,2020-04-19,5
-Iceland,Daily ICU occupancy,2020-04-20,5
-Iceland,Daily ICU occupancy,2020-04-21,5
-Iceland,Daily ICU occupancy,2020-04-22,5
-Iceland,Daily ICU occupancy,2020-04-23,5
-Iceland,Daily ICU occupancy,2020-04-24,3
-Iceland,Daily ICU occupancy,2020-04-25,3
-Iceland,Daily ICU occupancy,2020-04-26,2
-Iceland,Daily ICU occupancy,2020-04-27,1
-Iceland,Daily ICU occupancy,2020-04-28,0
-Iceland,Daily ICU occupancy,2020-04-29,0
-Iceland,Daily ICU occupancy,2020-04-30,0
-Iceland,Daily ICU occupancy,2020-05-01,0
-Iceland,Daily ICU occupancy,2020-05-02,0
-Iceland,Daily ICU occupancy,2020-05-03,0
-Iceland,Daily ICU occupancy,2020-05-04,0
-Iceland,Daily ICU occupancy,2020-05-05,0
-Iceland,Daily ICU occupancy,2020-05-06,0
-Iceland,Daily ICU occupancy,2020-05-07,0
-Iceland,Daily ICU occupancy,2020-05-08,0
-Iceland,Daily ICU occupancy,2020-05-09,0
-Iceland,Daily ICU occupancy,2020-05-10,0
-Iceland,Daily ICU occupancy,2020-05-11,0
-Iceland,Daily ICU occupancy,2020-05-12,0
-Iceland,Daily ICU occupancy,2020-05-13,0
-Iceland,Daily ICU occupancy,2020-05-14,0
-Iceland,Daily ICU occupancy,2020-05-15,0
-Iceland,Daily ICU occupancy,2020-05-16,0
-Iceland,Daily ICU occupancy,2020-05-17,0
-Iceland,Daily ICU occupancy,2020-05-18,0
-Iceland,Daily ICU occupancy,2020-05-19,0
-Iceland,Daily ICU occupancy,2020-05-20,0
-Iceland,Daily ICU occupancy,2020-05-21,0
-Iceland,Daily ICU occupancy,2020-05-22,0
-Iceland,Daily ICU occupancy,2020-05-23,0
-Iceland,Daily ICU occupancy,2020-05-24,0
-Iceland,Daily ICU occupancy,2020-05-25,0
-Iceland,Daily ICU occupancy,2020-05-26,0
-Iceland,Daily ICU occupancy,2020-05-27,0
-Iceland,Daily ICU occupancy,2020-05-28,0
-Iceland,Daily ICU occupancy,2020-05-29,0
-Iceland,Daily ICU occupancy,2020-05-30,0
-Iceland,Daily ICU occupancy,2020-05-31,0
-Iceland,Daily ICU occupancy,2020-06-01,0
-Iceland,Daily ICU occupancy,2020-06-02,0
-Iceland,Daily ICU occupancy,2020-06-03,0
-Iceland,Daily ICU occupancy,2020-06-04,0
-Iceland,Daily ICU occupancy,2020-06-05,0
-Iceland,Daily ICU occupancy,2020-06-06,0
-Iceland,Daily ICU occupancy,2020-06-07,0
-Iceland,Daily ICU occupancy,2020-06-08,0
-Iceland,Daily ICU occupancy,2020-06-09,0
-Iceland,Daily ICU occupancy,2020-06-10,0
-Iceland,Daily ICU occupancy,2020-06-11,0
-Iceland,Daily ICU occupancy,2020-06-12,0
-Iceland,Daily ICU occupancy,2020-06-13,0
-Iceland,Daily ICU occupancy,2020-06-14,0
-Iceland,Daily ICU occupancy,2020-06-15,0
-Iceland,Daily ICU occupancy,2020-06-16,0
-Iceland,Daily ICU occupancy,2020-06-17,0
-Iceland,Daily ICU occupancy,2020-06-18,0
-Iceland,Daily ICU occupancy,2020-06-19,0
-Iceland,Daily ICU occupancy,2020-06-20,0
-Iceland,Daily ICU occupancy,2020-06-21,0
-Iceland,Daily ICU occupancy,2020-06-22,0
-Iceland,Daily ICU occupancy,2020-06-23,0
-Iceland,Daily ICU occupancy,2020-06-24,0
-Iceland,Daily ICU occupancy,2020-06-25,0
-Iceland,Daily ICU occupancy,2020-06-26,0
-Iceland,Daily ICU occupancy,2020-06-27,0
-Iceland,Daily ICU occupancy,2020-06-28,0
-Iceland,Daily ICU occupancy,2020-06-29,0
-Iceland,Daily ICU occupancy,2020-06-30,0
-Iceland,Daily ICU occupancy,2020-07-01,0
-Iceland,Daily ICU occupancy,2020-07-02,0
-Iceland,Daily ICU occupancy,2020-07-03,0
-Iceland,Daily ICU occupancy,2020-07-04,0
-Iceland,Daily ICU occupancy,2020-07-05,0
-Iceland,Daily ICU occupancy,2020-07-06,0
-Iceland,Daily ICU occupancy,2020-07-07,0
-Iceland,Daily ICU occupancy,2020-07-08,0
-Iceland,Daily ICU occupancy,2020-07-09,0
-Iceland,Daily ICU occupancy,2020-07-10,0
-Iceland,Daily ICU occupancy,2020-07-11,0
-Iceland,Daily ICU occupancy,2020-07-12,0
-Iceland,Daily ICU occupancy,2020-07-13,0
-Iceland,Daily ICU occupancy,2020-07-14,0
-Iceland,Daily ICU occupancy,2020-07-15,0
-Iceland,Daily ICU occupancy,2020-07-16,0
-Iceland,Daily ICU occupancy,2020-07-17,0
-Iceland,Daily ICU occupancy,2020-07-18,0
-Iceland,Daily ICU occupancy,2020-07-19,0
-Iceland,Daily ICU occupancy,2020-07-20,0
-Iceland,Daily ICU occupancy,2020-07-21,0
-Iceland,Daily ICU occupancy,2020-07-22,0
-Iceland,Daily ICU occupancy,2020-07-23,0
-Iceland,Daily ICU occupancy,2020-08-04,0
-Iceland,Daily ICU occupancy,2020-08-05,0
-Iceland,Daily ICU occupancy,2020-08-06,0
-Iceland,Daily ICU occupancy,2020-08-07,0
-Iceland,Daily ICU occupancy,2020-08-09,1
-Iceland,Daily ICU occupancy,2020-08-10,1
-Iceland,Daily ICU occupancy,2020-08-11,1
-Iceland,Daily ICU occupancy,2020-08-12,1
-Iceland,Daily ICU occupancy,2020-08-13,0
-Iceland,Daily ICU occupancy,2020-08-14,0
-Iceland,Daily ICU occupancy,2020-08-17,0
-Iceland,Daily ICU occupancy,2020-08-18,0
-Iceland,Daily ICU occupancy,2020-08-19,0
-Iceland,Daily ICU occupancy,2020-08-20,0
-Iceland,Daily ICU occupancy,2020-08-21,0
-Iceland,Daily ICU occupancy,2020-08-22,0
-Iceland,Daily ICU occupancy,2020-08-23,0
-Iceland,Daily ICU occupancy,2020-08-24,0
-Iceland,Daily ICU occupancy,2020-08-25,0
-Iceland,Daily ICU occupancy,2020-08-26,0
-Iceland,Daily ICU occupancy,2020-08-27,0
-Iceland,Daily ICU occupancy,2020-08-28,0
-Iceland,Daily ICU occupancy,2020-08-29,0
-Iceland,Daily ICU occupancy,2020-08-30,0
-Iceland,Daily ICU occupancy,2020-08-31,0
-Iceland,Daily ICU occupancy,2020-09-01,0
-Iceland,Daily ICU occupancy,2020-09-02,0
-Iceland,Daily ICU occupancy,2020-09-03,0
-Iceland,Daily ICU occupancy,2020-09-04,0
-Iceland,Daily ICU occupancy,2020-09-05,0
-Iceland,Daily ICU occupancy,2020-09-06,0
-Iceland,Daily ICU occupancy,2020-09-07,0
-Iceland,Daily ICU occupancy,2020-09-08,1
-Iceland,Daily ICU occupancy,2020-11-05,4
-Iceland,Daily ICU occupancy,2020-11-06,4
-Iceland,Daily ICU occupancy,2020-11-07,4
-Iceland,Daily ICU occupancy,2020-11-08,3
-Iceland,Daily ICU occupancy,2020-11-09,3
-Iceland,Daily ICU occupancy,2020-11-10,3
-Iceland,Daily ICU occupancy,2020-11-11,3
-Iceland,Daily ICU occupancy,2020-11-12,2
-Iceland,Daily ICU occupancy,2020-11-13,3
-Iceland,Daily ICU occupancy,2020-11-14,3
-Iceland,Daily ICU occupancy,2020-11-15,3
-Iceland,Daily ICU occupancy,2020-11-16,4
-Iceland,Daily ICU occupancy,2020-11-17,4
-Iceland,Daily ICU occupancy,2020-11-18,4
-Iceland,Daily ICU occupancy,2020-11-23,2
-Iceland,Daily ICU occupancy,2020-11-24,2
-Iceland,Daily ICU occupancy,2020-11-25,2
-Iceland,Daily ICU occupancy,2020-11-26,2
-Iceland,Daily ICU occupancy,2020-11-27,2
-Iceland,Daily ICU occupancy,2020-11-28,2
-Iceland,Daily ICU occupancy,2020-11-29,2
-Iceland,Daily ICU occupancy,2020-11-30,2
-Iceland,Daily ICU occupancy,2020-12-01,2
-Iceland,Daily ICU occupancy,2020-12-02,2
-Iceland,Daily ICU occupancy,2020-12-03,2
-Iceland,Daily ICU occupancy,2020-12-04,2
-Iceland,Daily ICU occupancy,2020-12-08,3
-Iceland,Daily ICU occupancy,2020-12-09,3
-Iceland,Daily ICU occupancy,2020-12-10,3
-Iceland,Daily ICU occupancy,2020-12-11,3
-Iceland,Daily ICU occupancy,2020-12-12,3
-Iceland,Daily ICU occupancy,2020-12-13,3
-Iceland,Daily ICU occupancy,2020-12-14,3
-Iceland,Daily ICU occupancy,2020-12-15,3
-Iceland,Daily ICU occupancy,2020-12-16,3
-Iceland,Daily ICU occupancy,2020-12-17,4
-Iceland,Daily ICU occupancy,2020-12-18,4
-Iceland,Daily ICU occupancy,2020-12-19,4
-Iceland,Daily ICU occupancy,2020-12-20,3
-Iceland,Daily ICU occupancy,2020-12-21,2
-Iceland,Daily ICU occupancy,2020-12-22,1
-Iceland,Daily ICU occupancy,2020-12-27,1
-Iceland,Daily ICU occupancy,2020-12-28,0
-Iceland,Daily ICU occupancy,2020-12-29,0
-Iceland,Daily ICU occupancy,2021-01-07,0
-Iceland,Daily ICU occupancy,2021-01-08,0
-Iceland,Daily ICU occupancy,2021-01-09,0
-Iceland,Daily ICU occupancy,2021-01-10,0
-Iceland,Daily ICU occupancy,2021-01-11,0
-Iceland,Daily ICU occupancy,2021-01-12,0
-Iceland,Daily ICU occupancy,2021-01-13,0
-Iceland,Daily ICU occupancy,2021-01-14,0
-Iceland,Daily ICU occupancy,2021-01-18,0
+Iceland,Daily hospital occupancy,2021-04-19,2
+Iceland,Daily hospital occupancy,2021-04-20,3
+Iceland,Daily hospital occupancy,2021-04-21,3
+Iceland,Daily hospital occupancy,2021-04-25,5
 Iceland,Weekly new hospital admissions per 100k,2020-02-03,NA
 Iceland,Weekly new hospital admissions per 100k,2020-02-24,0.27462417681403
 Iceland,Weekly new hospital admissions per 100k,2020-03-02,NA
@@ -9384,6 +9356,7 @@ Iceland,Weekly new hospital admissions per 100k,2021-03-22,0.27462417681403
 Iceland,Weekly new hospital admissions per 100k,2021-03-29,NA
 Iceland,Weekly new hospital admissions per 100k,2021-04-05,NA
 Iceland,Weekly new hospital admissions per 100k,2021-04-12,0.27462417681403
+Iceland,Weekly new hospital admissions per 100k,2021-04-19,1.37312088407015
 Iceland,Weekly new ICU admissions per 100k,2020-02-03,NA
 Iceland,Weekly new ICU admissions per 100k,2020-02-24,NA
 Iceland,Weekly new ICU admissions per 100k,2020-03-02,NA
@@ -9445,6 +9418,7 @@ Iceland,Weekly new ICU admissions per 100k,2021-03-22,NA
 Iceland,Weekly new ICU admissions per 100k,2021-03-29,NA
 Iceland,Weekly new ICU admissions per 100k,2021-04-05,NA
 Iceland,Weekly new ICU admissions per 100k,2021-04-12,0.27462417681403
+Iceland,Weekly new ICU admissions per 100k,2021-04-19,NA
 Ireland,Daily hospital occupancy,2020-03-07,18
 Ireland,Daily hospital occupancy,2020-03-08,17
 Ireland,Daily hospital occupancy,2020-03-09,18
@@ -9853,6 +9827,13 @@ Ireland,Daily hospital occupancy,2021-04-15,184
 Ireland,Daily hospital occupancy,2021-04-16,190
 Ireland,Daily hospital occupancy,2021-04-17,183
 Ireland,Daily hospital occupancy,2021-04-18,181
+Ireland,Daily hospital occupancy,2021-04-19,183
+Ireland,Daily hospital occupancy,2021-04-20,179
+Ireland,Daily hospital occupancy,2021-04-21,182
+Ireland,Daily hospital occupancy,2021-04-22,176
+Ireland,Daily hospital occupancy,2021-04-23,166
+Ireland,Daily hospital occupancy,2021-04-24,162
+Ireland,Daily hospital occupancy,2021-04-25,174
 Ireland,Daily ICU occupancy,2020-03-27,68
 Ireland,Daily ICU occupancy,2020-03-28,80
 Ireland,Daily ICU occupancy,2020-03-29,96
@@ -10240,6 +10221,13 @@ Ireland,Daily ICU occupancy,2021-04-15,51
 Ireland,Daily ICU occupancy,2021-04-16,53
 Ireland,Daily ICU occupancy,2021-04-17,50
 Ireland,Daily ICU occupancy,2021-04-18,47
+Ireland,Daily ICU occupancy,2021-04-19,50
+Ireland,Daily ICU occupancy,2021-04-20,48
+Ireland,Daily ICU occupancy,2021-04-21,47
+Ireland,Daily ICU occupancy,2021-04-22,48
+Ireland,Daily ICU occupancy,2021-04-23,48
+Ireland,Daily ICU occupancy,2021-04-24,46
+Ireland,Daily ICU occupancy,2021-04-25,45
 Ireland,Weekly new hospital admissions per 100k,2020-03-30,3.34378097026049
 Ireland,Weekly new hospital admissions per 100k,2020-04-06,5.66025573881445
 Ireland,Weekly new hospital admissions per 100k,2020-04-13,4.47180346625198
@@ -10295,6 +10283,7 @@ Ireland,Weekly new hospital admissions per 100k,2021-03-22,2.57833713369484
 Ireland,Weekly new hospital admissions per 100k,2021-03-29,2.49776409826687
 Ireland,Weekly new hospital admissions per 100k,2021-04-05,2.07475566227007
 Ireland,Weekly new hospital admissions per 100k,2021-04-12,1.9941826268421
+Ireland,Weekly new hospital admissions per 100k,2021-04-19,2.27618825083997
 Ireland,Weekly new ICU admissions per 100k,2020-03-30,0.0805730354279637
 Ireland,Weekly new ICU admissions per 100k,2020-04-06,0.946733166278573
 Ireland,Weekly new ICU admissions per 100k,2020-04-13,1.18845227256246
@@ -10349,6 +10338,7 @@ Ireland,Weekly new ICU admissions per 100k,2021-03-22,0.423008435996809
 Ireland,Weekly new ICU admissions per 100k,2021-03-29,0.523724730281764
 Ireland,Weekly new ICU admissions per 100k,2021-04-05,0.302148882854864
 Ireland,Weekly new ICU admissions per 100k,2021-04-12,0.362578659425837
+Ireland,Weekly new ICU admissions per 100k,2021-04-19,0.322292141711855
 Italy,Daily hospital occupancy,2020-02-24,127
 Italy,Daily hospital occupancy,2020-02-25,149
 Italy,Daily hospital occupancy,2020-02-26,164
@@ -10769,6 +10759,13 @@ Italy,Daily hospital occupancy,2021-04-15,29004
 Italy,Daily hospital occupancy,2021-04-16,28109
 Italy,Daily hospital occupancy,2021-04-17,27440
 Italy,Daily hospital occupancy,2021-04-18,26959
+Italy,Daily hospital occupancy,2021-04-19,26986
+Italy,Daily hospital occupancy,2021-04-20,26406
+Italy,Daily hospital occupancy,2021-04-21,25860
+Italy,Daily hospital occupancy,2021-04-22,25115
+Italy,Daily hospital occupancy,2021-04-23,24419
+Italy,Daily hospital occupancy,2021-04-24,23865
+Italy,Daily hospital occupancy,2021-04-25,23524
 Italy,Daily ICU occupancy,2020-02-24,26
 Italy,Daily ICU occupancy,2020-02-25,35
 Italy,Daily ICU occupancy,2020-02-26,36
@@ -11189,70 +11186,78 @@ Italy,Daily ICU occupancy,2021-04-15,3417
 Italy,Daily ICU occupancy,2021-04-16,3366
 Italy,Daily ICU occupancy,2021-04-17,3340
 Italy,Daily ICU occupancy,2021-04-18,3311
+Italy,Daily ICU occupancy,2021-04-19,3244
+Italy,Daily ICU occupancy,2021-04-20,3151
+Italy,Daily ICU occupancy,2021-04-21,3076
+Italy,Daily ICU occupancy,2021-04-22,3021
+Italy,Daily ICU occupancy,2021-04-23,2979
+Italy,Daily ICU occupancy,2021-04-24,2894
+Italy,Daily ICU occupancy,2021-04-25,2862
 Italy,Weekly new hospital admissions per 100k,2020-01-27,NA
 Italy,Weekly new hospital admissions per 100k,2020-02-03,NA
 Italy,Weekly new hospital admissions per 100k,2020-02-10,NA
 Italy,Weekly new hospital admissions per 100k,2020-02-17,0.7897187273396
 Italy,Weekly new hospital admissions per 100k,2020-02-24,3.76583495032854
-Italy,Weekly new hospital admissions per 100k,2020-03-02,11.877637928819
-Italy,Weekly new hospital admissions per 100k,2020-03-09,21.6745095293397
-Italy,Weekly new hospital admissions per 100k,2020-03-16,30.5458509016408
-Italy,Weekly new hospital admissions per 100k,2020-03-23,25.3414200531013
-Italy,Weekly new hospital admissions per 100k,2020-03-30,15.5646686749331
+Italy,Weekly new hospital admissions per 100k,2020-03-02,11.879314614015
+Italy,Weekly new hospital admissions per 100k,2020-03-09,21.6761862145358
+Italy,Weekly new hospital admissions per 100k,2020-03-16,30.5475275868369
+Italy,Weekly new hospital admissions per 100k,2020-03-23,25.3380666827092
+Italy,Weekly new hospital admissions per 100k,2020-03-30,15.5696987305213
 Italy,Weekly new hospital admissions per 100k,2020-04-06,10.7240785139365
 Italy,Weekly new hospital admissions per 100k,2020-04-13,7.64903786438058
-Italy,Weekly new hospital admissions per 100k,2020-04-20,6.18361500303279
+Italy,Weekly new hospital admissions per 100k,2020-04-20,6.18864505862094
 Italy,Weekly new hospital admissions per 100k,2020-04-27,3.79098522826929
-Italy,Weekly new hospital admissions per 100k,2020-05-04,2.82018449975628
-Italy,Weekly new hospital admissions per 100k,2020-05-11,2.01705229084828
+Italy,Weekly new hospital admissions per 100k,2020-05-04,2.81850781456023
+Italy,Weekly new hospital admissions per 100k,2020-05-11,2.01034555006408
 Italy,Weekly new hospital admissions per 100k,2020-05-18,1.35140826801639
 Italy,Weekly new hospital admissions per 100k,2020-05-25,1.05128161792342
 Italy,Weekly new hospital admissions per 100k,2020-06-01,0.781335301359349
-Italy,Weekly new hospital admissions per 100k,2020-06-08,0.736064801065996
-Italy,Weekly new hospital admissions per 100k,2020-06-15,0.613666781754339
+Italy,Weekly new hospital admissions per 100k,2020-06-08,0.737741486262046
+Italy,Weekly new hospital admissions per 100k,2020-06-15,0.620373522538539
 Italy,Weekly new hospital admissions per 100k,2020-06-22,0.63043363371484
 Italy,Weekly new hospital admissions per 100k,2020-06-29,0.650553856067441
-Italy,Weekly new hospital admissions per 100k,2020-07-06,0.560012855480735
-Italy,Weekly new hospital admissions per 100k,2020-07-13,0.586839818617537
-Italy,Weekly new hospital admissions per 100k,2020-07-20,0.647200485675341
+Italy,Weekly new hospital admissions per 100k,2020-07-06,0.561689540676785
+Italy,Weekly new hospital admissions per 100k,2020-07-13,0.588516503813587
+Italy,Weekly new hospital admissions per 100k,2020-07-20,0.648877170871391
 Italy,Weekly new hospital admissions per 100k,2020-07-27,0.653907226459541
-Italy,Weekly new hospital admissions per 100k,2020-08-03,0.729358060281796
-Italy,Weekly new hospital admissions per 100k,2020-08-10,0.840019283221103
-Italy,Weekly new hospital admissions per 100k,2020-08-17,1.13343919252987
-Italy,Weekly new hospital admissions per 100k,2020-08-24,1.48051302811224
-Italy,Weekly new hospital admissions per 100k,2020-08-31,1.75045934467631
-Italy,Weekly new hospital admissions per 100k,2020-09-07,2.15286379172834
+Italy,Weekly new hospital admissions per 100k,2020-08-03,0.736064801065996
+Italy,Weekly new hospital admissions per 100k,2020-08-10,0.838342598025053
+Italy,Weekly new hospital admissions per 100k,2020-08-17,1.13511587772592
+Italy,Weekly new hospital admissions per 100k,2020-08-24,1.48218971330829
+Italy,Weekly new hospital admissions per 100k,2020-08-31,1.75213602987236
+Italy,Weekly new hospital admissions per 100k,2020-09-07,2.15118710653229
 Italy,Weekly new hospital admissions per 100k,2020-09-14,2.49323088652651
 Italy,Weekly new hospital admissions per 100k,2020-09-21,2.72964349916957
 Italy,Weekly new hospital admissions per 100k,2020-09-28,3.51936222650917
 Italy,Weekly new hospital admissions per 100k,2020-10-05,5.94887907558577
-Italy,Weekly new hospital admissions per 100k,2020-10-12,10.6670712172708
+Italy,Weekly new hospital admissions per 100k,2020-10-12,10.6704245876629
 Italy,Weekly new hospital admissions per 100k,2020-10-19,17.4895032799987
-Italy,Weekly new hospital admissions per 100k,2020-10-26,23.9028241548903
-Italy,Weekly new hospital admissions per 100k,2020-11-02,28.8758724463749
-Italy,Weekly new hospital admissions per 100k,2020-11-09,28.4281974990295
-Italy,Weekly new hospital admissions per 100k,2020-11-16,25.3397433679052
-Italy,Weekly new hospital admissions per 100k,2020-11-23,20.6114911150439
-Italy,Weekly new hospital admissions per 100k,2020-11-30,17.7041189850931
-Italy,Weekly new hospital admissions per 100k,2020-12-07,15.4405939704254
-Italy,Weekly new hospital admissions per 100k,2020-12-14,14.3859589821099
-Italy,Weekly new hospital admissions per 100k,2020-12-21,13.8796000529028
-Italy,Weekly new hospital admissions per 100k,2020-12-28,15.2729254508204
-Italy,Weekly new hospital admissions per 100k,2021-01-04,15.559638619345
-Italy,Weekly new hospital admissions per 100k,2021-01-11,14.2132604069167
-Italy,Weekly new hospital admissions per 100k,2021-01-18,12.179441264108
-Italy,Weekly new hospital admissions per 100k,2021-01-25,11.2539110358883
-Italy,Weekly new hospital admissions per 100k,2021-02-01,11.1684000908897
-Italy,Weekly new hospital admissions per 100k,2021-02-08,10.7810858106022
-Italy,Weekly new hospital admissions per 100k,2021-02-15,11.6311652049996
-Italy,Weekly new hospital admissions per 100k,2021-02-22,14.4479963343638
-Italy,Weekly new hospital admissions per 100k,2021-03-01,18.0914332653806
-Italy,Weekly new hospital admissions per 100k,2021-03-08,20.5913708926913
-Italy,Weekly new hospital admissions per 100k,2021-03-15,21.4431269722848
-Italy,Weekly new hospital admissions per 100k,2021-03-22,20.0565083151514
-Italy,Weekly new hospital admissions per 100k,2021-03-29,18.5927621389996
-Italy,Weekly new hospital admissions per 100k,2021-04-05,14.2300272588772
-Italy,Weekly new hospital admissions per 100k,2021-04-12,7.26004689889696
+Italy,Weekly new hospital admissions per 100k,2020-10-26,23.9061775252824
+Italy,Weekly new hospital admissions per 100k,2020-11-02,28.877549131571
+Italy,Weekly new hospital admissions per 100k,2020-11-09,28.4298741842256
+Italy,Weekly new hospital admissions per 100k,2020-11-16,25.3514801642776
+Italy,Weekly new hospital admissions per 100k,2020-11-23,20.6165211706321
+Italy,Weekly new hospital admissions per 100k,2020-11-30,17.7057956702891
+Italy,Weekly new hospital admissions per 100k,2020-12-07,15.4422706556215
+Italy,Weekly new hospital admissions per 100k,2020-12-14,14.4027258340704
+Italy,Weekly new hospital admissions per 100k,2020-12-21,13.8997202752554
+Italy,Weekly new hospital admissions per 100k,2020-12-28,15.2829855619967
+Italy,Weekly new hospital admissions per 100k,2021-01-04,15.5914956380699
+Italy,Weekly new hospital admissions per 100k,2021-01-11,14.2350573144654
+Italy,Weekly new hospital admissions per 100k,2021-01-18,12.1978848012645
+Italy,Weekly new hospital admissions per 100k,2021-01-25,11.2572644062804
+Italy,Weekly new hospital admissions per 100k,2021-02-01,11.1667234056937
+Italy,Weekly new hospital admissions per 100k,2021-02-08,10.7911459217785
+Italy,Weekly new hospital admissions per 100k,2021-02-15,11.6596688533324
+Italy,Weekly new hospital admissions per 100k,2021-02-22,14.4697932419124
+Italy,Weekly new hospital admissions per 100k,2021-03-01,18.1249669693016
+Italy,Weekly new hospital admissions per 100k,2021-03-08,20.614844485436
+Italy,Weekly new hospital admissions per 100k,2021-03-15,21.5672016767925
+Italy,Weekly new hospital admissions per 100k,2021-03-22,20.2258535199524
+Italy,Weekly new hospital admissions per 100k,2021-03-29,19.0203168639924
+Italy,Weekly new hospital admissions per 100k,2021-04-05,14.9224982448459
+Italy,Weekly new hospital admissions per 100k,2021-04-12,11.7284129463705
+Italy,Weekly new hospital admissions per 100k,2021-04-19,6.65141017273077
 Latvia,Daily hospital occupancy,2020-03-30,28
 Latvia,Daily hospital occupancy,2020-03-31,27
 Latvia,Daily hospital occupancy,2020-04-01,28
@@ -11638,6 +11643,13 @@ Latvia,Daily hospital occupancy,2021-04-15,573
 Latvia,Daily hospital occupancy,2021-04-16,587
 Latvia,Daily hospital occupancy,2021-04-17,544
 Latvia,Daily hospital occupancy,2021-04-18,578
+Latvia,Daily hospital occupancy,2021-04-19,620
+Latvia,Daily hospital occupancy,2021-04-20,607
+Latvia,Daily hospital occupancy,2021-04-21,603
+Latvia,Daily hospital occupancy,2021-04-22,609
+Latvia,Daily hospital occupancy,2021-04-23,613
+Latvia,Daily hospital occupancy,2021-04-24,571
+Latvia,Daily hospital occupancy,2021-04-25,594
 Latvia,Weekly new ICU admissions per 100k,2020-01-27,NA
 Latvia,Weekly new ICU admissions per 100k,2020-02-03,NA
 Latvia,Weekly new ICU admissions per 100k,2020-02-10,NA
@@ -11702,6 +11714,7 @@ Latvia,Weekly new ICU admissions per 100k,2021-03-22,6.23795982019998
 Latvia,Weekly new ICU admissions per 100k,2021-03-29,6.81457795484032
 Latvia,Weekly new ICU admissions per 100k,2021-04-05,7.12909693737141
 Latvia,Weekly new ICU admissions per 100k,2021-04-12,6.81457795484032
+Latvia,Weekly new ICU admissions per 100k,2021-04-19,6.65731846357477
 Lithuania,Daily hospital occupancy,2020-10-06,156
 Lithuania,Daily hospital occupancy,2020-10-13,149
 Lithuania,Daily hospital occupancy,2020-10-14,141
@@ -11834,6 +11847,13 @@ Lithuania,Daily hospital occupancy,2021-04-15,978
 Lithuania,Daily hospital occupancy,2021-04-16,968
 Lithuania,Daily hospital occupancy,2021-04-17,985
 Lithuania,Daily hospital occupancy,2021-04-18,1048
+Lithuania,Daily hospital occupancy,2021-04-19,1024
+Lithuania,Daily hospital occupancy,2021-04-20,1027
+Lithuania,Daily hospital occupancy,2021-04-21,1065
+Lithuania,Daily hospital occupancy,2021-04-22,1082
+Lithuania,Daily hospital occupancy,2021-04-23,1071
+Lithuania,Daily hospital occupancy,2021-04-24,1112
+Lithuania,Daily hospital occupancy,2021-04-25,1164
 Lithuania,Weekly new hospital admissions per 100k,2020-02-17,NA
 Lithuania,Weekly new hospital admissions per 100k,2020-02-24,0.107369483445415
 Lithuania,Weekly new hospital admissions per 100k,2020-03-02,NA
@@ -11893,6 +11913,7 @@ Lithuania,Weekly new hospital admissions per 100k,2021-03-22,9.52009419882681
 Lithuania,Weekly new hospital admissions per 100k,2021-03-29,8.55376884781807
 Lithuania,Weekly new hospital admissions per 100k,2021-04-05,10.092731443869
 Lithuania,Weekly new hospital admissions per 100k,2021-04-12,11.9538024902562
+Lithuania,Weekly new hospital admissions per 100k,2021-04-19,10.9516873114323
 Lithuania,Weekly new ICU admissions per 100k,2020-02-17,NA
 Lithuania,Weekly new ICU admissions per 100k,2020-02-24,NA
 Lithuania,Weekly new ICU admissions per 100k,2020-03-02,NA
@@ -11929,6 +11950,7 @@ Lithuania,Weekly new ICU admissions per 100k,2021-03-22,1.71791173512664
 Lithuania,Weekly new ICU admissions per 100k,2021-03-29,2.07581001327803
 Lithuania,Weekly new ICU admissions per 100k,2021-04-05,2.00423035764775
 Lithuania,Weekly new ICU admissions per 100k,2021-04-12,2.57686760268996
+Lithuania,Weekly new ICU admissions per 100k,2021-04-19,2.79160656958079
 Luxembourg,Daily hospital occupancy,2020-03-16,0
 Luxembourg,Daily hospital occupancy,2020-03-17,0
 Luxembourg,Daily hospital occupancy,2020-03-18,0
@@ -12328,6 +12350,13 @@ Luxembourg,Daily hospital occupancy,2021-04-15,110
 Luxembourg,Daily hospital occupancy,2021-04-16,116
 Luxembourg,Daily hospital occupancy,2021-04-17,108
 Luxembourg,Daily hospital occupancy,2021-04-18,116
+Luxembourg,Daily hospital occupancy,2021-04-19,121
+Luxembourg,Daily hospital occupancy,2021-04-20,114
+Luxembourg,Daily hospital occupancy,2021-04-21,112
+Luxembourg,Daily hospital occupancy,2021-04-22,105
+Luxembourg,Daily hospital occupancy,2021-04-23,105
+Luxembourg,Daily hospital occupancy,2021-04-24,98
+Luxembourg,Daily hospital occupancy,2021-04-25,94
 Luxembourg,Daily ICU occupancy,2020-02-24,0
 Luxembourg,Daily ICU occupancy,2020-02-25,0
 Luxembourg,Daily ICU occupancy,2020-02-26,0
@@ -12748,6 +12777,13 @@ Luxembourg,Daily ICU occupancy,2021-04-15,32
 Luxembourg,Daily ICU occupancy,2021-04-16,31
 Luxembourg,Daily ICU occupancy,2021-04-17,36
 Luxembourg,Daily ICU occupancy,2021-04-18,37
+Luxembourg,Daily ICU occupancy,2021-04-19,38
+Luxembourg,Daily ICU occupancy,2021-04-20,38
+Luxembourg,Daily ICU occupancy,2021-04-21,34
+Luxembourg,Daily ICU occupancy,2021-04-22,33
+Luxembourg,Daily ICU occupancy,2021-04-23,36
+Luxembourg,Daily ICU occupancy,2021-04-24,34
+Luxembourg,Daily ICU occupancy,2021-04-25,37
 Malta,Weekly new hospital admissions per 100k,2020-03-02,0
 Malta,Weekly new hospital admissions per 100k,2020-03-09,1.36037499708491
 Malta,Weekly new hospital admissions per 100k,2020-03-16,0.777357141191378
@@ -12806,6 +12842,8 @@ Malta,Weekly new hospital admissions per 100k,2021-03-15,7.96791069721162
 Malta,Weekly new hospital admissions per 100k,2021-03-22,3.88678570595689
 Malta,Weekly new hospital admissions per 100k,2021-03-29,6.21885712953102
 Malta,Weekly new hospital admissions per 100k,2021-04-05,5.83017855893533
+Malta,Weekly new hospital admissions per 100k,2021-04-12,5.83017855893533
+Malta,Weekly new hospital admissions per 100k,2021-04-19,2.52641070887198
 Malta,Weekly new ICU admissions per 100k,2020-01-27,NA
 Malta,Weekly new ICU admissions per 100k,2020-02-03,NA
 Malta,Weekly new ICU admissions per 100k,2020-02-10,NA
@@ -12870,6 +12908,7 @@ Malta,Weekly new ICU admissions per 100k,2021-03-22,0.194339285297844
 Malta,Weekly new ICU admissions per 100k,2021-03-29,NA
 Malta,Weekly new ICU admissions per 100k,2021-04-05,1.36037499708491
 Malta,Weekly new ICU admissions per 100k,2021-04-12,NA
+Malta,Weekly new ICU admissions per 100k,2021-04-19,0.583017855893533
 Netherlands,Daily hospital occupancy,2020-02-27,1
 Netherlands,Daily hospital occupancy,2020-02-28,9
 Netherlands,Daily hospital occupancy,2020-02-29,10
@@ -13286,6 +13325,13 @@ Netherlands,Daily hospital occupancy,2021-04-15,1688
 Netherlands,Daily hospital occupancy,2021-04-16,1698
 Netherlands,Daily hospital occupancy,2021-04-17,1626
 Netherlands,Daily hospital occupancy,2021-04-18,1670
+Netherlands,Daily hospital occupancy,2021-04-19,1731
+Netherlands,Daily hospital occupancy,2021-04-20,1830
+Netherlands,Daily hospital occupancy,2021-04-21,1792
+Netherlands,Daily hospital occupancy,2021-04-22,1843
+Netherlands,Daily hospital occupancy,2021-04-23,1776
+Netherlands,Daily hospital occupancy,2021-04-24,1698
+Netherlands,Daily hospital occupancy,2021-04-25,1691
 Netherlands,Daily ICU occupancy,2020-02-27,7
 Netherlands,Daily ICU occupancy,2020-02-28,8
 Netherlands,Daily ICU occupancy,2020-02-29,9
@@ -13703,6 +13749,13 @@ Netherlands,Daily ICU occupancy,2021-04-15,789
 Netherlands,Daily ICU occupancy,2021-04-16,792
 Netherlands,Daily ICU occupancy,2021-04-17,802
 Netherlands,Daily ICU occupancy,2021-04-18,808
+Netherlands,Daily ICU occupancy,2021-04-19,813
+Netherlands,Daily ICU occupancy,2021-04-20,823
+Netherlands,Daily ICU occupancy,2021-04-21,822
+Netherlands,Daily ICU occupancy,2021-04-22,839
+Netherlands,Daily ICU occupancy,2021-04-23,837
+Netherlands,Daily ICU occupancy,2021-04-24,816
+Netherlands,Daily ICU occupancy,2021-04-25,841
 Netherlands,Weekly new hospital admissions per 100k,2020-02-03,NA
 Netherlands,Weekly new hospital admissions per 100k,2020-02-10,NA
 Netherlands,Weekly new hospital admissions per 100k,2020-02-17,NA
@@ -13713,7 +13766,7 @@ Netherlands,Weekly new hospital admissions per 100k,2020-03-16,10.7481882179521
 Netherlands,Weekly new hospital admissions per 100k,2020-03-23,18.8653394482922
 Netherlands,Weekly new hospital admissions per 100k,2020-03-30,13.2470988939592
 Netherlands,Weekly new hospital admissions per 100k,2020-04-06,7.53119976148329
-Netherlands,Weekly new hospital admissions per 100k,2020-04-13,4.33718979398923
+Netherlands,Weekly new hospital admissions per 100k,2020-04-13,4.33144517174553
 Netherlands,Weekly new hospital admissions per 100k,2020-04-20,2.4414644535701
 Netherlands,Weekly new hospital admissions per 100k,2020-04-27,1.45338942765467
 Netherlands,Weekly new hospital admissions per 100k,2020-05-04,0.970841159184344
@@ -13743,7 +13796,7 @@ Netherlands,Weekly new hospital admissions per 100k,2020-10-12,9.28905416805375
 Netherlands,Weekly new hospital admissions per 100k,2020-10-19,11.2249918641787
 Netherlands,Weekly new hospital admissions per 100k,2020-10-26,11.3800966647585
 Netherlands,Weekly new hospital admissions per 100k,2020-11-02,9.76011319203669
-Netherlands,Weekly new hospital admissions per 100k,2020-11-09,8.59969949881043
+Netherlands,Weekly new hospital admissions per 100k,2020-11-09,8.60544412105413
 Netherlands,Weekly new hospital admissions per 100k,2020-11-16,7.54268900597067
 Netherlands,Weekly new hospital admissions per 100k,2020-11-23,6.47418926864353
 Netherlands,Weekly new hospital admissions per 100k,2020-11-30,6.74418651409716
@@ -13761,11 +13814,12 @@ Netherlands,Weekly new hospital admissions per 100k,2021-02-15,7.01992838179449
 Netherlands,Weekly new hospital admissions per 100k,2021-02-22,6.97397140384493
 Netherlands,Weekly new hospital admissions per 100k,2021-03-01,7.10035309320621
 Netherlands,Weekly new hospital admissions per 100k,2021-03-08,7.76672927347475
-Netherlands,Weekly new hospital admissions per 100k,2021-03-15,8.77203816612126
-Netherlands,Weekly new hospital admissions per 100k,2021-03-22,9.4499035908772
-Netherlands,Weekly new hospital admissions per 100k,2021-03-29,9.92670723710383
-Netherlands,Weekly new hospital admissions per 100k,2021-04-05,10.0645781709525
-Netherlands,Weekly new hospital admissions per 100k,2021-04-12,8.85820749977668
+Netherlands,Weekly new hospital admissions per 100k,2021-03-15,8.77778278836496
+Netherlands,Weekly new hospital admissions per 100k,2021-03-22,9.45564821312089
+Netherlands,Weekly new hospital admissions per 100k,2021-03-29,10.0128765707592
+Netherlands,Weekly new hospital admissions per 100k,2021-04-05,10.2656399494818
+Netherlands,Weekly new hospital admissions per 100k,2021-04-12,9.60500839145694
+Netherlands,Weekly new hospital admissions per 100k,2021-04-19,9.5418175467763
 Netherlands,Weekly new ICU admissions per 100k,2020-02-03,NA
 Netherlands,Weekly new ICU admissions per 100k,2020-02-10,NA
 Netherlands,Weekly new ICU admissions per 100k,2020-02-17,NA
@@ -13775,7 +13829,7 @@ Netherlands,Weekly new ICU admissions per 100k,2020-03-09,0.637653069050072
 Netherlands,Weekly new ICU admissions per 100k,2020-03-16,2.44720907581379
 Netherlands,Weekly new ICU admissions per 100k,2020-03-23,4.30846668277076
 Netherlands,Weekly new ICU admissions per 100k,2020-03-30,3.60762276904005
-Netherlands,Weekly new ICU admissions per 100k,2020-04-06,1.96466080734347
+Netherlands,Weekly new ICU admissions per 100k,2020-04-06,1.97040542958716
 Netherlands,Weekly new ICU admissions per 100k,2020-04-13,1.14892444873887
 Netherlands,Weekly new ICU admissions per 100k,2020-04-20,0.718077780461793
 Netherlands,Weekly new ICU admissions per 100k,2020-04-27,0.494037512957714
@@ -13824,11 +13878,12 @@ Netherlands,Weekly new ICU admissions per 100k,2021-02-15,1.38445396073034
 Netherlands,Weekly new ICU admissions per 100k,2021-02-22,1.3212631160497
 Netherlands,Weekly new ICU admissions per 100k,2021-03-01,1.60274960599072
 Netherlands,Weekly new ICU admissions per 100k,2021-03-08,1.57977111701595
-Netherlands,Weekly new ICU admissions per 100k,2021-03-15,1.8267898734948
-Netherlands,Weekly new ICU admissions per 100k,2021-03-22,1.81530062900741
-Netherlands,Weekly new ICU admissions per 100k,2021-03-29,2.18295645260385
-Netherlands,Weekly new ICU admissions per 100k,2021-04-05,2.24040267504079
-Netherlands,Weekly new ICU admissions per 100k,2021-04-12,2.17721183036016
+Netherlands,Weekly new ICU admissions per 100k,2021-03-15,1.8325344957385
+Netherlands,Weekly new ICU admissions per 100k,2021-03-22,1.80381138452002
+Netherlands,Weekly new ICU admissions per 100k,2021-03-29,2.17721183036016
+Netherlands,Weekly new ICU admissions per 100k,2021-04-05,2.2346580527971
+Netherlands,Weekly new ICU admissions per 100k,2021-04-12,2.15423334138538
+Netherlands,Weekly new ICU admissions per 100k,2021-04-19,2.14848871914168
 Norway,Daily hospital occupancy,2020-03-08,0
 Norway,Daily hospital occupancy,2020-03-09,2
 Norway,Daily hospital occupancy,2020-03-10,8
@@ -14197,6 +14252,13 @@ Norway,Daily hospital occupancy,2021-04-15,245
 Norway,Daily hospital occupancy,2021-04-16,242
 Norway,Daily hospital occupancy,2021-04-17,220
 Norway,Daily hospital occupancy,2021-04-18,209
+Norway,Daily hospital occupancy,2021-04-19,221
+Norway,Daily hospital occupancy,2021-04-20,218
+Norway,Daily hospital occupancy,2021-04-21,212
+Norway,Daily hospital occupancy,2021-04-22,199
+Norway,Daily hospital occupancy,2021-04-23,194
+Norway,Daily hospital occupancy,2021-04-24,192
+Norway,Daily hospital occupancy,2021-04-25,200
 Norway,Weekly new hospital admissions per 100k,2020-02-17,0
 Norway,Weekly new hospital admissions per 100k,2020-02-24,0
 Norway,Weekly new hospital admissions per 100k,2020-03-02,0.0372607394766357
@@ -14240,7 +14302,7 @@ Norway,Weekly new hospital admissions per 100k,2020-11-16,2.03071030147664
 Norway,Weekly new hospital admissions per 100k,2020-11-23,1.76988512514019
 Norway,Weekly new hospital admissions per 100k,2020-11-30,2.06797104095328
 Norway,Weekly new hospital admissions per 100k,2020-12-07,1.50905994880374
-Norway,Weekly new hospital admissions per 100k,2020-12-14,1.82577623435515
+Norway,Weekly new hospital admissions per 100k,2020-12-14,1.84440660409347
 Norway,Weekly new hospital admissions per 100k,2020-12-21,1.45316883958879
 Norway,Weekly new hospital admissions per 100k,2020-12-28,1.80714586461683
 Norway,Weekly new hospital admissions per 100k,2021-01-04,1.69536364618692
@@ -14251,13 +14313,14 @@ Norway,Weekly new hospital admissions per 100k,2021-02-01,0.633432571102806
 Norway,Weekly new hospital admissions per 100k,2021-02-08,0.85699700796262
 Norway,Weekly new hospital admissions per 100k,2021-02-15,1.13645255403739
 Norway,Weekly new hospital admissions per 100k,2021-02-22,1.3600169908972
-Norway,Weekly new hospital admissions per 100k,2021-03-01,1.93755845278505
+Norway,Weekly new hospital admissions per 100k,2021-03-01,1.95618882252337
 Norway,Weekly new hospital admissions per 100k,2021-03-08,3.18579322525235
 Norway,Weekly new hospital admissions per 100k,2021-03-15,4.22909393059815
 Norway,Weekly new hospital admissions per 100k,2021-03-22,3.85648653583179
 Norway,Weekly new hospital admissions per 100k,2021-03-29,3.87511690557011
-Norway,Weekly new hospital admissions per 100k,2021-04-05,3.63292209897198
-Norway,Weekly new hospital admissions per 100k,2021-04-12,3.05538063708412
+Norway,Weekly new hospital admissions per 100k,2021-04-05,3.65155246871029
+Norway,Weekly new hospital admissions per 100k,2021-04-12,3.11127174629908
+Norway,Weekly new hospital admissions per 100k,2021-04-19,2.45920880545795
 Norway,Weekly new ICU admissions per 100k,2020-02-17,0
 Norway,Weekly new ICU admissions per 100k,2020-02-24,0
 Norway,Weekly new ICU admissions per 100k,2020-03-02,0
@@ -14314,11 +14377,12 @@ Norway,Weekly new ICU admissions per 100k,2021-02-15,0.16767332764486
 Norway,Weekly new ICU admissions per 100k,2021-02-22,0.242194806598132
 Norway,Weekly new ICU admissions per 100k,2021-03-01,0.335346655289721
 Norway,Weekly new ICU admissions per 100k,2021-03-08,0.558911092149535
-Norway,Weekly new ICU admissions per 100k,2021-03-15,0.85699700796262
-Norway,Weekly new ICU admissions per 100k,2021-03-22,0.912888117177574
-Norway,Weekly new ICU admissions per 100k,2021-03-29,0.987409596130845
+Norway,Weekly new ICU admissions per 100k,2021-03-15,0.875627377700938
+Norway,Weekly new ICU admissions per 100k,2021-03-22,0.931518486915891
+Norway,Weekly new ICU admissions per 100k,2021-03-29,1.02467033560748
 Norway,Weekly new ICU admissions per 100k,2021-04-05,0.577541461887853
-Norway,Weekly new ICU admissions per 100k,2021-04-12,0.484389613196264
+Norway,Weekly new ICU admissions per 100k,2021-04-12,0.558911092149535
+Norway,Weekly new ICU admissions per 100k,2021-04-19,0.447128873719628
 Poland,Daily hospital occupancy,2020-04-08,2425
 Poland,Daily hospital occupancy,2020-04-13,2510
 Poland,Daily hospital occupancy,2020-04-15,2499
@@ -14682,6 +14746,13 @@ Poland,Daily hospital occupancy,2021-04-15,33253
 Poland,Daily hospital occupancy,2021-04-16,32781
 Poland,Daily hospital occupancy,2021-04-17,32073
 Poland,Daily hospital occupancy,2021-04-18,31270
+Poland,Daily hospital occupancy,2021-04-19,31612
+Poland,Daily hospital occupancy,2021-04-20,31938
+Poland,Daily hospital occupancy,2021-04-21,30706
+Poland,Daily hospital occupancy,2021-04-22,29831
+Poland,Daily hospital occupancy,2021-04-23,28994
+Poland,Daily hospital occupancy,2021-04-24,28128
+Poland,Daily hospital occupancy,2021-04-25,27336
 Portugal,Daily hospital occupancy,2020-03-03,0
 Portugal,Daily hospital occupancy,2020-03-04,0
 Portugal,Daily hospital occupancy,2020-03-05,0
@@ -15094,6 +15165,12 @@ Portugal,Daily hospital occupancy,2021-04-15,423
 Portugal,Daily hospital occupancy,2021-04-16,429
 Portugal,Daily hospital occupancy,2021-04-17,415
 Portugal,Daily hospital occupancy,2021-04-18,428
+Portugal,Daily hospital occupancy,2021-04-19,454
+Portugal,Daily hospital occupancy,2021-04-20,429
+Portugal,Daily hospital occupancy,2021-04-21,397
+Portugal,Daily hospital occupancy,2021-04-22,395
+Portugal,Daily hospital occupancy,2021-04-23,384
+Portugal,Daily hospital occupancy,2021-04-24,342
 Portugal,Daily ICU occupancy,2020-03-03,0
 Portugal,Daily ICU occupancy,2020-03-04,0
 Portugal,Daily ICU occupancy,2020-03-05,0
@@ -15506,6 +15583,12 @@ Portugal,Daily ICU occupancy,2021-04-15,109
 Portugal,Daily ICU occupancy,2021-04-16,101
 Portugal,Daily ICU occupancy,2021-04-17,103
 Portugal,Daily ICU occupancy,2021-04-18,109
+Portugal,Daily ICU occupancy,2021-04-19,112
+Portugal,Daily ICU occupancy,2021-04-20,113
+Portugal,Daily ICU occupancy,2021-04-21,110
+Portugal,Daily ICU occupancy,2021-04-22,104
+Portugal,Daily ICU occupancy,2021-04-23,98
+Portugal,Daily ICU occupancy,2021-04-24,98
 Portugal,Weekly new hospital admissions per 100k,2020-01-27,0.0971259555615731
 Portugal,Weekly new hospital admissions per 100k,2020-02-03,0.0971259555615731
 Portugal,Weekly new hospital admissions per 100k,2020-02-10,0.155401528898517
@@ -15517,15 +15600,15 @@ Portugal,Weekly new hospital admissions per 100k,2020-03-16,4.28325464026537
 Portugal,Weekly new hospital admissions per 100k,2020-03-23,6.915368035984
 Portugal,Weekly new hospital admissions per 100k,2020-03-30,6.73082872041701
 Portugal,Weekly new hospital admissions per 100k,2020-04-06,4.58434510250625
-Portugal,Weekly new hospital admissions per 100k,2020-04-13,3.55480997355357
-Portugal,Weekly new hospital admissions per 100k,2020-04-20,2.63211339571863
+Portugal,Weekly new hospital admissions per 100k,2020-04-13,3.56452256910973
+Portugal,Weekly new hospital admissions per 100k,2020-04-20,2.64182599127479
 Portugal,Weekly new hospital admissions per 100k,2020-04-27,1.84539315566989
 Portugal,Weekly new hospital admissions per 100k,2020-05-04,1.62200345787827
 Portugal,Weekly new hospital admissions per 100k,2020-05-11,1.83568056011373
 Portugal,Weekly new hospital admissions per 100k,2020-05-18,1.65114124454674
 Portugal,Weekly new hospital admissions per 100k,2020-05-25,1.728842008996
 Portugal,Weekly new hospital admissions per 100k,2020-06-01,1.31120040008124
-Portugal,Weekly new hospital admissions per 100k,2020-06-08,1.25292482674429
+Portugal,Weekly new hospital admissions per 100k,2020-06-08,1.26263742230045
 Portugal,Weekly new hospital admissions per 100k,2020-06-15,1.46660192897975
 Portugal,Weekly new hospital admissions per 100k,2020-06-22,1.5248775023167
 Portugal,Weekly new hospital admissions per 100k,2020-06-29,1.20436184896351
@@ -15567,9 +15650,10 @@ Portugal,Weekly new hospital admissions per 100k,2021-03-01,1.28206261341276
 Portugal,Weekly new hospital admissions per 100k,2021-03-08,1.0003973422842
 Portugal,Weekly new hospital admissions per 100k,2021-03-15,1.03924772450883
 Portugal,Weekly new hospital admissions per 100k,2021-03-22,0.75758245338027
-Portugal,Weekly new hospital admissions per 100k,2021-03-29,0.534192755588652
+Portugal,Weekly new hospital admissions per 100k,2021-03-29,0.543905351144809
 Portugal,Weekly new hospital admissions per 100k,2021-04-05,0.475917182251708
-Portugal,Weekly new hospital admissions per 100k,2021-04-12,0.35936603557782
+Portugal,Weekly new hospital admissions per 100k,2021-04-12,0.437066800027079
+Portugal,Weekly new hospital admissions per 100k,2021-04-19,0.437066800027079
 Romania,Daily ICU occupancy,2020-03-19,6
 Romania,Daily ICU occupancy,2020-03-20,11
 Romania,Daily ICU occupancy,2020-03-21,14
@@ -15949,6 +16033,13 @@ Romania,Daily ICU occupancy,2021-04-15,1518
 Romania,Daily ICU occupancy,2021-04-16,1493
 Romania,Daily ICU occupancy,2021-04-17,1505
 Romania,Daily ICU occupancy,2021-04-18,1475
+Romania,Daily ICU occupancy,2021-04-19,1448
+Romania,Daily ICU occupancy,2021-04-20,1432
+Romania,Daily ICU occupancy,2021-04-21,1436
+Romania,Daily ICU occupancy,2021-04-22,1405
+Romania,Daily ICU occupancy,2021-04-23,1391
+Romania,Daily ICU occupancy,2021-04-24,1377
+Romania,Daily ICU occupancy,2021-04-25,1358
 Romania,Weekly new hospital admissions per 100k,2020-02-24,0.0155208502445931
 Romania,Weekly new hospital admissions per 100k,2020-03-02,0.0620834009783723
 Romania,Weekly new hospital admissions per 100k,2020-03-09,0.73982719499227
@@ -16009,6 +16100,7 @@ Romania,Weekly new hospital admissions per 100k,2021-03-22,NA
 Romania,Weekly new hospital admissions per 100k,2021-03-29,NA
 Romania,Weekly new hospital admissions per 100k,2021-04-05,NA
 Romania,Weekly new hospital admissions per 100k,2021-04-12,NA
+Romania,Weekly new hospital admissions per 100k,2021-04-19,NA
 Slovakia,Daily hospital occupancy,2020-04-30,51
 Slovakia,Daily hospital occupancy,2020-05-01,43
 Slovakia,Daily hospital occupancy,2020-05-02,41
@@ -16363,6 +16455,13 @@ Slovakia,Daily hospital occupancy,2021-04-15,1946
 Slovakia,Daily hospital occupancy,2021-04-16,1863
 Slovakia,Daily hospital occupancy,2021-04-17,1799
 Slovakia,Daily hospital occupancy,2021-04-18,1818
+Slovakia,Daily hospital occupancy,2021-04-19,1770
+Slovakia,Daily hospital occupancy,2021-04-20,1686
+Slovakia,Daily hospital occupancy,2021-04-21,1603
+Slovakia,Daily hospital occupancy,2021-04-22,1513
+Slovakia,Daily hospital occupancy,2021-04-23,1443
+Slovakia,Daily hospital occupancy,2021-04-24,1425
+Slovakia,Daily hospital occupancy,2021-04-25,1442
 Slovenia,Daily hospital occupancy,2020-03-10,18
 Slovenia,Daily hospital occupancy,2020-03-11,18
 Slovenia,Daily hospital occupancy,2020-03-12,17
@@ -16768,6 +16867,13 @@ Slovenia,Daily hospital occupancy,2021-04-15,624
 Slovenia,Daily hospital occupancy,2021-04-16,639
 Slovenia,Daily hospital occupancy,2021-04-17,629
 Slovenia,Daily hospital occupancy,2021-04-18,631
+Slovenia,Daily hospital occupancy,2021-04-19,652
+Slovenia,Daily hospital occupancy,2021-04-20,649
+Slovenia,Daily hospital occupancy,2021-04-21,631
+Slovenia,Daily hospital occupancy,2021-04-22,620
+Slovenia,Daily hospital occupancy,2021-04-23,629
+Slovenia,Daily hospital occupancy,2021-04-24,618
+Slovenia,Daily hospital occupancy,2021-04-25,630
 Slovenia,Daily ICU occupancy,2020-03-10,1
 Slovenia,Daily ICU occupancy,2020-03-11,1
 Slovenia,Daily ICU occupancy,2020-03-12,2
@@ -17173,6 +17279,13 @@ Slovenia,Daily ICU occupancy,2021-04-15,150
 Slovenia,Daily ICU occupancy,2021-04-16,154
 Slovenia,Daily ICU occupancy,2021-04-17,151
 Slovenia,Daily ICU occupancy,2021-04-18,153
+Slovenia,Daily ICU occupancy,2021-04-19,156
+Slovenia,Daily ICU occupancy,2021-04-20,157
+Slovenia,Daily ICU occupancy,2021-04-21,153
+Slovenia,Daily ICU occupancy,2021-04-22,154
+Slovenia,Daily ICU occupancy,2021-04-23,158
+Slovenia,Daily ICU occupancy,2021-04-24,160
+Slovenia,Daily ICU occupancy,2021-04-25,157
 Slovenia,Weekly new hospital admissions per 100k,2020-03-09,1.28825337176464
 Slovenia,Weekly new hospital admissions per 100k,2020-03-16,1.95623660156852
 Slovenia,Weekly new hospital admissions per 100k,2020-03-23,3.67390776392137
@@ -17231,6 +17344,7 @@ Slovenia,Weekly new hospital admissions per 100k,2021-03-22,17.6538425019598
 Slovenia,Weekly new hospital admissions per 100k,2021-03-29,18.9898089615676
 Slovenia,Weekly new hospital admissions per 100k,2021-04-05,21.5186026172537
 Slovenia,Weekly new hospital admissions per 100k,2021-04-12,20.5166277725479
+Slovenia,Weekly new hospital admissions per 100k,2021-04-19,19.323800576469498
 Slovenia,Weekly new ICU admissions per 100k,2020-03-09,0.190852351372539
 Slovenia,Weekly new ICU admissions per 100k,2020-03-16,0.381704702745077
 Slovenia,Weekly new ICU admissions per 100k,2020-03-23,0.858835581176424
@@ -17289,6 +17403,7 @@ Slovenia,Weekly new ICU admissions per 100k,2021-03-22,3.10135070980375
 Slovenia,Weekly new ICU admissions per 100k,2021-03-29,4.67588260862719
 Slovenia,Weekly new ICU admissions per 100k,2021-04-05,3.86476011529391
 Slovenia,Weekly new ICU admissions per 100k,2021-04-12,3.62619467607823
+Slovenia,Weekly new ICU admissions per 100k,2021-04-19,3.76933393960764
 Spain,Daily hospital occupancy,2020-08-20,4636
 Spain,Daily hospital occupancy,2020-08-21,4703
 Spain,Daily hospital occupancy,2020-08-24,5484
@@ -17591,64 +17706,65 @@ Spain,Weekly new hospital admissions per 100k,2020-02-10,0.221834357172837
 Spain,Weekly new hospital admissions per 100k,2020-02-17,0.46057037965408
 Spain,Weekly new hospital admissions per 100k,2020-02-24,2.50989729829838
 Spain,Weekly new hospital admissions per 100k,2020-03-02,12.5706135731274
-Spain,Weekly new hospital admissions per 100k,2020-03-09,51.089508810986
-Spain,Weekly new hospital admissions per 100k,2020-03-16,65.534094525183
+Spain,Weekly new hospital admissions per 100k,2020-03-09,51.0916215191496
+Spain,Weekly new hospital admissions per 100k,2020-03-16,65.5319818170194
 Spain,Weekly new hospital admissions per 100k,2020-03-23,41.1724566912785
 Spain,Weekly new hospital admissions per 100k,2020-03-30,24.4736113665727
 Spain,Weekly new hospital admissions per 100k,2020-04-06,14.8290985999632
-Spain,Weekly new hospital admissions per 100k,2020-04-13,7.97124790107726
-Spain,Weekly new hospital admissions per 100k,2020-04-20,4.43879985162028
+Spain,Weekly new hospital admissions per 100k,2020-04-13,7.96913519291371
+Spain,Weekly new hospital admissions per 100k,2020-04-20,4.44302526794738
 Spain,Weekly new hospital admissions per 100k,2020-04-27,2.83525435548521
-Spain,Weekly new hospital admissions per 100k,2020-05-04,1.58664383082667
-Spain,Weekly new hospital admissions per 100k,2020-05-11,1.0310015838128
-Spain,Weekly new hospital admissions per 100k,2020-05-18,0.82184347562127
-Spain,Weekly new hospital admissions per 100k,2020-05-25,0.669728487845611
+Spain,Weekly new hospital admissions per 100k,2020-05-04,1.59086924715377
+Spain,Weekly new hospital admissions per 100k,2020-05-11,1.03311429197635
+Spain,Weekly new hospital admissions per 100k,2020-05-18,0.823956183784821
+Spain,Weekly new hospital admissions per 100k,2020-05-25,0.671841196009162
 Spain,Weekly new hospital admissions per 100k,2020-06-01,0.663390363354959
-Spain,Weekly new hospital admissions per 100k,2020-06-08,0.437330589855021
-Spain,Weekly new hospital admissions per 100k,2020-06-15,0.411978091892411
+Spain,Weekly new hospital admissions per 100k,2020-06-08,0.439443298018571
+Spain,Weekly new hospital admissions per 100k,2020-06-15,0.414090800055961
 Spain,Weekly new hospital admissions per 100k,2020-06-22,0.376062053112047
 Spain,Weekly new hospital admissions per 100k,2020-06-29,0.542965998032562
-Spain,Weekly new hospital admissions per 100k,2020-07-06,0.811279934803516
-Spain,Weekly new hospital admissions per 100k,2020-07-13,1.45354321652297
-Spain,Weekly new hospital admissions per 100k,2020-07-20,2.06622858395271
-Spain,Weekly new hospital admissions per 100k,2020-07-27,3.59794200252705
-Spain,Weekly new hospital admissions per 100k,2020-08-03,5.2669814517322
-Spain,Weekly new hospital admissions per 100k,2020-08-10,7.9649097765866
-Spain,Weekly new hospital admissions per 100k,2020-08-17,9.63394922579176
-Spain,Weekly new hospital admissions per 100k,2020-08-24,10.1769152238243
-Spain,Weekly new hospital admissions per 100k,2020-08-31,12.3614554649359
-Spain,Weekly new hospital admissions per 100k,2020-09-07,13.5804880753047
-Spain,Weekly new hospital admissions per 100k,2020-09-14,13.3755553834403
-Spain,Weekly new hospital admissions per 100k,2020-09-21,11.0072095320998
-Spain,Weekly new hospital admissions per 100k,2020-09-28,11.1212957729315
-Spain,Weekly new hospital admissions per 100k,2020-10-05,14.1023269917018
-Spain,Weekly new hospital admissions per 100k,2020-10-12,16.7770155267571
-Spain,Weekly new hospital admissions per 100k,2020-10-19,21.0003191456952
-Spain,Weekly new hospital admissions per 100k,2020-10-26,21.2327170436858
-Spain,Weekly new hospital admissions per 100k,2020-11-02,20.013684433317
-Spain,Weekly new hospital admissions per 100k,2020-11-09,16.1664428674909
-Spain,Weekly new hospital admissions per 100k,2020-11-16,11.7128540587258
+Spain,Weekly new hospital admissions per 100k,2020-07-06,0.813392642967067
+Spain,Weekly new hospital admissions per 100k,2020-07-13,1.45565592468652
+Spain,Weekly new hospital admissions per 100k,2020-07-20,2.06834129211626
+Spain,Weekly new hospital admissions per 100k,2020-07-27,3.5958292943635
+Spain,Weekly new hospital admissions per 100k,2020-08-03,5.26909415989575
+Spain,Weekly new hospital admissions per 100k,2020-08-10,7.96279706842305
+Spain,Weekly new hospital admissions per 100k,2020-08-17,9.63183651762821
+Spain,Weekly new hospital admissions per 100k,2020-08-24,10.1705770993337
+Spain,Weekly new hospital admissions per 100k,2020-08-31,12.3677935894265
+Spain,Weekly new hospital admissions per 100k,2020-09-07,13.5783753671411
+Spain,Weekly new hospital admissions per 100k,2020-09-14,13.3818935079309
+Spain,Weekly new hospital admissions per 100k,2020-09-21,11.015660364754
+Spain,Weekly new hospital admissions per 100k,2020-09-28,11.1149576484409
+Spain,Weekly new hospital admissions per 100k,2020-10-05,14.110777824356
+Spain,Weekly new hospital admissions per 100k,2020-10-12,16.8129315655375
+Spain,Weekly new hospital admissions per 100k,2020-10-19,21.0045445620223
+Spain,Weekly new hospital admissions per 100k,2020-10-26,21.2475060008306
+Spain,Weekly new hospital admissions per 100k,2020-11-02,20.0094590169899
+Spain,Weekly new hospital admissions per 100k,2020-11-09,16.1770064083087
+Spain,Weekly new hospital admissions per 100k,2020-11-16,11.7065159342351
 Spain,Weekly new hospital admissions per 100k,2020-11-23,9.23887279920775
-Spain,Weekly new hospital admissions per 100k,2020-11-30,8.71914659097425
-Spain,Weekly new hospital admissions per 100k,2020-12-07,9.65718901559082
-Spain,Weekly new hospital admissions per 100k,2020-12-14,10.0353637768664
-Spain,Weekly new hospital admissions per 100k,2020-12-21,11.5100340750249
-Spain,Weekly new hospital admissions per 100k,2020-12-28,16.3840518083366
-Spain,Weekly new hospital admissions per 100k,2021-01-04,26.3391326749881
-Spain,Weekly new hospital admissions per 100k,2021-01-11,34.9526438577848
-Spain,Weekly new hospital admissions per 100k,2021-01-18,34.0293903903131
-Spain,Weekly new hospital admissions per 100k,2021-01-25,24.2285372196009
-Spain,Weekly new hospital admissions per 100k,2021-02-01,15.8115078960144
-Spain,Weekly new hospital admissions per 100k,2021-02-08,10.0036731544132
-Spain,Weekly new hospital admissions per 100k,2021-02-15,7.51490293775028
-Spain,Weekly new hospital admissions per 100k,2021-02-22,6.46911239679262
-Spain,Weekly new hospital admissions per 100k,2021-03-01,5.95994972937688
-Spain,Weekly new hospital admissions per 100k,2021-03-08,5.84586348854513
-Spain,Weekly new hospital admissions per 100k,2021-03-15,6.31699740901696
-Spain,Weekly new hospital admissions per 100k,2021-03-22,7.28884316425034
-Spain,Weekly new hospital admissions per 100k,2021-03-29,7.65434167654463
-Spain,Weekly new hospital admissions per 100k,2021-04-05,5.90501931712455
-Spain,Weekly new hospital admissions per 100k,2021-04-12,2.10637003906017
+Spain,Weekly new hospital admissions per 100k,2020-11-30,8.7212592991378
+Spain,Weekly new hospital admissions per 100k,2020-12-07,9.64451276660951
+Spain,Weekly new hospital admissions per 100k,2020-12-14,10.0395891931935
+Spain,Weekly new hospital admissions per 100k,2020-12-21,11.5396119893146
+Spain,Weekly new hospital admissions per 100k,2020-12-28,16.3925026409908
+Spain,Weekly new hospital admissions per 100k,2021-01-04,26.4489934994928
+Spain,Weekly new hospital admissions per 100k,2021-01-11,35.210394253738
+Spain,Weekly new hospital admissions per 100k,2021-01-18,34.1117860086916
+Spain,Weekly new hospital admissions per 100k,2021-01-25,24.2707913828719
+Spain,Weekly new hospital admissions per 100k,2021-02-01,15.8220714368321
+Spain,Weekly new hospital admissions per 100k,2021-02-08,9.9931096135954
+Spain,Weekly new hospital admissions per 100k,2021-02-15,7.5571571010213
+Spain,Weekly new hospital admissions per 100k,2021-02-22,6.48601406210103
+Spain,Weekly new hospital admissions per 100k,2021-03-01,6.00854201713854
+Spain,Weekly new hospital admissions per 100k,2021-03-08,5.8944557763068
+Spain,Weekly new hospital admissions per 100k,2021-03-15,6.38460407025059
+Spain,Weekly new hospital admissions per 100k,2021-03-22,7.46631064998861
+Spain,Weekly new hospital admissions per 100k,2021-03-29,8.50153765012851
+Spain,Weekly new hospital admissions per 100k,2021-04-05,8.20787121539495
+Spain,Weekly new hospital admissions per 100k,2021-04-12,5.85431432119933
+Spain,Weekly new hospital admissions per 100k,2021-04-19,1.92678984515835
 Spain,Weekly new ICU admissions per 100k,2020-01-27,0.00633812449065247
 Spain,Weekly new ICU admissions per 100k,2020-02-03,0.0147889571448558
 Spain,Weekly new ICU admissions per 100k,2020-02-10,0.0253524979626099
@@ -17664,7 +17780,7 @@ Spain,Weekly new ICU admissions per 100k,2020-04-13,0.376062053112047
 Spain,Weekly new ICU admissions per 100k,2020-04-20,0.242961438808345
 Spain,Weekly new ICU admissions per 100k,2020-04-27,0.147889571448558
 Spain,Weekly new ICU admissions per 100k,2020-05-04,0.0781702020513805
-Spain,Weekly new ICU admissions per 100k,2020-05-11,0.0570431204158722
+Spain,Weekly new ICU admissions per 100k,2020-05-11,0.0591558285794231
 Spain,Weekly new ICU admissions per 100k,2020-05-18,0.0633812449065247
 Spain,Weekly new ICU admissions per 100k,2020-05-25,0.0401414551074657
 Spain,Weekly new ICU admissions per 100k,2020-06-01,0.0401414551074657
@@ -17680,39 +17796,40 @@ Spain,Weekly new ICU admissions per 100k,2020-08-03,0.466908504144732
 Spain,Weekly new ICU admissions per 100k,2020-08-10,0.701419110298873
 Spain,Weekly new ICU admissions per 100k,2020-08-17,0.861984930728736
 Spain,Weekly new ICU admissions per 100k,2020-08-24,0.933817008289464
-Spain,Weekly new ICU admissions per 100k,2020-08-31,1.0183253348315
-Spain,Weekly new ICU admissions per 100k,2020-09-07,1.12396074300904
+Spain,Weekly new ICU admissions per 100k,2020-08-31,1.02043804299505
+Spain,Weekly new ICU admissions per 100k,2020-09-07,1.12184803484549
 Spain,Weekly new ICU admissions per 100k,2020-09-14,1.04367783279411
 Spain,Weekly new ICU admissions per 100k,2020-09-21,0.893675553181998
 Spain,Weekly new ICU admissions per 100k,2020-09-28,1.0352270001399
-Spain,Weekly new ICU admissions per 100k,2020-10-05,1.24649781649499
-Spain,Weekly new ICU admissions per 100k,2020-10-12,1.53171341857435
-Spain,Weekly new ICU admissions per 100k,2020-10-19,1.99650921455553
-Spain,Weekly new ICU admissions per 100k,2020-10-26,1.90566276352284
-Spain,Weekly new ICU admissions per 100k,2020-11-02,1.89509922270509
+Spain,Weekly new ICU admissions per 100k,2020-10-05,1.25072323282209
+Spain,Weekly new ICU admissions per 100k,2020-10-12,1.54016425122855
+Spain,Weekly new ICU admissions per 100k,2020-10-19,2.00073463088263
+Spain,Weekly new ICU admissions per 100k,2020-10-26,1.90988817984995
+Spain,Weekly new ICU admissions per 100k,2020-11-02,1.89932463903219
 Spain,Weekly new ICU admissions per 100k,2020-11-09,1.47678300632203
 Spain,Weekly new ICU admissions per 100k,2020-11-16,1.09438282871933
-Spain,Weekly new ICU admissions per 100k,2020-11-23,0.788040145004457
-Spain,Weekly new ICU admissions per 100k,2020-11-30,0.798603685822211
-Spain,Weekly new ICU admissions per 100k,2020-12-07,0.910577218490405
-Spain,Weekly new ICU admissions per 100k,2020-12-14,0.97395846339693
-Spain,Weekly new ICU admissions per 100k,2020-12-21,1.24227240016788
-Spain,Weekly new ICU admissions per 100k,2020-12-28,1.81270360432661
-Spain,Weekly new ICU admissions per 100k,2021-01-04,2.82891623099455
-Spain,Weekly new ICU admissions per 100k,2021-01-11,3.50498284333082
-Spain,Weekly new ICU admissions per 100k,2021-01-18,3.05708871265804
-Spain,Weekly new ICU admissions per 100k,2021-01-25,2.14439878600409
-Spain,Weekly new ICU admissions per 100k,2021-02-01,1.34156968385477
-Spain,Weekly new ICU admissions per 100k,2021-02-08,0.984522004214684
-Spain,Weekly new ICU admissions per 100k,2021-02-15,0.773251187859602
-Spain,Weekly new ICU admissions per 100k,2021-02-22,0.720433483770831
-Spain,Weekly new ICU admissions per 100k,2021-03-01,0.635925157228798
-Spain,Weekly new ICU admissions per 100k,2021-03-08,0.724658900097932
-Spain,Weekly new ICU admissions per 100k,2021-03-15,0.7690257715325
-Spain,Weekly new ICU admissions per 100k,2021-03-22,0.900013677672651
-Spain,Weekly new ICU admissions per 100k,2021-03-29,0.840857849093228
-Spain,Weekly new ICU admissions per 100k,2021-04-05,0.494373710270893
-Spain,Weekly new ICU admissions per 100k,2021-04-12,0.118311657158846
+Spain,Weekly new ICU admissions per 100k,2020-11-23,0.790152853168008
+Spain,Weekly new ICU admissions per 100k,2020-11-30,0.802829102149313
+Spain,Weekly new ICU admissions per 100k,2020-12-07,0.912689926653956
+Spain,Weekly new ICU admissions per 100k,2020-12-14,0.969733047069828
+Spain,Weekly new ICU admissions per 100k,2020-12-21,1.24438510833144
+Spain,Weekly new ICU admissions per 100k,2020-12-28,1.82115443698081
+Spain,Weekly new ICU admissions per 100k,2021-01-04,2.84370518813941
+Spain,Weekly new ICU admissions per 100k,2021-01-11,3.50920825965792
+Spain,Weekly new ICU admissions per 100k,2021-01-18,3.07399037796645
+Spain,Weekly new ICU admissions per 100k,2021-01-25,2.15496232682184
+Spain,Weekly new ICU admissions per 100k,2021-02-01,1.35847134916318
+Spain,Weekly new ICU admissions per 100k,2021-02-08,0.990860128705336
+Spain,Weekly new ICU admissions per 100k,2021-02-15,0.790152853168008
+Spain,Weekly new ICU admissions per 100k,2021-02-22,0.733109732752136
+Spain,Weekly new ICU admissions per 100k,2021-03-01,0.650714114373654
+Spain,Weekly new ICU admissions per 100k,2021-03-08,0.745785981733441
+Spain,Weekly new ICU admissions per 100k,2021-03-15,0.796490977658661
+Spain,Weekly new ICU admissions per 100k,2021-03-22,0.982409296051133
+Spain,Weekly new ICU admissions per 100k,2021-03-29,0.995085545032438
+Spain,Weekly new ICU admissions per 100k,2021-04-05,0.832407016439025
+Spain,Weekly new ICU admissions per 100k,2021-04-12,0.496486418434444
+Spain,Weekly new ICU admissions per 100k,2021-04-19,0.0929591591962362
 Sweden,Daily hospital occupancy,2020-02-27,1
 Sweden,Daily hospital occupancy,2020-02-28,1
 Sweden,Daily hospital occupancy,2020-02-29,1
@@ -18116,20 +18233,27 @@ Sweden,Daily hospital occupancy,2021-04-01,1871
 Sweden,Daily hospital occupancy,2021-04-02,1873
 Sweden,Daily hospital occupancy,2021-04-03,1885
 Sweden,Daily hospital occupancy,2021-04-04,1892
-Sweden,Daily hospital occupancy,2021-04-05,1902
-Sweden,Daily hospital occupancy,2021-04-06,2050
-Sweden,Daily hospital occupancy,2021-04-07,2066
-Sweden,Daily hospital occupancy,2021-04-08,2058
-Sweden,Daily hospital occupancy,2021-04-09,2064
-Sweden,Daily hospital occupancy,2021-04-10,2064
-Sweden,Daily hospital occupancy,2021-04-11,2069
-Sweden,Daily hospital occupancy,2021-04-12,2152
-Sweden,Daily hospital occupancy,2021-04-13,2158
-Sweden,Daily hospital occupancy,2021-04-14,2118
-Sweden,Daily hospital occupancy,2021-04-15,2116
-Sweden,Daily hospital occupancy,2021-04-16,2116
-Sweden,Daily hospital occupancy,2021-04-17,2116
-Sweden,Daily hospital occupancy,2021-04-18,2116
+Sweden,Daily hospital occupancy,2021-04-05,1903
+Sweden,Daily hospital occupancy,2021-04-06,2052
+Sweden,Daily hospital occupancy,2021-04-07,2069
+Sweden,Daily hospital occupancy,2021-04-08,2062
+Sweden,Daily hospital occupancy,2021-04-09,2085
+Sweden,Daily hospital occupancy,2021-04-10,2093
+Sweden,Daily hospital occupancy,2021-04-11,2098
+Sweden,Daily hospital occupancy,2021-04-12,2165
+Sweden,Daily hospital occupancy,2021-04-13,2177
+Sweden,Daily hospital occupancy,2021-04-14,2134
+Sweden,Daily hospital occupancy,2021-04-15,2131
+Sweden,Daily hospital occupancy,2021-04-16,2142
+Sweden,Daily hospital occupancy,2021-04-17,2140
+Sweden,Daily hospital occupancy,2021-04-18,2146
+Sweden,Daily hospital occupancy,2021-04-19,2227
+Sweden,Daily hospital occupancy,2021-04-20,2187
+Sweden,Daily hospital occupancy,2021-04-21,2144
+Sweden,Daily hospital occupancy,2021-04-22,2151
+Sweden,Daily hospital occupancy,2021-04-23,2101
+Sweden,Daily hospital occupancy,2021-04-24,2091
+Sweden,Daily hospital occupancy,2021-04-25,2102
 Sweden,Daily ICU occupancy,2020-02-27,0
 Sweden,Daily ICU occupancy,2020-02-28,0
 Sweden,Daily ICU occupancy,2020-02-29,0
@@ -18547,6 +18671,13 @@ Sweden,Daily ICU occupancy,2021-04-15,387
 Sweden,Daily ICU occupancy,2021-04-16,394
 Sweden,Daily ICU occupancy,2021-04-17,396
 Sweden,Daily ICU occupancy,2021-04-18,403
+Sweden,Daily ICU occupancy,2021-04-19,416
+Sweden,Daily ICU occupancy,2021-04-20,417
+Sweden,Daily ICU occupancy,2021-04-21,409
+Sweden,Daily ICU occupancy,2021-04-22,402
+Sweden,Daily ICU occupancy,2021-04-23,398
+Sweden,Daily ICU occupancy,2021-04-24,391
+Sweden,Daily ICU occupancy,2021-04-25,385
 Sweden,Weekly new ICU admissions per 100k,2020-02-03,0
 Sweden,Weekly new ICU admissions per 100k,2020-02-10,0
 Sweden,Weekly new ICU admissions per 100k,2020-02-17,0
@@ -18604,9 +18735,10 @@ Sweden,Weekly new ICU admissions per 100k,2021-02-08,1.02637701790805
 Sweden,Weekly new ICU admissions per 100k,2021-02-15,1.065108226131
 Sweden,Weekly new ICU admissions per 100k,2021-02-22,1.28781267341293
 Sweden,Weekly new ICU admissions per 100k,2021-03-01,1.30717827752441
-Sweden,Weekly new ICU admissions per 100k,2021-03-08,1.44273750630471
+Sweden,Weekly new ICU admissions per 100k,2021-03-08,1.45242030836045
 Sweden,Weekly new ICU admissions per 100k,2021-03-15,1.5976623391965
 Sweden,Weekly new ICU admissions per 100k,2021-03-22,1.71385596386533
-Sweden,Weekly new ICU admissions per 100k,2021-03-29,2.12053365020626
-Sweden,Weekly new ICU admissions per 100k,2021-04-05,2.39165210776688
-Sweden,Weekly new ICU admissions per 100k,2021-04-12,2.23672727487509
+Sweden,Weekly new ICU admissions per 100k,2021-03-29,2.13021645226199
+Sweden,Weekly new ICU admissions per 100k,2021-04-05,2.41101771187835
+Sweden,Weekly new ICU admissions per 100k,2021-04-12,2.36260370159967
+Sweden,Weekly new ICU admissions per 100k,2021-04-19,1.99465722348169
