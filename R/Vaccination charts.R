@@ -14,6 +14,7 @@ vaccination_data <- vaccination_data %>%
          cum_vacs_pfizer = dosen_biontech_kumulativ,
          cum_vacs_moderna = dosen_moderna_kumulativ,
          cum_vacs_astrazeneca = dosen_astrazeneca_kumulativ,
+         cum_vacs_jj = dosen_johnson_kumulativ,
          cum_persons_vaccinated_first_dose = personen_erst_kumulativ,
          cum_persons_vaccinated_second_dose = personen_voll_kumulativ,
          pct_pop_vaccinated_first_dose = impf_quote_erst,
@@ -29,21 +30,27 @@ vaccination_data <- vaccination_data %>%
          cum_vacs_age_indication_second_dose = indikation_alter_voll,
          cum_vacs_profession_indication_second_dose = indikation_beruf_voll,
          cum_vacs_medical_indication_second_dose = indikation_medizinisch_voll,
-         cum_vacs_care_homes_second_dose = indikation_pflegeheim_voll)
+         cum_vacs_care_homes_second_dose = indikation_pflegeheim_voll,
+         cum_vacs_vaccination_centres = dosen_dim_kumulativ,
+         cum_vacs_doctors_offices = dosen_kbv_kumulativ)
 
 # Add calculated columns:
 vaccination_data <- vaccination_data %>%
   mutate(new_vacs_pfizer = cum_vacs_pfizer - lag(cum_vacs_pfizer, n = 1L, default = 0),
          new_vacs_moderna = cum_vacs_moderna - lag(cum_vacs_moderna, n = 1L, default = 0),
          new_vacs_astrazeneca = cum_vacs_astrazeneca - lag(cum_vacs_astrazeneca, n = 1L, default = 0),
+         new_vacs_jj = cum_vacs_jj - lag(cum_vacs_jj, n = 1L, default = 0),
          new_vacs_age_indication = cum_vacs_age_indication - lag(cum_vacs_age_indication, n = 1L, default = 0),
          new_vacs_profession_indication = cum_vacs_profession_indication - lag(cum_vacs_profession_indication, n = 1L, default = 0),
          new_vacs_medical_indication = cum_vacs_medical_indication - lag(cum_vacs_medical_indication, n = 1L, default = 0),
          new_vacs_care_homes = cum_vacs_care_homes - lag(cum_vacs_care_homes, n = 1L, default = 0),
+         new_vacs_vaccination_centres = cum_vacs_vaccination_centres - lag(cum_vacs_vaccination_centres, n = 1L, default = 0),
+         new_vacs_doctors_offices = cum_vacs_doctors_offices - lag(cum_vacs_doctors_offices, n = 1L, default = 0),
          new_vacs_all_7day_rollsum = rollsum(new_vacs_all, 7, fill = NA, align = "right"),
          new_vacs_pfizer_7day_rollsum = rollsum(new_vacs_pfizer, 7, fill = NA, align = "right"),
          new_vacs_moderna_7day_rollsum = rollsum(new_vacs_moderna, 7, fill = NA, align = "right"),
-         new_vacs_astrazeneca_7day_rollsum = rollsum(new_vacs_astrazeneca, 7, fill = NA, align = "right"))
+         new_vacs_astrazeneca_7day_rollsum = rollsum(new_vacs_astrazeneca, 7, fill = NA, align = "right"),
+         new_vacs_jj_7day_rollsum = rollsum(new_vacs_jj, 7, fill = NA, align = "right"))
 
 # Save data as csv:
 as_of_date_vaccinations <- max(vaccination_data$date)
@@ -55,11 +62,11 @@ chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit d
 
 # Create charts:
 plot_new_vacs_7day_rollsum <- vaccination_data %>%
-  select(date, new_vacs_all_7day_rollsum, new_vacs_pfizer_7day_rollsum, new_vacs_moderna_7day_rollsum, new_vacs_astrazeneca_7day_rollsum) %>%
-  rename(All = new_vacs_all_7day_rollsum, Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum, AstraZeneca = new_vacs_astrazeneca_7day_rollsum) %>%
-  pivot_longer(cols = c("All", "Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
+  select(date, new_vacs_all_7day_rollsum, new_vacs_pfizer_7day_rollsum, new_vacs_moderna_7day_rollsum, new_vacs_astrazeneca_7day_rollsum, new_vacs_jj_7day_rollsum) %>%
+  rename(All = new_vacs_all_7day_rollsum, Pfizer = new_vacs_pfizer_7day_rollsum, Moderna = new_vacs_moderna_7day_rollsum, AstraZeneca = new_vacs_astrazeneca_7day_rollsum, JJ = new_vacs_jj_7day_rollsum) %>%
+  pivot_longer(cols = c("All", "Pfizer", "Moderna", "AstraZeneca", "JJ"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value)) +
-  facet_wrap(~`Type of vaccine`) + 
+  facet_wrap(~`Type of vaccine`, scales = "free_x") + 
   geom_line(color = "#00BFC4", size = 1.2) +
   scale_y_continuous(labels = scales::comma) +
   theme_cowplot() + 
@@ -90,9 +97,9 @@ file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany
 ggsave(filename =  file_name, plot = plot_new_vacs_dose, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
 
 plot_new_vacs_type <- vaccination_data %>%
-  select(date, new_vacs_pfizer, new_vacs_moderna, new_vacs_astrazeneca) %>%
-  rename(Pfizer = new_vacs_pfizer, Moderna = new_vacs_moderna, AstraZeneca = new_vacs_astrazeneca) %>%
-  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
+  select(date, new_vacs_pfizer, new_vacs_moderna, new_vacs_astrazeneca, new_vacs_jj) %>%
+  rename(Pfizer = new_vacs_pfizer, Moderna = new_vacs_moderna, AstraZeneca = new_vacs_astrazeneca, JJ = new_vacs_jj) %>%
+  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca", "JJ"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
   geom_col() +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
@@ -105,6 +112,23 @@ plot_new_vacs_type <- vaccination_data %>%
 
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by type",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
+
+plot_new_vacs_location <- vaccination_data %>%
+  select(date, new_vacs_vaccination_centres, new_vacs_doctors_offices) %>%
+  rename(`Vaccination centre` = new_vacs_vaccination_centres, `Doctor's office` = new_vacs_doctors_offices) %>%
+  pivot_longer(cols = c("Vaccination centre", "Doctor's office"), names_to = "Place of vaccination") %>%
+  ggplot(aes(x = date, y = value, fill = `Place of vaccination`)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Daily administered vaccinations in Germany by place of vaccination",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by location",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_new_vacs_location, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
 
 # plot_new_vacs_recipient <- vaccination_data %>%
 #   select(date, new_vacs_age_indication, new_vacs_profession_indication, new_vacs_medical_indication, new_vacs_care_homes) %>%
@@ -124,9 +148,9 @@ ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts", "
 # ggsave(filename =  file_name, plot = plot_new_vacs_recipient, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
 
 plot_cum_vacs <- vaccination_data %>%
-  select(date, cum_vacs_pfizer, cum_vacs_moderna, cum_vacs_astrazeneca) %>%
-  rename(Pfizer = cum_vacs_pfizer, Moderna = cum_vacs_moderna, AstraZeneca = cum_vacs_astrazeneca) %>%
-  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca"), names_to = "Type of vaccine") %>%
+  select(date, cum_vacs_pfizer, cum_vacs_moderna, cum_vacs_astrazeneca, cum_vacs_jj) %>%
+  rename(Pfizer = cum_vacs_pfizer, Moderna = cum_vacs_moderna, AstraZeneca = cum_vacs_astrazeneca, JJ = cum_vacs_jj) %>%
+  pivot_longer(cols = c("Pfizer", "Moderna", "AstraZeneca", "JJ"), names_to = "Type of vaccine") %>%
   ggplot(aes(x = date, y = value, fill = `Type of vaccine`)) +
   geom_area() +
   scale_y_continuous(labels = scales::comma) +
@@ -171,7 +195,7 @@ vaccine_delivery_data <- vaccine_delivery_data %>%
                                "comirnaty" = "Pfizer",
                                "moderna" = "Moderna",
                                "astra" = "AstraZeneca",
-                               "johnson" = "J&J"),
+                               "johnson" = "JJ"),
          bundesland = recode(bundesland,
                              "DE-BW" = "Baden-Württemberg",
                              "DE-BY" = "Bayern",
@@ -232,18 +256,21 @@ vaccines_delivered <- tibble(dates_vec) %>%
   select(-"No delivery") %>%
   mutate(Pfizer = replace_na(Pfizer, 0),
          Moderna = replace_na(Moderna, 0),
-         AstraZeneca = replace_na(AstraZeneca, 0)) %>%
+         AstraZeneca = replace_na(AstraZeneca, 0),
+         JJ = replace_na(JJ, 0)) %>%
   rename(delivered_doses_pfizer = Pfizer,
          delivered_doses_moderna = Moderna,
-         delivered_doses_astrazeneca = AstraZeneca)
+         delivered_doses_astrazeneca = AstraZeneca,
+         delivered_doses_jj = JJ)
 
 vaccinations_administered <- vaccination_data %>%
   arrange(date) %>%
-  select(date, new_vacs_pfizer, new_vacs_moderna,  new_vacs_astrazeneca) %>%
+  select(date, new_vacs_pfizer, new_vacs_moderna,  new_vacs_astrazeneca, new_vacs_jj) %>%
   rename(administered_doses_pfizer = new_vacs_pfizer,
          administered_doses_moderna = new_vacs_moderna,
-         administered_doses_astrazeneca = new_vacs_astrazeneca) %>%
-  add_row(date = min(vaccine_delivery_data$date), administered_doses_pfizer = 0, administered_doses_moderna = 0, administered_doses_astrazeneca = 0, .before = 1)
+         administered_doses_astrazeneca = new_vacs_astrazeneca,
+         administered_doses_jj = new_vacs_jj) %>%
+  add_row(date = min(vaccine_delivery_data$date), administered_doses_pfizer = 0, administered_doses_moderna = 0, administered_doses_astrazeneca = 0, administered_doses_jj = 0, .before = 1)
 
 vaccination_capacity <- left_join(vaccinations_administered, vaccines_delivered, by = "date")
 
@@ -253,9 +280,11 @@ vaccination_capacity <- vaccination_capacity %>%
   mutate(cum_administered_doses_pfizer = cumsum(administered_doses_pfizer),
          cum_administered_doses_moderna = cumsum(administered_doses_moderna),
          cum_administered_doses_astrazeneca = cumsum(administered_doses_astrazeneca),
+         cum_administered_doses_jj = cumsum(administered_doses_jj),
          cum_delivered_doses_pfizer = cumsum(delivered_doses_pfizer),
          cum_delivered_doses_moderna = cumsum(delivered_doses_moderna),
-         cum_delivered_doses_astrazeneca = cumsum(delivered_doses_astrazeneca))
+         cum_delivered_doses_astrazeneca = cumsum(delivered_doses_astrazeneca),
+         cum_delivered_doses_jj = cumsum(delivered_doses_jj))
 
 # Save data as csv:
 output_file_name <- paste(as_of_date_vaccinations, " Germany vaccine capacity data.csv", sep = "")
@@ -318,3 +347,22 @@ plot_vaccine_capacity_astrazeneca <- vaccination_capacity %>%
 
 file_name <- paste(as_of_date_vaccinations, " Vaccine capacity - AstraZeneca",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_vaccine_capacity_astrazeneca, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
+
+plot_vaccine_capacity_jj <- vaccination_capacity %>%
+  select(date, cum_delivered_doses_jj, cum_administered_doses_jj) %>%
+  pivot_longer(cols = contains("cum"), names_to = "Metric") %>%
+  mutate(Metric = recode(Metric,
+                         "cum_delivered_doses_jj" = "JJ - cumulative delivered doses",
+                         "cum_administered_doses_jj" = "JJ - cumulative administered doses")) %>%
+  ggplot(aes(x = date, y = value, color = Metric)) +
+  geom_line(size = 1.2) +
+  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "JJ vaccine capacity",
+       caption = chart_caption_vaccinations)
+
+file_name <- paste(as_of_date_vaccinations, " Vaccine capacity - JJ",  ".png", sep = "")
+ggsave(filename =  file_name, plot = plot_vaccine_capacity_jj, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
