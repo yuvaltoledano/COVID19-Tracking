@@ -366,3 +366,86 @@ plot_vaccine_capacity_jj <- vaccination_capacity %>%
 
 file_name <- paste(as_of_date_vaccinations, " Vaccine capacity - JJ",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_vaccine_capacity_jj, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Compare vaccination rates across countries
+vaccination_data_owid <- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv", guess_max = 100000)
+
+# Filter for relevant countries:
+relevant_countries <- c("Germany", "Italy", "United Kingdom", "United States", "Israel", "France", "Belgium")
+
+vaccination_data_owid_filtered <- vaccination_data_owid %>%
+  select(location, date, population, total_vaccinations, people_vaccinated, people_fully_vaccinated, new_vaccinations, new_vaccinations_smoothed, total_vaccinations_per_hundred, people_vaccinated_per_hundred, people_fully_vaccinated_per_hundred, new_vaccinations_smoothed_per_million) %>%
+  filter(location %in% relevant_countries, date > ymd("2020-12-20")) %>%
+  arrange(location, date)
+
+rm(vaccination_data_owid)
+
+# Add calculated columns:
+vaccination_data_owid_filtered <- vaccination_data_owid_filtered %>%
+  group_by(location) %>%
+  mutate(new_vacs_7day_rollsum = rollsum(new_vaccinations, 7, fill = NA, align = "right"),
+         new_vacs_7day_rollsum_per_100k = new_vacs_7day_rollsum / (population / 100000),
+         new_vacs_14day_rollsum = rollsum(new_vaccinations, 14, fill = NA, align = "right"),
+         new_vacs_14ay_rollsum_per_100k = new_vacs_14day_rollsum / (population / 100000)) %>%
+  ungroup()
+
+# Plot vaccinations:
+as_of_date_owid_vaccinations <- max(vaccination_data_owid_filtered$date)
+
+plot_new_vacs_7day_rollsum <- ggplot(vaccination_data_owid_filtered, aes(x = date, y = new_vacs_7day_rollsum)) +
+  geom_line(color = "#00BFC4", size = 1.2) +
+  facet_wrap(~location, scales = "free_y") + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "7-day rolling sum vaccinations administered",
+       caption = paste("Source: National government reports data as of", as_of_date_owid_vaccinations, sep = " "))
+
+file_name <- paste(as_of_date_owid_vaccinations, " New vacs_7day sum_country",  ".png", sep = "")
+ggsave(filename = file_name, plot = plot_new_vacs_7day_rollsum, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
+
+plot_new_vacs_7day_rollsum_per_100k <- ggplot(vaccination_data_owid_filtered, aes(x = date, y = new_vacs_7day_rollsum_per_100k)) +
+  geom_line(color = "#00BFC4", size = 1.2) +
+  facet_wrap(~location,) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "7-day rolling sum vaccinations administered per 100,000 inhabitants",
+       caption = paste("Source: National government reports data as of", as_of_date_owid_vaccinations, sep = " "))
+
+file_name <- paste(as_of_date_owid_vaccinations, " New vacs_7day sum_country_per_100k",  ".png", sep = "")
+ggsave(filename = file_name, plot = plot_new_vacs_7day_rollsum_per_100k, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
+
+plot_people_vaccinated_per_hundred <- ggplot(vaccination_data_owid_filtered, aes(x = date, y = people_vaccinated_per_hundred)) +
+  geom_line(color = "#00BFC4", size = 1.2) +
+  facet_wrap(~location) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Percent of population vaccinated",
+       caption = paste("Source: National government reports data as of", as_of_date_owid_vaccinations, sep = " "))
+
+file_name <- paste(as_of_date_owid_vaccinations, " Proportion of population vaccinated",  ".png", sep = "")
+ggsave(filename = file_name, plot = plot_people_vaccinated_per_hundred, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
+
+plot_people_fully_vaccinated_per_hundred <- ggplot(vaccination_data_owid_filtered, aes(x = date, y = people_fully_vaccinated_per_hundred)) +
+  geom_line(color = "#00BFC4", size = 1.2) +
+  facet_wrap(~location) + 
+  scale_y_continuous(labels = scales::comma) +
+  theme_cowplot() + 
+  background_grid() +
+  labs(x = "Date",
+       y = "",
+       title = "Percent of population fully vaccinated",
+       caption = paste("Source: National government reports data as of", as_of_date_owid_vaccinations, sep = " "))
+
+file_name <- paste(as_of_date_owid_vaccinations, " Proportion of population fully vaccinated",  ".png", sep = "")
+ggsave(filename = file_name, plot = plot_people_fully_vaccinated_per_hundred, path = here("Charts", "Vaccinations"), scale = 1, width = 15, height = 10)
