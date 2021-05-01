@@ -43,7 +43,7 @@ raw_data_filtered <- raw_data_filtered %>%
 
 # Write results back to csv:
 as_of_date_cases_deaths <- max(raw_data_filtered$date)
-output_file_name <- paste(as_of_date_cases_deaths, " Raw data_filtered.csv", sep = "")
+output_file_name <- paste(as_of_date_cases_deaths, " Raw data_filtered_owid.csv", sep = "")
 write_csv(raw_data_filtered, here("Data Files", "Cases and deaths", output_file_name))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
