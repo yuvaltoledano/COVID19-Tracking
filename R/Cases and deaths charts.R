@@ -296,7 +296,7 @@ plot_deaths_7day_rollsum_continent_per_million <- ggplot(raw_data_continent, aes
        caption = paste("Source: Center for Systems Science and Engineering at Johns Hopkins University data as of", as_of_date_cases_deaths, sep = " "))
 
 file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_continent_per_million",  ".png", sep = "")
-ggsave(filename = file_name, plot = plot_weekly_deaths_continent_per_million, path = here("Charts", "Cases and deaths"), scale = 1, width = 15, height = 10)
+ggsave(filename = file_name, plot = plot_deaths_7day_rollsum_continent_per_million, path = here("Charts", "Cases and deaths"), scale = 1, width = 15, height = 10)
 
 plot_cumulative_deaths_continent <- ggplot(raw_data_continent, aes(x = date, y = total_deaths)) +
   geom_line(color = "#00BFC4", size = 1.2) +
