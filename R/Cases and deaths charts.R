@@ -270,7 +270,7 @@ file_name <- paste(as_of_date_cases_deaths, " Total cases_continent_per_million"
 ggsave(filename = file_name, plot = plot_cumulative_cases_continent_per_million, path = here("Charts", "Cases and deaths"), scale = 1, width = 15, height = 10)
 
 # Plot deaths:
-plot_weekly_deaths_continent <- ggplot(raw_data_continent, aes(x = date, y = new_deaths_7day_rollsum)) +
+plot_deaths_7day_rollsum_continent <- ggplot(raw_data_continent, aes(x = date, y = new_deaths_7day_rollsum)) +
   geom_line(color = "#00BFC4", size = 1.2) +
   facet_wrap(~location, scales = "free_y") + 
   scale_y_continuous(labels = scales::comma) +
@@ -282,9 +282,9 @@ plot_weekly_deaths_continent <- ggplot(raw_data_continent, aes(x = date, y = new
        caption = paste("Source: Center for Systems Science and Engineering at Johns Hopkins University data as of", as_of_date_cases_deaths, sep = " "))
 
 file_name <- paste(as_of_date_cases_deaths, " New deaths_7day sum_continent", ".png", sep = "")
-ggsave(filename = file_name, plot = plot_weekly_deaths_continent, path = here("Charts", "Cases and deaths"), scale = 1, width = 15, height = 10)
+ggsave(filename = file_name, plot = plot_deaths_7day_rollsum_continent, path = here("Charts", "Cases and deaths"), scale = 1, width = 15, height = 10)
 
-plot_weekly_deaths_continent_per_million <- ggplot(raw_data_continent, aes(x = date, y = new_deaths_7day_rollsum_per_million)) +
+plot_deaths_7day_rollsum_continent_per_million <- ggplot(raw_data_continent, aes(x = date, y = new_deaths_7day_rollsum_per_million)) +
   geom_line(color = "#00BFC4", size = 1.2) +
   facet_wrap(~location) + 
   scale_y_continuous(labels = scales::comma) +
@@ -348,7 +348,6 @@ bundeslander_case_data <- bundeslander_case_data %>%
 
 # Create chart:
 as_of_date_bundeslander <- max(bundeslander_case_data$date)
-chart_caption_bundeslander <- paste("Source: ECDC data as of", as_of_date_bundeslander, sep = " ")
 
 plot_cases_14day_rollsum_per_100k_bundeslander <- ggplot(bundeslander_case_data, aes(x = date, y = cases_14day_rollsum_per_100k)) +
   geom_line(color = "#00BFC4", size = 1.2) +
@@ -359,7 +358,7 @@ plot_cases_14day_rollsum_per_100k_bundeslander <- ggplot(bundeslander_case_data,
   labs(x = "Date",
        y = "",
        title = "14-day rolling sum COVID-19 cases per 100,000 inhabitants",
-       caption = chart_caption_bundeslander)
+       caption = paste("Source: ECDC data as of", as_of_date_bundeslander, sep = " "))
 
 file_name <- paste(as_of_date_bundeslander, " New cases_14day sum_bundeslander_per_100k",  ".png", sep = "")
 ggsave(filename = file_name, plot = plot_cases_14day_rollsum_per_100k_bundeslander, path = here("Charts", "Cases and deaths"), scale = 1, width = 15, height = 10)
