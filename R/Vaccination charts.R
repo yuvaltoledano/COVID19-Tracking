@@ -386,8 +386,12 @@ vaccination_data_owid_filtered <- vaccination_data_owid_filtered %>%
          new_vacs_14ay_rollsum_per_100k = new_vacs_14day_rollsum / (population / 100000)) %>%
   ungroup()
 
-# Plot vaccinations:
+# Save data as csv:
 as_of_date_owid_vaccinations <- max(vaccination_data_owid_filtered$date)
+output_file_name <- paste(as_of_date_owid_vaccinations, " National vaccination rates.csv", sep = "")
+write_csv(vaccination_data_owid_filtered, here("Data Files", "Vaccinations", output_file_name))
+
+# Plot vaccinations:
 
 plot_new_vacs_7day_rollsum <- ggplot(vaccination_data_owid_filtered, aes(x = date, y = new_vacs_7day_rollsum)) +
   geom_line(color = "#00BFC4", size = 1.2) +
