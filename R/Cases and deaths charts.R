@@ -263,7 +263,7 @@ plot_cumulative_cases_continent_per_million <- ggplot(raw_data_continent, aes(x 
   background_grid() +
   labs(x = "Date",
        y = "",
-       title = "Cumulative COVID-19 cases per 100,000 inhabitants",
+       title = "Cumulative COVID-19 cases per 1,000,000 inhabitants",
        caption = paste("Source: Center for Systems Science and Engineering at Johns Hopkins University data as of", as_of_date_cases_deaths, sep = " "))
 
 file_name <- paste(as_of_date_cases_deaths, " Total cases_continent_per_million",  ".png", sep = "")
