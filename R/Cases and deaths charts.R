@@ -6,7 +6,7 @@ p_load(tidyverse, janitor, lubridate, zoo, ggplot2, cowplot, here, MMWRweek)
 raw_data <- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv", guess_max = 100000)
 
 # Add new cases to master raw dataframe:
-raw_data_master <- read_csv(here("Data Files", "Cases and deaths", "Raw data_master_owid.csv"), guess_max = 100000)
+raw_data_master <- read_csv(here("Data", "Cases and deaths", "Raw data_master_owid.csv"), guess_max = 100000)
 new_entries <- anti_join(raw_data, raw_data_master)
 raw_data_master <- bind_rows(raw_data_master, new_entries)
 
@@ -19,7 +19,7 @@ if(all_equal(raw_data, raw_data_master) != TRUE) {
 # Write results back to csv:
 raw_data_master <- raw_data_master %>%
   arrange(location, date) %>%
-  write_csv(here("Data Files", "Cases and deaths", "Raw data_master_owid.csv"))
+  write_csv(here("Data", "Cases and deaths", "Raw data_master_owid.csv"))
 
 rm(list = c("raw_data_master", "new_entries", "obsolete_entries"))
 
@@ -48,7 +48,7 @@ raw_data_filtered <- raw_data_filtered %>%
 # Write results back to csv:
 as_of_date_cases_deaths <- max(raw_data_filtered$date)
 output_file_name <- paste(as_of_date_cases_deaths, " Raw data_filtered_owid.csv", sep = "")
-write_csv(raw_data_filtered, here("Data Files", "Cases and deaths", output_file_name))
+write_csv(raw_data_filtered, here("Data", "Cases and deaths", output_file_name))
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
