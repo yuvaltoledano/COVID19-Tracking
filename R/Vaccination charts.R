@@ -67,7 +67,7 @@ vaccination_data <- vaccination_data %>%
 # Save data as csv:
 as_of_date_vaccinations <- max(vaccination_data$date)
 output_file_name <- paste(as_of_date_vaccinations, " Germany vaccination data.csv", sep = "")
-write_csv(vaccination_data, here("Data Files", "Vaccinations", output_file_name))
+write_csv(vaccination_data, here("Data", "Vaccinations", output_file_name))
 
 # Set chart caption:
 chart_caption_vaccinations <- paste("Source: Bundesministerium für Gesundheit data as of", as_of_date_vaccinations, sep = " ")
@@ -283,7 +283,7 @@ vaccination_capacity <- vaccination_capacity %>%
 
 # Save data as csv:
 output_file_name <- paste(as_of_date_vaccinations, " Germany vaccine capacity data.csv", sep = "")
-write_csv(vaccination_capacity, here("Data Files", "Vaccinations", output_file_name))
+write_csv(vaccination_capacity, here("Data", "Vaccinations", output_file_name))
 
 # Create charts:
 plot_vaccine_capacity_pfizer <- vaccination_capacity %>%
@@ -389,7 +389,7 @@ vaccination_data_owid_filtered <- vaccination_data_owid_filtered %>%
 # Save data as csv:
 as_of_date_owid_vaccinations <- max(vaccination_data_owid_filtered$date)
 output_file_name <- paste(as_of_date_owid_vaccinations, " National vaccination rates.csv", sep = "")
-write_csv(vaccination_data_owid_filtered, here("Data Files", "Vaccinations", output_file_name))
+write_csv(vaccination_data_owid_filtered, here("Data", "Vaccinations", output_file_name))
 
 # Plot vaccinations:
 
