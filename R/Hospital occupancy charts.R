@@ -19,7 +19,7 @@ hospital_data <- hospital_data %>%
 # Save data as csv:
 as_of_date_hospital <- max(hospital_data$date)
 output_file_name <- paste(as_of_date_hospital, " Hospital occupancy data.csv", sep = "")
-write_csv(hospital_data, here("Data Files", "Hospital occupancy", output_file_name))
+write_csv(hospital_data, here("Data", "Hospital occupancy", output_file_name))
 
 # Create daily occupancy charts:
 relevant_countries <- c("Germany", "Netherlands", "Sweden", "Spain", "Italy", "United_Kingdom", "Ireland", "France", "Belgium")
