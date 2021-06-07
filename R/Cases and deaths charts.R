@@ -340,7 +340,7 @@ bundeslander_case_data <- bundeslander_case_data %>%
   filter(country == "Germany") %>%
   mutate(year = str_sub(year_week, 1, 4),
          year = as.numeric(year),
-         week = str_sub(year_week, 7, 8),
+         week = str_sub(year_week, 6, 7),
          week = as.numeric(week),
          date = MMWRweek2Date(year, week, 2)) %>%
   select(-one_of("year", "week", "year_week")) %>%
