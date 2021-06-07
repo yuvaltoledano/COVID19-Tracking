@@ -8,12 +8,7 @@ hospital_data <- read_csv("https://opendata.ecdc.europa.eu/covid19/hospitalicuad
 hospital_data <- hospital_data %>%
   clean_names() %>%
   select(country, indicator, year_week, date, value) %>%
-  mutate(year = str_sub(year_week, 1, 4),
-         year = as.numeric(year),
-         week = str_sub(year_week, 7, 8),
-         week = as.numeric(week),
-         MMWRweek_date = MMWRweek2Date(year, week, 2),
-         date = if_else(is.na(date), MMWRweek_date, date)) %>%
+  mutate(date = ymd(date)) %>%
   select(country, indicator, date, value)
 
 # Save data as csv:
