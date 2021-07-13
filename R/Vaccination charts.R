@@ -38,7 +38,9 @@ vaccination_data <- vaccination_data %>%
          cum_vacs_medical_indication_second_dose = indikation_medizinisch_voll,
          cum_vacs_care_homes_second_dose = indikation_pflegeheim_voll,
          cum_vacs_vaccination_centres = dosen_dim_kumulativ,
-         cum_vacs_doctors_offices = dosen_kbv_kumulativ)
+         cum_vacs_doctors_offices = dosen_kbv_kumulativ,
+         cum_vacs_first_dose_all = dosen_erst_kumulativ,
+         cum_vacs_second_dose_all = dosen_zweit_kumulativ)
 
 # Add calculated columns:
 vaccination_data <- vaccination_data %>%
