@@ -127,23 +127,6 @@ plot_new_vacs_type <- vaccination_data %>%
 file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by type",  ".png", sep = "")
 ggsave(filename =  file_name, plot = plot_new_vacs_type, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
 
-plot_new_vacs_location <- vaccination_data %>%
-  select(date, new_vacs_vaccination_centres, new_vacs_doctors_offices) %>%
-  rename(`Vaccination centre` = new_vacs_vaccination_centres, `Doctor's office` = new_vacs_doctors_offices) %>%
-  pivot_longer(cols = c("Vaccination centre", "Doctor's office"), names_to = "Place of vaccination") %>%
-  ggplot(aes(x = date, y = value, fill = `Place of vaccination`)) +
-  geom_col() +
-  scale_y_continuous(labels = scales::comma_format(accuracy = 1)) +
-  theme_cowplot() + 
-  background_grid() +
-  labs(x = "Date",
-       y = "",
-       title = "Daily administered vaccinations in Germany by place of vaccination",
-       caption = chart_caption_vaccinations)
-
-file_name <- paste(as_of_date_vaccinations, " Daily administered vacs in Germany by location",  ".png", sep = "")
-ggsave(filename =  file_name, plot = plot_new_vacs_location, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
-
 plot_cum_vacs <- vaccination_data %>%
   select(date, cum_vacs_pfizer, cum_vacs_moderna, cum_vacs_astrazeneca, cum_vacs_jj) %>%
   rename(Pfizer = cum_vacs_pfizer, Moderna = cum_vacs_moderna, AstraZeneca = cum_vacs_astrazeneca, JJ = cum_vacs_jj) %>%
