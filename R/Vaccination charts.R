@@ -377,7 +377,6 @@ output_file_name <- paste(as_of_date_owid_vaccinations, " National vaccination r
 write_csv(vaccination_data_owid_filtered, here("Data", "Vaccinations", output_file_name))
 
 # Plot vaccinations:
-
 plot_new_vacs_7day_rollsum <- ggplot(vaccination_data_owid_filtered, aes(x = date, y = new_vacs_7day_rollsum)) +
   geom_line(color = "#00BFC4", size = 1.2) +
   facet_wrap(~location, scales = "free_y") + 
