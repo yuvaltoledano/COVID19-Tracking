@@ -11,16 +11,23 @@ vaccination_data <- vaccination_data %>%
          new_vacs_all = dosen_differenz_zum_vortag,
          new_vacs_first_dose_all = dosen_erst_differenz_zum_vortag,
          new_vacs_second_dose_all = dosen_zweit_differenz_zum_vortag,
+         new_vacs_third_dose_all = dosen_dritt_differenz_zum_vortag,
          cum_vacs_pfizer = dosen_biontech_kumulativ,
          cum_vacs_pfizer_first_dose = dosen_biontech_erst_kumulativ,
          cum_vacs_pfizer_second_dose = dosen_biontech_zweit_kumulativ,
+         cum_vacs_pfizer_third_dose = dosen_biontech_dritt_kumulativ,
          cum_vacs_moderna = dosen_moderna_kumulativ,
          cum_vacs_moderna_first_dose = dosen_moderna_erst_kumulativ,
          cum_vacs_moderna_second_dose = dosen_moderna_zweit_kumulativ,
+         cum_vacs_moderna_third_dose = dosen_moderna_dritt_kumulativ,
          cum_vacs_astrazeneca = dosen_astra_kumulativ,
          cum_vacs_astrazeneca_first_dose = dosen_astra_erst_kumulativ,
          cum_vacs_astrazeneca_second_dose = dosen_astra_zweit_kumulativ,
+         cum_vacs_astrazeneca_third_dose = dosen_astra_dritt_kumulativ,
          cum_vacs_jj = dosen_johnson_kumulativ,
+         cum_vacs_jj_first_dose = dosen_johnson_erst_kumulativ,
+         cum_vacs_jj_second_dose = dosen_johnson_zweit_kumulativ,
+         cum_vacs_jj_third_dose = dosen_johnson_dritt_kumulativ,
          cum_persons_vaccinated_first_dose = personen_erst_kumulativ,
          cum_persons_vaccinated_second_dose = personen_voll_kumulativ,
          pct_pop_vaccinated_first_dose = impf_quote_erst,
@@ -40,20 +47,26 @@ vaccination_data <- vaccination_data %>%
          cum_vacs_vaccination_centres = dosen_dim_kumulativ,
          cum_vacs_doctors_offices = dosen_kbv_kumulativ,
          cum_vacs_first_dose_all = dosen_erst_kumulativ,
-         cum_vacs_second_dose_all = dosen_zweit_kumulativ)
+         cum_vacs_second_dose_all = dosen_zweit_kumulativ,
+         cum_vacs_third_dose_all = dosen_dritt_kumulativ)
 
 # Add calculated columns:
 vaccination_data <- vaccination_data %>%
   mutate(new_vacs_pfizer = cum_vacs_pfizer - lag(cum_vacs_pfizer, n = 1L, default = 0),
          new_vacs_pfizer_first_dose = cum_vacs_pfizer_first_dose - lag(cum_vacs_pfizer_first_dose, n = 1L, default = 0),
          new_vacs_pfizer_second_dose = cum_vacs_pfizer_second_dose - lag(cum_vacs_pfizer_second_dose, n = 1L, default = 0),
+         new_vacs_pfizer_third_dose = cum_vacs_pfizer_third_dose - lag(cum_vacs_pfizer_third_dose, n = 1L, default = 0),
          new_vacs_moderna = cum_vacs_moderna - lag(cum_vacs_moderna, n = 1L, default = 0),
          new_vacs_moderna_first_dose = cum_vacs_moderna_first_dose - lag(cum_vacs_moderna_first_dose, n = 1L, default = 0),
          new_vacs_moderna_second_dose = cum_vacs_moderna_second_dose - lag(cum_vacs_moderna_second_dose, n = 1L, default = 0),
+         new_vacs_moderna_third_dose = cum_vacs_moderna_third_dose - lag(cum_vacs_moderna_third_dose, n = 1L, default = 0),
          new_vacs_astrazeneca = cum_vacs_astrazeneca - lag(cum_vacs_astrazeneca, n = 1L, default = 0),
          new_vacs_astrazeneca_first_dose = cum_vacs_astrazeneca_first_dose - lag(cum_vacs_astrazeneca_first_dose, n = 1L, default = 0),
          new_vacs_astrazeneca_second_dose = cum_vacs_astrazeneca_second_dose - lag(cum_vacs_astrazeneca_second_dose, n = 1L, default = 0),
-         new_vacs_jj = cum_vacs_jj - lag(cum_vacs_jj, n = 1L, default = 0),
+         new_vacs_astrazeneca_third_dose = cum_vacs_astrazeneca_third_dose - lag(cum_vacs_astrazeneca_third_dose, n = 1L, default = 0),
+         new_vacs_jj = cum_vacs_jj_first_dose - lag(cum_vacs_jj_first_dose, n = 1L, default = 0),
+         new_vacs_jj = cum_vacs_jj_second_dose - lag(cum_vacs_jj_second_dose, n = 1L, default = 0),
+         new_vacs_jj = cum_vacs_jj_third_dose - lag(cum_vacs_jj_third_dose, n = 1L, default = 0),
          new_vacs_age_indication = cum_vacs_age_indication - lag(cum_vacs_age_indication, n = 1L, default = 0),
          new_vacs_profession_indication = cum_vacs_profession_indication - lag(cum_vacs_profession_indication, n = 1L, default = 0),
          new_vacs_medical_indication = cum_vacs_medical_indication - lag(cum_vacs_medical_indication, n = 1L, default = 0),
@@ -94,8 +107,8 @@ file_name <- paste(as_of_date_vaccinations, " New vacs 7-day rolling sum",  ".pn
 ggsave(filename =  file_name, plot = plot_new_vacs_7day_rollsum, path = here("Charts", "Vaccinations"), scale = 1, width = 16, height = 10)
 
 plot_new_vacs_dose <- vaccination_data %>%
-  select(date, new_vacs_first_dose_all, new_vacs_second_dose_all) %>%
-  rename(`First dose` = new_vacs_first_dose_all, `Second dose` = new_vacs_second_dose_all) %>%
+  select(date, new_vacs_first_dose_all, new_vacs_second_dose_all, new_vacs_third_dose_all) %>%
+  rename(`First dose` = new_vacs_first_dose_all, `Second dose` = new_vacs_second_dose_all, `Third dose` = new_vacs_third_dose_all) %>%
   pivot_longer(cols = contains("dose"), names_to = "Dose") %>%
   ggplot(aes(x = date, y = value, fill = `Dose`)) +
   geom_col() +
